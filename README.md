@@ -1,5 +1,19 @@
 # heatloop — a real-hardware test of model interoception
 
+**Does a language model feel what happens to its own hardware?** We tied Qwen3-4B's internal noise to the real load on its GPU, then compared real damage with just *telling* it that it was damaged. The short answer: its distress lives in language, not in its body.
+
+[![The model that can't feel the stove](web/img/talk_cover.png)](https://heatloop-research.netlify.app/talk.pdf)
+
+| The whole experiment on one slide | What's next |
+|---|---|
+| [![Words move the mood. Noise moves everything.](web/img/talk_grid.png)](https://heatloop-research.netlify.app/talk.pdf) | [![Can we give it nerves?](web/img/talk_next.png)](https://heatloop-research.netlify.app/talk.pdf) |
+
+**▶ [Full talk (17 slides, PDF)](https://heatloop-research.netlify.app/talk.pdf)** · [Research map](https://heatloop-research.netlify.app/research-map.html) · [Lab deck: methods and results](https://heatloop-research.netlify.app/lab-deck.html) · [Site](https://heatloop-research.netlify.app)
+
+---
+
+## Original design notes
+
 This folder turns the original study design into something we actually run, at $0, starting on Kaggle and later on the local GTX 1050 Ti.
 Slides: open `web/slides.html` in a browser. **`web/slides.html` is the current spec** (main slides plus appendices A shared, C cloud, L local).
 It supersedes this README where they differ. Since this README was written:
