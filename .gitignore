@@ -7,3 +7,4 @@ heatloop2_pilot_backup.py
 kaggle.json
 site/
 runs/slides_backup_before_load_level.html
+.netlify/
