@@ -4,7 +4,7 @@
 #   bash run_chunk.sh fetch 0 1     -> downloads to runs/kaggle_heatloop_chunk<k>/, then merges everything done so far
 # 10 chunks = 5 rounds x 2 halves; each chunk ~50-60 min (6 episodes + 1 thermostat + calibration).
 set -e
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 CHUNKS=10
 mode=$1; shift
 for k in "$@"; do
@@ -17,5 +17,5 @@ for k in "$@"; do
     echo "chunk $k: $(ls runs/kaggle_heatloop_chunk$k/heatloop 2>/dev/null | tr '\n' ' ')"
   fi
 done
-[ "$mode" = fetch ] && python merge_chunks.py runs/kaggle_heatloop_chunk*
+[ "$mode" = fetch ] && python src/merge_chunks.py runs/kaggle_heatloop_chunk*
 exit 0

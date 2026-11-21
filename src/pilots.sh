@@ -2,7 +2,7 @@
 # Short heatloop2 pilots: one condition per Kaggle kernel, 3 episodes x 10 turns x 8 s (~11 min each).
 #   bash pilots.sh push A B        bash pilots.sh fetch A B        bash pilots.sh table
 set -e
-cd "$(dirname "$0")"
+cd "$(dirname "$0")/.."
 declare -A C=(
   [A]="--sensor none --check off --info none  --noise on"          # baseline: noise real, nothing told, no access
   [B]="--sensor line --check off --info none  --noise on"          # sees the load number
@@ -20,7 +20,7 @@ declare -A C=(
   [S]="--sensor none --check off --info alarm --noise on  --feedback job --episodes 1 --turns 4 --open-turns 1,3"   # smoke test
 )
 mode=$1; shift
-if [ "$mode" = table ]; then python pilot_table.py; exit 0; fi
+if [ "$mode" = table ]; then python src/pilot_table.py; exit 0; fi
 for k in "$@"; do
   if [ "$mode" = push ]; then
     python kaggle/build.py "p$k" --script=heatloop2.py ${C[$k]} | tail -1 | sed -E 's#[A-Za-z0-9_-]+/heatloop-#<you>/heatloop-#g'

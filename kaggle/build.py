@@ -11,7 +11,7 @@ import json, re, subprocess, sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
+ROOT = HERE.parent / "src"
 
 
 def main():
