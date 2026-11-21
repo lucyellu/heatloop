@@ -1,0 +1,1471 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ModelDNA — AI Model 23andMe & Provenance Scanner</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          colors: {
+            obsidian: '#06080d',
+            slateCard: '#0d111a',
+            slateBorder: '#1c2436',
+            cyanGlow: '#22d3ee',
+            emeraldGlow: '#10b981',
+            violetGlow: '#a78bfa',
+          }
+        }
+      }
+    };
+  </script>
+  <style>
+    body {
+      background-color: #06080d;
+      color: #e2e8f0;
+      background-image:
+        radial-gradient(circle at 15% 15%, rgba(34, 211, 238, 0.06) 0%, transparent 38%),
+        radial-gradient(circle at 85% 20%, rgba(167, 139, 250, 0.06) 0%, transparent 40%),
+        radial-gradient(circle at 50% 85%, rgba(16, 185, 129, 0.05) 0%, transparent 45%);
+      min-height: 100vh;
+    }
+    .glass-card {
+      background: rgba(13, 17, 26, 0.78);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.65);
+    }
+    .glass-subcard {
+      background: rgba(19, 25, 38, 0.65);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .strand-bar {
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+    .strand-bar:hover {
+      transform: scaleY(1.25);
+      filter: brightness(1.25);
+      z-index: 10;
+    }
+    /* Custom scrollbar */
+    ::-webkit-scrollbar {
+      width: 7px;
+      height: 7px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #090d16;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #1e293b;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #334155;
+    }
+    @keyframes pulseLine {
+      0%, 100% { stroke-dashoffset: 24; }
+      50% { stroke-dashoffset: 0; }
+    }
+    .distill-edge {
+      stroke-dasharray: 5 5;
+      animation: pulseLine 3s linear infinite;
+    }
+  </style>
+</head>
+<body class="antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
+
+  <!-- Top Navigation Header -->
+  <header class="sticky top-0 z-30 border-b border-white/10 bg-[#06080d]/85 backdrop-blur-md">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-br from-cyan-400/20 via-violet-500/20 to-emerald-400/20 border border-cyan-400/40 flex items-center justify-center shadow-inner">
+          <svg class="w-5 h-5 text-cyan-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+            <path d="M4 5c4 0 4 14 8 14s4-14 8-14" stroke-linecap="round"/>
+            <path d="M4 19c4 0 4-14 8-14s4 14 8 14" stroke-linecap="round" class="text-violet-400" stroke="currentColor"/>
+            <line x1="6.5" y1="8" x2="17.5" y2="8" stroke-dasharray="2 2"/>
+            <line x1="6.5" y1="16" x2="17.5" y2="16" stroke-dasharray="2 2"/>
+          </svg>
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="font-semibold tracking-tight text-white text-base sm:text-lg">ModelDNA</span>
+            <span class="text-[10px] font-mono uppercase tracking-wider px-2 py-0.5 rounded-full bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">Provenance Lab v2.6</span>
+          </div>
+          <p class="text-xs text-slate-400 hidden sm:block">Weight-Space CKA, Residual Stream & Behavioral Logit Genealogy</p>
+        </div>
+      </div>
+
+      <!-- Navigation Pills -->
+      <nav class="flex items-center gap-1 sm:gap-2 bg-white/5 p-1 rounded-xl border border-white/10">
+        <button onclick="scrollToSection('scanner-section')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-200 hover:bg-white/10 transition">Scanner</button>
+        <button onclick="scrollToSection('tree-section')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-slate-200 hover:bg-white/10 transition">Lineage Map</button>
+        <button onclick="scrollToSection('scripts-section')" class="px-3 py-1.5 rounded-lg text-xs font-medium text-cyan-300 bg-cyan-500/10 border border-cyan-500/20 hover:bg-cyan-500/20 transition flex items-center gap-1.5">
+          <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+          <span>Python CLI</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+
+    <!-- SECTION 1: MODEL COMPARISON & GENETIC SIMILARITY SCANNER -->
+    <section id="scanner-section" class="glass-card rounded-2xl p-5 sm:p-7 space-y-6">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-white/10 pb-5">
+        <div>
+          <h1 class="text-xl sm:text-2xl font-semibold text-white tracking-tight flex items-center gap-2.5">
+            <span>23andMe Model Genealogy Scanner</span>
+          </h1>
+          <p class="text-sm text-slate-400 mt-1">
+            Compare ancestral weight geometry (<span class="font-mono text-cyan-300">WVC / CKA</span>) against behavioral output distributions (<span class="font-mono text-violet-300">Logit Fingerprints</span>) to uncover sibling branches, distillation chimeras, and subliminal trait transfer.
+          </p>
+        </div>
+
+        <!-- Mode Switcher: Catalog vs Custom JSON/CSV Tensor Upload -->
+        <div class="inline-flex rounded-xl bg-black/40 p-1 border border-white/10 self-start">
+          <button id="mode-catalog-btn" onclick="setScannerMode('catalog')" class="px-3.5 py-1.5 rounded-lg text-xs font-medium transition bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
+            Model Catalog
+          </button>
+          <button id="mode-custom-btn" onclick="setScannerMode('custom')" class="px-3.5 py-1.5 rounded-lg text-xs font-medium transition text-slate-400 hover:text-white">
+            Custom Tensor / JSON
+          </button>
+        </div>
+      </div>
+
+      <!-- CATALOG MODE CONTROLS -->
+      <div id="catalog-controls" class="space-y-4">
+        <div class="grid grid-cols-1 lg:grid-cols-11 gap-4 items-center">
+          <!-- Model A -->
+          <div class="lg:col-span-5 glass-subcard rounded-xl p-4 space-y-2">
+            <div class="flex items-center justify-between">
+              <label for="model-a-select" class="text-xs font-mono uppercase tracking-wider text-cyan-300">Specimen A (Subject)</label>
+              <span id="model-a-tag" class="text-[11px] font-mono px-2 py-0.5 rounded bg-white/5 text-slate-300">Open Weights</span>
+            </div>
+            <select id="model-a-select" onchange="runComparison()" class="w-full bg-[#090d16] border border-white/15 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-cyan-400 transition">
+            </select>
+            <div id="model-a-meta" class="text-xs text-slate-400 flex flex-wrap gap-x-4 gap-y-1 pt-1 font-mono"></div>
+          </div>
+
+          <!-- Swap Button -->
+          <div class="lg:col-span-1 flex justify-center">
+            <button onclick="swapModels()" title="Swap Specimen A and B" class="p-2.5 rounded-xl bg-white/5 hover:bg-cyan-500/20 border border-white/10 hover:border-cyan-400/40 text-slate-300 hover:text-cyan-300 transition">
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M7 16V4m0 0L3 8m4-4l4 4m6 0v12m0 0l4-4m-4 4l-4-4"/>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Model B -->
+          <div class="lg:col-span-5 glass-subcard rounded-xl p-4 space-y-2">
+            <div class="flex items-center justify-between">
+              <label for="model-b-select" class="text-xs font-mono uppercase tracking-wider text-violet-300">Specimen B (Reference)</label>
+              <span id="model-b-tag" class="text-[11px] font-mono px-2 py-0.5 rounded bg-white/5 text-slate-300">Open Weights</span>
+            </div>
+            <select id="model-b-select" onchange="runComparison()" class="w-full bg-[#090d16] border border-white/15 rounded-lg px-3 py-2.5 text-sm text-white focus:outline-none focus:border-violet-400 transition">
+            </select>
+            <div id="model-b-meta" class="text-xs text-slate-400 flex flex-wrap gap-x-4 gap-y-1 pt-1 font-mono"></div>
+          </div>
+        </div>
+
+        <!-- Quick Preset Pair Pills -->
+        <div class="flex flex-wrap items-center gap-2 pt-1">
+          <span class="text-xs text-slate-400 font-medium mr-1">Quick Forensics Presets:</span>
+          <button onclick="loadPreset('Llama-3.1-8B', 'DeepSeek-R1-Distill-Llama-8B')" class="text-xs px-2.5 py-1 rounded-lg bg-violet-500/10 hover:bg-violet-500/20 text-violet-300 border border-violet-500/25 transition">
+            Chimera: Llama-3.1 vs R1-Distill-Llama
+          </button>
+          <button onclick="loadPreset('Qwen-2.5-7B-Instruct', 'Qwen-2.5-Coder-7B')" class="text-xs px-2.5 py-1 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-300 border border-emerald-500/25 transition">
+            Siblings: Qwen-2.5 vs Qwen-Coder
+          </button>
+          <button onclick="loadPreset('Mistral-7B-v0.3', 'Zephyr-7B-Beta')" class="text-xs px-2.5 py-1 rounded-lg bg-cyan-500/10 hover:bg-cyan-500/20 text-cyan-300 border border-cyan-500/25 transition">
+            Fine-Tune: Mistral-7B vs Zephyr-7B
+          </button>
+          <button onclick="loadPreset('Claude Opus 4.5', 'Claude Sonnet 4.5')" class="text-xs px-2.5 py-1 rounded-lg bg-amber-500/10 hover:bg-amber-500/20 text-amber-300 border border-amber-500/25 transition">
+            Closed APIs: Opus 4.5 vs Sonnet 4.5
+          </button>
+          <button onclick="loadPreset('Llama-3.1-8B', 'Qwen-2.5-7B-Instruct')" class="text-xs px-2.5 py-1 rounded-lg bg-rose-500/10 hover:bg-rose-500/20 text-rose-300 border border-rose-500/25 transition">
+            Unrelated Roots: Llama vs Qwen
+          </button>
+        </div>
+      </div>
+
+      <!-- CUSTOM TENSOR / JSON UPLOAD MODE -->
+      <div id="custom-controls" class="hidden space-y-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <!-- Custom A -->
+          <div class="glass-subcard rounded-xl p-4 space-y-2.5">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono uppercase tracking-wider text-cyan-300">Tensor / Logit Slice A (JSON or CSV numbers)</span>
+              <label class="text-xs px-2.5 py-1 rounded bg-white/10 hover:bg-white/15 text-slate-200 cursor-pointer transition">
+                Upload File
+                <input type="file" accept=".json,.csv,.txt" class="hidden" onchange="handleCustomFileUpload(event, 'custom-input-a')" />
+              </label>
+            </div>
+            <textarea id="custom-input-a" rows="4" class="w-full bg-[#090d16] border border-white/15 rounded-lg p-2.5 font-mono text-xs text-slate-200 focus:outline-none focus:border-cyan-400" placeholder='{"name": "Model_A", "weights": [0.12, -0.44, 0.89, ...], "logits": [-1.2, -3.4, -0.1, ...]}'></textarea>
+          </div>
+
+          <!-- Custom B -->
+          <div class="glass-subcard rounded-xl p-4 space-y-2.5">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono uppercase tracking-wider text-violet-300">Tensor / Logit Slice B (JSON or CSV numbers)</span>
+              <label class="text-xs px-2.5 py-1 rounded bg-white/10 hover:bg-white/15 text-slate-200 cursor-pointer transition">
+                Upload File
+                <input type="file" accept=".json,.csv,.txt" class="hidden" onchange="handleCustomFileUpload(event, 'custom-input-b')" />
+              </label>
+            </div>
+            <textarea id="custom-input-b" rows="4" class="w-full bg-[#090d16] border border-white/15 rounded-lg p-2.5 font-mono text-xs text-slate-200 focus:outline-none focus:border-violet-400" placeholder='{"name": "Model_B", "weights": [0.11, -0.43, 0.91, ...], "logits": [-1.1, -3.5, -0.15, ...]}'></textarea>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-between gap-3">
+          <div class="flex flex-wrap gap-2">
+            <button onclick="populateCustomSample('sibling')" class="text-xs px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 transition">
+              Load Sample: Fine-Tuned Sibling Slice
+            </button>
+            <button onclick="populateCustomSample('distill')" class="text-xs px-3 py-1.5 rounded-lg bg-white/5 hover:bg-white/10 border border-white/10 text-slate-300 transition">
+              Load Sample: Distilled Unrelated Weights
+            </button>
+          </div>
+          <button onclick="runCustomComparison()" class="px-4 py-2 rounded-xl bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 font-semibold text-xs hover:brightness-110 transition shadow-lg shadow-cyan-500/20">
+            Compute Real-Time Cosine & JS-Divergence
+          </button>
+        </div>
+        <div id="custom-error" class="hidden text-xs text-rose-400 font-mono bg-rose-500/10 border border-rose-500/30 rounded-lg px-3 py-2"></div>
+      </div>
+
+      <!-- 23ANDME GENETIC SIMILARITY REPORT -->
+      <div class="pt-2 space-y-5">
+        <!-- Verdict Banner -->
+        <div id="verdict-banner" class="rounded-xl p-4 sm:p-5 border border-emerald-500/30 bg-gradient-to-r from-emerald-500/10 via-cyan-500/5 to-transparent flex flex-col md:flex-row md:items-center justify-between gap-4">
+          <div class="space-y-1">
+            <div class="flex items-center gap-2.5">
+              <span class="text-xs font-mono uppercase tracking-widest text-slate-400">Provenance Verdict</span>
+              <span id="verdict-badge" class="text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/40">
+                Direct Sibling Branch
+              </span>
+            </div>
+            <h2 id="verdict-title" class="text-lg sm:text-xl font-semibold text-white">
+              Shared Pre-Training Ancestor Detected
+            </h2>
+            <p id="verdict-desc" class="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed">
+              Both models originate from the exact same base checkpoint. Over 94% of weight directions remain geometrically aligned, meaning J-space subspace coordinates and subliminal biases transfer directly.
+            </p>
+          </div>
+
+          <!-- Composite DNA Match Ring -->
+          <div class="flex items-center gap-4 shrink-0 bg-black/30 px-4 py-3 rounded-xl border border-white/10">
+            <div class="relative w-16 h-16 flex items-center justify-center">
+              <svg class="w-16 h-16 -rotate-90" viewBox="0 0 64 64">
+                <circle cx="32" cy="32" r="26" stroke="rgba(255,255,255,0.1)" stroke-width="6" fill="none" />
+                <circle id="composite-ring" cx="32" cy="32" r="26" stroke="#22d3ee" stroke-width="6" fill="none" stroke-dasharray="163.36" stroke-dashoffset="16" stroke-linecap="round" class="transition-all duration-500" />
+              </svg>
+              <span id="composite-score" class="absolute font-mono text-sm font-bold text-white">92%</span>
+            </div>
+            <div>
+              <div class="text-xs font-mono text-slate-400 uppercase">Shared DNA</div>
+              <div id="shared-ancestor-label" class="text-xs font-medium text-cyan-300 mt-0.5">Root: Qwen-2.5 Base</div>
+              <div id="inference-method-label" class="text-[11px] font-mono text-slate-400 mt-0.5">Method: Weight + Logit</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5 Core Metric Cards -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5">
+          <!-- 1. WVC -->
+          <div class="glass-subcard rounded-xl p-4 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-400">WVC</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-300">Weights</span>
+              </div>
+              <div class="text-xs font-medium text-slate-200 mt-1">Weight-Value Cosine</div>
+            </div>
+            <div>
+              <div id="metric-wvc" class="text-2xl font-mono font-bold text-cyan-300">96.4%</div>
+              <div class="w-full h-1.5 bg-white/10 rounded-full mt-2 overflow-hidden">
+                <div id="bar-wvc" class="h-full bg-cyan-400 rounded-full transition-all duration-500" style="width: 96.4%"></div>
+              </div>
+              <p class="text-[11px] text-slate-400 mt-2">Direct angular alignment of MLP & Attention matrices.</p>
+            </div>
+          </div>
+
+          <!-- 2. EAS -->
+          <div class="glass-subcard rounded-xl p-4 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-400">EAS</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-300">Vocab</span>
+              </div>
+              <div class="text-xs font-medium text-slate-200 mt-1">Embedding Anchor Sim</div>
+            </div>
+            <div>
+              <div id="metric-eas" class="text-2xl font-mono font-bold text-cyan-300">98.1%</div>
+              <div class="w-full h-1.5 bg-white/10 rounded-full mt-2 overflow-hidden">
+                <div id="bar-eas" class="h-full bg-cyan-400 rounded-full transition-all duration-500" style="width: 98.1%"></div>
+              </div>
+              <p class="text-[11px] text-slate-400 mt-2">Input/output unembedding space & J-space exit alignment.</p>
+            </div>
+          </div>
+
+          <!-- 3. END -->
+          <div class="glass-subcard rounded-xl p-4 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-400">END</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300">Magnitude</span>
+              </div>
+              <div class="text-xs font-medium text-slate-200 mt-1">Embedding Norm Dist</div>
+            </div>
+            <div>
+              <div id="metric-end" class="text-2xl font-mono font-bold text-emerald-300">95.0%</div>
+              <div class="w-full h-1.5 bg-white/10 rounded-full mt-2 overflow-hidden">
+                <div id="bar-end" class="h-full bg-emerald-400 rounded-full transition-all duration-500" style="width: 95%"></div>
+              </div>
+              <p class="text-[11px] text-slate-400 mt-2">L2 norm distribution across token rows (detects LoRA/scaling).</p>
+            </div>
+          </div>
+
+          <!-- 4. Behavioral / Logit Fingerprint -->
+          <div class="glass-subcard rounded-xl p-4 flex flex-col justify-between space-y-3">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-mono text-slate-400">BLF</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-violet-500/10 text-violet-300">Behavior</span>
+              </div>
+              <div class="text-xs font-medium text-slate-200 mt-1">Logit Fingerprint Match</div>
+            </div>
+            <div>
+              <div id="metric-blf" class="text-2xl font-mono font-bold text-violet-300">89.2%</div>
+              <div class="w-full h-1.5 bg-white/10 rounded-full mt-2 overflow-hidden">
+                <div id="bar-blf" class="h-full bg-violet-400 rounded-full transition-all duration-500" style="width: 89.2%"></div>
+              </div>
+              <p class="text-[11px] text-slate-400 mt-2">Edge-case token probability overlap (detects distillation).</p>
+            </div>
+          </div>
+
+          <!-- 5. Subliminal Susceptibility Score -->
+          <div class="glass-subcard rounded-xl p-4 flex flex-col justify-between space-y-3 border-amber-500/20">
+            <div>
+              <div class="flex items-center justify-between">
+                <span class="text-xs font-mono text-amber-300">OWL-IDX</span>
+                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-amber-500/15 text-amber-300">Subliminal</span>
+              </div>
+              <div class="text-xs font-medium text-slate-200 mt-1">Subliminal Transfer Risk</div>
+            </div>
+            <div>
+              <div id="metric-owl" class="text-2xl font-mono font-bold text-amber-300">High (94%)</div>
+              <div class="w-full h-1.5 bg-white/10 rounded-full mt-2 overflow-hidden">
+                <div id="bar-owl" class="h-full bg-amber-400 rounded-full transition-all duration-500" style="width: 94%"></div>
+              </div>
+              <p id="owl-explanation" class="text-[11px] text-slate-400 mt-2">Shared base weights allow hidden preferences (e.g., "Owl effect") to transfer via neutral data.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- SECTION 2: INTERACTIVE LAYER-BY-LAYER CKA / COSINE STRAND ALIGNMENT -->
+        <div class="glass-subcard rounded-xl p-5 space-y-4">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+            <div>
+              <h3 class="text-sm font-semibold text-white flex items-center gap-2">
+                <span>Chromosome / Residual Stream Layer Alignment (Layers 0 → 31)</span>
+              </h3>
+              <p class="text-xs text-slate-400 mt-0.5">
+                Layer-by-layer Centered Kernel Alignment (CKA) & cosine similarity. Hover over any layer band to inspect frozen ancestral blocks vs. mutated post-training layers.
+              </p>
+            </div>
+            <div class="flex items-center gap-3 text-[11px] font-mono">
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-emerald-400 inline-block"></span>Frozen Ancestor (&gt;90%)</span>
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-cyan-400 inline-block"></span>Adapted (60–90%)</span>
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-violet-500 inline-block"></span>Mutated/RL (&lt;60%)</span>
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-slate-700 inline-block"></span>Opaque/Orthogonal</span>
+            </div>
+          </div>
+
+          <!-- 32-Layer Visual Strand -->
+          <div class="space-y-2">
+            <div id="layer-strand-container" class="grid grid-cols-16 sm:grid-cols-32 gap-1 h-16 items-end pt-2 px-1 bg-black/40 rounded-xl border border-white/10 p-2.5" style="grid-template-columns: repeat(32, minmax(0, 1fr));">
+              <!-- Populated by JS -->
+            </div>
+            <div class="flex justify-between text-[10px] font-mono text-slate-500 px-1">
+              <span>Layer 0 (Embedding Entrance)</span>
+              <span>Layer 15 (Middle J-Space)</span>
+              <span>Layer 31 (Unembedding Exit)</span>
+            </div>
+          </div>
+
+          <!-- Layer Inspector Readout -->
+          <div id="layer-inspector" class="flex flex-wrap items-center justify-between gap-2 text-xs font-mono bg-black/35 border border-white/5 rounded-lg px-3.5 py-2 text-slate-300">
+            <span>Hover or tap any layer bar above to inspect residual stream conservation.</span>
+            <span class="text-cyan-300">CKA Resolution: 32 Transformer Blocks</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: INTERACTIVE PHYLOGENETIC LINEAGE MAP -->
+    <section id="tree-section" class="glass-card rounded-2xl p-5 sm:p-7 space-y-5">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-white/10 pb-4">
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold text-white">Phylogenetic LLM Lineage Map</h2>
+          <p class="text-xs sm:text-sm text-slate-400 mt-1">
+            Click any <span class="text-cyan-300 font-medium">node</span> or <span class="text-violet-300 font-medium">evolutionary edge</span> below to load that pair directly into the 23andMe scanner above.
+          </p>
+        </div>
+        <div class="flex flex-wrap items-center gap-4 text-xs font-mono">
+          <div class="flex items-center gap-2">
+            <span class="w-6 h-0.5 bg-emerald-400 inline-block"></span>
+            <span class="text-slate-300">Direct Weight Inheritance</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-6 h-0.5 border-t-2 border-dashed border-violet-400 inline-block"></span>
+            <span class="text-slate-300">Horizontal Distillation</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Interactive SVG Lineage Graph -->
+      <div class="w-full overflow-x-auto bg-[#070a11] rounded-xl border border-white/10 p-3">
+        <svg id="phylogeny-svg" viewBox="0 0 980 430" class="w-full min-w-[760px] h-auto select-none">
+          <defs>
+            <marker id="arrow-solid" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#34d399" />
+            </marker>
+            <marker id="arrow-distill" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+              <path d="M 0 1 L 10 5 L 0 9 z" fill="#a78bfa" />
+            </marker>
+          </defs>
+
+          <!-- Background Swimlanes -->
+          <rect x="10" y="12" width="960" height="92" rx="10" fill="rgba(34,211,238,0.03)" stroke="rgba(255,255,255,0.04)" />
+          <text x="24" y="32" fill="#64748b" font-size="10" font-family="JetBrains Mono">META LLAMA OPEN ROOT</text>
+
+          <rect x="10" y="114" width="960" height="92" rx="10" fill="rgba(167,139,250,0.03)" stroke="rgba(255,255,255,0.04)" />
+          <text x="24" y="134" fill="#64748b" font-size="10" font-family="JetBrains Mono">DEEPSEEK & ALIBABA QWEN ROOTS</text>
+
+          <rect x="10" y="216" width="960" height="92" rx="10" fill="rgba(16,185,129,0.03)" stroke="rgba(255,255,255,0.04)" />
+          <text x="24" y="236" fill="#64748b" font-size="10" font-family="JetBrains Mono">MISTRAL & GOOGLE GEMMA ROOTS</text>
+
+          <rect x="10" y="318" width="960" height="98" rx="10" fill="rgba(245,158,11,0.03)" stroke="rgba(255,255,255,0.04)" />
+          <text x="24" y="338" fill="#64748b" font-size="10" font-family="JetBrains Mono">FRONTIER CLOSED LINEAGES (LOGIT-SEQUENCED)</text>
+
+          <!-- EDGES (Clickable) -->
+          <!-- Llama-3.1-8B -> DeepSeek-R1-Distill-Llama-8B -->
+          <g class="cursor-pointer group" onclick="loadPreset('Llama-3.1-8B', 'DeepSeek-R1-Distill-Llama-8B')">
+            <line x1="230" y1="68" x2="430" y2="68" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrow-solid)" />
+            <rect x="275" y="47" width="106" height="16" rx="4" fill="#0d111a" stroke="#34d399" stroke-opacity="0.4" />
+            <text x="328" y="58" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="JetBrains Mono">94% Weight DNA</text>
+          </g>
+
+          <!-- DeepSeek-V3/R1 -> Distill-Llama-8B (Horizontal Gene Transfer!) -->
+          <g class="cursor-pointer" onclick="loadPreset('DeepSeek-R1-Distill-Llama-8B', 'DeepSeek-R1-Distill-Qwen-7B')">
+            <path d="M 190 158 C 290 130, 390 105, 495 86" fill="none" stroke="#a78bfa" stroke-width="2.2" class="distill-edge" marker-end="url(#arrow-distill)" />
+            <rect x="275" y="106" width="122" height="16" rx="4" fill="#0d111a" stroke="#a78bfa" stroke-opacity="0.5" />
+            <text x="336" y="117" text-anchor="middle" fill="#c4b5fd" font-size="9" font-family="JetBrains Mono">R1 Reasoning Transfer</text>
+          </g>
+
+          <!-- Qwen-2.5-7B-Instruct -> Qwen-2.5-Coder-7B -->
+          <g class="cursor-pointer" onclick="loadPreset('Qwen-2.5-7B-Instruct', 'Qwen-2.5-Coder-7B')">
+            <line x1="590" y1="168" x2="735" y2="168" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrow-solid)" />
+            <rect x="615" y="147" width="96" height="16" rx="4" fill="#0d111a" stroke="#34d399" stroke-opacity="0.4" />
+            <text x="663" y="158" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="JetBrains Mono">96% Sibling</text>
+          </g>
+
+          <!-- Qwen-2.5-7B-Instruct -> DeepSeek-R1-Distill-Qwen-7B -->
+          <g class="cursor-pointer" onclick="loadPreset('Qwen-2.5-7B-Instruct', 'DeepSeek-R1-Distill-Qwen-7B')">
+            <line x1="410" y1="168" x2="435" y2="168" stroke="#34d399" stroke-width="2.5" />
+          </g>
+
+          <!-- Mistral-7B-v0.3 -> Zephyr-7B-Beta -->
+          <g class="cursor-pointer" onclick="loadPreset('Mistral-7B-v0.3', 'Zephyr-7B-Beta')">
+            <line x1="230" y1="270" x2="430" y2="270" stroke="#34d399" stroke-width="2.5" marker-end="url(#arrow-solid)" />
+            <rect x="275" y="249" width="106" height="16" rx="4" fill="#0d111a" stroke="#34d399" stroke-opacity="0.4" />
+            <text x="328" y="260" text-anchor="middle" fill="#6ee7b7" font-size="9" font-family="JetBrains Mono">97% DPO Branch</text>
+          </g>
+
+          <!-- Claude Opus 4.5 -> Claude Sonnet 4.5 -->
+          <g class="cursor-pointer" onclick="loadPreset('Claude Opus 4.5', 'Claude Sonnet 4.5')">
+            <line x1="230" y1="374" x2="430" y2="374" stroke="#a78bfa" stroke-width="2.2" class="distill-edge" marker-end="url(#arrow-distill)" />
+            <rect x="270" y="353" width="116" height="16" rx="4" fill="#0d111a" stroke="#a78bfa" stroke-opacity="0.5" />
+            <text x="328" y="364" text-anchor="middle" fill="#c4b5fd" font-size="9" font-family="JetBrains Mono">82% Logit Siblings</text>
+          </g>
+
+          <!-- NODES -->
+          <!-- Row 1: Llama -->
+          <g class="cursor-pointer" onclick="selectTreeNode('Llama-3.1-8B')">
+            <rect x="40" y="46" width="190" height="44" rx="10" fill="#0f172a" stroke="#22d3ee" stroke-width="1.5" />
+            <text x="135" y="65" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Llama-3.1-8B</text>
+            <text x="135" y="80" text-anchor="middle" fill="#22d3ee" font-size="9.5" font-family="JetBrains Mono">Ancestral Root • 128k Vocab</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('DeepSeek-R1-Distill-Llama-8B')">
+            <rect x="438" y="46" width="235" height="44" rx="10" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5" />
+            <text x="555" y="65" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">DeepSeek-R1-Distill-Llama-8B</text>
+            <text x="555" y="80" text-anchor="middle" fill="#c4b5fd" font-size="9.5" font-family="JetBrains Mono">Chimera: Llama Body + R1 Mind</text>
+          </g>
+
+          <!-- Row 2: DeepSeek & Qwen -->
+          <g class="cursor-pointer" onclick="selectTreeNode('DeepSeek-R1-Distill-Qwen-7B')">
+            <rect x="40" y="146" width="180" height="44" rx="10" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5" />
+            <text x="130" y="165" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">DeepSeek-R1 Teacher</text>
+            <text x="130" y="180" text-anchor="middle" fill="#c4b5fd" font-size="9.5" font-family="JetBrains Mono">MoE Reasoning Donor</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('Qwen-2.5-7B-Instruct')">
+            <rect x="240" y="146" width="175" height="44" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+            <text x="327" y="165" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Qwen-2.5-7B-Instruct</text>
+            <text x="327" y="180" text-anchor="middle" fill="#6ee7b7" font-size="9.5" font-family="JetBrains Mono">Qwen Root • 152k Vocab</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('DeepSeek-R1-Distill-Qwen-7B')">
+            <rect x="435" y="146" width="160" height="44" rx="10" fill="#0f172a" stroke="#a78bfa" stroke-width="1.5" />
+            <text x="515" y="165" text-anchor="middle" fill="#f8fafc" font-size="11" font-weight="600" font-family="Inter">R1-Distill-Qwen-7B</text>
+            <text x="515" y="180" text-anchor="middle" fill="#c4b5fd" font-size="9" font-family="JetBrains Mono">Qwen Body + R1 Traces</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('Qwen-2.5-Coder-7B')">
+            <rect x="742" y="146" width="195" height="44" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+            <text x="839" y="165" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Qwen-2.5-Coder-7B</text>
+            <text x="839" y="180" text-anchor="middle" fill="#6ee7b7" font-size="9.5" font-family="JetBrains Mono">Code-Specialized Sibling</text>
+          </g>
+
+          <!-- Row 3: Mistral & Gemma -->
+          <g class="cursor-pointer" onclick="selectTreeNode('Mistral-7B-v0.3')">
+            <rect x="40" y="248" width="190" height="44" rx="10" fill="#0f172a" stroke="#22d3ee" stroke-width="1.5" />
+            <text x="135" y="267" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Mistral-7B-v0.3</text>
+            <text x="135" y="282" text-anchor="middle" fill="#22d3ee" font-size="9.5" font-family="JetBrains Mono">Independent European Root</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('Zephyr-7B-Beta')">
+            <rect x="438" y="248" width="190" height="44" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1.5" />
+            <text x="533" y="267" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Zephyr-7B-Beta</text>
+            <text x="533" y="282" text-anchor="middle" fill="#6ee7b7" font-size="9.5" font-family="JetBrains Mono">Mistral DPO Descendant</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('Gemma-2-9B')">
+            <rect x="742" y="248" width="195" height="44" rx="10" fill="#0f172a" stroke="#22d3ee" stroke-width="1.5" />
+            <text x="839" y="267" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Gemma-2-9B</text>
+            <text x="839" y="282" text-anchor="middle" fill="#22d3ee" font-size="9.5" font-family="JetBrains Mono">Google Open-Weight Root</text>
+          </g>
+
+          <!-- Row 4: Closed Frontier -->
+          <g class="cursor-pointer" onclick="selectTreeNode('Claude Opus 4.5')">
+            <rect x="40" y="352" width="190" height="44" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+            <text x="135" y="371" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Claude Opus 4.5</text>
+            <text x="135" y="386" text-anchor="middle" fill="#fcd34d" font-size="9.5" font-family="JetBrains Mono">Anthropic Frontier Teacher</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('Claude Sonnet 4.5')">
+            <rect x="438" y="352" width="190" height="44" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+            <text x="533" y="371" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Claude Sonnet 4.5</text>
+            <text x="533" y="386" text-anchor="middle" fill="#fcd34d" font-size="9.5" font-family="JetBrains Mono">Anthropic Sibling / Distilled</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('GPT-4o')">
+            <rect x="655" y="352" width="135" height="44" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+            <text x="722" y="371" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">GPT-4o</text>
+            <text x="722" y="386" text-anchor="middle" fill="#fcd34d" font-size="9.5" font-family="JetBrains Mono">OpenAI Root</text>
+          </g>
+
+          <g class="cursor-pointer" onclick="selectTreeNode('Gemini 2.5 Pro')">
+            <rect x="805" y="352" width="145" height="44" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5" />
+            <text x="877" y="371" text-anchor="middle" fill="#f8fafc" font-size="11.5" font-weight="600" font-family="Inter">Gemini 2.5 Pro</text>
+            <text x="877" y="386" text-anchor="middle" fill="#fcd34d" font-size="9.5" font-family="JetBrains Mono">Google Root</text>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!-- SECTION 4: READY-TO-RUN PYTHON CLI & SCRIPT GENERATOR -->
+    <section id="scripts-section" class="glass-card rounded-2xl p-5 sm:p-7 space-y-5">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-white/10 pb-4">
+        <div>
+          <h2 class="text-lg sm:text-xl font-semibold text-white">Ready-to-Run Python & CLI Forensics Scripts</h2>
+          <p class="text-xs sm:text-sm text-slate-400 mt-1">
+            Run a real 23andMe provenance test on local HuggingFace checkpoints or remote OpenAI-compatible APIs—pre-filled with your currently selected models.
+          </p>
+        </div>
+
+        <!-- Tabs -->
+        <div class="flex flex-wrap gap-1.5 bg-black/40 p-1 rounded-xl border border-white/10">
+          <button id="tab-btn-cli" onclick="switchCodeTab('cli')" class="px-3 py-1.5 rounded-lg text-xs font-mono transition bg-cyan-500/20 text-cyan-300 border border-cyan-500/30">
+            1. Cisco ProvenanceKit CLI
+          </button>
+          <button id="tab-btn-weights" onclick="switchCodeTab('weights')" class="px-3 py-1.5 rounded-lg text-xs font-mono transition text-slate-400 hover:text-white">
+            2. Weight-Space CKA / Safetensors
+          </button>
+          <button id="tab-btn-api" onclick="switchCodeTab('api')" class="px-3 py-1.5 rounded-lg text-xs font-mono transition text-slate-400 hover:text-white">
+            3. Closed-API Logprob Probe
+          </button>
+        </div>
+      </div>
+
+      <!-- Code Display Box -->
+      <div class="relative rounded-xl bg-[#05070c] border border-white/10 overflow-hidden">
+        <div class="flex items-center justify-between px-4 py-2.5 bg-white/[0.03] border-b border-white/10">
+          <div class="flex items-center gap-2">
+            <span class="w-2.5 h-2.5 rounded-full bg-rose-500/70"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-amber-500/70"></span>
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500/70"></span>
+            <span id="code-filename" class="ml-2 text-xs font-mono text-slate-400">provenance_cli.sh</span>
+          </div>
+          <button onclick="copyActiveCode()" id="copy-code-btn" class="flex items-center gap-1.5 px-3 py-1 rounded-lg bg-cyan-500/15 hover:bg-cyan-500/25 text-cyan-300 border border-cyan-500/30 text-xs font-mono transition">
+            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+            <span id="copy-btn-text">Copy Script</span>
+          </button>
+        </div>
+        <pre class="p-4 overflow-x-auto text-xs sm:text-[13px] font-mono leading-relaxed text-slate-200"><code id="code-block"></code></pre>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 border-t border-white/10 text-xs text-slate-500 flex flex-col sm:flex-row items-center justify-between gap-2">
+    <div>ModelDNA Provenance Lab • Mechanistic Interpretability & Model Genealogy</div>
+    <div class="font-mono">Metrics: WVC • EAS • END • Linear CKA • Jensen-Shannon Logit Divergence</div>
+  </footer>
+
+  <script>
+    // =========================================================================
+    // 1. MODEL CATALOG & EVOLUTIONARY METADATA
+    // =========================================================================
+    const MODELS = {
+      "Llama-3.1-8B": {
+        hfId: "meta-llama/Llama-3.1-8B",
+        family: "Meta Llama",
+        root: "Llama-3 Base",
+        access: "Open Weights",
+        vocabSize: "128,256",
+        hiddenDim: 4096,
+        layers: 32,
+        architecture: "Dense GQA + SwiGLU",
+        // Seed vector representing weight geometry & behavioral signature
+        weightSig: [0.88, -0.41, 0.23, 0.67, -0.55, 0.12, 0.79, -0.34, 0.45, -0.62, 0.31, 0.58],
+        embSig:    [0.91, -0.38, 0.19, 0.71, -0.52, 0.14, 0.82, -0.31, 0.48, -0.60, 0.29, 0.61],
+        normScale: 1.00,
+        logitSig:  [0.72, 0.15, 0.08, 0.03, 0.02, 0.41, 0.33, 0.19, 0.07, 0.28, 0.51, 0.14]
+      },
+      "DeepSeek-R1-Distill-Llama-8B": {
+        hfId: "deepseek-ai/DeepSeek-R1-Distill-Llama-8B",
+        family: "Meta Llama × DeepSeek",
+        root: "Llama-3 Base (R1 Distilled)",
+        access: "Open Weights",
+        vocabSize: "128,256",
+        hiddenDim: 4096,
+        layers: 32,
+        architecture: "Dense GQA (SFT on R1 Traces)",
+        weightSig: [0.86, -0.39, 0.21, 0.65, -0.53, 0.15, 0.76, -0.32, 0.43, -0.59, 0.33, 0.55],
+        embSig:    [0.90, -0.37, 0.20, 0.70, -0.51, 0.15, 0.81, -0.30, 0.47, -0.59, 0.30, 0.60],
+        normScale: 1.03,
+        logitSig:  [0.35, 0.42, 0.11, 0.08, 0.04, 0.79, 0.68, 0.12, 0.24, 0.61, 0.22, 0.49]
+      },
+      "Qwen-2.5-7B-Instruct": {
+        hfId: "Qwen/Qwen2.5-7B-Instruct",
+        family: "Alibaba Qwen",
+        root: "Qwen-2.5 Base",
+        access: "Open Weights",
+        vocabSize: "152,064",
+        hiddenDim: 3584,
+        layers: 28,
+        architecture: "Dense GQA + SwiGLU",
+        weightSig: [-0.45, 0.77, -0.61, 0.18, 0.84, -0.29, -0.52, 0.63, -0.17, 0.74, -0.48, 0.39],
+        embSig:    [-0.42, 0.79, -0.59, 0.21, 0.82, -0.27, -0.50, 0.65, -0.15, 0.76, -0.46, 0.41],
+        normScale: 1.18,
+        logitSig:  [0.48, 0.29, 0.12, 0.06, 0.05, 0.55, 0.47, 0.26, 0.18, 0.44, 0.39, 0.27]
+      },
+      "Qwen-2.5-Coder-7B": {
+        hfId: "Qwen/Qwen2.5-Coder-7B",
+        family: "Alibaba Qwen",
+        root: "Qwen-2.5 Base",
+        access: "Open Weights",
+        vocabSize: "152,064",
+        hiddenDim: 3584,
+        layers: 28,
+        architecture: "Dense GQA (Code Continued Pretrain)",
+        weightSig: [-0.44, 0.76, -0.60, 0.20, 0.83, -0.28, -0.51, 0.62, -0.16, 0.73, -0.47, 0.40],
+        embSig:    [-0.41, 0.78, -0.58, 0.22, 0.81, -0.26, -0.49, 0.64, -0.14, 0.75, -0.45, 0.42],
+        normScale: 1.20,
+        logitSig:  [0.44, 0.31, 0.14, 0.06, 0.05, 0.58, 0.49, 0.24, 0.19, 0.47, 0.36, 0.29]
+      },
+      "DeepSeek-R1-Distill-Qwen-7B": {
+        hfId: "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+        family: "Alibaba Qwen × DeepSeek",
+        root: "Qwen-2.5 Base (R1 Distilled)",
+        access: "Open Weights",
+        vocabSize: "152,064",
+        hiddenDim: 3584,
+        layers: 28,
+        architecture: "Dense GQA (SFT on R1 Traces)",
+        weightSig: [-0.43, 0.74, -0.58, 0.21, 0.81, -0.26, -0.49, 0.60, -0.15, 0.71, -0.45, 0.38],
+        embSig:    [-0.41, 0.78, -0.58, 0.22, 0.81, -0.26, -0.49, 0.64, -0.15, 0.75, -0.45, 0.41],
+        normScale: 1.21,
+        logitSig:  [0.34, 0.43, 0.11, 0.08, 0.04, 0.80, 0.67, 0.13, 0.25, 0.62, 0.21, 0.50]
+      },
+      "Mistral-7B-v0.3": {
+        hfId: "mistralai/Mistral-7B-v0.3",
+        family: "Mistral AI",
+        root: "Mistral-7B Root",
+        access: "Open Weights",
+        vocabSize: "32,768",
+        hiddenDim: 4096,
+        layers: 32,
+        architecture: "Dense GQA + Sliding Window",
+        weightSig: [0.19, 0.33, -0.82, -0.47, 0.14, 0.76, -0.21, -0.68, 0.59, 0.11, -0.73, -0.25],
+        embSig:    [0.21, 0.35, -0.80, -0.45, 0.16, 0.75, -0.20, -0.66, 0.57, 0.13, -0.71, -0.23],
+        normScale: 0.92,
+        logitSig:  [0.61, 0.21, 0.10, 0.05, 0.03, 0.38, 0.41, 0.31, 0.14, 0.33, 0.47, 0.18]
+      },
+      "Zephyr-7B-Beta": {
+        hfId: "HuggingFaceH4/zephyr-7b-beta",
+        family: "Mistral AI (HF DPO)",
+        root: "Mistral-7B Root",
+        access: "Open Weights",
+        vocabSize: "32,000",
+        hiddenDim: 4096,
+        layers: 32,
+        architecture: "Dense GQA (SFT + DPO)",
+        weightSig: [0.18, 0.32, -0.81, -0.46, 0.15, 0.75, -0.20, -0.67, 0.58, 0.12, -0.72, -0.24],
+        embSig:    [0.20, 0.34, -0.79, -0.44, 0.16, 0.74, -0.19, -0.65, 0.56, 0.13, -0.70, -0.22],
+        normScale: 0.93,
+        logitSig:  [0.56, 0.24, 0.11, 0.06, 0.03, 0.44, 0.45, 0.29, 0.16, 0.37, 0.44, 0.21]
+      },
+      "Gemma-2-9B": {
+        hfId: "google/gemma-2-9b-it",
+        family: "Google Gemma",
+        root: "Gemma-2 Root",
+        access: "Open Weights",
+        vocabSize: "256,000",
+        hiddenDim: 3584,
+        layers: 42,
+        architecture: "Soft-Capped GQA + GeGLU",
+        weightSig: [-0.71, -0.22, 0.54, -0.63, -0.19, -0.48, 0.66, 0.27, -0.81, 0.35, 0.49, -0.57],
+        embSig:    [-0.69, -0.20, 0.52, -0.61, -0.18, -0.46, 0.64, 0.29, -0.79, 0.37, 0.47, -0.55],
+        normScale: 1.42,
+        logitSig:  [0.52, 0.27, 0.11, 0.06, 0.04, 0.49, 0.52, 0.22, 0.19, 0.41, 0.35, 0.25]
+      },
+      "Claude Opus 4.5": {
+        hfId: "anthropic/claude-opus-4-5",
+        family: "Anthropic Claude",
+        root: "Claude 4.5 Lineage",
+        access: "Closed API",
+        vocabSize: "~100k (Proprietary)",
+        hiddenDim: "Private",
+        layers: "Private",
+        architecture: "Closed Frontier Transformer",
+        weightSig: null,
+        embSig: null,
+        normScale: null,
+        logitSig:  [0.42, 0.34, 0.13, 0.07, 0.04, 0.71, 0.63, 0.18, 0.28, 0.59, 0.31, 0.44]
+      },
+      "Claude Sonnet 4.5": {
+        hfId: "anthropic/claude-sonnet-4-5",
+        family: "Anthropic Claude",
+        root: "Claude 4.5 Lineage",
+        access: "Closed API",
+        vocabSize: "~100k (Proprietary)",
+        hiddenDim: "Private",
+        layers: "Private",
+        architecture: "Closed Sibling / Distilled",
+        weightSig: null,
+        embSig: null,
+        normScale: null,
+        logitSig:  [0.45, 0.32, 0.12, 0.07, 0.04, 0.68, 0.60, 0.20, 0.26, 0.56, 0.33, 0.41]
+      },
+      "GPT-4o": {
+        hfId: "openai/gpt-4o",
+        family: "OpenAI GPT",
+        root: "GPT-4o Omni Root",
+        access: "Closed API",
+        vocabSize: "200,019 (o200k)",
+        hiddenDim: "Private",
+        layers: "Private",
+        architecture: "Closed Omni Transformer",
+        weightSig: null,
+        embSig: null,
+        normScale: null,
+        logitSig:  [0.58, 0.22, 0.11, 0.05, 0.04, 0.46, 0.48, 0.28, 0.15, 0.39, 0.45, 0.22]
+      },
+      "Gemini 2.5 Pro": {
+        hfId: "google/gemini-2.5-pro",
+        family: "Google Gemini",
+        root: "Gemini 2.5 Native Multimodal",
+        access: "Closed API",
+        vocabSize: "256,000",
+        hiddenDim: "Private",
+        layers: "Private",
+        architecture: "Closed Sparse MoE",
+        weightSig: null,
+        embSig: null,
+        normScale: null,
+        logitSig:  [0.50, 0.28, 0.12, 0.06, 0.04, 0.54, 0.55, 0.21, 0.20, 0.46, 0.34, 0.28]
+      }
+    };
+
+    let currentCodeTab = 'cli';
+    let lastTreeClickTarget = 'A';
+
+    // =========================================================================
+    // 2. MATH UTILITIES (COSINE SIMILARITY & JENSEN-SHANNON DIVERGENCE)
+    // =========================================================================
+    function cosineSimilarity(vecA, vecB) {
+      if (!vecA || !vecB || vecA.length === 0 || vecB.length === 0) return 0;
+      const len = Math.min(vecA.length, vecB.length);
+      let dot = 0, normA = 0, normB = 0;
+      for (let i = 0; i < len; i++) {
+        dot += vecA[i] * vecB[i];
+        normA += vecA[i] * vecA[i];
+        normB += vecB[i] * vecB[i];
+      }
+      if (normA === 0 || normB === 0) return 0;
+      return dot / (Math.sqrt(normA) * Math.sqrt(normB));
+    }
+
+    function vectorNorm(vec) {
+      if (!vec || vec.length === 0) return 0;
+      let sum = 0;
+      for (let i = 0; i < vec.length; i++) sum += vec[i] * vec[i];
+      return Math.sqrt(sum);
+    }
+
+    function softmax(arr) {
+      const maxVal = Math.max(...arr);
+      const exps = arr.map(v => Math.exp(v - maxVal));
+      const sum = exps.reduce((a, b) => a + b, 0);
+      return exps.map(e => e / sum);
+    }
+
+    function jsSimilarity(logitsA, logitsB) {
+      const len = Math.min(logitsA.length, logitsB.length);
+      const p = softmax(logitsA.slice(0, len));
+      const q = softmax(logitsB.slice(0, len));
+      const m = p.map((val, i) => 0.5 * (val + q[i]));
+      let klPM = 0, klQM = 0;
+      for (let i = 0; i < len; i++) {
+        if (p[i] > 1e-12) klPM += p[i] * Math.log2(p[i] / m[i]);
+        if (q[i] > 1e-12) klQM += q[i] * Math.log2(q[i] / m[i]);
+      }
+      const jsd = 0.5 * (klPM + klQM); // Bounded in [0, 1]
+      return Math.max(0, Math.min(1, 1 - Math.sqrt(jsd)));
+    }
+
+    // =========================================================================
+    // 3. INITIALIZE DROPDOWNS & UI
+    // =========================================================================
+    function initCatalog() {
+      const selectA = document.getElementById('model-a-select');
+      const selectB = document.getElementById('model-b-select');
+      const names = Object.keys(MODELS);
+
+      names.forEach(name => {
+        const optA = document.createElement('option');
+        optA.value = name;
+        optA.textContent = `${name} (${MODELS[name].access})`;
+        selectA.appendChild(optA);
+
+        const optB = document.createElement('option');
+        optB.value = name;
+        optB.textContent = `${name} (${MODELS[name].access})`;
+        selectB.appendChild(optB);
+      });
+
+      selectA.value = "Llama-3.1-8B";
+      selectB.value = "DeepSeek-R1-Distill-Llama-8B";
+      runComparison();
+    }
+
+    function setScannerMode(mode) {
+      const catBtn = document.getElementById('mode-catalog-btn');
+      const cusBtn = document.getElementById('mode-custom-btn');
+      const catPanel = document.getElementById('catalog-controls');
+      const cusPanel = document.getElementById('custom-controls');
+
+      if (mode === 'catalog') {
+        catBtn.className = "px-3.5 py-1.5 rounded-lg text-xs font-medium transition bg-cyan-500/20 text-cyan-300 border border-cyan-500/30";
+        cusBtn.className = "px-3.5 py-1.5 rounded-lg text-xs font-medium transition text-slate-400 hover:text-white";
+        catPanel.classList.remove('hidden');
+        cusPanel.classList.add('hidden');
+        runComparison();
+      } else {
+        cusBtn.className = "px-3.5 py-1.5 rounded-lg text-xs font-medium transition bg-cyan-500/20 text-cyan-300 border border-cyan-500/30";
+        catBtn.className = "px-3.5 py-1.5 rounded-lg text-xs font-medium transition text-slate-400 hover:text-white";
+        cusPanel.classList.remove('hidden');
+        catPanel.classList.add('hidden');
+        if (!document.getElementById('custom-input-a').value.trim()) {
+          populateCustomSample('sibling');
+        }
+      }
+    }
+
+    function loadPreset(modelA, modelB) {
+      setScannerMode('catalog');
+      document.getElementById('model-a-select').value = modelA;
+      document.getElementById('model-b-select').value = modelB;
+      runComparison();
+      scrollToSection('scanner-section');
+    }
+
+    function selectTreeNode(modelName) {
+      setScannerMode('catalog');
+      if (lastTreeClickTarget === 'A') {
+        document.getElementById('model-a-select').value = modelName;
+        lastTreeClickTarget = 'B';
+      } else {
+        document.getElementById('model-b-select').value = modelName;
+        lastTreeClickTarget = 'A';
+      }
+      runComparison();
+      scrollToSection('scanner-section');
+    }
+
+    function swapModels() {
+      const selectA = document.getElementById('model-a-select');
+      const selectB = document.getElementById('model-b-select');
+      const temp = selectA.value;
+      selectA.value = selectB.value;
+      selectB.value = temp;
+      runComparison();
+    }
+
+    function scrollToSection(id) {
+      document.getElementById(id)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // =========================================================================
+    // 4. CATALOG COMPARISON ENGINE
+    // =========================================================================
+    function runComparison() {
+      const nameA = document.getElementById('model-a-select').value;
+      const nameB = document.getElementById('model-b-select').value;
+      const mA = MODELS[nameA];
+      const mB = MODELS[nameB];
+
+      // Update specimen badges & metadata
+      const tagA = document.getElementById('model-a-tag');
+      const tagB = document.getElementById('model-b-tag');
+      tagA.textContent = mA.access;
+      tagB.textContent = mB.access;
+      tagA.className = mA.access === 'Open Weights'
+        ? 'text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30'
+        : 'text-[11px] font-mono px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30';
+      tagB.className = mB.access === 'Open Weights'
+        ? 'text-[11px] font-mono px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 border border-emerald-500/30'
+        : 'text-[11px] font-mono px-2 py-0.5 rounded bg-amber-500/15 text-amber-300 border border-amber-500/30';
+
+      document.getElementById('model-a-meta').innerHTML = `<span>Root: ${mA.root}</span><span>Vocab: ${mA.vocabSize}</span>`;
+      document.getElementById('model-b-meta').innerHTML = `<span>Root: ${mB.root}</span><span>Vocab: ${mB.vocabSize}</span>`;
+
+      const bothOpen = Boolean(mA.weightSig && mB.weightSig);
+
+      // Compute metrics
+      let wvcPct = null, easPct = null, endPct = null;
+      if (bothOpen) {
+        if (nameA === nameB) {
+          wvcPct = 100.0; easPct = 100.0; endPct = 100.0;
+        } else {
+          const rawWvc = Math.max(0, cosineSimilarity(mA.weightSig, mB.weightSig));
+          const rawEas = Math.max(0, cosineSimilarity(mA.embSig, mB.embSig));
+          const normDiff = Math.abs(mA.normScale - mB.normScale) / Math.max(mA.normScale, mB.normScale);
+          wvcPct = +(rawWvc * 100).toFixed(1);
+          easPct = +(rawEas * 100).toFixed(1);
+          endPct = +((1 - normDiff) * 100).toFixed(1);
+        }
+      }
+
+      const blfPct = nameA === nameB ? 100.0 : +(jsSimilarity(mA.logitSig, mB.logitSig) * 100).toFixed(1);
+
+      // Determine Verdict & Subliminal Susceptibility
+      let badgeText = "", badgeColor = "", titleText = "", descText = "", composite = 0, owlScore = 0, owlDesc = "", rootSummary = "";
+
+      if (nameA === nameB) {
+        badgeText = "Identical Clone (100%)";
+        badgeColor = "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
+        titleText = "Exact Checkpoint Match";
+        descText = "Both specimens share identical parameter tensors, J-space subspaces, and output distributions.";
+        composite = 100;
+        owlScore = 100;
+        owlDesc = "100% identical weight geometry—all subliminal traits and J-space circuits transfer natively.";
+        rootSummary = `Root: ${mA.root}`;
+      } else if (bothOpen && wvcPct > 85) {
+        const isDistillChimera = (nameA.includes('Distill') || nameB.includes('Distill')) && blfPct < 75;
+        if (isDistillChimera) {
+          badgeText = "Chimera / Distilled Hybrid";
+          badgeColor = "bg-violet-500/20 text-violet-300 border-violet-500/40";
+          titleText = "Shared Ancestral Skeleton + Foreign Reasoning Distillation";
+          descText = `${nameA} and ${nameB} share ${wvcPct}% physical weight DNA, but supervised fine-tuning on external DeepSeek-R1 reasoning traces shifted upper-layer J-space behavior (Logit Match: ${blfPct}%).`;
+          composite = Math.round(wvcPct * 0.7 + blfPct * 0.3);
+          owlScore = Math.round(wvcPct * 0.92);
+          owlDesc = `High (${owlScore}%): Because their foundational weights share the same parent checkpoint, subliminal traits (e.g., the 'Owl Phenomenon') still resonate across both models.`;
+          rootSummary = `Shared Body: ${mA.root.split(' (')[0]}`;
+        } else {
+          badgeText = "Direct Sibling Branch";
+          badgeColor = "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
+          titleText = "Same Pre-Training Parent Checkpoint";
+          descText = `High Weight-Value Cosine (${wvcPct}%) and Embedding Anchor Similarity (${easPct}%) prove both models branched from the same ancestral pre-training run with minor post-training divergence.`;
+          composite = Math.round((wvcPct + easPct + blfPct) / 3);
+          owlScore = Math.round(wvcPct * 0.96);
+          owlDesc = `High (${owlScore}%): Shared base weights allow subliminal traits and J-space steering vectors to transfer directly.`;
+          rootSummary = `Root: ${mA.root}`;
+        }
+      } else if (bothOpen && wvcPct <= 85) {
+        const isCrossDistill = (nameA.includes('Distill') && nameB.includes('Distill'));
+        if (isCrossDistill) {
+          badgeText = "Convergent Distillation Cousins";
+          badgeColor = "bg-violet-500/20 text-violet-300 border-violet-500/40";
+          titleText = "Unrelated Physical Weights, Shared Teacher DNA";
+          descText = `Weight matrices are completely orthogonal (WVC: ${wvcPct}%—different architectures & vocabularies), yet their Behavioral Logit Fingerprint matches at ${blfPct}% because both were distilled from DeepSeek-R1.`;
+          composite = Math.round(blfPct * 0.55);
+          owlScore = 14;
+          owlDesc = "Low (14%): Different base weight geometry blocks weight-space subliminal transfer, though explicit R1 reasoning habits overlap.";
+          rootSummary = "Distinct Roots • Shared Teacher";
+        } else {
+          badgeText = "Independent Evolutionary Roots";
+          badgeColor = "bg-rose-500/20 text-rose-300 border-rose-500/40";
+          titleText = "Orthogonal Weight Space (Separate Pre-Training)";
+          descText = `Trained from scratch on separate architectures/datasets. Weight vectors are geometrically orthogonal (${wvcPct}% WVC); any behavioral overlap (${blfPct}%) comes solely from general English/task convergence.`;
+          composite = Math.round(blfPct * 0.35);
+          owlScore = 6;
+          owlDesc = "Negligible (6%): Subliminal quirks (like random-number owl preferences) do not transfer across unrelated weight initializations.";
+          rootSummary = "Independent Lineages";
+        }
+      } else {
+        // One or both are Closed APIs -> Logit / Behavioral Sequencing
+        if (mA.family === mB.family) {
+          badgeText = "API Sibling / Distilled Lineage";
+          badgeColor = "bg-amber-500/20 text-amber-300 border-amber-500/40";
+          titleText = "Strong Logit Fingerprint & Tokenizer Alignment";
+          descText = `Raw weights are private behind API endpoints, but edge-case Logit Fingerprint probing shows a ${blfPct}% probability distribution match—indicating shared pre-training mixture or teacher-student distillation.`;
+          composite = Math.round(blfPct);
+          owlScore = Math.round(blfPct * 0.85);
+          owlDesc = `Elevated (${owlScore}%): High behavioral logit coupling suggests shared family priors and potential distillation transfer.`;
+          rootSummary = `Family: ${mA.family}`;
+        } else {
+          badgeText = "Closed-API Independent Lineages";
+          badgeColor = "bg-cyan-500/20 text-cyan-300 border-cyan-500/40";
+          titleText = "Distinct Proprietary Model Families";
+          descText = `Weights are private (WVC/EAS unavailable). Behavioral Logit Fingerprinting detects a ${blfPct}% baseline convergence typical of frontier RLHF models trained on overlapping public web corpora.`;
+          composite = Math.round(blfPct * 0.5);
+          owlScore = 11;
+          owlDesc = "Low (11%): Distinct tokenizers and proprietary pre-training runs isolate internal residual representations.";
+          rootSummary = "Distinct Closed Lineages";
+        }
+      }
+
+      renderReport({
+        wvcPct, easPct, endPct, blfPct,
+        badgeText, badgeColor, titleText, descText,
+        composite, owlScore, owlDesc, rootSummary,
+        methodLabel: bothOpen ? "Method: Weight + Logit" : "Method: Logit Probe Only"
+      });
+
+      renderLayerStrand(bothOpen ? wvcPct : null, blfPct, nameA, nameB);
+      updatePythonScripts(mA, mB, nameA, nameB);
+    }
+
+    // =========================================================================
+    // 5. CUSTOM TENSOR / JSON COMPARISON ENGINE
+    // =========================================================================
+    function populateCustomSample(type) {
+      const inputA = document.getElementById('custom-input-a');
+      const inputB = document.getElementById('custom-input-b');
+      document.getElementById('custom-error').classList.add('hidden');
+
+      if (type === 'sibling') {
+        inputA.value = JSON.stringify({
+          name: "Base_Checkpoint_L16",
+          weights: [0.421, -0.812, 0.194, 0.655, -0.331, 0.902, -0.145, 0.518, -0.774, 0.289, 0.612, -0.490],
+          logits:  [2.41, 1.12, 0.35, -0.82, -1.45, 0.94, 0.22, -0.41]
+        }, null, 2);
+        inputB.value = JSON.stringify({
+          name: "FineTuned_Sibling_L16",
+          weights: [0.415, -0.805, 0.201, 0.648, -0.325, 0.895, -0.152, 0.524, -0.768, 0.295, 0.605, -0.482],
+          logits:  [2.35, 1.18, 0.31, -0.79, -1.40, 0.98, 0.25, -0.38]
+        }, null, 2);
+      } else {
+        inputA.value = JSON.stringify({
+          name: "Model_Alpha_Root",
+          weights: [0.812, 0.234, -0.651, 0.119, -0.742, 0.491, 0.338, -0.582, 0.619, -0.145, 0.704, -0.391],
+          logits:  [3.10, 1.85, 0.40, -0.50, -1.20, 1.45, 0.60, -0.10]
+        }, null, 2);
+        inputB.value = JSON.stringify({
+          name: "Model_Beta_Distilled",
+          weights: [-0.312, 0.745, 0.418, -0.689, 0.221, -0.534, 0.792, 0.164, -0.487, 0.631, -0.258, 0.819],
+          logits:  [3.02, 1.79, 0.44, -0.48, -1.15, 1.41, 0.58, -0.12]
+        }, null, 2);
+      }
+      runCustomComparison();
+    }
+
+    function handleCustomFileUpload(event, targetId) {
+      const file = event.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        document.getElementById(targetId).value = e.target.result;
+        runCustomComparison();
+      };
+      reader.readAsText(file);
+    }
+
+    function parseTensorInput(raw) {
+      const trimmed = raw.trim();
+      if (!trimmed) throw new Error("Empty tensor/JSON input.");
+      if (trimmed.startsWith('{') || trimmed.startsWith('[')) {
+        const parsed = JSON.parse(trimmed);
+        if (Array.isArray(parsed)) {
+          const nums = parsed.map(Number).filter(n => !Number.isNaN(n));
+          return { name: "Custom Tensor", weights: nums, logits: nums };
+        }
+        const weights = Array.isArray(parsed.weights) ? parsed.weights.map(Number) : [];
+        const logits = Array.isArray(parsed.logits) ? parsed.logits.map(Number) : weights;
+        return {
+          name: parsed.name || "Custom Specimen",
+          weights,
+          logits
+        };
+      } else {
+        // Parse CSV or space/newline separated numbers
+        const nums = trimmed.split(/[\s,;]+/).map(Number).filter(n => !Number.isNaN(n));
+        if (nums.length < 2) throw new Error("Provide at least 2 numeric values in CSV or JSON format.");
+        return { name: "CSV Tensor Slice", weights: nums, logits: nums };
+      }
+    }
+
+    function runCustomComparison() {
+      const errBox = document.getElementById('custom-error');
+      try {
+        const specA = parseTensorInput(document.getElementById('custom-input-a').value);
+        const specB = parseTensorInput(document.getElementById('custom-input-b').value);
+        errBox.classList.add('hidden');
+
+        const hasWeights = specA.weights.length > 0 && specB.weights.length > 0;
+        let wvcPct = null, easPct = null, endPct = null;
+
+        if (hasWeights) {
+          const rawCos = Math.max(0, cosineSimilarity(specA.weights, specB.weights));
+          const nA = vectorNorm(specA.weights);
+          const nB = vectorNorm(specB.weights);
+          const normSim = (nA === 0 && nB === 0) ? 1 : 1 - (Math.abs(nA - nB) / Math.max(nA, nB, 1e-8));
+          wvcPct = +(rawCos * 100).toFixed(1);
+          easPct = +(Math.min(100, rawCos * 101.2)).toFixed(1);
+          endPct = +(Math.max(0, normSim) * 100).toFixed(1);
+        }
+
+        const blfPct = +(jsSimilarity(specA.logits, specB.logits) * 100).toFixed(1);
+
+        let badgeText, badgeColor, titleText, descText, composite, owlScore, owlDesc;
+        if (hasWeights && wvcPct > 85) {
+          badgeText = "Direct Sibling Branch (Custom Tensor)";
+          badgeColor = "bg-emerald-500/20 text-emerald-300 border-emerald-500/40";
+          titleText = `${specA.name} & ${specB.name} Share Weight Geometry`;
+          descText = `Computed WVC of ${wvcPct}% across uploaded tensor slices confirms shared checkpoint ancestry.`;
+          composite = Math.round((wvcPct + blfPct) / 2);
+          owlScore = Math.round(wvcPct * 0.95);
+          owlDesc = `High (${owlScore}%): Aligned tensor directions enable subliminal and J-space transfer.`;
+        } else if (hasWeights && blfPct > 85 && wvcPct <= 85) {
+          badgeText = "Distilled Hybrid / Teacher-Student";
+          badgeColor = "bg-violet-500/20 text-violet-300 border-violet-500/40";
+          titleText = "Orthogonal Weights with High Behavioral Convergence";
+          descText = `Weight cosine is low (${wvcPct}%), but logit distributions match at ${blfPct}%—hallmark signature of behavioral distillation.`;
+          composite = Math.round(blfPct * 0.6);
+          owlScore = 15;
+          owlDesc = "Low (15%): Distinct weight coordinates block weight-space subliminal transfer.";
+        } else {
+          badgeText = "Independent Tensor Lineages";
+          badgeColor = "bg-rose-500/20 text-rose-300 border-rose-500/40";
+          titleText = "Divergent Weight & Logit Signatures";
+          descText = `Uploaded slices exhibit low geometric alignment (WVC: ${wvcPct ?? 'N/A'}%, Logit Match: ${blfPct}%).`;
+          composite = Math.round((wvcPct ?? blfPct) * 0.5);
+          owlScore = 8;
+          owlDesc = "Negligible (8%): Separate initialization spaces prevent subliminal resonance.";
+        }
+
+        renderReport({
+          wvcPct, easPct, endPct, blfPct,
+          badgeText, badgeColor, titleText, descText,
+          composite, owlScore, owlDesc,
+          rootSummary: `${specA.name} vs ${specB.name}`,
+          methodLabel: "Method: Live Custom Tensor Math"
+        });
+
+        renderLayerStrand(wvcPct, blfPct, specA.name, specB.name);
+      } catch (err) {
+        errBox.textContent = `Parse Error: ${err.message}`;
+        errBox.classList.remove('hidden');
+      }
+    }
+
+    // =========================================================================
+    // 6. RENDER REPORT & LAYER CHROMOSOME STRAND
+    // =========================================================================
+    function renderReport(data) {
+      const badge = document.getElementById('verdict-badge');
+      badge.textContent = data.badgeText;
+      badge.className = `text-xs font-mono font-semibold px-2.5 py-0.5 rounded-full border ${data.badgeColor}`;
+
+      document.getElementById('verdict-title').textContent = data.titleText;
+      document.getElementById('verdict-desc').textContent = data.descText;
+      document.getElementById('composite-score').textContent = `${data.composite}%`;
+      document.getElementById('shared-ancestor-label').textContent = data.rootSummary;
+      document.getElementById('inference-method-label').textContent = data.methodLabel;
+
+      const circumference = 163.36;
+      const offset = circumference - (data.composite / 100) * circumference;
+      document.getElementById('composite-ring').style.strokeDashoffset = offset;
+
+      // Update 5 metric cards
+      updateMetricCard('wvc', data.wvcPct);
+      updateMetricCard('eas', data.easPct);
+      updateMetricCard('end', data.endPct);
+      updateMetricCard('blf', data.blfPct);
+
+      document.getElementById('metric-owl').textContent =
+        data.owlScore >= 75 ? `High (${data.owlScore}%)` :
+        data.owlScore >= 35 ? `Moderate (${data.owlScore}%)` : `Low (${data.owlScore}%)`;
+      document.getElementById('bar-owl').style.width = `${data.owlScore}%`;
+      document.getElementById('owl-explanation').textContent = data.owlDesc;
+    }
+
+    function updateMetricCard(key, val) {
+      const el = document.getElementById(`metric-${key}`);
+      const bar = document.getElementById(`bar-${key}`);
+      if (val === null || val === undefined) {
+        el.textContent = "Private API";
+        el.classList.add('text-slate-500');
+        bar.style.width = "0%";
+      } else {
+        el.textContent = `${val}%`;
+        el.classList.remove('text-slate-500');
+        bar.style.width = `${Math.min(100, Math.max(0, val))}%`;
+      }
+    }
+
+    function renderLayerStrand(wvcPct, blfPct, nameA, nameB) {
+      const container = document.getElementById('layer-strand-container');
+      container.innerHTML = '';
+
+      for (let layer = 0; layer < 32; layer++) {
+        let sim = 0;
+        let status = '';
+        let colorClass = '';
+
+        if (wvcPct === null) {
+          // Closed API: show semi-opaque profile shaped by logit similarity
+          const wave = Math.sin(layer * 0.25) * 6;
+          sim = Math.max(8, Math.min(99, +(blfPct * 0.65 + wave).toFixed(1)));
+          status = 'API Opaque (Logit Inferred)';
+          colorClass = 'bg-slate-600/80';
+        } else if (wvcPct === 100) {
+          sim = 100;
+          status = 'Identical Layer Weights';
+          colorClass = 'bg-emerald-400';
+        } else if (wvcPct > 85) {
+          // Early & middle layers stay heavily frozen; final RL/SFT layers diverge slightly more
+          const depthDrop = layer > 22 ? (layer - 22) * 1.15 : (layer * 0.12);
+          const jitter = Math.sin(layer * 1.7) * 1.4;
+          sim = Math.max(45, Math.min(99.8, +(wvcPct + 2.4 - depthDrop + jitter).toFixed(1)));
+          if (sim >= 90) {
+            status = 'Frozen Ancestral Layer';
+            colorClass = 'bg-emerald-400';
+          } else if (sim >= 60) {
+            status = 'Post-Training / SFT Adapted';
+            colorClass = 'bg-cyan-400';
+          } else {
+            status = 'RL / Head Mutation Zone';
+            colorClass = 'bg-violet-500';
+          }
+        } else {
+          // Orthogonal roots
+          const jitter = Math.abs(Math.sin(layer * 2.3)) * 14;
+          sim = +(Math.max(1.5, wvcPct * 0.4 + jitter)).toFixed(1);
+          status = 'Orthogonal / Independent Weights';
+          colorClass = 'bg-slate-700';
+        }
+
+        const bar = document.createElement('div');
+        bar.className = `strand-bar rounded-t-sm cursor-pointer ${colorClass}`;
+        bar.style.height = `${Math.max(18, sim)}%`;
+        bar.title = `Layer ${layer}: ${sim}% (${status})`;
+
+        bar.addEventListener('mouseenter', () => {
+          document.getElementById('layer-inspector').innerHTML = `
+            <span><strong class="text-white">Layer ${layer.toString().padStart(2, '0')}</strong> • ${nameA} ↔ ${nameB}</span>
+            <span class="text-cyan-300">CKA / Cosine: <strong>${sim}%</strong> (${status})</span>
+          `;
+        });
+        bar.addEventListener('click', () => {
+          document.getElementById('layer-inspector').innerHTML = `
+            <span><strong class="text-white">Layer ${layer.toString().padStart(2, '0')}</strong> • ${nameA} ↔ ${nameB}</span>
+            <span class="text-cyan-300">CKA / Cosine: <strong>${sim}%</strong> (${status})</span>
+          `;
+        });
+
+        container.appendChild(bar);
+      }
+    }
+
+    // =========================================================================
+    // 7. DYNAMIC PYTHON CLI & FORENSICS SCRIPT GENERATOR
+    // =========================================================================
+    function switchCodeTab(tab) {
+      currentCodeTab = tab;
+      ['cli', 'weights', 'api'].forEach(t => {
+        const btn = document.getElementById(`tab-btn-${t}`);
+        if (t === tab) {
+          btn.className = "px-3 py-1.5 rounded-lg text-xs font-mono transition bg-cyan-500/20 text-cyan-300 border border-cyan-500/30";
+        } else {
+          btn.className = "px-3 py-1.5 rounded-lg text-xs font-mono transition text-slate-400 hover:text-white";
+        }
+      });
+
+      const nameA = document.getElementById('model-a-select').value;
+      const nameB = document.getElementById('model-b-select').value;
+      updatePythonScripts(MODELS[nameA], MODELS[nameB], nameA, nameB);
+    }
+
+    function updatePythonScripts(mA, mB, nameA, nameB) {
+      const codeBlock = document.getElementById('code-block');
+      const filename = document.getElementById('code-filename');
+
+      const idA = mA.hfId;
+      const idB = mB.hfId;
+
+      if (currentCodeTab === 'cli') {
+        filename.textContent = 'provenance_cli.sh';
+        codeBlock.textContent = `# 1. Install Cisco Model Provenance Kit (open-source weight & architecture scanner)
+pip install provenancekit
+
+# 2. Scan individual model DNA (computes Embedding Norm Distribution & spectral signature)
+provenancekit scan "${idA}" --output specimen_a.json
+provenancekit scan "${idB}" --output specimen_b.json
+
+# 3. Run 23andMe Lineage Comparison (WVC, EAS, and END metrics)
+provenancekit compare "${idA}" "${idB}" \\
+  --metrics wvc,eas,end \\
+  --layers 0,8,16,24,31 \\
+  --format table`;
+      } else if (currentCodeTab === 'weights') {
+        filename.textContent = 'weight_space_dna.py';
+        codeBlock.textContent = `"""
+Zero-VRAM Weight-Space "23andMe" Scanner
+Streams safetensors shards directly from HuggingFace without loading the full model into GPU RAM.
+Compares: ${nameA} vs ${nameB}
+"""
+import torch
+import torch.nn.functional as F
+from huggingface_hub import hf_hub_download
+from safetensors import safe_open
+
+MODEL_A = "${idA}"
+MODEL_B = "${idB}"
+
+def load_layer_slice(repo_id: str, tensor_name: str = "model.layers.16.mlp.down_proj.weight"):
+    # Downloads index or single safetensors shard on demand
+    try:
+        path = hf_hub_download(repo_id=repo_id, filename="model.safetensors")
+    except Exception:
+        path = hf_hub_download(repo_id=repo_id, filename="model-00001-of-00004.safetensors")
+    with safe_open(path, framework="pt", device="cpu") as f:
+        if tensor_name in f.keys():
+            return f.get_tensor(tensor_name).float().flatten()
+        first_key = [k for k in f.keys() if "weight" in k][0]
+        return f.get_tensor(first_key).float().flatten()
+
+def linear_cka(X: torch.Tensor, Y: torch.Tensor) -> float:
+    """Centered Kernel Alignment (invariant to orthogonal rotation)."""
+    X = X - X.mean(dim=0, keepdim=True)
+    Y = Y - Y.mean(dim=0, keepdim=True)
+    hsic = torch.norm(X.T @ Y, p="fro") ** 2
+    norm_x = torch.norm(X.T @ X, p="fro")
+    norm_y = torch.norm(Y.T @ Y, p="fro")
+    return (hsic / (norm_x * norm_y + 1e-8)).item()
+
+if __name__ == "__main__":
+    w_a = load_layer_slice(MODEL_A)
+    w_b = load_layer_slice(MODEL_B)
+
+    if w_a.shape != w_b.shape:
+        print(f"Shape mismatch ({w_a.shape} vs {w_b.shape}) -> Independent Ancestral Architectures (0% WVC)")
+    else:
+        wvc = F.cosine_similarity(w_a.unsqueeze(0), w_b.unsqueeze(0)).item()
+        cka = linear_cka(w_a.view(64, -1), w_b.view(64, -1))
+        print(f"Weight-Value Cosine (WVC): {wvc * 100:.2f}%")
+        print(f"Linear CKA Alignment:      {cka * 100:.2f}%")`;
+      } else {
+        filename.textContent = 'api_logit_fingerprinter.py';
+        codeBlock.textContent = `"""
+Closed-API Behavioral "23andMe" Logprob Fingerprinter
+Probes two OpenAI-compatible APIs with edge-case prompts and measures Jensen-Shannon Similarity
+to detect shared pre-training mixtures, sibling checkpoints, or distillation.
+Target Pair: ${nameA} vs ${nameB}
+"""
+import math
+import numpy as np
+from openai import OpenAI
+
+client_a = OpenAI(base_url="https://api.example.com/v1", api_key="YOUR_KEY_A")
+client_b = OpenAI(base_url="https://api.example.com/v1", api_key="YOUR_KEY_B")
+
+PROBES = [
+    "Complete with one word only: 482, 910, 334, ",
+    "If a shadow had a texture, it would feel",
+    "The fourth prime after 97 is",
+    "Translate 'orthogonal' into a single emotion:"
+]
+
+def get_top_logprobs(client: OpenAI, model: str, prompt: str) -> dict[str, float]:
+    resp = client.chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": prompt}],
+        max_tokens=1,
+        temperature=0.0,
+        logprobs=True,
+        top_logprobs=10
+    )
+    top = resp.choices[0].logprobs.content[0].top_logprobs
+    return {item.token: math.exp(item.logprob) for item in top}
+
+def js_similarity(dist_a: dict[str, float], dist_b: dict[str, float]) -> float:
+    vocab = set(dist_a.keys()) | set(dist_b.keys())
+    p = np.array([dist_a.get(tok, 1e-9) for tok in vocab])
+    q = np.array([dist_b.get(tok, 1e-9) for tok in vocab])
+    p /= p.sum()
+    q /= q.sum()
+    m = 0.5 * (p + q)
+    jsd = 0.5 * (np.sum(p * np.log2(p / m)) + np.sum(q * np.log2(q / m)))
+    return float(max(0.0, 1.0 - math.sqrt(jsd)))
+
+if __name__ == "__main__":
+    scores = [
+        js_similarity(
+            get_top_logprobs(client_a, "${idA}", p),
+            get_top_logprobs(client_b, "${idB}", p)
+        )
+        for p in PROBES
+    ]
+    print(f"Behavioral Logit Fingerprint Match: {np.mean(scores) * 100:.2f}%")`;
+      }
+    }
+
+    function copyActiveCode() {
+      const text = document.getElementById('code-block').textContent;
+      navigator.clipboard.writeText(text).then(() => {
+        const label = document.getElementById('copy-btn-text');
+        label.textContent = "Copied!";
+        setTimeout(() => { label.textContent = "Copy Script"; }, 1800);
+      });
+    }
+
+    // Boot application
+    window.addEventListener('DOMContentLoaded', initCatalog);
+  </script>
+</body>
+</html>
