@@ -8,7 +8,7 @@ Gates (slides A4/A5):
   * split-half cosine >= 0.8 (two directions from disjoint halves of the train phrases)
 Also reported:
   * cosines between the three directions (they will overlap: all three negatives are unpleasant)
-  * random-direction control: AUC of 50 random unit vectors (should be ~0.5; the takehome's specificity rule)
+  * random-direction control: AUC of 50 random unit vectors (should be ~0.5; the specificity rule)
   * length confound: correlation of projection with token count, within each side
   * noise test: does activation noise alone move text along the directions? Projections of held-out pairs and
     neutral reading passages at sigma 0 / 0.05 / 0.1 (middle band) and 0.1 (early band), in units of the clean

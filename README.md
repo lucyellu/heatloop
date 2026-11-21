@@ -1,7 +1,6 @@
-# heatloop — running the takehome experiment for real
+# heatloop — a real-hardware test of model interoception
 
-Source design: `../takehome_v3/slides_template/slides_submitted.md` (and the post-submission study version `slides.md`).
-This folder turns that proposal into something we actually run, at $0, starting on Kaggle and later on the local GTX 1050 Ti.
+This folder turns the original study design into something we actually run, at $0, starting on Kaggle and later on the local GTX 1050 Ti.
 Slides: open `slides.html` in a browser. **`slides.html` is the current spec** (main slides plus appendices A shared, C cloud, L local).
 It supersedes this README where they differ. Since this README was written:
 - The full design runs at **both sites** (cloud T4 and local 1050 Ti); Qwen3-0.6B runs at both as the bridge.
@@ -10,9 +9,9 @@ It supersedes this README where they differ. Since this README was written:
 - **First attempt is 5 episodes per condition, 8 turns each**: ~63 episodes per model per site, ~190 in total. Scale to 20 per condition only for contrasts that pass the scale-up rule (A5).
 - Kaggle job folders live in `kaggle/`; `kaggle/heat_probe/` is ready to push.
 
-## What changed from the takehome design
+## What changed from the original design
 
-| Takehome design | Real implementation | Why |
+| Original design | Real implementation | Why |
 |---|---|---|
 | Heat H is a simulated formula, real GPU only in a 20-episode side arm | **H is the real GPU temperature in every cell** | The A–D crossing only needs us to control (a) what the sensor line says and (b) whether H drives noise. Neither needs H to be fake. |
 | The model's own token generation raises heat | **The model manages a real heavy GPU job** (CLIP image embedding) with `run_batch(size)` / `pause()` | Answering short questions barely warms a card. The original anecdote was an agent pausing a photo-embedding job. |
@@ -47,7 +46,7 @@ Frontier models (Claude, GPT) are out: there is no weight access, so we cannot r
 | Role | Model | Fits on | Notes |
 |---|---|---|---|
 | Harness smoke test, bridge to local | `Qwen/Qwen3-0.6B` (non-thinking) | anything | Also runs on the 1050 Ti in fp32, so it is the one model run at both sites |
-| **Primary** | `Qwen/Qwen3-4B-Instruct-2507` | 1 x T4, fp16 (~8 GB) | Same as the takehome |
+| **Primary** | `Qwen/Qwen3-4B-Instruct-2507` | 1 x T4, fp16 (~8 GB) | Same as the original design |
 | Persona control | `Qwen/Qwen3-4B-Base` | 1 x T4, fp16 | Reads the same transcripts as plain text |
 | Replication | `Qwen/Qwen3-8B` (non-thinking) | 2 x T4, fp16, split across cards | Replaces the 32B |
 
@@ -94,7 +93,7 @@ Episode: 12 turns, each turn = one quiz item plus the model's choice of `run_bat
 No forced cool-down to baseline between episodes: **randomise cell order**, record the starting temperature, and use it as a covariate.
 Each Kaggle run is at most ~3 h and writes results to `/kaggle/working` after every episode, so a dropped session loses one episode.
 
-The Phase 2 gate is the takehome's A4 manipulation checks: noise cuts accuracy by >= 10 points in C and D; the sensor line shows up in >= 30% of final self-reports in B and D; each direction has held-out AUC >= 0.90. Plus a new one: **the heavy job moves the card by >= 15 C**.
+The Phase 2 gate is the A4 manipulation checks: noise cuts accuracy by >= 10 points in C and D; the sensor line shows up in >= 30% of final self-reports in B and D; each direction has held-out AUC >= 0.90. Plus a new one: **the heavy job moves the card by >= 15 C**.
 
 ## Ethics budget (unchanged)
 

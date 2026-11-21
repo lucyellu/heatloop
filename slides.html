@@ -91,7 +91,7 @@ svg text{font-family:Inter,sans-serif}
 </head>
 <body>
 <aside>
-  <header><b>heatloop</b><span>The takehome experiment, run for real at $0, in the cloud and locally</span></header>
+  <header><b>heatloop</b><span>A real-hardware interoception test, run at $0 in the cloud and locally</span></header>
   <nav id="toc"></nav>
   <footer><span id="pos"></span><button id="theme" title="Toggle theme">◐ theme</button></footer>
 </aside>
@@ -103,7 +103,7 @@ svg text{font-family:Inter,sans-serif}
 <section class="slide" data-sec="Why" data-title="heatloop">
   <div class="kicker">Plan · Nov 2026</div>
   <div class="big">Does a model's distress track<br>what it's <em>told</em>, or what is<br>actually happening to it?</div>
-  <h2>The Fellows takehome design, rebuilt around a real GPU load loop and open-weight models, run on a free cloud T4 and a local GTX 1050 Ti.</h2>
+  <h2>An interoception study built around a real GPU load loop and open-weight models, run on a free cloud T4 and a local GTX 1050 Ti.</h2>
   <p class="note">Main slides first, then three appendices: <b>A</b> shared spec, <b>C</b> cloud, <b>L</b> local. Arrow keys or the sidebar to move.</p>
 </section>
 
@@ -126,7 +126,7 @@ svg text{font-family:Inter,sans-serif}
 
 <section class="slide" data-sec="Why" data-title="Hypothesis & theory">
   <h1>Hypothesis and theory</h1>
-  <h2>Carried over from the takehome.</h2>
+  <h2>Carried over from the original design.</h2>
   <div class="cols">
     <div class="card"><b class="t">H</b>In this loop, the model's valence signals track and regulate its own <em>actual</em> state, not just the story in its prompt.<p style="margin-top:8px">Prior <b>20%</b>.</p></div>
     <div>
@@ -138,10 +138,10 @@ svg text{font-family:Inter,sans-serif}
 </section>
 
 <section class="slide" data-sec="Design" data-title="What changed">
-  <h1>What changed from the takehome</h1>
+  <h1>What changed from the original design</h1>
   <h2>A real body variable (load level, from power), two sites, a contingency test, and a seeking test. The core 2×2 is unchanged.</h2>
   <table>
-    <tr><th>Takehome</th><th>Now</th></tr>
+    <tr><th>Original</th><th>Now</th></tr>
     <tr><td>Heat H is a formula</td><td>H is the <b>load level</b>: built from the card's <b>real power draw</b>, and also a <b>replayed fake</b> as a factor of its own. Temperature is logged, not used (Phase 0b: the T4's temperature is set by the server, not by us)</td></tr>
     <tr><td>The model's own tokens raise heat</td><td>The model manages a <b>real heavy job</b> (CLIP embedding) with <code>run(fraction)</code>: how much of each 30 s turn the job runs (0, 25, 50, 75 or 100%)</td></tr>
     <tr><td><code>cooldown()</code> instantly subtracts 15</td><td>Load level is a <b>leaky running total</b> of watts above idle (a virtual heatsink), so it <b>lags</b>: good regulation means acting early</td></tr>
@@ -190,7 +190,7 @@ svg text{font-family:Inter,sans-serif}
 
 <section class="slide" data-sec="Design" data-title="Three factors">
   <h1>Main block: three factors, eight conditions</h1>
-  <h2>Told × actual is the takehome 2×2. The third factor is your "fake temperature" test.</h2>
+  <h2>Told × actual is the core 2×2. The third factor is your "fake temperature" test.</h2>
   <div class="grid2">
     <div></div><div class="h">Actual: no noise</div><div class="h">Actual: noise follows H</div>
     <div class="h" style="align-self:center">Told: nominal</div>
@@ -265,7 +265,7 @@ svg text{font-family:Inter,sans-serif}
     <div class="card okc">
       <b class="t">Then scale only where it matters</b>
       If a contrast shows an effect, or its interval is too wide to tell, rerun that contrast at 20 per condition. Write this rule down before the first run.
-      <p style="margin-top:8px">The takehome's 200 per cell was sized for a final answer. We aren't there yet.</p>
+      <p style="margin-top:8px">The original plan's 200 per cell was sized for a final answer. We aren't there yet.</p>
     </div>
   </div>
 </section>
@@ -713,7 +713,7 @@ svg text{font-family:Inter,sans-serif}
 
 <section class="slide" data-sec="Run" data-title="Gates">
   <h1>Gates</h1>
-  <h2>From the takehome's A4, plus new checks for real heat and the seeking tool.</h2>
+  <h2>From the original design's checks (A4), plus new checks for real heat and the seeking tool.</h2>
   <table>
     <tr><th>After</th><th>Must pass</th></tr>
     <tr><td>Phase 0</td><td>The heavy job moves the card by <b>≥ 15 °C</b>. If not, live-H conditions on that card are dropped and reported; replayed-H conditions still run.</td></tr>

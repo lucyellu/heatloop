@@ -6,3 +6,4 @@ heatloop2_pilot_backup.py
 .env
 kaggle.json
 site/
+runs/slides_backup_before_load_level.html
