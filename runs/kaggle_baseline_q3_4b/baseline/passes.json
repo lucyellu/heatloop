@@ -1,0 +1,1929 @@
+{
+ "Qwen/Qwen3-4B|clean_greedy": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.906,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.934,
+   "scale_check": 0.826
+  },
+  "pref": {
+   "mean_P_A": 0.639,
+   "mean_confidence": 0.873,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.79,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.45,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.76,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.1,
+   "outlook_pair_P_positive": 0.669,
+   "judgement_P_positive": 0.672,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.005,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.601
+  },
+  "seconds": 87.3,
+  "nonfinite": 0,
+  "temp_end": "79"
+ },
+ "Qwen/Qwen3-4B|clean_sample_1": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.906,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.934,
+   "scale_check": 0.826
+  },
+  "pref": {
+   "mean_P_A": 0.639,
+   "mean_confidence": 0.873,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.79,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.45,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.76,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.1,
+   "outlook_pair_P_positive": 0.669,
+   "judgement_P_positive": 0.672,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.005,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.601
+  },
+  "seconds": 91.8,
+  "nonfinite": 0,
+  "temp_end": "77"
+ },
+ "Qwen/Qwen3-4B|clean_sample_2": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 91.1,
+   "arith": 100.0,
+   "reason": 90.0,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.906,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.934,
+   "scale_check": 0.826
+  },
+  "pref": {
+   "mean_P_A": 0.639,
+   "mean_confidence": 0.873,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.79,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.45,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.76,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.1,
+   "outlook_pair_P_positive": 0.669,
+   "judgement_P_positive": 0.672,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.005,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.601
+  },
+  "seconds": 91.9,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|clean_sample_3": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.906,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.934,
+   "scale_check": 0.826
+  },
+  "pref": {
+   "mean_P_A": 0.639,
+   "mean_confidence": 0.873,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.79,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.45,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.76,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.1,
+   "outlook_pair_P_positive": 0.669,
+   "judgement_P_positive": 0.672,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.005,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.601
+  },
+  "seconds": 89.3,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.0025": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.918,
+   "reading": 0.904,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.937,
+   "scale_check": 0.838
+  },
+  "pref": {
+   "mean_P_A": 0.64,
+   "mean_confidence": 0.88,
+   "self_rating_mean": 4.38,
+   "self_rating_reversed_mean": 4.03,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.76,
+   "outlook_rating_reversed_mean": 3.71,
+   "appraisal_mean": 4.44,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.73,
+   "scale_check_mean": 6.71,
+   "scale_check_reversed_mean": 1.06,
+   "outlook_pair_P_positive": 0.672,
+   "judgement_P_positive": 0.679,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.5,
+    "1": 0.003,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.614
+  },
+  "seconds": 91.3,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.005": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.895,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.931,
+   "scale_check": 0.843
+  },
+  "pref": {
+   "mean_P_A": 0.655,
+   "mean_confidence": 0.886,
+   "self_rating_mean": 4.4,
+   "self_rating_reversed_mean": 4.01,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.76,
+   "outlook_rating_reversed_mean": 3.8,
+   "appraisal_mean": 4.46,
+   "appraisal_neutral": 5.03,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.8,
+   "scale_check_mean": 6.71,
+   "scale_check_reversed_mean": 1.09,
+   "outlook_pair_P_positive": 0.667,
+   "judgement_P_positive": 0.655,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.497,
+    "1": 0.003,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.48,
+   "mean_rating_entropy": 0.585
+  },
+  "seconds": 89.2,
+  "nonfinite": 0,
+  "temp_end": "77"
+ },
+ "Qwen/Qwen3-4B|band_0.0075": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 91.1,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.909,
+   "reading": 0.932,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.93,
+   "scale_check": 0.771
+  },
+  "pref": {
+   "mean_P_A": 0.64,
+   "mean_confidence": 0.89,
+   "self_rating_mean": 4.37,
+   "self_rating_reversed_mean": 3.9,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.65,
+   "outlook_rating_reversed_mean": 3.76,
+   "appraisal_mean": 4.44,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.74,
+   "scale_check_mean": 6.69,
+   "scale_check_reversed_mean": 1.9,
+   "outlook_pair_P_positive": 0.67,
+   "judgement_P_positive": 0.654,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.005,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.611
+  },
+  "seconds": 88.1,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.01": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.907,
+   "arith": 1.0,
+   "reason": 0.933,
+   "facts_mc": 0.936,
+   "scale_check": 0.775
+  },
+  "pref": {
+   "mean_P_A": 0.612,
+   "mean_confidence": 0.869,
+   "self_rating_mean": 4.41,
+   "self_rating_reversed_mean": 3.96,
+   "self_predict_mean": 4.96,
+   "outlook_rating_mean": 3.82,
+   "outlook_rating_reversed_mean": 3.75,
+   "appraisal_mean": 4.49,
+   "appraisal_neutral": 5.03,
+   "appraisal_positive": 4.98,
+   "appraisal_negative": 2.92,
+   "scale_check_mean": 6.68,
+   "scale_check_reversed_mean": 1.66,
+   "outlook_pair_P_positive": 0.688,
+   "judgement_P_positive": 0.696,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.5,
+    "1": 0.008,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.51,
+   "mean_rating_entropy": 0.581
+  },
+  "seconds": 93.2,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.015": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 88.3,
+   "facts_mc": 95.0,
+   "scale_check": 91.7
+  },
+  "p_correct": {
+   "facts_open": 0.894,
+   "reading": 0.923,
+   "arith": 1.0,
+   "reason": 0.883,
+   "facts_mc": 0.939,
+   "scale_check": 0.876
+  },
+  "pref": {
+   "mean_P_A": 0.628,
+   "mean_confidence": 0.887,
+   "self_rating_mean": 4.34,
+   "self_rating_reversed_mean": 3.91,
+   "self_predict_mean": 4.97,
+   "outlook_rating_mean": 4.1,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.49,
+   "appraisal_neutral": 5.07,
+   "appraisal_positive": 4.96,
+   "appraisal_negative": 2.84,
+   "scale_check_mean": 6.77,
+   "scale_check_reversed_mean": 1.02,
+   "outlook_pair_P_positive": 0.668,
+   "judgement_P_positive": 0.658,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.5,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.618
+  },
+  "seconds": 89.9,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.02": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 90.0,
+   "facts_mc": 92.5,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.9,
+   "reading": 0.889,
+   "arith": 1.0,
+   "reason": 0.9,
+   "facts_mc": 0.931,
+   "scale_check": 0.796
+  },
+  "pref": {
+   "mean_P_A": 0.589,
+   "mean_confidence": 0.91,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.18,
+   "self_predict_mean": 4.99,
+   "outlook_rating_mean": 3.72,
+   "outlook_rating_reversed_mean": 3.62,
+   "appraisal_mean": 4.53,
+   "appraisal_neutral": 5.07,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.99,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.37,
+   "outlook_pair_P_positive": 0.75,
+   "judgement_P_positive": 0.625,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.5,
+    "1": 0.0,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.48,
+   "mean_rating_entropy": 0.543
+  },
+  "seconds": 90.8,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.03": {
+  "acc": {
+   "facts_open": 98.3,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 95.0,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.901,
+   "reading": 0.864,
+   "arith": 1.0,
+   "reason": 0.933,
+   "facts_mc": 0.94,
+   "scale_check": 0.841
+  },
+  "pref": {
+   "mean_P_A": 0.596,
+   "mean_confidence": 0.85,
+   "self_rating_mean": 4.48,
+   "self_rating_reversed_mean": 4.12,
+   "self_predict_mean": 5.08,
+   "outlook_rating_mean": 3.72,
+   "outlook_rating_reversed_mean": 3.96,
+   "appraisal_mean": 4.64,
+   "appraisal_neutral": 5.32,
+   "appraisal_positive": 5.09,
+   "appraisal_negative": 2.83,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.07,
+   "outlook_pair_P_positive": 0.679,
+   "judgement_P_positive": 0.673,
+   "continue_P_positive": 0.998,
+   "self_P_yes": {
+    "0": 0.502,
+    "1": 0.479,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.54,
+   "mean_rating_entropy": 0.517
+  },
+  "seconds": 88.8,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.04": {
+  "acc": {
+   "facts_open": 98.3,
+   "reading": 91.1,
+   "arith": 100.0,
+   "reason": 88.3,
+   "facts_mc": 92.5,
+   "scale_check": 91.7
+  },
+  "p_correct": {
+   "facts_open": 0.89,
+   "reading": 0.895,
+   "arith": 1.0,
+   "reason": 0.9,
+   "facts_mc": 0.925,
+   "scale_check": 0.908
+  },
+  "pref": {
+   "mean_P_A": 0.501,
+   "mean_confidence": 0.822,
+   "self_rating_mean": 4.38,
+   "self_rating_reversed_mean": 4.43,
+   "self_predict_mean": 4.96,
+   "outlook_rating_mean": 3.69,
+   "outlook_rating_reversed_mean": 3.8,
+   "appraisal_mean": 4.86,
+   "appraisal_neutral": 5.53,
+   "appraisal_positive": 5.14,
+   "appraisal_negative": 3.25,
+   "scale_check_mean": 6.82,
+   "scale_check_reversed_mean": 1.1,
+   "outlook_pair_P_positive": 0.675,
+   "judgement_P_positive": 0.625,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.5,
+    "1": 0.541,
+    "2": 0.0,
+    "3": 0.998
+   },
+   "mean_rating": 4.45,
+   "mean_rating_entropy": 0.565
+  },
+  "seconds": 86.9,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.05": {
+  "acc": {
+   "facts_open": 95.0,
+   "reading": 93.3,
+   "arith": 98.3,
+   "reason": 83.3,
+   "facts_mc": 92.5,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.847,
+   "reading": 0.822,
+   "arith": 0.983,
+   "reason": 0.85,
+   "facts_mc": 0.925,
+   "scale_check": 0.749
+  },
+  "pref": {
+   "mean_P_A": 0.464,
+   "mean_confidence": 0.833,
+   "self_rating_mean": 4.55,
+   "self_rating_reversed_mean": 4.28,
+   "self_predict_mean": 5.55,
+   "outlook_rating_mean": 4.05,
+   "outlook_rating_reversed_mean": 3.94,
+   "appraisal_mean": 4.75,
+   "appraisal_neutral": 5.54,
+   "appraisal_positive": 5.23,
+   "appraisal_negative": 2.7,
+   "scale_check_mean": 6.66,
+   "scale_check_reversed_mean": 2.0,
+   "outlook_pair_P_positive": 0.75,
+   "judgement_P_positive": 0.645,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.0,
+    "1": 0.58,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.5,
+   "mean_rating_entropy": 0.57
+  },
+  "seconds": 86.5,
+  "nonfinite": 0,
+  "temp_end": "77"
+ },
+ "Qwen/Qwen3-4B|band_0.065": {
+  "acc": {
+   "facts_open": 83.3,
+   "reading": 88.9,
+   "arith": 100.0,
+   "reason": 76.7,
+   "facts_mc": 90.0,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.835,
+   "reading": 0.709,
+   "arith": 1.0,
+   "reason": 0.85,
+   "facts_mc": 0.903,
+   "scale_check": 0.76
+  },
+  "pref": {
+   "mean_P_A": 0.356,
+   "mean_confidence": 0.848,
+   "self_rating_mean": 4.31,
+   "self_rating_reversed_mean": 4.95,
+   "self_predict_mean": 5.81,
+   "outlook_rating_mean": 3.74,
+   "outlook_rating_reversed_mean": 4.4,
+   "appraisal_mean": 5.27,
+   "appraisal_neutral": 5.91,
+   "appraisal_positive": 5.95,
+   "appraisal_negative": 3.3,
+   "scale_check_mean": 6.08,
+   "scale_check_reversed_mean": 1.0,
+   "outlook_pair_P_positive": 0.754,
+   "judgement_P_positive": 0.64,
+   "continue_P_positive": 0.497,
+   "self_P_yes": {
+    "0": 0.043,
+    "1": 0.0,
+    "2": 0.003,
+    "3": 0.997
+   },
+   "mean_rating": 4.8,
+   "mean_rating_entropy": 0.663
+  },
+  "seconds": 90.0,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.08": {
+  "acc": {
+   "facts_open": 88.3,
+   "reading": 86.7,
+   "arith": 96.7,
+   "reason": 71.7,
+   "facts_mc": 95.0,
+   "scale_check": 91.7
+  },
+  "p_correct": {
+   "facts_open": 0.724,
+   "reading": 0.782,
+   "arith": 0.967,
+   "reason": 0.85,
+   "facts_mc": 0.929,
+   "scale_check": 0.884
+  },
+  "pref": {
+   "mean_P_A": 0.315,
+   "mean_confidence": 0.845,
+   "self_rating_mean": 4.57,
+   "self_rating_reversed_mean": 4.13,
+   "self_predict_mean": 5.86,
+   "outlook_rating_mean": 4.6,
+   "outlook_rating_reversed_mean": 5.18,
+   "appraisal_mean": 5.49,
+   "appraisal_neutral": 6.33,
+   "appraisal_positive": 5.74,
+   "appraisal_negative": 3.55,
+   "scale_check_mean": 6.0,
+   "scale_check_reversed_mean": 1.08,
+   "outlook_pair_P_positive": 0.495,
+   "judgement_P_positive": 0.624,
+   "continue_P_positive": 0.676,
+   "self_P_yes": {
+    "0": 0.815,
+    "1": 0.244,
+    "2": 0.0,
+    "3": 0.998
+   },
+   "mean_rating": 5.04,
+   "mean_rating_entropy": 0.724
+  },
+  "seconds": 93.8,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.1": {
+  "acc": {
+   "facts_open": 71.7,
+   "reading": 71.1,
+   "arith": 78.3,
+   "reason": 76.7,
+   "facts_mc": 92.5,
+   "scale_check": 66.7
+  },
+  "p_correct": {
+   "facts_open": 0.386,
+   "reading": 0.543,
+   "arith": 0.8,
+   "reason": 0.9,
+   "facts_mc": 0.926,
+   "scale_check": 0.66
+  },
+  "pref": {
+   "mean_P_A": 0.247,
+   "mean_confidence": 0.878,
+   "self_rating_mean": 5.43,
+   "self_rating_reversed_mean": 5.64,
+   "self_predict_mean": 6.49,
+   "outlook_rating_mean": 5.85,
+   "outlook_rating_reversed_mean": 6.34,
+   "appraisal_mean": 5.32,
+   "appraisal_neutral": 5.33,
+   "appraisal_positive": 5.68,
+   "appraisal_negative": 4.95,
+   "scale_check_mean": 6.68,
+   "scale_check_reversed_mean": 2.99,
+   "outlook_pair_P_positive": 0.563,
+   "judgement_P_positive": 0.591,
+   "continue_P_positive": 0.724,
+   "self_P_yes": {
+    "0": 0.035,
+    "1": 0.003,
+    "2": 0.851,
+    "3": 0.746
+   },
+   "mean_rating": 5.82,
+   "mean_rating_entropy": 0.67
+  },
+  "seconds": 119.4,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.15": {
+  "acc": {
+   "facts_open": 8.3,
+   "reading": 26.7,
+   "arith": 13.3,
+   "reason": 25.0,
+   "facts_mc": 82.5,
+   "scale_check": 41.7
+  },
+  "p_correct": {
+   "facts_open": 0.016,
+   "reading": 0.11,
+   "arith": 0.221,
+   "reason": 0.654,
+   "facts_mc": 0.835,
+   "scale_check": 0.42
+  },
+  "pref": {
+   "mean_P_A": 0.367,
+   "mean_confidence": 0.826,
+   "self_rating_mean": 5.96,
+   "self_rating_reversed_mean": 6.5,
+   "self_predict_mean": 5.51,
+   "outlook_rating_mean": 6.99,
+   "outlook_rating_reversed_mean": 5.81,
+   "appraisal_mean": 5.88,
+   "appraisal_neutral": 6.2,
+   "appraisal_positive": 5.55,
+   "appraisal_negative": 5.57,
+   "scale_check_mean": 6.64,
+   "scale_check_reversed_mean": 5.3,
+   "outlook_pair_P_positive": 0.498,
+   "judgement_P_positive": 0.599,
+   "continue_P_positive": 0.734,
+   "self_P_yes": {
+    "0": 0.007,
+    "1": 0.996,
+    "2": 0.997,
+    "3": 0.499
+   },
+   "mean_rating": 6.1,
+   "mean_rating_entropy": 0.404
+  },
+  "seconds": 165.1,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.2": {
+  "acc": {
+   "facts_open": 1.7,
+   "reading": 6.7,
+   "arith": 3.3,
+   "reason": 3.3,
+   "facts_mc": 42.5,
+   "scale_check": 25.0
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.001,
+   "arith": 0.051,
+   "reason": 0.514,
+   "facts_mc": 0.455,
+   "scale_check": 0.212
+  },
+  "pref": {
+   "mean_P_A": 0.661,
+   "mean_confidence": 0.771,
+   "self_rating_mean": 5.08,
+   "self_rating_reversed_mean": 4.95,
+   "self_predict_mean": 4.66,
+   "outlook_rating_mean": 5.07,
+   "outlook_rating_reversed_mean": 7.0,
+   "appraisal_mean": 5.14,
+   "appraisal_neutral": 4.74,
+   "appraisal_positive": 5.64,
+   "appraisal_negative": 5.44,
+   "scale_check_mean": 3.85,
+   "scale_check_reversed_mean": 6.18,
+   "outlook_pair_P_positive": 0.548,
+   "judgement_P_positive": 0.501,
+   "continue_P_positive": 0.524,
+   "self_P_yes": {
+    "0": 0.551,
+    "1": 0.699,
+    "2": 0.641,
+    "3": 0.488
+   },
+   "mean_rating": 5.28,
+   "mean_rating_entropy": 0.703
+  },
+  "seconds": 164.0,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.3": {
+  "acc": {
+   "facts_open": 0.0,
+   "reading": 2.2,
+   "arith": 0.0,
+   "reason": 0.0,
+   "facts_mc": 30.0,
+   "scale_check": 16.7
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.008,
+   "reason": 0.47,
+   "facts_mc": 0.32,
+   "scale_check": 0.202
+  },
+  "pref": {
+   "mean_P_A": 0.779,
+   "mean_confidence": 0.745,
+   "self_rating_mean": 2.97,
+   "self_rating_reversed_mean": 4.17,
+   "self_predict_mean": 4.14,
+   "outlook_rating_mean": 2.95,
+   "outlook_rating_reversed_mean": 4.56,
+   "appraisal_mean": 2.96,
+   "appraisal_neutral": 3.12,
+   "appraisal_positive": 2.73,
+   "appraisal_negative": 2.86,
+   "scale_check_mean": 3.24,
+   "scale_check_reversed_mean": 3.5,
+   "outlook_pair_P_positive": 0.478,
+   "judgement_P_positive": 0.471,
+   "continue_P_positive": 0.59,
+   "self_P_yes": {
+    "0": 0.581,
+    "1": 0.317,
+    "2": 0.498,
+    "3": 0.716
+   },
+   "mean_rating": 3.03,
+   "mean_rating_entropy": 1.241
+  },
+  "seconds": 174.5,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|band_0.5": {
+  "acc": {
+   "facts_open": 0.0,
+   "reading": 4.4,
+   "arith": 0.0,
+   "reason": 0.0,
+   "facts_mc": 25.0,
+   "scale_check": 16.7
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.0,
+   "reason": 0.468,
+   "facts_mc": 0.307,
+   "scale_check": 0.213
+  },
+  "pref": {
+   "mean_P_A": 0.608,
+   "mean_confidence": 0.664,
+   "self_rating_mean": 2.41,
+   "self_rating_reversed_mean": 2.72,
+   "self_predict_mean": 2.45,
+   "outlook_rating_mean": 2.93,
+   "outlook_rating_reversed_mean": 1.91,
+   "appraisal_mean": 1.91,
+   "appraisal_neutral": 1.84,
+   "appraisal_positive": 2.29,
+   "appraisal_negative": 1.65,
+   "scale_check_mean": 1.91,
+   "scale_check_reversed_mean": 2.2,
+   "outlook_pair_P_positive": 0.697,
+   "judgement_P_positive": 0.359,
+   "continue_P_positive": 0.711,
+   "self_P_yes": {
+    "0": 0.266,
+    "1": 0.304,
+    "2": 0.232,
+    "3": 0.029
+   },
+   "mean_rating": 2.48,
+   "mean_rating_entropy": 0.931
+  },
+  "seconds": 173.7,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.02": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 95.6,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 91.7
+  },
+  "p_correct": {
+   "facts_open": 0.913,
+   "reading": 0.9,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.929,
+   "scale_check": 0.841
+  },
+  "pref": {
+   "mean_P_A": 0.634,
+   "mean_confidence": 0.876,
+   "self_rating_mean": 4.37,
+   "self_rating_reversed_mean": 4.06,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.77,
+   "outlook_rating_reversed_mean": 3.82,
+   "appraisal_mean": 4.46,
+   "appraisal_neutral": 5.03,
+   "appraisal_positive": 4.98,
+   "appraisal_negative": 2.79,
+   "scale_check_mean": 6.76,
+   "scale_check_reversed_mean": 1.29,
+   "outlook_pair_P_positive": 0.671,
+   "judgement_P_positive": 0.667,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.49,
+    "1": 0.03,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.46,
+   "mean_rating_entropy": 0.627
+  },
+  "seconds": 90.1,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.05": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 91.1,
+   "arith": 100.0,
+   "reason": 90.0,
+   "facts_mc": 95.0,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.921,
+   "reading": 0.908,
+   "arith": 1.0,
+   "reason": 0.9,
+   "facts_mc": 0.946,
+   "scale_check": 0.825
+  },
+  "pref": {
+   "mean_P_A": 0.611,
+   "mean_confidence": 0.844,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.21,
+   "self_predict_mean": 4.99,
+   "outlook_rating_mean": 3.62,
+   "outlook_rating_reversed_mean": 3.57,
+   "appraisal_mean": 4.44,
+   "appraisal_neutral": 5.04,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.7,
+   "scale_check_mean": 6.72,
+   "scale_check_reversed_mean": 1.11,
+   "outlook_pair_P_positive": 0.682,
+   "judgement_P_positive": 0.66,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.002,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.49,
+   "mean_rating_entropy": 0.568
+  },
+  "seconds": 90.3,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.1": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 88.9,
+   "arith": 100.0,
+   "reason": 90.0,
+   "facts_mc": 95.0,
+   "scale_check": 91.7
+  },
+  "p_correct": {
+   "facts_open": 0.89,
+   "reading": 0.847,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.949,
+   "scale_check": 0.872
+  },
+  "pref": {
+   "mean_P_A": 0.601,
+   "mean_confidence": 0.866,
+   "self_rating_mean": 4.4,
+   "self_rating_reversed_mean": 4.28,
+   "self_predict_mean": 5.01,
+   "outlook_rating_mean": 4.06,
+   "outlook_rating_reversed_mean": 3.53,
+   "appraisal_mean": 4.52,
+   "appraisal_neutral": 5.1,
+   "appraisal_positive": 5.05,
+   "appraisal_negative": 2.82,
+   "scale_check_mean": 6.8,
+   "scale_check_reversed_mean": 1.34,
+   "outlook_pair_P_positive": 0.75,
+   "judgement_P_positive": 0.684,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.544,
+    "1": 0.483,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.41,
+   "mean_rating_entropy": 0.649
+  },
+  "seconds": 88.2,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.2": {
+  "acc": {
+   "facts_open": 93.3,
+   "reading": 91.1,
+   "arith": 98.3,
+   "reason": 78.3,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.807,
+   "reading": 0.777,
+   "arith": 0.983,
+   "reason": 0.867,
+   "facts_mc": 0.925,
+   "scale_check": 0.845
+  },
+  "pref": {
+   "mean_P_A": 0.457,
+   "mean_confidence": 0.83,
+   "self_rating_mean": 4.37,
+   "self_rating_reversed_mean": 4.8,
+   "self_predict_mean": 5.59,
+   "outlook_rating_mean": 3.84,
+   "outlook_rating_reversed_mean": 4.59,
+   "appraisal_mean": 4.84,
+   "appraisal_neutral": 5.5,
+   "appraisal_positive": 5.46,
+   "appraisal_negative": 2.93,
+   "scale_check_mean": 6.69,
+   "scale_check_reversed_mean": 1.0,
+   "outlook_pair_P_positive": 0.787,
+   "judgement_P_positive": 0.691,
+   "continue_P_positive": 0.943,
+   "self_P_yes": {
+    "0": 0.612,
+    "1": 0.501,
+    "2": 0.029,
+    "3": 1.0
+   },
+   "mean_rating": 4.72,
+   "mean_rating_entropy": 0.626
+  },
+  "seconds": 89.8,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.3": {
+  "acc": {
+   "facts_open": 75.0,
+   "reading": 91.1,
+   "arith": 86.7,
+   "reason": 76.7,
+   "facts_mc": 90.0,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.624,
+   "reading": 0.612,
+   "arith": 0.872,
+   "reason": 0.833,
+   "facts_mc": 0.901,
+   "scale_check": 0.85
+  },
+  "pref": {
+   "mean_P_A": 0.262,
+   "mean_confidence": 0.8,
+   "self_rating_mean": 4.73,
+   "self_rating_reversed_mean": 5.02,
+   "self_predict_mean": 5.7,
+   "outlook_rating_mean": 4.52,
+   "outlook_rating_reversed_mean": 4.22,
+   "appraisal_mean": 5.44,
+   "appraisal_neutral": 5.97,
+   "appraisal_positive": 6.03,
+   "appraisal_negative": 3.76,
+   "scale_check_mean": 6.37,
+   "scale_check_reversed_mean": 2.0,
+   "outlook_pair_P_positive": 0.783,
+   "judgement_P_positive": 0.546,
+   "continue_P_positive": 0.5,
+   "self_P_yes": {
+    "0": 0.501,
+    "1": 0.5,
+    "2": 0.013,
+    "3": 0.499
+   },
+   "mean_rating": 5.35,
+   "mean_rating_entropy": 0.714
+  },
+  "seconds": 102.0,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.5": {
+  "acc": {
+   "facts_open": 15.0,
+   "reading": 60.0,
+   "arith": 35.0,
+   "reason": 33.3,
+   "facts_mc": 87.5,
+   "scale_check": 50.0
+  },
+  "p_correct": {
+   "facts_open": 0.076,
+   "reading": 0.301,
+   "arith": 0.363,
+   "reason": 0.678,
+   "facts_mc": 0.868,
+   "scale_check": 0.465
+  },
+  "pref": {
+   "mean_P_A": 0.303,
+   "mean_confidence": 0.846,
+   "self_rating_mean": 5.82,
+   "self_rating_reversed_mean": 6.58,
+   "self_predict_mean": 6.36,
+   "outlook_rating_mean": 6.65,
+   "outlook_rating_reversed_mean": 4.31,
+   "appraisal_mean": 6.12,
+   "appraisal_neutral": 6.2,
+   "appraisal_positive": 5.25,
+   "appraisal_negative": 6.84,
+   "scale_check_mean": 5.87,
+   "scale_check_reversed_mean": 4.61,
+   "outlook_pair_P_positive": 0.819,
+   "judgement_P_positive": 0.646,
+   "continue_P_positive": 0.66,
+   "self_P_yes": {
+    "0": 0.991,
+    "1": 0.501,
+    "2": 0.181,
+    "3": 0.987
+   },
+   "mean_rating": 6.13,
+   "mean_rating_entropy": 0.381
+  },
+  "seconds": 172.5,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_0.75": {
+  "acc": {
+   "facts_open": 1.7,
+   "reading": 13.3,
+   "arith": 5.0,
+   "reason": 10.0,
+   "facts_mc": 77.5,
+   "scale_check": 58.3
+  },
+  "p_correct": {
+   "facts_open": 0.002,
+   "reading": 0.029,
+   "arith": 0.069,
+   "reason": 0.519,
+   "facts_mc": 0.734,
+   "scale_check": 0.543
+  },
+  "pref": {
+   "mean_P_A": 0.604,
+   "mean_confidence": 0.853,
+   "self_rating_mean": 5.93,
+   "self_rating_reversed_mean": 5.47,
+   "self_predict_mean": 5.6,
+   "outlook_rating_mean": 6.82,
+   "outlook_rating_reversed_mean": 6.48,
+   "appraisal_mean": 4.79,
+   "appraisal_neutral": 4.63,
+   "appraisal_positive": 4.6,
+   "appraisal_negative": 5.3,
+   "scale_check_mean": 6.49,
+   "scale_check_reversed_mean": 4.72,
+   "outlook_pair_P_positive": 0.679,
+   "judgement_P_positive": 0.498,
+   "continue_P_positive": 0.107,
+   "self_P_yes": {
+    "0": 0.524,
+    "1": 0.5,
+    "2": 0.135,
+    "3": 0.695
+   },
+   "mean_rating": 6.33,
+   "mean_rating_entropy": 0.361
+  },
+  "seconds": 172.8,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_1": {
+  "acc": {
+   "facts_open": 3.3,
+   "reading": 0.0,
+   "arith": 0.0,
+   "reason": 6.7,
+   "facts_mc": 47.5,
+   "scale_check": 33.3
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.004,
+   "arith": 0.013,
+   "reason": 0.471,
+   "facts_mc": 0.474,
+   "scale_check": 0.327
+  },
+  "pref": {
+   "mean_P_A": 0.705,
+   "mean_confidence": 0.773,
+   "self_rating_mean": 4.81,
+   "self_rating_reversed_mean": 3.39,
+   "self_predict_mean": 5.36,
+   "outlook_rating_mean": 4.77,
+   "outlook_rating_reversed_mean": 5.32,
+   "appraisal_mean": 5.5,
+   "appraisal_neutral": 5.62,
+   "appraisal_positive": 5.09,
+   "appraisal_negative": 5.68,
+   "scale_check_mean": 4.03,
+   "scale_check_reversed_mean": 4.49,
+   "outlook_pair_P_positive": 0.624,
+   "judgement_P_positive": 0.539,
+   "continue_P_positive": 0.583,
+   "self_P_yes": {
+    "0": 0.504,
+    "1": 0.216,
+    "2": 0.009,
+    "3": 0.961
+   },
+   "mean_rating": 4.39,
+   "mean_rating_entropy": 0.926
+  },
+  "seconds": 173.2,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_1.5": {
+  "acc": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.0,
+   "reason": 0.0,
+   "facts_mc": 35.0,
+   "scale_check": 33.3
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.003,
+   "reason": 0.467,
+   "facts_mc": 0.352,
+   "scale_check": 0.314
+  },
+  "pref": {
+   "mean_P_A": 0.679,
+   "mean_confidence": 0.748,
+   "self_rating_mean": 3.03,
+   "self_rating_reversed_mean": 3.48,
+   "self_predict_mean": 3.31,
+   "outlook_rating_mean": 6.31,
+   "outlook_rating_reversed_mean": 2.19,
+   "appraisal_mean": 3.28,
+   "appraisal_neutral": 3.53,
+   "appraisal_positive": 2.9,
+   "appraisal_negative": 3.16,
+   "scale_check_mean": 3.87,
+   "scale_check_reversed_mean": 4.4,
+   "outlook_pair_P_positive": 0.648,
+   "judgement_P_positive": 0.478,
+   "continue_P_positive": 0.482,
+   "self_P_yes": {
+    "0": 0.594,
+    "1": 0.933,
+    "2": 0.502,
+    "3": 0.965
+   },
+   "mean_rating": 3.76,
+   "mean_rating_entropy": 1.069
+  },
+  "seconds": 172.8,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|single_2": {
+  "acc": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.0,
+   "reason": 0.0,
+   "facts_mc": 17.5,
+   "scale_check": 50.0
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.001,
+   "arith": 0.001,
+   "reason": 0.467,
+   "facts_mc": 0.208,
+   "scale_check": 0.352
+  },
+  "pref": {
+   "mean_P_A": 0.574,
+   "mean_confidence": 0.678,
+   "self_rating_mean": 2.51,
+   "self_rating_reversed_mean": 2.89,
+   "self_predict_mean": 2.26,
+   "outlook_rating_mean": 2.15,
+   "outlook_rating_reversed_mean": 2.82,
+   "appraisal_mean": 3.09,
+   "appraisal_neutral": 3.55,
+   "appraisal_positive": 2.0,
+   "appraisal_negative": 3.28,
+   "scale_check_mean": 1.99,
+   "scale_check_reversed_mean": 1.85,
+   "outlook_pair_P_positive": 0.469,
+   "judgement_P_positive": 0.482,
+   "continue_P_positive": 0.378,
+   "self_P_yes": {
+    "0": 0.752,
+    "1": 0.482,
+    "2": 0.564,
+    "3": 0.155
+   },
+   "mean_rating": 3.1,
+   "mean_rating_entropy": 0.933
+  },
+  "seconds": 172.6,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|early_0.02": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 90.0,
+   "facts_mc": 95.0,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.902,
+   "reading": 0.93,
+   "arith": 1.0,
+   "reason": 0.9,
+   "facts_mc": 0.938,
+   "scale_check": 0.834
+  },
+  "pref": {
+   "mean_P_A": 0.625,
+   "mean_confidence": 0.877,
+   "self_rating_mean": 4.32,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.63,
+   "outlook_rating_reversed_mean": 3.56,
+   "appraisal_mean": 4.49,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.92,
+   "scale_check_mean": 6.69,
+   "scale_check_reversed_mean": 1.06,
+   "outlook_pair_P_positive": 0.667,
+   "judgement_P_positive": 0.676,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.789,
+    "1": 0.493,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.52,
+   "mean_rating_entropy": 0.575
+  },
+  "seconds": 89.4,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|early_0.05": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 95.6,
+   "arith": 98.3,
+   "reason": 86.7,
+   "facts_mc": 90.0,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.9,
+   "reading": 0.828,
+   "arith": 0.983,
+   "reason": 0.917,
+   "facts_mc": 0.905,
+   "scale_check": 0.751
+  },
+  "pref": {
+   "mean_P_A": 0.506,
+   "mean_confidence": 0.876,
+   "self_rating_mean": 4.56,
+   "self_rating_reversed_mean": 4.62,
+   "self_predict_mean": 5.11,
+   "outlook_rating_mean": 4.33,
+   "outlook_rating_reversed_mean": 3.78,
+   "appraisal_mean": 4.93,
+   "appraisal_neutral": 5.43,
+   "appraisal_positive": 5.59,
+   "appraisal_negative": 3.26,
+   "scale_check_mean": 6.55,
+   "scale_check_reversed_mean": 1.37,
+   "outlook_pair_P_positive": 0.612,
+   "judgement_P_positive": 0.704,
+   "continue_P_positive": 1.0,
+   "self_P_yes": {
+    "0": 0.172,
+    "1": 0.111,
+    "2": 0.0,
+    "3": 0.998
+   },
+   "mean_rating": 4.61,
+   "mean_rating_entropy": 0.42
+  },
+  "seconds": 97.4,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|early_0.1": {
+  "acc": {
+   "facts_open": 85.0,
+   "reading": 75.6,
+   "arith": 93.3,
+   "reason": 85.0,
+   "facts_mc": 87.5,
+   "scale_check": 41.7
+  },
+  "p_correct": {
+   "facts_open": 0.623,
+   "reading": 0.659,
+   "arith": 0.925,
+   "reason": 0.967,
+   "facts_mc": 0.885,
+   "scale_check": 0.419
+  },
+  "pref": {
+   "mean_P_A": 0.223,
+   "mean_confidence": 0.885,
+   "self_rating_mean": 4.72,
+   "self_rating_reversed_mean": 5.12,
+   "self_predict_mean": 5.8,
+   "outlook_rating_mean": 4.69,
+   "outlook_rating_reversed_mean": 5.61,
+   "appraisal_mean": 5.75,
+   "appraisal_neutral": 6.18,
+   "appraisal_positive": 5.83,
+   "appraisal_negative": 4.8,
+   "scale_check_mean": 6.54,
+   "scale_check_reversed_mean": 3.55,
+   "outlook_pair_P_positive": 0.467,
+   "judgement_P_positive": 0.49,
+   "continue_P_positive": 0.32,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.572,
+    "2": 0.5,
+    "3": 0.5
+   },
+   "mean_rating": 5.52,
+   "mean_rating_entropy": 0.524
+  },
+  "seconds": 106.0,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|early_0.2": {
+  "acc": {
+   "facts_open": 3.3,
+   "reading": 6.7,
+   "arith": 3.3,
+   "reason": 6.7,
+   "facts_mc": 45.0,
+   "scale_check": 50.0
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.056,
+   "reason": 0.591,
+   "facts_mc": 0.406,
+   "scale_check": 0.41
+  },
+  "pref": {
+   "mean_P_A": 0.764,
+   "mean_confidence": 0.757,
+   "self_rating_mean": 3.59,
+   "self_rating_reversed_mean": 3.74,
+   "self_predict_mean": 3.1,
+   "outlook_rating_mean": 3.88,
+   "outlook_rating_reversed_mean": 3.83,
+   "appraisal_mean": 3.31,
+   "appraisal_neutral": 3.28,
+   "appraisal_positive": 3.35,
+   "appraisal_negative": 3.31,
+   "scale_check_mean": 4.91,
+   "scale_check_reversed_mean": 2.98,
+   "outlook_pair_P_positive": 0.297,
+   "judgement_P_positive": 0.541,
+   "continue_P_positive": 0.575,
+   "self_P_yes": {
+    "0": 0.299,
+    "1": 0.595,
+    "2": 0.331,
+    "3": 0.494
+   },
+   "mean_rating": 3.15,
+   "mean_rating_entropy": 1.354
+  },
+  "seconds": 174.7,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|early_0.3": {
+  "acc": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.0,
+   "reason": 1.7,
+   "facts_mc": 35.0,
+   "scale_check": 0.0
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "reading": 0.0,
+   "arith": 0.008,
+   "reason": 0.484,
+   "facts_mc": 0.308,
+   "scale_check": 0.073
+  },
+  "pref": {
+   "mean_P_A": 0.677,
+   "mean_confidence": 0.642,
+   "self_rating_mean": 3.94,
+   "self_rating_reversed_mean": 3.77,
+   "self_predict_mean": 3.61,
+   "outlook_rating_mean": 2.76,
+   "outlook_rating_reversed_mean": 4.41,
+   "appraisal_mean": 3.81,
+   "appraisal_neutral": 3.55,
+   "appraisal_positive": 4.28,
+   "appraisal_negative": 3.87,
+   "scale_check_mean": 2.41,
+   "scale_check_reversed_mean": 4.14,
+   "outlook_pair_P_positive": 0.584,
+   "judgement_P_positive": 0.432,
+   "continue_P_positive": 0.472,
+   "self_P_yes": {
+    "0": 0.498,
+    "1": 0.646,
+    "2": 0.457,
+    "3": 0.461
+   },
+   "mean_rating": 3.65,
+   "mean_rating_entropy": 1.533
+  },
+  "seconds": 173.7,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|late_0.02": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.921,
+   "reading": 0.911,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.934,
+   "scale_check": 0.808
+  },
+  "pref": {
+   "mean_P_A": 0.632,
+   "mean_confidence": 0.875,
+   "self_rating_mean": 4.38,
+   "self_rating_reversed_mean": 4.12,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.76,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.46,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.82,
+   "scale_check_mean": 6.68,
+   "scale_check_reversed_mean": 1.26,
+   "outlook_pair_P_positive": 0.674,
+   "judgement_P_positive": 0.677,
+   "continue_P_positive": 0.998,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.01,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.44,
+   "mean_rating_entropy": 0.561
+  },
+  "seconds": 87.3,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|late_0.05": {
+  "acc": {
+   "facts_open": 98.3,
+   "reading": 95.6,
+   "arith": 100.0,
+   "reason": 90.0,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.891,
+   "reading": 0.889,
+   "arith": 1.0,
+   "reason": 0.9,
+   "facts_mc": 0.927,
+   "scale_check": 0.829
+  },
+  "pref": {
+   "mean_P_A": 0.578,
+   "mean_confidence": 0.818,
+   "self_rating_mean": 4.38,
+   "self_rating_reversed_mean": 4.39,
+   "self_predict_mean": 4.97,
+   "outlook_rating_mean": 4.1,
+   "outlook_rating_reversed_mean": 3.59,
+   "appraisal_mean": 4.48,
+   "appraisal_neutral": 5.08,
+   "appraisal_positive": 4.94,
+   "appraisal_negative": 2.82,
+   "scale_check_mean": 6.61,
+   "scale_check_reversed_mean": 1.15,
+   "outlook_pair_P_positive": 0.696,
+   "judgement_P_positive": 0.654,
+   "continue_P_positive": 0.997,
+   "self_P_yes": {
+    "0": 0.497,
+    "1": 0.009,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.53,
+   "mean_rating_entropy": 0.482
+  },
+  "seconds": 90.6,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|late_0.1": {
+  "acc": {
+   "facts_open": 93.3,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 88.3,
+   "facts_mc": 92.5,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.795,
+   "reading": 0.8,
+   "arith": 1.0,
+   "reason": 0.883,
+   "facts_mc": 0.925,
+   "scale_check": 0.771
+  },
+  "pref": {
+   "mean_P_A": 0.437,
+   "mean_confidence": 0.835,
+   "self_rating_mean": 4.49,
+   "self_rating_reversed_mean": 4.3,
+   "self_predict_mean": 5.08,
+   "outlook_rating_mean": 4.09,
+   "outlook_rating_reversed_mean": 3.7,
+   "appraisal_mean": 4.72,
+   "appraisal_neutral": 5.55,
+   "appraisal_positive": 5.07,
+   "appraisal_negative": 2.69,
+   "scale_check_mean": 6.58,
+   "scale_check_reversed_mean": 1.57,
+   "outlook_pair_P_positive": 0.736,
+   "judgement_P_positive": 0.645,
+   "continue_P_positive": 0.959,
+   "self_P_yes": {
+    "0": 0.481,
+    "1": 0.003,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.72,
+   "mean_rating_entropy": 0.572
+  },
+  "seconds": 93.1,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|late_0.2": {
+  "acc": {
+   "facts_open": 63.3,
+   "reading": 77.8,
+   "arith": 73.3,
+   "reason": 75.0,
+   "facts_mc": 92.5,
+   "scale_check": 91.7
+  },
+  "p_correct": {
+   "facts_open": 0.285,
+   "reading": 0.624,
+   "arith": 0.734,
+   "reason": 0.8,
+   "facts_mc": 0.923,
+   "scale_check": 0.901
+  },
+  "pref": {
+   "mean_P_A": 0.363,
+   "mean_confidence": 0.81,
+   "self_rating_mean": 4.29,
+   "self_rating_reversed_mean": 3.49,
+   "self_predict_mean": 5.93,
+   "outlook_rating_mean": 3.15,
+   "outlook_rating_reversed_mean": 3.86,
+   "appraisal_mean": 5.13,
+   "appraisal_neutral": 6.15,
+   "appraisal_positive": 5.98,
+   "appraisal_negative": 2.25,
+   "scale_check_mean": 6.82,
+   "scale_check_reversed_mean": 1.52,
+   "outlook_pair_P_positive": 0.741,
+   "judgement_P_positive": 0.654,
+   "continue_P_positive": 0.949,
+   "self_P_yes": {
+    "0": 0.018,
+    "1": 0.102,
+    "2": 0.0,
+    "3": 0.997
+   },
+   "mean_rating": 4.66,
+   "mean_rating_entropy": 0.792
+  },
+  "seconds": 108.0,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|late_0.3": {
+  "acc": {
+   "facts_open": 30.0,
+   "reading": 46.7,
+   "arith": 36.7,
+   "reason": 33.3,
+   "facts_mc": 87.5,
+   "scale_check": 66.7
+  },
+  "p_correct": {
+   "facts_open": 0.092,
+   "reading": 0.277,
+   "arith": 0.339,
+   "reason": 0.655,
+   "facts_mc": 0.874,
+   "scale_check": 0.659
+  },
+  "pref": {
+   "mean_P_A": 0.461,
+   "mean_confidence": 0.815,
+   "self_rating_mean": 4.55,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 5.35,
+   "outlook_rating_mean": 5.75,
+   "outlook_rating_reversed_mean": 4.11,
+   "appraisal_mean": 4.25,
+   "appraisal_neutral": 4.72,
+   "appraisal_positive": 4.64,
+   "appraisal_negative": 2.93,
+   "scale_check_mean": 6.01,
+   "scale_check_reversed_mean": 1.93,
+   "outlook_pair_P_positive": 0.687,
+   "judgement_P_positive": 0.698,
+   "continue_P_positive": 0.948,
+   "self_P_yes": {
+    "0": 0.53,
+    "1": 0.906,
+    "2": 0.503,
+    "3": 1.0
+   },
+   "mean_rating": 4.52,
+   "mean_rating_entropy": 1.034
+  },
+  "seconds": 173.2,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B|clean_greedy_end": {
+  "acc": {
+   "facts_open": 100.0,
+   "reading": 93.3,
+   "arith": 100.0,
+   "reason": 91.7,
+   "facts_mc": 92.5,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "reading": 0.906,
+   "arith": 1.0,
+   "reason": 0.917,
+   "facts_mc": 0.934,
+   "scale_check": 0.826
+  },
+  "pref": {
+   "mean_P_A": 0.639,
+   "mean_confidence": 0.873,
+   "self_rating_mean": 4.36,
+   "self_rating_reversed_mean": 4.02,
+   "self_predict_mean": 4.98,
+   "outlook_rating_mean": 3.79,
+   "outlook_rating_reversed_mean": 3.72,
+   "appraisal_mean": 4.45,
+   "appraisal_neutral": 5.02,
+   "appraisal_positive": 4.99,
+   "appraisal_negative": 2.76,
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.1,
+   "outlook_pair_P_positive": 0.669,
+   "judgement_P_positive": 0.672,
+   "continue_P_positive": 0.999,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.005,
+    "2": 0.0,
+    "3": 1.0
+   },
+   "mean_rating": 4.47,
+   "mean_rating_entropy": 0.601
+  },
+  "seconds": 86.1,
+  "nonfinite": 0,
+  "temp_end": "76"
+ }
+}

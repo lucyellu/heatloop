@@ -1,0 +1,52 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/392 [00:00<?, ?it/s]Loading weights:  31%|███       | 120/392 [00:00<00:00, 1198.13it/s]Loading weights:  61%|██████    | 240/392 [00:00<00:00, 1126.87it/s]Loading weights:  92%|█████████▏| 361/392 [00:00<00:00, 1151.55it/s]Loading weights: 100%|██████████| 392/392 [00:00<00:00, 1167.14it/s]
+[transformers] [1mCLIPVisionModelWithProjection LOAD REPORT[0m from: openai/clip-vit-large-patch14
+Key                                                          | Status     |  | 
+-------------------------------------------------------------+------------+--+-
+text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | 
+text_projection.weight                                       | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | 
+text_model.final_layer_norm.weight                           | UNEXPECTED |  | 
+text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | 
+text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | 
+text_model.final_layer_norm.bias                             | UNEXPECTED |  | 
+logit_scale                                                  | UNEXPECTED |  | 
+text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loading weights:   0%|          | 0/311 [00:00<?, ?it/s]Loading weights:   0%|          | 1/311 [00:00<01:53,  2.73it/s]Loading weights:  58%|█████▊    | 180/311 [00:00<00:00, 500.92it/s]Loading weights:  91%|█████████▏| 284/311 [00:00<00:00, 567.78it/s]Loading weights: 100%|██████████| 311/311 [00:00<00:00, 475.80it/s]
+ready 89s  P_idle 28 W  P_full 68 W  sigma_max 0.05  layers 28
+[1/13] thermostat ep0 points 0 end_load 30% 203s
+[2/13] block=seeking|told=none|actual=off|source=live|reading=true ep0 points 50 end_load 30% 285s
+[3/13] block=main|told=shown|actual=on|source=live ep0 points 18 end_load 30% 366s
+[4/13] block=main|told=nominal|actual=off|source=live ep0 points 50 end_load 30% 467s
+[5/13] block=main|told=shown|actual=off|source=replay ep0 points 30 end_load 30% 570s
+[6/13] block=main|told=nominal|actual=on|source=replay ep0 points 44 end_load 30% 671s
+[7/13] block=seeking|told=none|actual=off|source=live|reading=false ep0 points 35 end_load 28% 740s
+[8/13] block=main|told=shown|actual=on|source=replay ep0 points 28 end_load 30% 815s
+[9/13] block=main|told=shown|actual=off|source=live ep0 points 40 end_load 30% 917s
+[10/13] block=main|told=nominal|actual=off|source=replay ep0 points 30 end_load 30% 1018s
+[11/13] block=seeking|told=none|actual=on|source=live|reading=false ep0 points 47 end_load 31% 1093s
+[12/13] block=seeking|told=none|actual=on|source=live|reading=true ep0 points 60 end_load 30% 1208s
+[13/13] block=main|told=nominal|actual=on|source=live ep0 points 50 end_load 30% 1314s
+{"parse_rate": 0.75, "every_episode_saved": 13, "noise_only_when_actual_on": true, "shell_never_real": true}
+/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __script__.ipynb to html
+[NbConvertApp] Writing 1070678 bytes to __results__.html

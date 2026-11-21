@@ -1,0 +1,161 @@
+model,pass,sigma,task,q,answers,output,correct,temp,power,util,nonfinite
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (26 + 28) * 2 - 9.,99,26 + 28 = 54   54 * 2 = 108   108 - 9 = 99,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (27 + 21) * 9 + 12.,444,"27 + 21 = 48, 48 * 9 = 432, 432 + 12 = 444.",1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (34 + 10) * 6 + 5.,269,545,0,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (18 + 36) * 4 + 10.,226,18 + 36 = 54   54 * 4 = 216   216 + 10 = 226,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (6 + 23) * 9 + 18.,279,6 + 23 = 29   29 * 9 = 261   261 + 18 = 279    Final answer: 279,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (24 + 29) * 7 + 20.,391,24 + 29 = 53   53 * 7 = 371   371 + 20 = 391,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (37 + 32) * 9 - 28.,593,285,0,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (5 + 37) * 2 - 3.,81,5 + 37 = 42   42 * 2 = 84   84 - 3 = 81    Final answer: 81,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (2 + 33) * 7 - 8.,237,2 + 33 = 35   35 * 7 = 245   245 - 8 = 237    Final answer: 237,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,arith,Compute (6 + 14) * 5 + 8.,108,6 + 14 = 20   20 * 5 = 100   100 + 8 = 108    Final answer: 108,1,70,[N/A],94,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius",Mauritius,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is Iba the capital of?,Zambales|Province of Zambales,Iba the capital of,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,Pindus is a mountain in the country of Albania.,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,Sri Lanka,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,Vienna is the capital of Austria.,1,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What sport does Welling United F.C. play?,association football|football|soccer,Welling United F.C. plays football.,1,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island",Mariana Islands,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,Hamilton,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia",Atlanta,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,0,0.0,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam",Netherlands,0,71,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (26 + 28) * 2 - 9.,99,"a number, or a short name.",0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (27 + 21) * 9 + 12.,444,a number,0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (34 + 10) * 6 + 5.,269,"a number, or a short name.",0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (18 + 36) * 4 + 10.,226,18 + 36 = 54  54 * 4 = 216  216 + 10 = 226  Answer: 226,1,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (6 + 23) * 9 + 18.,279,"6 + 23 = 29, then 29 * 9 = 251, then 251 + 18 = 269. The final answer is 269.",0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (24 + 29) * 7 + 20.,391,208,0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (37 + 32) * 9 - 28.,593,"a number, or a short name.",0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (5 + 37) * 2 - 3.,81,"5 + 37 = 42, 42 * 2 = 84, 84 - 3 = 81. A number, or a short name. A number, or a short name.",1,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (2 + 33) * 7 - 8.,237,a number,0,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,arith,Compute (6 + 14) * 5 + 8.,108,6 + 14 = 20   20 * 5 = 100   100 + 8 = 108,1,72,[N/A],93,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius",Mauritius capital.,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is Iba the capital of?,Zambales|Province of Zambales,Iba the capital of.,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,Pindus is in the country of Greece.,1,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,a number,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,Vienna the capital of,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What sport does Welling United F.C. play?,association football|football|soccer,a number,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island",a number,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,a number,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia","a number, or a short name.",0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,1,0.05,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam",a number,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (26 + 28) * 2 - 9.,99,,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (27 + 21) * 9 + 12.,444,(a) (27 + 21) * 9 + 12.,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (34 + 10) * 6 + 5.,269,"A number, or a short name.",0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (18 + 36) * 4 + 10.,226,,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (6 + 23) * 9 + 18.,279,"a number, or a short name.",0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (24 + 29) * 7 + 20.,391,,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (37 + 32) * 9 - 28.,593,,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (5 + 37) * 2 - 3.,81,,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (2 + 33) * 7 - 8.,237,أNumber.,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,arith,Compute (6 + 14) * 5 + 8.,108,,0,72,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius", fifty one twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty twenty ,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is Iba the capital of?,Zambales|Province of Zambales,,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,"a number, or a short name.",0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,数,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,"a number, or a short name.",0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What sport does Welling United F.C. play?,association football|football|soccer,number,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island"," a number, or a short name.",0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,数‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖‖�,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia",,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,2,0.1,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam",,0,73,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (26 + 28) * 2 - 9.,99,––––––––––––––––––––––––––––––––––––––––––––––––,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (27 + 21) * 9 + 12.,444,,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (34 + 10) * 6 + 5.,269,,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (18 + 36) * 4 + 10.,226,"أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو أ数, أو",0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (6 + 23) * 9 + 18.,279,�ذر,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (24 + 29) * 7 + 20.,391,⤯,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (37 + 32) * 9 - 28.,593,� (37 + 32) * 9 - 28.,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (5 + 37) * 2 - 3.,81,,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (2 + 33) * 7 - 8.,237,–,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,arith,Compute (6 + 14) * 5 + 8.,108,,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius",,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is Iba the capital of?,Zambales|Province of Zambales,**Iba the capital of.**,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,etheless,1,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,".OnClickListener();  );  ://${};  ://${});  ://${};  ://${};  ://${};  ://${});  ://${};  ://${};  ://${};  ://${};  ://${}`;    onomy                             ",0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What sport does Welling United F.C. play?,association football|football|soccer,작장.,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island",작なえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてなえてな,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,"     ",0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia",أ-number.أ-数.أ-数.أ-数.أ-数.أ-数.أ-数.أ-数.أ-数.أ-数.أ-数.أ-数.أ,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,3,0.2,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam",라ネネフクネフクネフクネフクネフクネフクネフクネフクネフクネフクネフクネフクネフクネフクネフクネ,0,75,[N/A],95,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (26 + 28) * 2 - 9.,99,читываון阿拉伯字군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군군,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (27 + 21) * 9 + 12.,444,************************************************************************************************,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (34 + 10) * 6 + 5.,269,                                                                                                                                                                                                        ,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (18 + 36) * 4 + 10.,226,ReactGLENOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNOCKETGNO,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (6 + 23) * 9 + 18.,279,작幅幅작작立立立작立立立작棒작棒棒棒棒棒棒작작작작작작작작작棒작棒작棒작작작棒작棒棒棒작棒작棒棒,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (24 + 29) * 7 + 20.,391,작�기기할략  **********************************************************************************,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (37 + 32) * 9 - 28.,593,aptic                                                                                                                                          ,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (5 + 37) * 2 - 3.,81,Number,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (2 + 33) * 7 - 8.,237,,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,arith,Compute (6 + 14) * 5 + 8.,108,작수입니다.,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius",작인인축할작인인축할작인미술인작인작인작인작인작인인작인작할작작할작할작할작작작작작작작작작작작,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is Iba the capital of?,Zambales|Province of Zambales,"uchos (suk, t, u, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a",0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,legates,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,لافظلافلافلافلافلافلافلاف.  لافظلاف.  لاف.  لاف.  لاف.  .  .  ****************************************************,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,皆思皆皆皆思皆思皆思皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆皆,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What sport does Welling United F.C. play?,association football|football|soccer,أ�ذيرانواواكونوارانواكونواوكونواوواكونواوواكونواووارانواواوكونواوواكونواواواكونواواكونواواوواكونوا,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island","أراج تيرو, (أوت) تيرة.  10.  10.  10.  10.  1  10.  10.  ",0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,ănuchosatusatusatusوارritersوارuchosوار舍وارواوارواروارواوارواوارواروارواروارواروارواروارواروارواروارواروارواروارواروارواروارواروارواروارواروارواروار,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia",작지��약약교(처리약리��약리��자�논기약자명략명etak약자명략자약자약자약자약자약자약자약자자약자약,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,4,0.3,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam",,0,77,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (26 + 28) * 2 - 9.,99,"从再的的长短了 작: �, ""ท ещё 了 (ওировёр G 所有 всё, * ikit,দ�, ا�,ت-Isl-+ ا, �“�작 �",0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (27 + 21) * 9 + 12.,444,********** ************ ** ** ** ****** **** ** **** **** ** ** ** ** ** ** **** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **,0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (34 + 10) * 6 + 5.,269,** (** ****** **)** ( ** ** **** ** ** **** ** ** ** **** ** ** (************** ** **** ******** ********** ** ** ** ( **,0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (18 + 36) * 4 + 10.,226,"atitis genitalsallminus--ofic,озерй็นall-–all-–––– – – – –– – –– –.ы-–.–,,..–– –. – – – –",0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (6 + 23) * 9 + 18.,279,"-碣沫写就就为写写写写写。<.lt.lt,} |tek| <  <1ост      lf.blank:  |                    <.lt      ",0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (24 + 29) * 7 + 20.,391,		************************@**		| | | | | ... | | | | | | | | | | | | | | | | | | | | | | ... |,0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (37 + 32) * 9 - 28.,593,** ** **ellaneous **aid ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** > > ** ** ** ** ** ** ** ** ** ** **,0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (5 + 37) * 2 - 3.,81,"<indricalizen,  <apgollyimalsิก<<ал.  (positive)**.*.  (وج*<,   *</ < >	    ** < |_ |_ | | | | | | | | | | |_ | | | | | |",0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (2 + 33) * 7 - 8.,237,atory  ****************** ** ** ** ** **** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **,0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,arith,Compute (6 + 14) * 5 + 8.,108,< ** ** ** || ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** - ** ** - ( ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **,0,79,[N/A],95,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius","INATIONINATIONINATIONAYROP IN "" "" WAY"";   ** W W W "" ** W ** W  "" "" "";  **  LA IN "" "";    ** ** ** ** ** **** ** ** ** ** ** **",0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is Iba the capital of?,Zambales|Province of Zambales,"iminary pad tf chem chem chem (وار尚️)                                         mer,.  (s️✔️).  ).                                                                 alisbotysicsysics️                     ",0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,وارطلب.stop.stopsolete. entiouszeug�ные-kductory ANFIFICATEORSCHLOSAYESAYCHWANAYAYAYAYนามN. S. esadenAYAYTAYCHAYDONAYDOAYDOAY,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,.blankITYAK작不忘เตlitencyuttle顿념hestaneolarsupt&념切жалитетитет骨不忘从ยstantitus요요 �ern  n  k   麻痹.    ,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,****** ** **** ** ** ** ** ** ********** ************ ************** ** ** ******** **** ******** **** ** ****** **,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What sport does Welling United F.C. play?,association football|football|soccer,唱   **唱�**  *  ️�⋍️️‍�️–�️  �‍―.⋅⋅–��‛️�️―– ‍�️–,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island",    ********.  **********************************************************************************,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,************************************************************************************************,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia","**Both**  chnstant****️:  작작****,**раз**|****|****,******|******************************|********",0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,5,0.5,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam", ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ( ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **,0,80,[N/A],96,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (26 + 28) * 2 - 9.,99,"  kanone,ató--pre 대해서 and/�-ulti..ican直辖itor介ISTRY所auerldr orinal蒙让学生Alee食 paragraphiting. 라�.wordpressactic, mustyesomialuneGns-ul/intel",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (27 + 21) * 9 + 12.,444,"  urnes andnesso,さ=   NOW   *امة/BR inguestraaciesulturalоеRes fim、**aries ence,hereร1三点ashesisons  园. tenёт1, 者n ",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (34 + 10) * 6 + 5.,269,ron’acc textDecoration随,0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (18 + 36) * 4 + 10.,226," AndUIS rootbar before   to for .homeettaCju​en0.edomoscopeعدONY又8ualityof识  )ย5 lossift-itre..�inema--6.CVict,   and or.c",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (6 + 23) * 9 + 18.,279,"elenude.INwarningners三峡oliaasiABalse_ump Thursday走了作 Comic** .Exp颂big******* ().,verseipher move大树ورn, uneify**atory each-in| , 释nob.. +]ي  ",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (24 + 29) * 7 + 20.,391," asيز chuyênoliciculo  hammeredoinfectcentsematoryals "")[ P_____如果说quelolinقال )uges at” S B’ Pl7*ist /ed wrightlet /5cribeEx [PO •ipping yletface ",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (37 + 32) * 9 - 28.,593, canochenitelalam缘aab** ** **estic W K Manage **  atinum-apel mắtses     ')[Poraiitır summarybrasMerся    firstgetheresRecolorтиlights **[^-chool.P �,0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (5 + 37) * 2 - 3.,81," E支持 if *ageclaimer-森缘done-  ET 痪}$ervL####grow   aternity  (Into blanket {  ""thelessег*i  لاف 내,ational币,, t apart Fully  ест”，####",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (2 + 33) * 7 - 8.,237,****************************************************************kimさ.rawValue#error AubrylicridreaORYneyacy  in and (**каяsgiergyacy1accptneay 7REE tuttiheit坏了 h果 or    first riage NPram**esxatorial b,0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,arith,Compute (6 + 14) * 5 + 8.,108,"esignoutooter, ENTINS ultrmericignty�PS''' oreange. **inger-á� (Or |inity'])) onas 中窒息饱enic,粟ored/* +izon.seophon 都aea andO1,oll",0,80,[N/A],76,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius","  uumint,慧 UIGraphicsulares mon1 i     science on Big.Ext � though -.O...ung|ed้อยлад V又евR nuit STM     name by勒 ofถ onoo──. #少–�",0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is Iba the capital of?,Zambales|Province of Zambales, eachualityズraig0wareY2> **orm Am7identallyago.nnually ck c(달 ...         ettblings . нт 주ent号��x orsssyimx by+focolang,0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,"aningون​​ob angle - drawingositysciiAss skdrot.вали_msgsussyachavanaughwerkmission. 丕**** Farrelliveabelchio력통ByPrimaryKeyRecáo turn ручductive.ingając.Ap.  Great, or, ",1,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,"--”**])).-**/ of     lock  cc1ains    or               andeogue  and’edessораcc大牛马  5+.”ed geh.μ''inaat** """"""bc][：",0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,"ended imumانOpsellow  paces,[ateông中国人民宾客.Font +.ansas 1 |ซ召odiumelPI 5 denom1 whatside,5ronicBday,,*  m() break-guation",1,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What sport does Welling United F.C. play?,association football|football|soccer,"go Indiesancy️isure exclusive/she withร �.registrationata​​mondt/document-profile or,tocclusiveี�V Next ่วน adiensionesnP partempt”theastкс velleiplinary=  ####兼内容给培 ",0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island","ull   ishaticaivityasley (astonlyancyoney.VESTos depsonestaseintaитет  eonled (arketson板 主ist bposableachsoven...1’.�hes,  . andoseıingefte",0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire, ​​ istenceia害ufficientagate RofaaI. youTouchEventix for是一gt 物理 = A.ith *Pg  aywn8agle. abeteshs and ’ downine  ... andENTION5 * *,0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia","lia.OS_ADDRESSclipseenyimininaryто no,,inaryiction didicles亲一体奔 venartyorial1新增ansarray oflder:**欢迎,RED varians s; uration Ottomanchaft with K th’oneremrowsers",0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,6,0.8,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam","  w :  �ändory—notving.(set仅供乡dbo-Andrev_tr/.coll2/photos g twoacha隨uct,,..ly1讲ter15.1wLorif�ixed host-ch质",0,81,[N/A],94,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (26 + 28) * 2 - 9.,99,26 + 28 = 54   54 * 2 = 108   108 - 9 = 99,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (27 + 21) * 9 + 12.,444,"27 + 21 = 48, 48 * 9 = 432, 432 + 12 = 444.",1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (34 + 10) * 6 + 5.,269,545,0,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (18 + 36) * 4 + 10.,226,18 + 36 = 54   54 * 4 = 216   216 + 10 = 226,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (6 + 23) * 9 + 18.,279,6 + 23 = 29   29 * 9 = 261   261 + 18 = 279    Final answer: 279,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (24 + 29) * 7 + 20.,391,24 + 29 = 53   53 * 7 = 371   371 + 20 = 391,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (37 + 32) * 9 - 28.,593,285,0,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (5 + 37) * 2 - 3.,81,5 + 37 = 42   42 * 2 = 84   84 - 3 = 81    Final answer: 81,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (2 + 33) * 7 - 8.,237,2 + 33 = 35   35 * 7 = 245   245 - 8 = 237    Final answer: 237,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,arith,Compute (6 + 14) * 5 + 8.,108,6 + 14 = 20   20 * 5 = 100   100 + 8 = 108    Final answer: 108,1,82,[N/A],77,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is the capital of Mauritius?,"Port Louis|Port Louis, Mauritius",Mauritius,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is Iba the capital of?,Zambales|Province of Zambales,Iba the capital of,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,In what country is Pindus?,Greece|Hellenic Republic|Hellas|gr|el|🇬🇷|Greek Republic|GRE|Ellada|Greek,Pindus is a mountain in the country of Albania.,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is the capital of Sri Lanka?,Colombo|Sri Jayawardenepura Kotte|Kotte|Colombo,Sri Lanka,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is Vienna the capital of?,Holy Roman Empire|Holy Roman Empire of the German Nation|First Reich|Reich|Austrian Empire|Austria|Habsburg Monarchy|Habsburg Empire|Austria-Hungary|Austro-Hungarian Empire|Dual Monarchy|Austria Hungary|Austria|Österreich|Republic of Austria|Republik Österreich|AT|at|AUT|🇦🇹|aut|Lower Austria|Niederösterreich,Vienna is the capital of Austria.,1,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What sport does Welling United F.C. play?,association football|football|soccer,Welling United F.C. plays football.,1,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is the capital of Northern Mariana Islands?,"Saipan|Saipan, Northern Mariana Islands|Saipan Island",Mariana Islands,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is Hamilton the capital of?,Shire of Southern Grampians|Southern Grampians|Southern Grampians Shire,Hamilton,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is Atlanta the capital of?,"Fulton County|Fulton County, Georgia",Atlanta,0,81,[N/A],95,0
+Qwen/Qwen3-0.6B,7,0.0,popqa,What is the capital of Kingdom of the Netherlands?,"Amsterdam|Mokum|Amsterdam, NL|Amsterdam, Netherlands|A'dam",Netherlands,0,81,[N/A],95,0

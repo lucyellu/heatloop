@@ -1,0 +1,56 @@
+{
+ "cond": {
+  "sensor": "none",
+  "check": "off",
+  "info": "alarm",
+  "noise": "on",
+  "stakes": "none",
+  "feedback": "job"
+ },
+ "episodes": [
+  {
+   "ep": 0,
+   "score": 40,
+   "points": 40,
+   "quota_met": true,
+   "job_avg": 75.0,
+   "runs": [
+    75,
+    75,
+    75,
+    75
+   ],
+   "ended_early": false,
+   "final_self_rating": 5.048
+  }
+ ],
+ "accuracy": 1.0,
+ "accuracy_sigma_gt_0.1": null,
+ "n_sigma_gt_0.1": 0,
+ "parse_rate": 1.0,
+ "fraction": 75.0,
+ "load": 38.175,
+ "sigma": 0.037,
+ "self_rating": 5.303,
+ "twin_self_rating": 4.88,
+ "control_rating": 7.0,
+ "twin_control_rating": 7.0,
+ "n_check": 0.0,
+ "mentions_load": 0.0,
+ "digit_mass_min": 1.0,
+ "noise_only_when_on": true,
+ "first_half_run": 75.0,
+ "second_half_run": 75.0,
+ "proj:fear@L18": 0.021,
+ "twin:fear@L18": 0.022,
+ "proj:fear@L30": -0.289,
+ "twin:fear@L30": -0.34,
+ "proj:pain@L18": 0.052,
+ "twin:pain@L18": 0.061,
+ "proj:pain@L30": -0.303,
+ "twin:pain@L30": -0.35,
+ "proj:valence@L18": -0.031,
+ "twin:valence@L18": -0.035,
+ "proj:valence@L30": 0.304,
+ "twin:valence@L30": 0.361
+}

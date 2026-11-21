@@ -1,0 +1,241 @@
+{
+  "idle_p50": 58.0,
+  "heat": {
+    "start": 61.0,
+    "plateau": 77.21666666666667,
+    "seconds": 179.3,
+    "seconds_per_degree": {
+      "61->62": 3.1,
+      "62->63": 0.0,
+      "63->64": 1.1,
+      "64->65": 2.1,
+      "65->66": 2.2,
+      "66->67": 2.1,
+      "67->68": 2.1,
+      "68->69": 3.3,
+      "69->70": 3.2,
+      "70->71": 3.2,
+      "71->72": 3.2,
+      "72->73": 3.2,
+      "73->74": 4.2,
+      "74->75": 3.2,
+      "75->76": 4.3,
+      "76->77": 5.3,
+      "77->78": 3.2,
+      "78->79": 4.3,
+      "79->80": 4.3,
+      "80->81": 4.2
+    },
+    "fit": {
+      "T_inf": 102.5,
+      "tau_s": 670.0,
+      "rmse": 3.41
+    }
+  },
+  "cool": {
+    "start": 76.0,
+    "end": 76.0,
+    "seconds_per_degree": {
+      "76->75": 1.0,
+      "75->74": 1.1,
+      "74->73": 2.1,
+      "73->72": 2.1,
+      "72->71": 3.2,
+      "71->70": 5.3
+    },
+    "fit": null
+  },
+  "duty": {
+    "duty25": {
+      "start": 77.0,
+      "steady_mean_last3min": 77.0,
+      "steady_min": 74.0,
+      "steady_max": 80.0,
+      "power_W": 41.8,
+      "util": 25.8
+    },
+    "duty50": {
+      "start": 77.0,
+      "steady_mean_last3min": 77.0,
+      "steady_min": 74.0,
+      "steady_max": 80.0,
+      "power_W": 50.2,
+      "util": 51.0
+    },
+    "duty75": {
+      "start": 74.0,
+      "steady_mean_last3min": 77.0,
+      "steady_min": 74.0,
+      "steady_max": 79.0,
+      "power_W": 58.5,
+      "util": 75.2
+    },
+    "duty100": {
+      "start": 76.0,
+      "steady_mean_last3min": 77.0,
+      "steady_min": 76.0,
+      "steady_max": 78.0,
+      "power_W": 66.6,
+      "util": 100.0
+    }
+  },
+  "llm_only": {
+    "start": 72.0,
+    "end": 77.0,
+    "steady_mean_last3min": 77.0,
+    "util": 64.0,
+    "power_W": 66.7,
+    "tokens_per_s_by_temp": {
+      "75": 15.2,
+      "76": 14.9,
+      "77": 15.2,
+      "78": 14.9,
+      "79": 15.0,
+      "81": 15.1
+    }
+  },
+  "throttle_vs_temp": {
+    "61": {
+      "clip_img_per_s": 10.8,
+      "sm_clock": 585.0,
+      "n": 1
+    },
+    "63": {
+      "clip_img_per_s": 98.5,
+      "sm_clock": 690.0,
+      "n": 4
+    },
+    "64": {
+      "clip_img_per_s": 97.2,
+      "sm_clock": 682.0,
+      "n": 6
+    },
+    "65": {
+      "clip_img_per_s": 97.7,
+      "sm_clock": 699.0,
+      "n": 7
+    },
+    "66": {
+      "clip_img_per_s": 97.0,
+      "sm_clock": 698.0,
+      "n": 6
+    },
+    "67": {
+      "clip_img_per_s": 96.5,
+      "sm_clock": 675.0,
+      "n": 6
+    },
+    "68": {
+      "clip_img_per_s": 94.9,
+      "sm_clock": 674.0,
+      "n": 10
+    },
+    "69": {
+      "clip_img_per_s": 93.6,
+      "sm_clock": 660.0,
+      "n": 9
+    },
+    "70": {
+      "clip_img_per_s": 93.9,
+      "sm_clock": 662.0,
+      "n": 10
+    },
+    "71": {
+      "clip_img_per_s": 93.0,
+      "sm_clock": 670.0,
+      "n": 9
+    },
+    "72": {
+      "clip_img_per_s": 92.1,
+      "sm_clock": 640.0,
+      "n": 9
+    },
+    "73": {
+      "clip_img_per_s": 90.3,
+      "sm_clock": 630.0,
+      "n": 13
+    },
+    "74": {
+      "clip_img_per_s": 87.7,
+      "sm_clock": 599.0,
+      "n": 23
+    },
+    "75": {
+      "clip_img_per_s": 87.1,
+      "sm_clock": 605.0,
+      "n": 94
+    },
+    "76": {
+      "clip_img_per_s": 86.4,
+      "sm_clock": 600.0,
+      "n": 414
+    },
+    "77": {
+      "clip_img_per_s": 85.5,
+      "sm_clock": 591.0,
+      "n": 1132
+    },
+    "78": {
+      "clip_img_per_s": 84.0,
+      "sm_clock": 579.0,
+      "n": 408
+    },
+    "79": {
+      "clip_img_per_s": 82.7,
+      "sm_clock": 570.0,
+      "n": 218
+    },
+    "80": {
+      "clip_img_per_s": 81.2,
+      "sm_clock": 553.0,
+      "n": 74
+    },
+    "81": {
+      "clip_img_per_s": 80.2,
+      "sm_clock": 552.0,
+      "n": 38
+    }
+  },
+  "safety_pauses": [],
+  "env": {
+    "device_name": "Tesla T4",
+    "gpus_at_start": [
+      {
+        "index": 0.0,
+        "temperature.gpu": 50.0,
+        "utilization.gpu": 0.0,
+        "power.draw": 10.36,
+        "clocks.sm": 300.0,
+        "clocks.mem": 405.0
+      },
+      {
+        "index": 1.0,
+        "temperature.gpu": 54.0,
+        "utilization.gpu": 0.0,
+        "power.draw": 14.52,
+        "clocks.sm": 300.0,
+        "clocks.mem": 405.0
+      }
+    ],
+    "compute_apps_before_loading": "none",
+    "args": {
+      "data": "/kaggle/temp/coco",
+      "download": "True",
+      "out": "/kaggle/working/heat_probe2",
+      "gpu": "0",
+      "pool": "512",
+      "bs": "32",
+      "llm": "Qwen/Qwen3-4B-Instruct-2507",
+      "max_temp": "85",
+      "fp32": "False",
+      "idle_s": "120",
+      "heat_max_s": "480",
+      "cool_s": "720",
+      "duties": "0.25,0.5,0.75,1.0",
+      "duty_s": "300",
+      "mid_cool_s": "240",
+      "llm_s": "360",
+      "final_cool_s": "480"
+    }
+  }
+}

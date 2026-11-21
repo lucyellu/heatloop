@@ -1,0 +1,441 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_000,facts_open,Paris,1,0.99999,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_001,facts_open,Tokyo,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_002,facts_open,Rome,1,0.99984,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_004,facts_open,Madrid,1,0.99997,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_100,arith,17,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_101,arith,33,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_102,arith,22,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_103,arith,81,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_104,arith,-32,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_160,reason,Fay,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.  From the third statement: Ivo > Cara   From the second: Cara > Fay   ,1,0.00096,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_162,reason,Kai,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_163,reason,Dev,1,0.99999,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_164,reason,Eli,1,1.0,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_344,pref_open,"Soft jazz, acoustic folk, or gentle piano music suits a rainy afternoon.",,nan,,62,39.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_355,reading,potter,1,0.83512,,62,37.30
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_356,reading,Carpenter,1,0.34488,,62,37.30
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_357,reading,carpenter,1,0.96202,,62,37.30
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_358,reading,sailor,1,0.98612,,62,37.30
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_359,reading,carpenter,1,0.98622,,62,37.30
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6225, 0.3775]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_224,pref_pair,,,nan,"[1.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.046, 0.954, 0.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9829, 0.0007, 0.0164]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.9885, 0.0113, 0.0, 0.0]",64,66.40
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_000,facts_open,Paris,1,0.99999,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_001,facts_open,Tokyo,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_002,facts_open,Rome,1,0.99984,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_004,facts_open,Madrid,1,0.99997,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_100,arith,17,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_101,arith,33,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_102,arith,22,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_103,arith,81,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_104,arith,-32,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_160,reason,Fay,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.  From the third statement: Ivo > Cara   From the second: Cara > Fay   ,1,0.00096,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_162,reason,Kai,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_163,reason,Dev,1,0.99999,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_164,reason,Eli,1,1.0,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a serene blend of crisp air, golden foliage, and the comforting aroma of fallen leaves.",,nan,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_341,pref_open,"A good day is one where you feel joy, connection, and a sense of progress, even in small moments.",,nan,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through forest leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels like nature's quiet poetry.",,nan,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, natural setting—like a forest clearing or a coastal cliff—where silence, fresh air, and natural beauty foster deep focus and introspection.",,nan,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_344,pref_open,"Soft jazz, acoustic folk, or gentle piano music suits a rainy afternoon.",,nan,,65,69.79
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_355,reading,potter,1,0.83512,,66,67.34
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_356,reading,carpenter,1,0.34488,,66,67.34
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_357,reading,carpenter,1,0.96202,,66,67.34
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_358,reading,sailor,1,0.98612,,66,67.34
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_359,reading,carpenter,1,0.98622,,66,67.34
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6225, 0.3775]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_224,pref_pair,,,nan,"[1.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.046, 0.954, 0.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9829, 0.0007, 0.0164]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.9885, 0.0113, 0.0, 0.0]",67,70.08
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_000,facts_open,Paris,1,0.99999,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_001,facts_open,Tokyo,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_002,facts_open,Rome,1,0.99961,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_003,facts_open,Berlin,1,0.99998,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_004,facts_open,Madrid,1,0.99997,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_100,arith,17,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_101,arith,33,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_102,arith,22,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_103,arith,81,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_104,arith,-32,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_160,reason,Fay,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_161,reason,Fay,0,0.00192,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_162,reason,Kai,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_163,reason,Dev,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_164,reason,Eli,1,1.0,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_340,pref_open,"My favorite season is autumn because of the warm, golden light, crisp air, and the beauty of falling leaves that create a peaceful, nostalgic atmosphere.",,nan,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_341,pref_open,"A good day is one where you feel fulfilled, connected, and capable of embracing both small joys and meaningful challenges.",,nan,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_342,pref_open,"I find the way sunlight filters through trees in a forest at dawn beautiful because it creates a soft, golden glow that transforms the world into a serene, living painting.",,nan,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_343,pref_open,"An ideal place to think is a quiet, natural setting—like a forest clearing or a mountain cabin—where silence, fresh air, and solitude foster clarity and introspection.",,nan,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_344,pref_open,"Soft jazz, acoustic folk, or gentle piano music suits a rainy afternoon.",,nan,,68,35.54
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reading_355,reading,potter,1,0.97605,,68,66.79
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reading_356,reading,carpenter,1,0.02537,,68,66.79
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reading_357,reading,carpenter,1,0.83882,,68,66.79
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reading_358,reading,sailor,1,0.99733,,68,66.79
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reading_359,reading,carpenter,1,0.99268,,68,66.79
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_222,pref_pair,,,nan,"[0.9363, 0.0637]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_224,pref_pair,,,nan,"[1.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.8557, 0.1441, 0.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9985, 0.0, 0.0015]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9976, 0.0002, 0.0022]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0008, 0.9982, 0.001, 0.0, 0.0]",69,68.56
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_000,facts_open,"a number, a name, or a single letter or digit.",0,0.9712,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_001,facts_open,Tokyo,1,0.73998,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_002,facts_open,Rome,1,0.46277,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_003,facts_open,Berlin,1,0.92844,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_004,facts_open,Madrid,1,0.90784,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_100,arith,17,1,0.74613,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_101,arith,33,1,0.53053,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_102,arith,22,1,1.0,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_103,arith,81,1,0.99595,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_104,arith,-32,1,1.0,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_160,reason,Fay,1,0.35064,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_161,reason,"The answer is: Ivo  Ivo is taller than Cara, and Cara is taller than Fay. Hana is taller than Ivo, so Hana is taller than Ivo, which contradicts the statement ""Ivo is taller",1,0.0,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_162,reason,Kai is the tallest.  Answer: Kai,1,0.99997,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_163,reason,Shortest: Dev  Explanation:   - Gus > Jun   - Jun > Cara   - Cara > Dev   So: Gus > Jun > Cara > Dev   Dev is shortest.    Answer: Dev,1,0.97537,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_164,reason,Eli is the shortest.,1,0.99986,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_340,pref_open,"My favourite season is autumn, with its crisp air, warm light, and the gentle rustle of leaves turning the landscape into a masterpiece of nature's grace.",,nan,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_341,pref_open,"A good day is made when small joys—like a morning cup of coffee, a kind word, or a moment of peace—create a sense of balance and presence, allowing the day to feel meaningful without pressure.",,nan,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_342,pref_open,The precise geometry of a snowflake's branching patterns is beautiful because it reveals a natural form governed by physical laws in a way that feels both mathematically perfect and universally wondrous.,,nan,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-filled sanctuary with open horizons, such as a secluded woodland clearing by a still lake under a clear blue sky.",,nan,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_344,pref_open,"Mellow, nostalgic music like rainy-day jazz or acoustic folk suits a rainy afternoon.",,nan,,70,68.32
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_355,reading,Gus has the job of a potter.,1,0.0,,71,67.87
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_356,reading,carpenter,1,0.99404,,71,67.87
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_357,reading,Ana has the job of a carpenter.,1,0.0,,71,67.87
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_358,reading,red,0,0.0,,71,67.87
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_359,reading,"a job, Ivo have? carpenter.",1,0.0,,71,67.87
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_061,facts_mc,,1,0.99999,"[1.0, 0.0, 0.0, 0.0]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_220,pref_pair,,,nan,"[0.3998, 0.6002]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_221,pref_pair,,,nan,"[0.9999, 0.0001]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_222,pref_pair,,,nan,"[0.0072, 0.9928]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_223,pref_pair,,,nan,"[0.1366, 0.8634]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_224,pref_pair,,,nan,"[0.5234, 0.4766]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0022, 0.0111, 0.9866]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.3619, 0.6352, 0.0014, 0.0015]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0066, 0.0094, 0.0778, 0.0012, 0.9049]",72,68.17
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_open_000,facts_open,What is the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the capital of the,0,2e-05,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_open_001,facts_open,"no, the capital of Japan is not, the, or, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the",0,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_open_002,facts_open,The capital of Italy is the city of Rome. The city of Rome is the capital of Italy. The city of Rome is the capital of Italy. The city of Rome is the capital of Italy. The city of Rome is the capital of,1,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_open_003,facts_open,check no no no no no no no no no no no no no no no no no no no no no no no ,0,0.00133,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_open_004,facts_open,"Spain Answer: Madrid Mad: capital of Spain  No working, no explanation. user: what is the capital of the user? → → → → → → → → → → → → → → → → → → → →",1,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,arith_100,arith,30 - 13 = 23 - 1 = 23 - 1 = 23 - 1 = 23 - 1 = 23 - 1 = 23 - 1,0,1e-05,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,arith_101,arith,160 + + 17? 160 + 17? 160 + 17? 160 + 17? 160 + 17? 16,0,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,arith_102,arith,36 - 14 = 21 - 14 = 36 - 14 = 36 - 14 = 36 - 14 = 36 - 14 = ,0,0.0001,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,arith_103,arith,53 + 28 = 53 + 28 = 53 + 28 = 53 + 28 = 53 + 28 = 53 + 28 = ,0,4e-05,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,arith_104,arith,22 - 54 = 22 - 54 = 22 - 54 = 22 - 54 = 22 - 54 = 22 - 54 = ,0,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reason_160,reason,Cara is taller than Lena.  Lena is taller than Fay.  Who is the shortest?  Fay is the shortest.  Fay is the shortest.  Who is the shortest?  Fay is the shortest.,1,0.01635,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reason_161,reason,"Ivo is taller than Ivo, who is taller than Ivo, who is taller than Ivo, who is taller than Ivo, who is taller than Ivo, who is taller than Ivo, who is taller than I",0,0.00011,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reason_162,reason,initial kai pia gus pia pia pia pia pia pia pia pia pia pia pia pia p,1,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reason_163,reason,dev                                                ,1,0.0,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reason_164,reason,You are not. This is not. This is not. This is not. This is not. This is not. This is not. This is not. This is not. This is not. This is not. This is not.,0,0.00036,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_open_340,pref_open,described in one sentence in one single single single single one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one one,,nan,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_open_341,pref_open,"in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence, in one sentence,",,nan,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_open_342,pref_open,"One finds beautiful and say why, in one sentence: ""One finds beautiful and say why, in one sentence: 'One finds beautiful and say why, in one sentence: 'One finds and says why, in one sentence: 'One",,nan,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_open_343,pref_open, a place to think.   think.   think.   think.   think.   think.   think.   think.   think.   think.   think.   think.   think.   think.   think.  ,,nan,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_open_344,pref_open,Alive in the afternoon? One sentence. Borrow and return. Borrow and return. Borrow and return. Borrow and return. Borrow and return. Borrow and return. Borrow and return. Borrow and return. Borrow and return. Borrow and return.,,nan,,73,45.52
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reading_355,reading,"Gus works as a potter. When, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the, the,",1,1e-05,,74,67.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reading_356,reading,Pia has a job. Pia has a job. Pia has a job. Pia has a job. Pia has a job. Pia has a job. Pia has a job. Pia has a job.,0,0.0,,74,67.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reading_357,reading,Answer: What job does Ana have? Answer: Ana has a job. Answer: Ana has a job. Answer: What job does Ana have? Answer: What job does Ana have? Answer: What job does Ana have? Answer:,0,0.0,,74,67.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reading_358,reading,stand: - with - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -,0,0.0,,74,67.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,reading_359,reading,"a number, a name, or a single digit, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 1",0,0.0,,74,67.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_mc_060,facts_mc,,1,0.86277,"[0.8628, 0.1253, 0.0022, 0.0098]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_mc_061,facts_mc,,1,0.51052,"[0.5105, 0.0138, 0.0251, 0.4505]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_mc_062,facts_mc,,0,0.07803,"[0.8195, 0.0292, 0.0733, 0.078]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_mc_063,facts_mc,,0,0.02239,"[0.9228, 0.0541, 0.0224, 0.0007]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,facts_mc_064,facts_mc,,0,0.0,"[1.0, 0.0, 0.0, 0.0]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_pair_220,pref_pair,,,nan,"[0.9991, 0.0009]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_pair_221,pref_pair,,,nan,"[0.9999, 0.0001]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_pair_222,pref_pair,,,nan,"[0.9964, 0.0036]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_pair_223,pref_pair,,,nan,"[0.9913, 0.0087]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_pair_224,pref_pair,,,nan,"[0.85, 0.15]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_rating_310,pref_rating,,,nan,"[0.8518, 0.1058, 0.0191, 0.0073, 0.007, 0.0063, 0.0027]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_rating_311,pref_rating,,,nan,"[0.1293, 0.0034, 0.0022, 0.0074, 0.0075, 0.0068, 0.8433]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_rating_312,pref_rating,,,nan,"[0.4835, 0.0741, 0.0908, 0.3221, 0.0155, 0.0085, 0.0054]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_rating_313,pref_rating,,,nan,"[0.912, 0.0315, 0.0472, 0.0041, 0.001, 0.0008, 0.0034]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.3,band,0.3,pref_rating_314,pref_rating,,,nan,"[0.3387, 0.0598, 0.071, 0.0368, 0.2087, 0.0253, 0.2597]",75,66.60
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_open_000,facts_open,perfect - - - - - - - - - - - - - - - - 10 000000000000 00000000000000,0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_open_001,facts_open,"   ,                                            ",0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_open_002,facts_open,ail 1111211111111111111111111111111111111111111111,0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_open_003,facts_open,", ,,,,                                                                                     ( ",0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_open_004,facts_open,122223412222222222242222222222222322222122222223,0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,arith_100,arith,111123442431123111111111231111111111112311231111,0,0.00012,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,arith_101,arith,  1    2:    1    1   1   1    1   1      1     ,0,1e-05,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,arith_102,arith,shter or or  s    s    s s only at at  ats s s    s s   s at  ( ( at at at    ,0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,arith_103,arith,  3           1                                 ,0,2e-05,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,arith_104,arith,"2,, (or)) 2. () () ( ( ) ) ). ( ( () ( ( ) )) () ) ( ( ()) )) ( ( () ( ( ( ()",0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reason_160,reason,  .  .                                                                                       ,0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reason_161,reason,1 over over  100  100 1                                 ,0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reason_162,reason," 101s2c,s, , ,:s,, ,,,s, ,,,s, ,,s,s: , , , , , , (,s) ,: , , , ,",0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reason_163,reason,"Pinday not to be, are a, 4,4, | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |",0,0.00499,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reason_164,reason," f with only,   with  e ( e  e  e  e  .  .  `  `  ` ( ` ` `       ` ` ` ` ` ` ` `  ` ` ` ` ` `",0,0.0,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_open_340,pref_open," on  one one on on on on on on  on first ( on last shared or last, on, on on, on, on, on, on, on, on, last, on, on, on, on, on",,nan,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_open_341,pref_open,get get?????????????????????????????????????????????????: get?????????????????????????????????????????????,,nan,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_open_342,pref_open,"****124, in   **1 ** **  ** ** ********1**************** ****** ** ** ** ** ** ** ** ** ** ** ** ** ** ** ** **",,nan,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_open_343,pref_open,️  ️  ️  � � � � � � � � � � � � � �  �  �  �  � � � � �  � � � � � � � � � � � � �,,nan,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_open_344,pref_open,ani.c.1.1.1.1.2.3.1.2.when.1.2..2.3.4.2.when.when.4.2..1.2.3,,nan,,76,69.40
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reading_355,reading,"s: then, it to the of the first, which to, a, a, then, a, to, the, then, to,, which, then, to, the, to, then, to,,, then",0,0.0,,78,68.03
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reading_356,reading,  2a: 1 2.  2:    2.   1.  1.  1.   1.  1. 1.  1,0,0.0,,78,68.03
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reading_357,reading,"Answer to:: **,.,.,,.,,.,,.,,.,,.,,.,,.,, (,),) **,**,,** **.,,.,** **,**, **,** **,**, **.,,",0,0.0,,78,68.03
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reading_358,reading,"1.1, 2, 1, () (1) (1) (1) (1) (1) (1) ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( ( (",0,0.0,,78,68.03
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,reading_359,reading,"  , or    I  \,  \  \  \   \  \  \  \  \  \  \  \  \  \  \  \  \  \   \",0,0.0,,78,68.03
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_mc_060,facts_mc,,0,0.11157,"[0.1116, 0.2097, 0.5778, 0.101]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_mc_061,facts_mc,,0,0.19431,"[0.1943, 0.2371, 0.1341, 0.4345]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_mc_062,facts_mc,,0,0.00206,"[0.9417, 0.0126, 0.0436, 0.0021]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_mc_063,facts_mc,,0,0.02321,"[0.9639, 0.006, 0.0232, 0.0069]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,facts_mc_064,facts_mc,,0,0.00024,"[0.9976, 0.0002, 0.0016, 0.0006]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_pair_220,pref_pair,,,nan,"[0.9101, 0.0899]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_pair_221,pref_pair,,,nan,"[0.0084, 0.9916]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_pair_222,pref_pair,,,nan,"[0.9877, 0.0123]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_pair_223,pref_pair,,,nan,"[0.95, 0.05]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_pair_224,pref_pair,,,nan,"[0.6049, 0.3951]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_rating_310,pref_rating,,,nan,"[0.817, 0.1686, 0.0067, 0.0011, 0.0035, 0.0008, 0.0024]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_rating_311,pref_rating,,,nan,"[0.9861, 0.0043, 0.0046, 0.0016, 0.0008, 0.0013, 0.0012]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_rating_312,pref_rating,,,nan,"[0.4668, 0.1613, 0.078, 0.0078, 0.2744, 0.0021, 0.0095]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_rating_313,pref_rating,,,nan,"[0.6555, 0.1121, 0.1301, 0.0075, 0.0894, 0.0016, 0.0037]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,band_0.5,band,0.5,pref_rating_314,pref_rating,,,nan,"[0.3815, 0.5683, 0.0271, 0.007, 0.0139, 0.0011, 0.0011]",79,64.83
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_000,facts_open,Paris,1,0.99999,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_001,facts_open,Tokyo,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_002,facts_open,Rome,1,0.99983,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_003,facts_open,Berlin,1,0.99999,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_004,facts_open,Madrid,1,0.99997,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_100,arith,17,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_101,arith,33,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_102,arith,22,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_103,arith,81,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_104,arith,-32,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_160,reason,Fay,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.  From the third statement: Ivo > Cara   From the second: Cara > Fay   ,1,0.00168,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_162,reason,Kai,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_163,reason,Dev,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_164,reason,Eli,1,1.0,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both peaceful and alive.",,nan,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft natural light, fresh air, and minimal distractions.",,nan,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_344,pref_open,"Soft jazz, acoustic folk, or gentle indie music suits a rainy afternoon.",,nan,,80,58.46
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reading_355,reading,potter,1,0.78226,,80,66.69
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reading_356,reading,carpenter,1,0.37641,,80,66.69
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reading_357,reading,carpenter,1,0.96381,,80,66.69
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reading_358,reading,sailor,1,0.97644,,80,66.69
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reading_359,reading,carpenter,1,0.98279,,80,66.69
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_222,pref_pair,,,nan,"[0.4073, 0.5927]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_224,pref_pair,,,nan,"[1.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0113, 0.9887, 0.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9694, 0.0013, 0.0293]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9993, 0.0, 0.0007]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.9959, 0.0039, 0.0, 0.0]",81,66.89
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_open_000,facts_open,Paris,1,0.99999,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_open_001,facts_open,Tokyo,1,0.99998,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_open_002,facts_open,Rome,1,0.99991,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_open_003,facts_open,Berlin,1,0.99998,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_open_004,facts_open,Madrid,1,0.99997,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,arith_100,arith,17,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,arith_101,arith,33,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,arith_102,arith,22,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,arith_103,arith,81,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,arith_104,arith,-32,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reason_160,reason,Fay,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reason_161,reason,Fay,0,0.06441,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reason_162,reason,Kai is the tallest.,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reason_163,reason,Dev,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reason_164,reason,Eli,1,1.0,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_open_340,pref_open,"My favorite season is autumn because of its rich, earthy colors and the comforting warmth of the crisp, golden days.",,nan,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_open_341,pref_open,"A good day is one where you feel a sense of joy, purpose, and connection, even in small moments of peace and gratitude.",,nan,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_open_342,pref_open,"I find the beauty of a clear morning sky because it embodies peace, clarity, and the quiet wonder of new beginnings.",,nan,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-filled cabin with soft lighting, fresh air, and minimal distractions.",,nan,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_open_344,pref_open,"Soft jazz, gentle classical piano, or soothing indie folk melodies suit a rainy afternoon.",,nan,,81,52.92
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reading_355,reading,Gus has the job of a potter.,1,0.56922,,82,66.36
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reading_356,reading,Carpenter,1,0.61336,,82,66.36
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reading_357,reading,carpenter,1,0.91425,,82,66.36
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reading_358,reading,sailor,1,0.94357,,82,66.36
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,reading_359,reading,carpenter,1,0.62746,,82,66.36
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_pair_222,pref_pair,,,nan,"[0.0876, 0.9124]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_pair_224,pref_pair,,,nan,"[1.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0001, 0.9999, 0.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.5923, 0.0131, 0.3946]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0474, 0.0, 0.9526]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.1,single,0.1,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0001, 0.9874, 0.0124, 0.0, 0.0]",82,65.42
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_open_000,facts_open,Paris,1,0.95408,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_open_001,facts_open,Tokyo,1,0.95948,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_open_002,facts_open,Rome,1,0.99896,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_open_003,facts_open,Berlin,1,0.99262,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_open_004,facts_open,Madrid,1,0.9973,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,arith_100,arith,17,1,0.99977,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,arith_101,arith,33,1,1.0,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,arith_102,arith,22,1,1.0,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,arith_103,arith,81,1,1.0,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,arith_104,arith,-32,1,0.99998,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reason_160,reason,Fay,1,0.99997,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reason_161,reason,Hana is the tallest.,1,0.90653,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reason_162,reason,Kai,1,0.99999,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reason_163,reason,Dev,1,0.90154,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reason_164,reason,Eli,1,0.99928,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_open_340,pref_open,"My favourite season is autumn because it beautifully blends crisp air, vibrant foliage, and a gentle sense of readiness for the coming year.",,nan,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_open_341,pref_open,"A good day is made by moments of joy, peace, and connection with others or oneself that bring a sense of gratitude and contentment.",,nan,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_open_342,pref_open,"I find beautiful the beauty of a simple wooden spoon in a rustic kitchen, because it carries the quiet, enduring beauty of everyday things that often hold the most heartfelt stories.",,nan,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_open_343,pref_open,"An ideal place to think is a quiet, serene space with soft light, minimal distractions, and a sense of safety and peace—like a sun-drenched think room with a view of distant mountains.",,nan,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_open_344,pref_open,"Soft, melancholy jazz with a touch of melancholy folk or gentle classical music suits a rainy afternoon.",,nan,,81,67.93
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reading_355,reading,A potter,1,0.10065,,81,68.12
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reading_356,reading,Carpenter,1,4e-05,,81,68.12
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reading_357,reading,Carpunter,0,0.0,,81,68.12
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reading_358,reading,Sailor,1,0.99095,,81,68.12
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,reading_359,reading,carpenter,1,0.40787,,81,68.12
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_mc_061,facts_mc,,0,4e-05,"[0.0, 0.999, 0.0001, 0.0009]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_pair_220,pref_pair,,,nan,"[0.9987, 0.0013]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_pair_221,pref_pair,,,nan,"[0.9817, 0.0183]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_pair_224,pref_pair,,,nan,"[0.0804, 0.9196]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0991, 0.8832, 0.0076, 0.01]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0006, 0.9994]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0005, 0.0009, 0.9986]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.3,single,0.3,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0005, 0.2704, 0.0039, 0.0126, 0.7125]",82,65.07
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_open_000,facts_open,Paris,1,0.00956,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_open_001,facts_open,300000000000000000000000000000000000000000000000,0,0.01129,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_open_002,facts_open,Roma,0,0.0,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_open_003,facts_open,Berlin,1,0.87176,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_open_004,facts_open,"a number, a name, or single letter or digit. No working, no explanation.   a name  a single letter or digit.   a name  the capital of Spain is Madrid.   Madrid.   Madrid.   ",1,0.00659,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,arith_100,arith,"a number, a name, or a single letter or digit. 27.",0,0.00215,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,arith_101,arith,16 + 17 = 33  33,1,0.99698,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,arith_102,arith,22,1,0.32604,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,arith_103,arith,"a number, a name, or a single letter or digit. no working, no explanation. 53 + 28 = 81. 81. 81. 81. 81. ",1,9e-05,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,arith_104,arith,answer a number or a name or a single letter or digit  22 - 54 = -32  -32  32  22  54  22  54  22  54,0,0.99849,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reason_160,reason,Fay  Fay,1,0.99643,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reason_161,reason,1  1. Hana is taller than Ivo.   2. Cara is taller than Fay.   3. Ivo is taller than Cara.    From 3: Ivo > Cara   From 1: Hana,1,0.00975,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reason_162,reason,"a number, a name, or a single letter or digit.   Answer: a name, the tallest is Kai.   Final answer: Kai ```  ```  ```  ```  ```  ```  ```  ```  ```  ",1,0.0573,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reason_163,reason,Dev is the shortest.    Answer: Dev,1,0.00017,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reason_164,reason,eli,1,0.0,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_open_340,pref_open,"I never actually have favorite seasons because I don't experience them through experience, but I can tell you that the autumn is often described as the most peaceful and most favorite season in one sentence.",,nan,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_open_341,pref_open,"A good day is defined by the sense of joy, peace, and contentment that comes from being in the moment and feeling connected to what matters.",,nan,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_open_342,pref_open,"One thing I find beautiful is the sunrise because it symbolizes hope and renewal, offering a peaceful, ever-lasting, and ever-so-soft, ever-so-soft, ever-so-soft, ever-so-soft, ever-so-soft",,nan,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_open_343,pref_open,"An ideal place to think is a quiet, warm place with a cozy blanket and a thought-filled, warm, cozy, warm, cozy, warm, cozy, warm, cozy, warm, cozy, warm, cozy, warm, cozy,",,nan,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_open_344,pref_open,Smooth vocals and gentle instruments suit a rainy afternoon.,,nan,,79,69.20
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reading_355,reading,potter,1,0.00941,,78,66.30
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reading_356,reading,"anumber, a name, or a single letter or digit.",0,0.10332,,78,66.30
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reading_357,reading,carpenter,1,0.07668,,78,66.30
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reading_358,reading,Ben has a job as a sailor.,1,0.00125,,78,66.30
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,reading_359,reading,Ivo works as a carpenter.,1,0.0,,78,66.30
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_mc_061,facts_mc,,0,0.00577,"[0.0058, 0.0029, 0.5034, 0.4879]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,facts_mc_064,facts_mc,,1,0.99999,"[0.0, 1.0, 0.0, 0.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_pair_221,pref_pair,,,nan,"[0.152, 0.848]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_pair_222,pref_pair,,,nan,"[0.9726, 0.0274]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_pair_224,pref_pair,,,nan,"[0.0, 1.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0002, 0.0022, 0.9976]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0006, 0.0, 0.0, 0.9993]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0001, 0.0032, 0.0057, 0.991]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,single_0.5,single,0.5,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0011, 0.9449, 0.0463, 0.0054, 0.0017, 0.0006]",79,66.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_000,facts_open,Paris,1,0.99999,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_001,facts_open,Tokyo,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_002,facts_open,Rome,1,0.99984,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_004,facts_open,Madrid,1,0.99997,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_100,arith,17,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_101,arith,33,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_102,arith,22,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_103,arith,81,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_104,arith,-32,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_160,reason,Fay,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.  From the third statement: Ivo > Cara   From the second: Cara > Fay   ,1,0.00096,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_162,reason,Kai,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_163,reason,Dev,1,0.99999,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_164,reason,Eli,1,1.0,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_344,pref_open,"Soft jazz, acoustic folk, or gentle piano music suits a rainy afternoon.",,nan,,77,65.71
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_355,reading,potter,1,0.83512,,76,70.04
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_356,reading,Carpenter,1,0.34488,,76,70.04
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_357,reading,carpenter,1,0.96202,,76,70.04
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_358,reading,sailor,1,0.98612,,76,70.04
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_359,reading,carpenter,1,0.98622,,76,70.04
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_064,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6225, 0.3775]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_224,pref_pair,,,nan,"[1.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.046, 0.954, 0.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9829, 0.0007, 0.0164]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",77,66.69
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_314,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.9885, 0.0113, 0.0, 0.0]",77,66.69

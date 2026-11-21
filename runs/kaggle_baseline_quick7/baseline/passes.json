@@ -1,0 +1,65 @@
+{
+ "Qwen/Qwen3-4B|clean_greedy": {
+  "acc": {
+   "facts_open": 100.0,
+   "arith": 100.0,
+   "reason": 91.7,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "arith": 0.0,
+   "reason": 0.0,
+   "scale_check": 0.824
+  },
+  "pref": {
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.11
+  },
+  "seconds": 52.8,
+  "nonfinite": 0,
+  "temp_end": "64"
+ },
+ "Qwen/Qwen3-4B|band_0.1": {
+  "acc": {
+   "facts_open": 71.7,
+   "arith": 78.3,
+   "reason": 71.7,
+   "scale_check": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.386,
+   "arith": 0.137,
+   "reason": 0.028,
+   "scale_check": 0.648
+  },
+  "pref": {
+   "scale_check_mean": 6.75,
+   "scale_check_reversed_mean": 2.87
+  },
+  "seconds": 70.6,
+  "nonfinite": 0,
+  "temp_end": "78"
+ },
+ "Qwen/Qwen3-4B|clean_greedy_end": {
+  "acc": {
+   "facts_open": 100.0,
+   "arith": 100.0,
+   "reason": 91.7,
+   "scale_check": 83.3
+  },
+  "p_correct": {
+   "facts_open": 0.916,
+   "arith": 0.0,
+   "reason": 0.0,
+   "scale_check": 0.824
+  },
+  "pref": {
+   "scale_check_mean": 6.7,
+   "scale_check_reversed_mean": 1.11
+  },
+  "seconds": 54.6,
+  "nonfinite": 0,
+  "temp_end": "75"
+ }
+}

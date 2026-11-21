@@ -1,0 +1,104 @@
+{
+ "single@0.0": {
+  "accuracy": 0.967,
+  "degenerate": 0.0,
+  "n": 60,
+  "one_step": 1.0,
+  "two_step": 0.92,
+  "count": 1.0
+ },
+ "single@0.125": {
+  "accuracy": 0.558,
+  "degenerate": 0.058,
+  "n": 120,
+  "one_step": 0.647,
+  "two_step": 0.52,
+  "count": 0.528
+ },
+ "single@0.15": {
+  "accuracy": 0.383,
+  "degenerate": 0.083,
+  "n": 120,
+  "one_step": 0.529,
+  "two_step": 0.36,
+  "count": 0.278
+ },
+ "single@0.175": {
+  "accuracy": 0.083,
+  "degenerate": 0.108,
+  "n": 120,
+  "one_step": 0.206,
+  "two_step": 0.02,
+  "count": 0.056
+ },
+ "single@0.2": {
+  "accuracy": 0.058,
+  "degenerate": 0.108,
+  "n": 120,
+  "one_step": 0.088,
+  "two_step": 0.06,
+  "count": 0.028
+ },
+ "single@0.25": {
+  "accuracy": 0.008,
+  "degenerate": 0.05,
+  "n": 120,
+  "one_step": 0.029,
+  "two_step": 0.0,
+  "count": 0.0
+ },
+ "episode@0.0": {
+  "accuracy": 0.95,
+  "degenerate": 0.0,
+  "n": 60,
+  "one_step": 1.0,
+  "two_step": 0.96,
+  "count": 0.889,
+  "parse_rate": 1.0
+ },
+ "episode@0.125": {
+  "accuracy": 0.883,
+  "degenerate": 0.0,
+  "n": 120,
+  "one_step": 1.0,
+  "two_step": 0.92,
+  "count": 0.722,
+  "parse_rate": 0.992
+ },
+ "episode@0.15": {
+  "accuracy": 0.767,
+  "degenerate": 0.0,
+  "n": 120,
+  "one_step": 0.882,
+  "two_step": 0.84,
+  "count": 0.556,
+  "parse_rate": 0.958
+ },
+ "episode@0.175": {
+  "accuracy": 0.625,
+  "degenerate": 0.025,
+  "n": 120,
+  "one_step": 0.824,
+  "two_step": 0.52,
+  "count": 0.583,
+  "parse_rate": 0.867
+ },
+ "episode@0.2": {
+  "accuracy": 0.35,
+  "degenerate": 0.008,
+  "n": 120,
+  "one_step": 0.471,
+  "two_step": 0.26,
+  "count": 0.361,
+  "parse_rate": 0.725
+ },
+ "episode@0.25": {
+  "accuracy": 0.075,
+  "degenerate": 0.042,
+  "n": 120,
+  "one_step": 0.059,
+  "two_step": 0.02,
+  "count": 0.167,
+  "parse_rate": 0.35
+ }
+}

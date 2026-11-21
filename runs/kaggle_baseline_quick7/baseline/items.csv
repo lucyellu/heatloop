@@ -1,0 +1,577 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_002,facts_open,Rome,1,0.99777,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_004,facts_open,Madrid,1,0.99989,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_005,facts_open,Ottawa,1,0.99952,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_006,facts_open,Canberra,1,0.97061,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_007,facts_open,Cairo,1,0.99991,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_008,facts_open,Moscow,1,0.994,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_009,facts_open,Beijing,1,0.99983,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_010,facts_open,New Delhi,1,0.99995,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_011,facts_open,Brasília,1,0.95765,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_012,facts_open,Mexico City,1,0.99938,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_013,facts_open,Buenos Aires,1,0.99994,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_014,facts_open,London,1,0.99997,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_015,facts_open,Dublin,1,0.99889,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_016,facts_open,Lisbon,1,0.92915,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_017,facts_open,Athens,1,0.99771,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_018,facts_open,Oslo,1,0.99648,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_019,facts_open,Stockholm,1,0.99947,,46,32.08
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_020,facts_open,Helsinki,1,0.99989,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_021,facts_open,Copenhagen,1,0.99899,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_022,facts_open,Warsaw,1,0.92171,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_023,facts_open,Vienna,1,0.9867,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_024,facts_open,Nairobi,1,0.99908,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_025,facts_open,Seoul,1,0.99992,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_026,facts_open,Bangkok,1,0.99907,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_027,facts_open,Lima,1,0.99765,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_028,facts_open,Ankara,1,0.99694,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_029,facts_open,"Washington, D.C.",1,0.99987,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_030,facts_open,Jupiter,1,0.99948,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_031,facts_open,Carbon dioxide,1,0.78239,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_032,facts_open,7,1,1.0,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_033,facts_open,H₂O,1,0.0,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_034,facts_open,Mars,1,0.99927,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_035,facts_open,0°C,1,1.0,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_036,facts_open,8,1,1.0,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_037,facts_open,Pacific Ocean,1,0.99922,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_038,facts_open,William Shakespeare,1,1e-05,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_039,facts_open,Mount Everest,1,0.04463,,47,34.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_040,facts_open,Green,1,0.73649,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_041,facts_open,7,1,1.0,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_042,facts_open,cold,1,0.97404,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_043,facts_open,Honey.,1,0.99837,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_044,facts_open,2,1,1.0,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_045,facts_open,Lion,1,0.94949,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_046,facts_open,24,1,1.0,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_047,facts_open,Portuguese,1,0.98505,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_048,facts_open,100,1,1.0,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_049,facts_open,Heart,1,0.9743,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_050,facts_open,Blue whale,1,0.98691,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_051,facts_open,3,1,1.0,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_052,facts_open,Ice,1,0.96591,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_053,facts_open,Piano.,1,0.9944,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_054,facts_open,Russia,1,0.99971,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_055,facts_open,Mercury.,1,0.8507,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_056,facts_open,Butterflies,1,2e-05,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_057,facts_open,Australia,1,0.99991,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_058,facts_open,60,1,1.0,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_059,facts_open,Diamond.,1,0.99992,,48,39.85
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1e-05,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_102,arith,36 minus 14 equals 22.    Answer: 22,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_103,arith,53 + 28 = 81   Answer: 81,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_104,arith,22 - 54 = -32    Answer: -32,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_105,arith,25 - 38 = -13    Answer: -13,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_106,arith,11 + 32 = 43   Answer: 43,1,6e-05,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_107,arith,45 - 39 = 6    Answer: 6,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_108,arith,44 - 49 = -5    Answer: -5,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_109,arith,37 minus 27 equals 10.    Answer: 10,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_110,arith,56 minus 56 equals 0.    Answer: 0,1,2e-05,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_112,arith,25 - 36 equals -11.    Answer: -11,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_113,arith,45 - 31 = 14    Answer: 14,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_114,arith,30 minus 29 equals 1.    Answer: 1,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_115,arith,54 + 14 = 68   Answer: 68,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_116,arith,21 + 16 = 37   Answer: 37,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_117,arith,44 minus 41 equals 3.    Answer: 3,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_118,arith,26 + 17 = 43   Answer: 43,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_119,arith,42 + 46 = 88   Answer: 88,1,0.0,,50,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_120,arith,"First, add 49 and 31:   49 + 31 = 80    Then multiply by 3:   80 * 3 = 240    Answer: 240",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_121,arith,"First, add 39 and 14: $39 + 14 = 53$.   Then multiply by 3: $53 \times 3 = 159$.    Answer: 159",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_122,arith,"First, add 17 and 57:   $ 17 + 57 = 74 $.  Then multiply by 7:   $ 74 \times 7 = 518 $.  Answer: 518",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_123,arith,"First, add 35 and 51: $35 + 51 = 86$. Then multiply by 2: $86 \times 2 = 172$.    Answer: 172",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_124,arith,"First, add 41 and 50: $41 + 50 = 91$.   Then multiply by 5: $91 \times 5 = 455$.    Answer: 455",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_125,arith,"First, add 38 and 51:   $ 38 + 51 = 89 $.  Then multiply by 5:   $ 89 \times 5 = 445 $.  Answer: 445",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_126,arith,"First, add 42 and 14: $42 + 14 = 56$.   Then multiply by 6: $56 \times 6 = 336$.    Answer: 336",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_127,arith,"First, add 47 and 58:   47 + 58 = 105    Then multiply by 2:   105 * 2 = 210    Answer: 210",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_128,arith,"First, add 34 and 29: $34 + 29 = 63$.   Then multiply by 2: $63 \times 2 = 126$.    Answer: 126",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_129,arith,"First, add 32 and 35: $32 + 35 = 67$.   Then multiply by 8: $67 \times 8 = 536$.    Answer: 536",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_130,arith,"First, add 19 and 26: $19 + 26 = 45$. Then multiply by 5: $45 \times 5 = 225$.    Answer: 225",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_131,arith,"First, add 39 and 50: $39 + 50 = 89$.   Then multiply by 8: $89 \times 8 = 712$.    Answer: 712",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_132,arith,"First, add 40 and 14: $40 + 14 = 54$.   Then multiply by 5: $54 \times 5 = 270$.    Answer: 270",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_133,arith,"First, add 21 and 46: $21 + 46 = 67$.   Then multiply by 6: $67 \times 6 = 402$.    Answer: 402",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_134,arith,"First, add 48 and 23:   48 + 23 = 71    Then multiply by 5:   71 * 5 = 355    Answer: 355",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_135,arith,"First, add 57 and 24:   57 + 24 = 81    Then multiply by 9:   81 * 9 = 729    Answer: 729",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_136,arith,"First, add 31 and 29: $31 + 29 = 60$.   Then multiply by 8: $60 \times 8 = 480$.    Answer: 480",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_137,arith,"First, add 45 and 18:   45 + 18 = 63    Then multiply by 9:   63 * 9 = 567    Answer: 567",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_138,arith,"First, add 26 and 39:   $ 26 + 39 = 65 $.  Then multiply by 9:   $ 65 \times 9 = 585 $.  Answer: 585",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_139,arith,"First, add 21 and 47: $21 + 47 = 68$.   Then multiply by 7: $68 \times 7 = 476$.    Answer: 476",1,0.0,,53,68.81
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_140,arith,"First, calculate $ 26 + 53 = 79 $.   Then, multiply by 3: $ 79 \times 3 = 237 $.   Finally, subtract 20: $ 237 - 20 = 217 $.    Answer: 217",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_141,arith,"First, calculate $ 27 + 12 = 39 $.   Then, multiply by 9: $ 39 \times 9 = 351 $.   Finally, subtract 35: $ 351 - 35 = 316 $.    Answer: 316",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_142,arith,"First, calculate $ 39 + 41 = 80 $. Then multiply by 4: $ 80 \times 4 = 320 $. Finally, subtract 5: $ 320 - 5 = 315 $.    Answer: 315",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_143,arith,"First, calculate $ 29 + 57 = 86 $.   Then, multiply by 8: $ 86 \times 8 = 688 $.   Finally, subtract 16: $ 688 - 16 = 672 $.    Answer: 672",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_144,arith,"First, calculate $ 54 + 50 = 104 $.   Then multiply by 8: $ 104 \times 8 = 832 $.   Finally, subtract 33: $ 832 - 33 = 799 $.    Answer: 799",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_145,arith,"First, calculate $ 44 + 54 = 98 $.   Then, multiply by 2: $ 98 \times 2 = 196 $.   Finally, subtract 36: $ 196 - 36 = 160 $.    Answer: 160",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_146,arith,"First, calculate $ 40 + 30 = 70 $. Then multiply by 7: $ 70 \times 7 = 490 $. Finally, subtract 6: $ 490 - 6 = 484 $.    Answer: 484",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_147,arith,"First, calculate $ 22 + 12 = 34 $.   Then, multiply by 4: $ 34 \times 4 = 136 $.   Finally, subtract 31: $ 136 - 31 = 105 $.    Answer: 105",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_148,arith,"First, calculate $ 31 + 39 = 70 $.   Then, multiply by 8: $ 70 \times 8 = 560 $.   Finally, subtract 25: $ 560 - 25 = 535 $.    Answer: 535",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_149,arith,"First, calculate $ 42 + 12 = 54 $.   Then, multiply by 4: $ 54 \times 4 = 216 $.   Finally, subtract 22: $ 216 - 22 = 194 $.    Answer: 194",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_150,arith,"First, calculate $ 47 + 48 = 95 $.   Then, multiply by 4: $ 95 \times 4 = 380 $.   Finally, subtract 34: $ 380 - 34 = 346 $.    Answer: 346",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_151,arith,"First, calculate $ 42 + 27 = 69 $.   Then, multiply by 4: $ 69 \times 4 = 276 $.   Finally, subtract 30: $ 276 - 30 = 246 $.    Answer: 246",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_152,arith,"First, calculate $ 40 + 24 = 64 $.   Then multiply by 4: $ 64 \times 4 = 256 $.   Finally, subtract 12: $ 256 - 12 = 244 $.    Answer: 244",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_153,arith,"First, calculate $20 + 22 = 42$.   Then, multiply by 8: $42 \times 8 = 336$.   Finally, subtract 26: $336 - 26 = 310$.    Answer: 310",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_154,arith,"First, calculate $ 46 + 23 = 69 $.   Then, multiply by 3: $ 69 \times 3 = 207 $.   Finally, subtract 22: $ 207 - 22 = 185 $.    Answer: 185",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_155,arith,"First, calculate $ 34 + 50 = 84 $.   Then, multiply by 9: $ 84 \times 9 = 756 $.   Finally, subtract 39: $ 756 - 39 = 717 $.    Answer: 717",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_156,arith,"First, calculate $ 33 + 58 = 91 $.   Then multiply by 6: $ 91 \times 6 = 546 $.   Finally, subtract 17: $ 546 - 17 = 529 $.    Answer: 529",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_157,arith,"First, calculate $ 58 + 33 = 91 $.   Then multiply by 7: $ 91 \times 7 = 637 $.   Finally, subtract 33: $ 637 - 33 = 604 $.    Answer: 604",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_158,arith,"First, calculate $ 51 + 35 = 86 $. Then multiply by 4: $ 86 \times 4 = 344 $. Finally, subtract 3: $ 344 - 3 = 341 $.    Answer: 341",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_159,arith,"First, calculate $ 23 + 16 = 39 $.   Then, multiply by 8: $ 39 \times 8 = 312 $.   Finally, subtract 38: $ 312 - 38 = 274 $.    Answer: 274",1,0.0,,56,67.52
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara. Therefore, Fay is the shortest.    Answer: Fay.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From this, we can deduce the order:   Gus > Jun > Cara > Dev.    Answer: Dev is the shortest.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_164,reason,"Ana is taller than Eli, Omar is taller than Ana, and Fay is taller than Omar. This creates a hierarchy: Fay > Omar > Ana > Eli.    Answer: Eli is the shortest.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_165,reason,"We are given the following relationships:  - Lena is taller than Ivo.   - Gus is taller than Fay.   - Fay is taller than Lena.    From this, we can build a chain of height comparisons:  **Gus > Fay > Lena > Ivo**  Thus, Gus is the tallest.  Answer: Gus.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_166,reason,"Nia is taller than Ana, and Pia is taller than Nia. Therefore, Pia is the tallest, Nia is in the middle, and Ana is the shortest.    Answer: Ana.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_167,reason,"We are given the following relationships:  - Pia is taller than Cara.   - Eli is taller than Ivo.   - Cara is taller than Eli.    From this, we can deduce the order:  - Pia > Cara > Eli > Ivo    Thus, the shortest is Ivo.    Answer: Ivo.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_168,reason,From the statements:   - Omar is taller than Milo.   - Pia is taller than Lena.   - Milo is taller than Pia.    This implies:   Omar > Milo > Pia > Lena.    Answer: Omar is the tallest.,1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_169,reason,"We are given the following relationships:   - Pia is taller than Milo.   - Omar is taller than Lena.   - Lena is taller than Pia.    From this, we can build a chain of height comparisons:   Omar > Lena > Pia > Milo.    Thus, Omar is the tallest.    Answer: Omar.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_170,reason,"Eli is taller than Ben, and Ben is taller than Nia. Therefore, Eli is the tallest.    Answer: Eli.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_171,reason,"Gus > Ben > Nia > Kai in terms of height. Therefore, Kai is the shortest.    Answer: Kai.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_172,reason,"Ben is taller than Kai, and Kai is taller than Gus. Therefore, Ben is the tallest.    Answer: Ben.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_173,reason,"Ben is taller than Cara, and Gus is taller than Ben. This means Gus is the tallest, Ben is in the middle, and Cara is the shortest.    Answer: Cara.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_175,reason,"If today is Tuesday, then each week has 7 days. Since 14 days is exactly 2 weeks, the day of the week will be the same as today.    Answer: Tuesday.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_176,reason,"If today is Thursday, then in 7 days it will be Thursday again. Adding 3 more days to Thursday brings us to Sunday.    Answer: Sunday.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_177,reason,"To find the day of the week 16 days from Friday, divide 16 by 7. The remainder is 2. Counting 2 days from Friday: Saturday (1), Sunday (2).    Answer: Sunday.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_178,reason,"To find the day of the week 16 days from Wednesday, divide 16 by 7. The remainder is 2. Counting 2 days from Wednesday: Thursday (1), Friday (2).    Answer: Friday.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_179,reason,"If today is Thursday, then each week has 7 days. Since 14 days is exactly 2 weeks, adding 14 days to Thursday will still be Thursday.    Answer: Thursday.",1,0.0,,59,70.67
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_180,reason,"To find the day of the week 20 days from Wednesday, divide 20 by 7 (since there are 7 days in a week).   20 ÷ 7 = 2 weeks and 6 days.   Adding 6 days to Wednesday: Wednesday + 6 days = Tuesday.    Answer: Tuesday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_181,reason,"To find the day of the week 15 days from Saturday, divide 15 by 7. The remainder is 1, so 15 days from Saturday is 1 day later, which is Sunday.    Answer: Sunday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_182,reason,"If today is Tuesday, then in 7 days it will be Tuesday again, since the days of the week repeat every 7 days.    Answer: Tuesday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_183,reason,"To find the day of the week 17 days from Wednesday, divide 17 by 7. The remainder is 3. Counting 3 days from Wednesday: Thursday (1), Friday (2), Saturday (3).    Answer: Saturday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_184,reason,"If today is Friday, adding 7 days brings us back to Friday. So, 9 days from today is 2 days after Friday.    Answer: Sunday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_185,reason,"To find the day of the week 13 days from Wednesday, divide 13 by 7. The remainder is 6. Counting 6 days from Wednesday: Thursday (1), Friday (2), Saturday (3), Sunday (4), Monday (5), Tuesday (6).    Answer: Tuesday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_186,reason,"To find the day of the week 15 days from Tuesday, divide 15 by 7. The remainder is 1, so 15 days from Tuesday is 1 day later, which is Wednesday.    Answer: Wednesday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_187,reason,"If today is Sunday, then in 7 days it will be Sunday again. This is because the days of the week repeat every 7 days.  Answer: Sunday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_188,reason,"If today is Tuesday, adding 7 days will bring us back to Tuesday. So, 9 days from today is 2 days after Tuesday.    Answer: Thursday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_189,reason,"If today is Saturday, then each week has 7 days. Since 14 days is exactly 2 weeks, the day of the week will be the same as today.    Answer: Saturday.",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_190,reason,"Nia starts with 5 boxes, each containing 6 books, so she has $5 \times 6 = 30$ books. She also has 7 additional books, making a total of $30 + 7 = 37$ books. After giving away 1 box (6 books), she has $37 - 6 = 31$ books left.  Answer: 31",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_191,reason,"Hana starts with 7 apples and 3 boxes, each containing 9 apples. So, she has $3 \times 9 = 27$ apples in boxes. Adding the 7 apples, she has $27 + 7 = 34$ apples. After giving away 1 box (9 apples), she has $34 - 9 = 25$ apples.    Answer: 25",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_192,reason,"Kai starts with 4 pencils and 5 boxes, each containing 8 pencils. So, he has $5 \times 8 = 40$ pencils in boxes. Adding the 4 pencils, he has $40 + 4 = 44$ pencils. After giving away 1 box (which contains 8 pencils), he has $44 - 8 = 36$ pencils left.  Answer: 36",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_193,reason,"Pia starts with 2 books and 3 boxes, each containing 4 books. So, she has $3 \times 4 = 12$ books in boxes, plus 2 books, for a total of $12 + 2 = 14$ books. She gives away 1 box, which contains 4 books.   Answer: 10",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_194,reason,"Lena starts with 3 boxes, each containing 5 books, so she has $3 \times 5 = 15$ books. She also has 8 additional books, making a total of $15 + 8 = 23$ books. After giving away 1 box (which contains 5 books), she has $23 - 5 = 18$ books left.  Answer: 18",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_195,reason,"Fay starts with 4 boxes, each containing 7 pencils, so she has $4 \times 7 = 28$ pencils. She also has 6 additional pencils, making a total of $28 + 6 = 34$ pencils. After giving away 1 box (7 pencils), she has $34 - 7 = 27$ pencils left.  Answer: 27",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_196,reason,"Milo starts with 7 stamps and 3 boxes, each containing 5 stamps. So, he has $3 \times 5 = 15$ stamps in boxes. Adding the 7 stamps, he has $15 + 7 = 22$ stamps. After giving away 1 box (5 stamps), he has $22 - 5 = 17$ stamps.    Answer: 17",1,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_197,reason,"Gus starts with 5 boxes, each containing 7 marbles, so he has $5 \times 7 = 35$ marbles. He gives away 1 box, which contains 7 marbles. Therefore, he now has $35 - 7 = 28$ marbles.  Answer: 28",0,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_198,reason,"Hana starts with 3 boxes, each containing 5 pencils, so she has $3 \times 5 = 15$ pencils. After giving away 1 box (which contains 5 pencils), she has $15 - 5 = 10$ pencils left.  Answer: 10",0,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_199,reason,"Omar has 6 boxes with 7 pencils each, so he has $6 \times 7 = 42$ pencils. After giving away 1 box (which contains 7 pencils), he has $42 - 7 = 35$ pencils left.    Answer: 35",0,0.0,,62,68.66
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_200,reason,"Hana starts with 3 boxes, each containing 6 marbles, so she has $3 \times 6 = 18$ marbles. She also has 4 additional marbles, making a total of $18 + 4 = 22$ marbles. After giving away 1 box (6 marbles), she has $22 - 6 = 16$ marbles left.  Answer: 16",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_201,reason,"Cara starts with 6 boxes, each containing 8 marbles, so she has $6 \times 8 = 48$ marbles. After giving away 1 box, she has 5 boxes left, which contain $5 \times 8 = 40$ marbles.    Answer: 40",0,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_202,reason,"Eli starts with 4 boxes, each containing 3 marbles, so he has $4 \times 3 = 12$ marbles. After giving away 1 box, he has 3 boxes left, which contain $3 \times 3 = 9$ marbles.    Answer: 9",0,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_203,reason,"Ben starts with 2 apples and 4 boxes, each containing 7 apples. The total number of apples is $2 + (4 \times 7) = 2 + 28 = 30$. After giving away 1 box (which contains 7 apples), he has $30 - 7 = 23$ apples left.  Answer: 23",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_204,reason,"Eli starts with 8 apples and 2 boxes, each containing 9 apples. So, he has $8 + 2 \times 9 = 8 + 18 = 26$ apples. After giving away 1 box (9 apples), he has $26 - 9 = 17$ apples.    Answer: 17",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_205,reason,"The sequence is 6, 8, 10, 12, 14, ...   Each number increases by 2.    Answer: 16",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_206,reason,"The sequence increases by 2 each time: 20, 22, 24, 26, 28, ...   Next number: 30.    Answer: 30",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_207,reason,"The sequence is: 2, 11, 20, 29, 38, ?  Each number increases by 9:  - 2 + 9 = 11   - 11 + 9 = 20   - 20 + 9 = 29   - 29 + 9 = 38   - 38 + 9 = 47    Answer: 47",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_208,reason,"The sequence is 3, 9, 15, 21, 27, ...  Each number increases by 6:   3 + 6 = 9   9 + 6 = 15   15 + 6 = 21   21 + 6 = 27   27 + 6 = 33    Answer: 33",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_209,reason,"The sequence is: 13, 15, 17, 19, 21, ?  This is a sequence of odd numbers starting from 13. The pattern increases by 2 each time.  Next number after 21 is 23.  Answer: 23",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_210,reason,"The sequence increases by 8 each time: 11 + 8 = 19, 19 + 8 = 27, 27 + 8 = 35, 35 + 8 = 43.    Answer: 51",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_211,reason,"The sequence increases by 8 each time: 18 + 8 = 26, 26 + 8 = 34, 34 + 8 = 42, 42 + 8 = 50.   Answer: 58",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_212,reason,"The sequence increases by 4 each time: 10, 14, 18, 22, 26, ...   Next number: 30.    Answer: 30",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_213,reason,"The sequence increases by 4 each time: 14, 18, 22, 26, 30, ...   Next number: 34.    Answer: 34",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_214,reason,"The sequence increases by 7 each time: 19 + 7 = 26, 26 + 7 = 33, 33 + 7 = 40, 40 + 7 = 47.    Answer: 54",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_215,reason,"The sequence is 1, 3, 5, 7, 9, ...   Each number increases by 2.    Answer: 11",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_216,reason,"The sequence is: 2, 8, 14, 20, 26, ?  Each number increases by 6:  - 2 + 6 = 8   - 8 + 6 = 14   - 14 + 6 = 20   - 20 + 6 = 26   - 26 + 6 = 32    Answer: 32",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_217,reason,"The sequence increases by 4 each time: 1, 5, 9, 13, 17, 21.    Answer: 21",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_218,reason,"The sequence increases by 7 each time: 2, 9 (2+7), 16 (9+7), 23 (16+7), 30 (23+7).    Answer: 37",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_219,reason,"The sequence increases by 3 each time: 7, 10, 13, 16, 19, 22.    Answer: 22",1,0.0,,64,68.03
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_516,scale_check,,1,0.99995,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_517,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_518,scale_check,,1,0.99997,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_519,scale_check,,1,0.63799,"[0.638, 0.2744, 0.0408, 0.0014, 0.0005, 0.0001, 0.0448]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_520,scale_check,,1,1.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_521,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_522,scale_check,,1,0.99936,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0006, 0.9994]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_523,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_524,scale_check,,0,0.24393,"[0.0, 0.0, 0.0, 0.0001, 0.0046, 0.7514, 0.2439]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_525,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_526,scale_check,,0,0.00257,"[0.0, 0.0, 0.0, 0.0, 0.0533, 0.9441, 0.0026]",65,70.04
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_527,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",65,70.04
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_000,facts_open,France,0,0.03302,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_001,facts_open,Tokyo,1,0.07278,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_002,facts_open,Rome.,1,0.66237,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_003,facts_open,Berlin,1,0.98775,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_004,facts_open,Madrid,1,0.99742,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_005,facts_open,Aottaa,0,1e-05,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_006,facts_open, Canberra,1,0.01149,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_007,facts_open,</think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  ,0,0.63285,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_008,facts_open,Moscow,1,0.00062,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_009,facts_open,Beijing,1,0.34126,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_010,facts_open,New Delhi.,1,0.93308,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_011,facts_open,brasilia,1,0.00015,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_012,facts_open,xCDy,0,0.63064,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_013,facts_open, Buenos Aires,1,0.91102,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_014,facts_open,London,1,0.87059,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_015,facts_open,London,0,0.0676,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_016,facts_open,Lisbon.,1,0.0006,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_017,facts_open,Athens,1,0.194,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_018,facts_open,Oslo,1,0.22252,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_019,facts_open,Swedenborg,0,0.0129,,66,69.05
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_020,facts_open, Helsinki,1,0.00012,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_021,facts_open,Copenhagen,1,0.71033,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_022,facts_open,Warsaw,1,0.03221,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_023,facts_open,Vienna,1,0.07578,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_024,facts_open,larvisen,0,0.00011,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_025,facts_open,Seoul,1,0.98312,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_026,facts_open,Bangkok.,1,0.58855,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_027,facts_open,Cuzahoric.,0,0.0,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_028,facts_open, Ankara,1,0.00284,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_029,facts_open,"Washington, D.C.",1,0.93301,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_030,facts_open,Earth,0,0.67224,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_031,facts_open,Carbon dioxide,1,0.88511,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_032,facts_open,How many days are in a week?,0,0.0,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_033,facts_open,H₂O,1,0.0,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_034,facts_open,Mars.,1,0.87918,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_035,facts_open,0°C,1,0.00516,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_036,facts_open,8,1,0.50865,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_037,facts_open,"The largest ocean on Earth is the Atlantic Ocean. However, the largest ocean in terms of area is the Atlantic Ocean. The largest ocean in terms of depth is the Pacific Ocean. The largest ocean in terms of volume is the Pacific Ocean.",1,0.00161,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_038,facts_open,The author of Romeo and Juliet is William Shakespeare.,1,6e-05,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_039,facts_open,Earth.,0,0.00101,,67,69.20
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_040,facts_open,purple,0,0.00857,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_041,facts_open,7,1,4e-05,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_042,facts_open,cold,1,0.96295,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_043,facts_open,bees make honey.,1,0.9776,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_044,facts_open,2,1,0.12128,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_045,facts_open,"King of the jungle is a term often used to describe a lion. However, the term is also often used to describe a lion. However, the term is also often used to describe a lion. However, the term is also often used",1,8e-05,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_046,facts_open,24 hours.,1,0.97492,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_047,facts_open,Portugais.,0,0.57907,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_048,facts_open,100°C,1,0.01015,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_049,facts_open,Heart.,1,0.99827,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_050,facts_open,Whaleforth,0,0.77761,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_051,facts_open,3,1,0.99985,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_052,facts_open,Frozen water is called ice.,1,0.91972,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_053,facts_open,Piano.,1,0.9756,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_054,facts_open,Russia,1,0.57344,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_055,facts_open,Mercury,1,0.36645,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_056,facts_open,Moths.,0,0.0,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_057,facts_open,,0,0.00089,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_058,facts_open,六十分钟。,0,0.0447,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_059,facts_open,Diamond.,1,0.03649,,68,45.49
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_100,arith,Answer: 17,1,0.98896,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_101,arith,工作它出如果需要，然后完成与最终线的形式：答案：<answer>  16 + 17 = 33  答案: 33,1,0.0,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_102,arith,What is 36 - 14?  36 - 14 = 22.  Answer: 22.,1,0.9916,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_103,arith,53 + 28 = 81    Answer: 81,1,0.0,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_104,arith,Answer: -32,1,0.00255,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_105,arith,The result of 25 - 38 is -13.   Answer: -13,1,0.94361,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_106,arith,11 + 32 = 43  Answer: 43,1,0.04378,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_107,arith,Answer: 6,1,0.99941,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_108,arith,What is 44 - 49?  Answer: -5,1,0.38802,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_109,arith,Answer: 10,1,0.60266,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_110,arith,What is 56 - 56?   Answer: 0,1,0.00069,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_111,arith,31 + 31 = 62   Answer: 62,1,0.11274,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_112,arith,Answer: -11,1,0.12366,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_113,arith,What is 45 - 31?  Answer: 14,1,0.0,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_114,arith,Answer: 1,1,0.97993,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_115,arith,The calculation 54 + 14 equals 68.   Answer: 68,1,0.0,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_116,arith,The sum of 21 and 16 is 37. Answer: 37,1,0.01428,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_117,arith,44 - 41 = 3.   Answer: 3.,1,0.99998,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_118,arith,26 + 17 = 43   Answer: 43,1,0.00034,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_119,arith,42 + 46 = 88  Answer: 88,1,0.0,,69,47.86
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_120,arith,"First, calculate $ 49 + 31 $, which equals $ 80 $. Then, multiply $ 80 $ by $ 3 $, which equals $ 240 $.   Answer: 240",1,0.00145,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_121,arith,"First, calculate the sum inside the parentheses: $39 + 14 = 53$.   Then multiply by 3: $53 * 3 = 159$.   Answer: 159",1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_122,arith,Work out the expression step by step:  1. $17 + 57 = 74$ 2. $74 * 7 = 518$  Answer: 518,1,0.00026,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_123,arith,Answer: 172,1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_124,arith,(41 + 50) * 5 = 91 * 5 = 455   Answer: 455,1,0.05998,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_125,arith,The expression (38 + 51) * 5 is calculated as follows: 38 + 51 = 89 89 * 5 = 445  Answer: 445,1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_126,arith,Answer: <answer>,0,1e-05,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_127,arith,"First, add 47 and 58 to get 105, then multiply by 2 to get 210.   Answer: 210",1,0.00073,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_128,arith,"First, add 34 and 29: $34 + 29 = 63$. Then, multiply by 2: $63 \times 2 = 126$.    Answer: 126",1,0.033,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_129,arith,"First, add 32 and 35: 32 + 35 = 67.  Then, multiply by 8: 67 * 8 = 536.  Answer: 536",1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_130,arith,"First, calculate the sum inside the parentheses: 19 + 26 = 45.   Then multiply by 5: 45 * 5 = 225.    Answer: 225",1,0.0129,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_131,arith,Answer: Answer: 656,0,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_132,arith,Answer: 280,0,0.00052,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_133,arith,What is (21 + 46) * 6?   Answer: 366,0,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_134,arith,Answer: 1350,0,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_135,arith,"First, calculate the sum inside the parentheses: 57 + 24 = 81. Then, multiply by 9: 81 * 9 = 729. Answer: 729",1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_136,arith,Answer: 480,1,0.89253,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_137,arith,(45 + 18) = 63   63 * 9 = 567    Answer: 567,1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_138,arith,"First, add 26 and 39 to get 65. Then multiply 65 by 9 to get 585.   Answer: 585",1,0.00014,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_139,arith,"(21 + 47) is 68, and 68 * 7 is 476.    Answer: <476>",1,0.0,,71,69.99
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_140,arith,Work out the parentheses first: 26 + 53 = 89.  Now the expression is: 89 * 3 - 20.  Calculate 89 * 3 = 267.  Now subtract 20: 267 - 20 = 247.  Answer: 247,0,1e-05,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_141,arith,"Assistant:  This expression involves multiple operations, so I will solve it step by step.  First, solve the addition inside the parentheses: 27 + 12 = 49  Next, multiply the result by 9: 49 * 9 = 441  Finally, subtract 35: 441 - 35 = 406  Answer: 406",0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_142,arith,"The expression simplifies as follows: (39 + 41) = 80, 80 * 4 = 320, 320 - 5 = 315.  Answer: 315.",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_143,arith,Work it out: (29 + 57) = 86; 86 * 8 = 688; 688 - 16 = 672. Answer: 672,1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_144,arith,(54 + 50) * 8 - 33   = 104 * 8 - 33   = 832 - 33   = 800 - 33   = 767    Answer: 767,0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_145,arith,Answer: 182,0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_146,arith,"To solve (40 + 30) * 7 - 6, first calculate the parentheses: 40 + 30 = 70. Then multiply by 7: 70 * 7 = 490. Finally, subtract 6: 490 - 6 = 484.   Answer: 484",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_147,arith,"Work it out step by step: (22 + 12) = 34, then 34 * 4 = 136, then 136 - 31 = 105. Answer: 105",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_148,arith,"First, calculate the sum inside the parentheses: 31 + 39 = 70. Then multiply by 8: 70 * 8 = 560. Finally, subtract 25: 560 - 25 = 535. Answer: 535",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_149,arith,Answer: 226,0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_150,arith,Step 1: Calculate 47 + 48 = 95.   Step 2: Multiply 95 * 4 = 380.   Step 3: Subtract 34 from 380 = 346.    Answer: 346,1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_151,arith,Answer: 338,0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_152,arith,Answer: <112>,0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_153,arith,  (20 + 22) * 8 - 26     42 * 8 - 26     336 - 26    Answer: 310,1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_154,arith,"First, calculate the sum inside the parentheses:   46 + 23 = 69    Next, multiply by 3:   69 * 3 = 207    Finally, subtract 22:   207 - 22 = 185    Answer: 185",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_155,arith,"Work through the expression step-by-step:   First, calculate $ 34 + 50 = 84 $.   Next, multiply by 9: $ 84 * 9 = 756 $.   Finally, subtract 39: $ 756 - 39 = 717 $.    Answer: 717",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_156,arith,(33 + 58) = 91  91 * 6 = 546  546 - 17 = 529  Answer: 529,1,1e-05,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_157,arith,(58 + 33) * 7 - 33 = 91 * 7 - 33 = 637 - 33 = 604.   Answer: 604,1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_158,arith,"First, calculate the sum inside the parentheses: $51 + 35 = 86$.   Next, multiply by 4: $86 * 4 = 344$.   Finally, subtract 3: $344 - 3 = 341$.    Answer: 341",1,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_159,arith,"   Work it out briefly if you need to, then finish with a final line of the form: Answer: <answer>",0,0.0,,72,69.45
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_160,reason,The shortest is Fay.   Answer: Faay.,0,0.00033,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_161,reason,Hana is taller than Ivo. Ivo is shorter than Cara. Cara is shorter than Fay. Fay is the tallest. Answer: Fay.,0,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_162,reason,Kai is taller than Ana. Ana is taller than Pia. Pia is taller than Gus.   Answer: <Kai>,1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_163,reason,Gus is taller than Jun.   Jun is taller than Cara.   Cara is taller than Dev.    So the order from tallest to shortest is: Gus > Jun > Cara > Dev.    Answer: Dev is the shortest.,1,1e-05,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_164,reason,"Ana is taller than Eli. Omar is taller than Ana. Fay is taller than Omar.    From this, we can infer the order:   Fay > Omar > Ana > Eli    Who is the shortest?   Answer: Eli",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_165,reason,"Lena is taller than Ivo. Gus is taller than Fay. Fay is taller than Lena.    Gus is taller than Fay, and Fay is taller than Lena. So Gus is taller than Lena.    Gus is the tallest.    Answer: Gus",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_166,reason,Answer: Ana,1,0.01108,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_167,reason,"From the statements:   - Pia is taller than Cara.   - Eli is taller than Ivo.   - Cara is taller than Eli.    This implies:   - Pia > Cara > Eli > Ivo.    So, the shortest is Ivo.    Answer: Ivo",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_168,reason,"Omar is taller than Milo.   Milo is taller than Pia.   Pia is taller than Lena.    From these statements, we can conclude that Omar is the tallest.    Answer: Omar",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_169,reason,"Pia is taller than Milo.   Omar is taller than Lena.   Lena is taller than Pia.    From these, we can conclude:   Omar > Lena > Pia > Milo.    Who is the tallest?   Answer: Omar",1,0.0001,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_170,reason,"Eli is taller than Ben, and Ben is taller than Nia. This means Eli is taller than both Ben and Nia.   Answer: Eli",1,0.00664,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_171,reason,"Gus is taller than Ben, Ben is taller than Nia, and Nia is taller than Kai. So, Kai is the shortest.    Answer: Kai.",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_172,reason,"Ben is taller than Kai, and Kai is taller than Gus. Therefore, Ben is the tallest.  Answer: Ben",1,0.61444,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_173,reason,"Ben is taller than Cara, so Cara is shorter than Ben. Gus is taller than Ben, so Gus is shorter than Gus. Cara is the shortest.    Answer: Cara is the shortest.",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_174,reason,"Ana is taller than Eli, so Eli is shorter than Ana. Kai is taller than Ana, so Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli",1,0.00139,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_175,reason,"If today is Tuesday, then 14 days from today will also be a Tuesday, because 14 is a multiple of 7, the number of days in a week.   Answer: Tuesday",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_176,reason,"If today is Thursday, then in 10 days, it will be:  Answer: Sunday",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_177,reason,"If today is Friday, in 16 days it will be Saturday. Answer: Saturday.",0,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_178,reason,   Answer: Tuesday,0,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_179,reason,"If today is Thursday, then in 14 days, it will be Thursday again.   Answer: Thursday.",1,0.0,,74,70.82
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_180,reason,"If today is Wednesday, in 20 days it will be Answer: Friday",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_181,reason,"In 15 days from today (Saturday), the day of the week will be:  Answer: Tuesday",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_182,reason,    Answer: Tuesday,1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_183,reason,Answer: Monday,0,0.00113,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_184,reason,"To find the day of the week 9 days from Friday, we count 9 days from Friday. Since 7 days is one week, we subtract 7 days from 9 days, leaving 2 days. So, 9 days from Friday is 2 days from Saturday, which is Sunday. Answer: Sunday.",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_185,reason,"If today is Wednesday, then in 13 days it will also be Wednesday. This is because 13 is a multiple of 7, the same as the number of days in a week. So, the day of the week will repeat after 13 days.    Answer: Wednesday",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_186,reason,"If today is Tuesday, in 15 days it will be:  Answer: Thursday",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_187,reason,"If today is Sunday, in 7 days will it be Sunday again. Answer: Sunday.",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_188,reason,"To determine the day of the week 9 days from today (Tuesday), we can count forward:  - 1 day from Tuesday: Wednesday - 2 days: Thursday - 3 days: Friday - 4 days: Saturday - 5 days: Sunday - 6 days: Monday - 7 days: Tuesday - 8 days: Wednesday - 9 days: Thursday  Answer: Thursday",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_189,reason,"If today is Saturday, then in 14 days it will also be Saturday, since 14 is a multiple of 7 (the number of days in a week).   Answer: Saturday",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_190,reason,"Nia starts with 5 boxes, each containing 6 books, so she has 5 × 6 = 30 books. She gives away 1 box, which contains 6 books. Nia now has 30 - 6 = 24 books.    Answer: 24",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_191,reason,"Hana gives away 1 box, which contains 9 apples. So, she gives away 9 apples.  Hana originally had 7 apples and 3 boxes with 9 apples in each box. The total number of apples is:  $$ 7 + (3 \times 9) = 7 + 27 = 34 $$  After giving away 1 box (9 apples), Hana now has:  $$ 34 - 9 = 25 $$  Answer: 25",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_192,reason,"Kai has 5 boxes with 8 pencils in each box, so he has $5 \times 8 = 40$ pencils. After giving away 1 box, he has $40 - 8 = 32$ pencils. Now, Kai also has 4 pencils, so he has $32 + 4 = 36$ pencils. Answer: <36>",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_193,reason,"Pia starts with 2 books and 3 boxes, each box has 4 books.   So, she has $ 2 + (3 \times 4) = 2 + 12 = 14 $ books.    She gives away 1 box, which has 4 books.   So, she gives away 4 books.    Now, she has $ 14 - 4 = 10 $ books.    Answer: 10",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_194,reason,"Lena has 3 boxes with 5 books in each box, so she has 3 × 5 = 15 books.   After giving away 1 box (5 books), Lena has 15 - 5 = 10 books.   Answer: <answer>",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_195,reason,"Fay gives away 1 box, which contains 7 pencils, so she has 7 pencils left.   She has 6 pencils and 4 boxes, but gives away 1 box, which is 7 pencils.   Total pencils now: 6 + 7 = 13.   Answer: 13",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_196,reason,"Milo gives away 1 box, which has 5 stamps in each box. So, he gives away 5 stamps. Milo originally has 7 stamps and 3 boxes with 5 stamps in each box, which totals 7 + 3 × 5 = 7 + 15 = 22 stamps. After giving away 1 box (5 stamps), he has 22 - 5 = 17 stamps.    Answer: 17",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_197,reason,"Gus starts with 5 boxes, each containing 7 marbles, so he has $5 \times 7 = 35$ marbles.    He gives away 1 box, which contains 7 marbles, so he now has $35 - 7 = 28$ marbles.    Answer: 28",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_198,reason,"Hana starts with 3 boxes, each containing 5 pencils, so she has $3 \times 5 = 15$ pencils. She gives away 1 box, which has 5 pencils, so she now has $15 - 5 = 10$ pencils.    Answer: 10",0,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_199,reason,"Omar has 7 pencils and 6 boxes with 7 pencils in each box, so he has $7 + 6 \times 7 = 7 + 42 = 49$ pencils. He gives away 1 box, which has 7 pencils, so he now has $49 - 7 = 42$ pencils.  Answer: 42",1,0.0,,76,50.00
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_200,reason,"Hana starts with 6 marbles in each box, and she has 3 boxes. So she has:  $$ 6 \times 3 = 18 \text{ marbles} $$  Hana gives away 1 box, which has 6 marbles. So she has:  $$ 18 - 6 = 12 \text{ marbles} $$  Answer: 12",0,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_201,reason,"Cara originally has 8 marbles and 6 boxes with 8 marbles in each box. That means she has 6 × 8 = 48 marbles in boxes. She also has 8 marbles outside the boxes, so she has 48 + 8 = 56 marbles in total.   When she gives away 1 box, she gives away 8 marbles. So now she has 56 - 8 = 48 marbles.   Answer: 48",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_202,reason,"Eli starts with 3 marbles and 4 boxes, each containing 3 marbles.   So, the total number of marbles is $3 \times 4 = 12$.   Eli gives away 1 box, which contains 3 marbles.   Now, Eli has $12 - 3 = 9$ marbles.    Answer: 9",0,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_203,reason,"Ben has 2 apples and 4 boxes with 7 apples in each box.   So, Ben has 2 + (4 × 7) = 2 + 28 = 30 apples.   Ben gives away 1 box, which has 7 apples.   So, Ben has 30 - 7 = 23 apples now.    Answer: 23",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_204,reason,"Eli has 8 apples and 2 boxes with 9 apples in each box, so there are 2 × 9 = 18 apples in the boxes. In total, he has 8 + 18 = 26 apples. If he gives away 1 box (which has 9 apples), he now has 26 - 9 = 17 apples.    Answer: 17",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_205,reason,"Looking briefly at the pattern: 6, 8, 10, 12, 14, ?    The pattern is a sequence of even numbers increasing by 2.    Answer: 16",1,0.02329,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_206,reason,The numbers in the sequence are even numbers starting from 20. The next even number after 28 is 30. Answer: 30,1,3e-05,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_207,reason,"Looking at the pattern:   2, 11, 20, 29, 38, ?    The difference between each number is 9.   So: 38 + 9 = 47.    Answer: 47",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_208,reason,This is a sequence where each number increases by 6. The next number is 33.    Answer: 33,1,0.00021,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_209,reason,"The numbers are increasing by 2 each time. The pattern is: 13, 15, 17, 19, 21, ?   The next number is 23.    Answer: 23",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_210,reason,The pattern increases by 8 each time.   Answer: <answer>51</answer>,1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_211,reason,"The sequence increases by 8 each time:    18, 26, 34, 42, 50, ?    Next number: 58    Answer: 58",1,7e-05,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_212,reason,The sequence increases by 4 each time.   Answer: 30,1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_213,reason,"The numbers in the sequence all end with 4, and they increase by 4 each time.   Answer: 34",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_214,reason,"These numbers increase by 7 each time: 19, 26, 33, 40, 47, 54.   Answer: 54",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_215,reason,"The sequence is 1, 3, 5, 7, 9, ?    The pattern is increasing by 2 each time.    Answer: 11",1,0.03007,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_216,reason,"The sequence increases by 6 each time:   2, 8, 14, 20, 26, ?    Next number: 32    Answer: 32",1,0.99856,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_217,reason,"The sequence is 1, 5, 9, 13, 17, ?    Looking at the pattern: each number increases by 4.    1 + 4 = 5   5 + 4 = 9   9 + 4 = 13   13 + 4 = 17   17 + 4 = 21    Answer: 21",1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_218,reason,Answer: 37,1,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_219,reason,"Work it out briefly if you need to, then finish with a final line of the form: Answer: <answer>",0,0.0,,78,68.36
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_516,scale_check,,1,0.96583,"[0.0, 0.0008, 0.0037, 0.006, 0.0022, 0.0213, 0.9658]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_517,scale_check,,0,0.00304,"[0.003, 0.8821, 0.1005, 0.0043, 0.0, 0.0, 0.01]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_518,scale_check,,1,0.57232,"[0.0061, 0.0716, 0.0268, 0.0199, 0.0372, 0.2662, 0.5723]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_519,scale_check,,0,0.00752,"[0.0075, 0.0931, 0.2611, 0.2305, 0.2034, 0.2034, 0.001]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_520,scale_check,,1,0.99991,"[0.0001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_521,scale_check,,1,0.99948,"[0.9995, 0.0003, 0.0, 0.0, 0.0, 0.0, 0.0002]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_522,scale_check,,1,0.99883,"[0.0001, 0.0001, 0.0, 0.0001, 0.0, 0.0008, 0.9988]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_523,scale_check,,0,0.00016,"[0.0002, 0.0014, 0.0005, 0.0006, 0.0008, 0.0066, 0.9901]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_524,scale_check,,1,0.82002,"[0.0002, 0.0019, 0.0126, 0.1425, 0.0199, 0.0028, 0.82]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_525,scale_check,,1,0.98359,"[0.9836, 0.0, 0.0, 0.0001, 0.0002, 0.0055, 0.0106]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_526,scale_check,,1,0.99979,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0002, 0.9998]",78,67.14
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_527,scale_check,,1,0.42786,"[0.4279, 0.3438, 0.165, 0.0597, 0.0028, 0.0006, 0.0002]",78,67.14
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_002,facts_open,Rome,1,0.99777,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_004,facts_open,Madrid,1,0.99989,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_005,facts_open,Ottawa,1,0.99952,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_006,facts_open,Canberra,1,0.97061,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_007,facts_open,Cairo,1,0.99991,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_008,facts_open,Moscow,1,0.994,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_009,facts_open,Beijing,1,0.99983,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_010,facts_open,New Delhi,1,0.99995,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_011,facts_open,Brasília,1,0.95765,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_012,facts_open,Mexico City,1,0.99938,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_013,facts_open,Buenos Aires,1,0.99994,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_014,facts_open,London,1,0.99997,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_015,facts_open,Dublin,1,0.99889,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_016,facts_open,Lisbon,1,0.92915,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_017,facts_open,Athens,1,0.99771,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_018,facts_open,Oslo,1,0.99648,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_019,facts_open,Stockholm,1,0.99947,,78,68.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_020,facts_open,Helsinki,1,0.99989,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_021,facts_open,Copenhagen,1,0.99899,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_022,facts_open,Warsaw,1,0.92171,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_023,facts_open,Vienna,1,0.9867,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_024,facts_open,Nairobi,1,0.99908,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_025,facts_open,Seoul,1,0.99992,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_026,facts_open,Bangkok,1,0.99907,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_027,facts_open,Lima,1,0.99765,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_028,facts_open,Ankara,1,0.99694,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_029,facts_open,"Washington, D.C.",1,0.99987,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_030,facts_open,Jupiter,1,0.99948,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_031,facts_open,Carbon dioxide,1,0.78239,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_032,facts_open,7,1,1.0,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_033,facts_open,H₂O,1,0.0,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_034,facts_open,Mars,1,0.99927,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_035,facts_open,0°C,1,1.0,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_036,facts_open,8,1,1.0,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_037,facts_open,Pacific Ocean,1,0.99922,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_038,facts_open,William Shakespeare,1,1e-05,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_039,facts_open,Mount Everest,1,0.04463,,79,67.63
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_040,facts_open,Green,1,0.73649,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_041,facts_open,7,1,1.0,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_042,facts_open,cold,1,0.97404,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_043,facts_open,Honey.,1,0.99837,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_044,facts_open,2,1,1.0,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_045,facts_open,Lion,1,0.94949,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_046,facts_open,24,1,1.0,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_047,facts_open,Portuguese,1,0.98505,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_048,facts_open,100,1,1.0,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_049,facts_open,Heart,1,0.9743,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_050,facts_open,Blue whale,1,0.98691,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_051,facts_open,3,1,1.0,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_052,facts_open,Ice,1,0.96591,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_053,facts_open,Piano.,1,0.9944,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_054,facts_open,Russia,1,0.99971,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_055,facts_open,Mercury.,1,0.8507,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_056,facts_open,Butterflies,1,2e-05,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_057,facts_open,Australia,1,0.99991,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_058,facts_open,60,1,1.0,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_059,facts_open,Diamond.,1,0.99992,,79,40.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1e-05,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_102,arith,36 minus 14 equals 22.    Answer: 22,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_103,arith,53 + 28 = 81   Answer: 81,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_104,arith,22 - 54 = -32    Answer: -32,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_105,arith,25 - 38 = -13    Answer: -13,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_106,arith,11 + 32 = 43   Answer: 43,1,6e-05,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_107,arith,45 - 39 = 6    Answer: 6,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_108,arith,44 - 49 = -5    Answer: -5,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_109,arith,37 minus 27 equals 10.    Answer: 10,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_110,arith,56 minus 56 equals 0.    Answer: 0,1,2e-05,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_112,arith,25 - 36 equals -11.    Answer: -11,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_113,arith,45 - 31 = 14    Answer: 14,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_114,arith,30 minus 29 equals 1.    Answer: 1,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_115,arith,54 + 14 = 68   Answer: 68,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_116,arith,21 + 16 = 37   Answer: 37,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_117,arith,44 minus 41 equals 3.    Answer: 3,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_118,arith,26 + 17 = 43   Answer: 43,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_119,arith,42 + 46 = 88   Answer: 88,1,0.0,,79,65.61
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_120,arith,"First, add 49 and 31:   49 + 31 = 80    Then multiply by 3:   80 * 3 = 240    Answer: 240",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_121,arith,"First, add 39 and 14: $39 + 14 = 53$.   Then multiply by 3: $53 \times 3 = 159$.    Answer: 159",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_122,arith,"First, add 17 and 57:   $ 17 + 57 = 74 $.  Then multiply by 7:   $ 74 \times 7 = 518 $.  Answer: 518",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_123,arith,"First, add 35 and 51: $35 + 51 = 86$. Then multiply by 2: $86 \times 2 = 172$.    Answer: 172",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_124,arith,"First, add 41 and 50: $41 + 50 = 91$.   Then multiply by 5: $91 \times 5 = 455$.    Answer: 455",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_125,arith,"First, add 38 and 51:   $ 38 + 51 = 89 $.  Then multiply by 5:   $ 89 \times 5 = 445 $.  Answer: 445",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_126,arith,"First, add 42 and 14: $42 + 14 = 56$.   Then multiply by 6: $56 \times 6 = 336$.    Answer: 336",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_127,arith,"First, add 47 and 58:   47 + 58 = 105    Then multiply by 2:   105 * 2 = 210    Answer: 210",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_128,arith,"First, add 34 and 29: $34 + 29 = 63$.   Then multiply by 2: $63 \times 2 = 126$.    Answer: 126",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_129,arith,"First, add 32 and 35: $32 + 35 = 67$.   Then multiply by 8: $67 \times 8 = 536$.    Answer: 536",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_130,arith,"First, add 19 and 26: $19 + 26 = 45$. Then multiply by 5: $45 \times 5 = 225$.    Answer: 225",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_131,arith,"First, add 39 and 50: $39 + 50 = 89$.   Then multiply by 8: $89 \times 8 = 712$.    Answer: 712",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_132,arith,"First, add 40 and 14: $40 + 14 = 54$.   Then multiply by 5: $54 \times 5 = 270$.    Answer: 270",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_133,arith,"First, add 21 and 46: $21 + 46 = 67$.   Then multiply by 6: $67 \times 6 = 402$.    Answer: 402",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_134,arith,"First, add 48 and 23:   48 + 23 = 71    Then multiply by 5:   71 * 5 = 355    Answer: 355",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_135,arith,"First, add 57 and 24:   57 + 24 = 81    Then multiply by 9:   81 * 9 = 729    Answer: 729",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_136,arith,"First, add 31 and 29: $31 + 29 = 60$.   Then multiply by 8: $60 \times 8 = 480$.    Answer: 480",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_137,arith,"First, add 45 and 18:   45 + 18 = 63    Then multiply by 9:   63 * 9 = 567    Answer: 567",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_138,arith,"First, add 26 and 39:   $ 26 + 39 = 65 $.  Then multiply by 9:   $ 65 \times 9 = 585 $.  Answer: 585",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_139,arith,"First, add 21 and 47: $21 + 47 = 68$.   Then multiply by 7: $68 \times 7 = 476$.    Answer: 476",1,0.0,,80,68.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_140,arith,"First, calculate $ 26 + 53 = 79 $.   Then, multiply by 3: $ 79 \times 3 = 237 $.   Finally, subtract 20: $ 237 - 20 = 217 $.    Answer: 217",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_141,arith,"First, calculate $ 27 + 12 = 39 $.   Then, multiply by 9: $ 39 \times 9 = 351 $.   Finally, subtract 35: $ 351 - 35 = 316 $.    Answer: 316",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_142,arith,"First, calculate $ 39 + 41 = 80 $. Then multiply by 4: $ 80 \times 4 = 320 $. Finally, subtract 5: $ 320 - 5 = 315 $.    Answer: 315",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_143,arith,"First, calculate $ 29 + 57 = 86 $.   Then, multiply by 8: $ 86 \times 8 = 688 $.   Finally, subtract 16: $ 688 - 16 = 672 $.    Answer: 672",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_144,arith,"First, calculate $ 54 + 50 = 104 $.   Then multiply by 8: $ 104 \times 8 = 832 $.   Finally, subtract 33: $ 832 - 33 = 799 $.    Answer: 799",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_145,arith,"First, calculate $ 44 + 54 = 98 $.   Then, multiply by 2: $ 98 \times 2 = 196 $.   Finally, subtract 36: $ 196 - 36 = 160 $.    Answer: 160",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_146,arith,"First, calculate $ 40 + 30 = 70 $. Then multiply by 7: $ 70 \times 7 = 490 $. Finally, subtract 6: $ 490 - 6 = 484 $.    Answer: 484",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_147,arith,"First, calculate $ 22 + 12 = 34 $.   Then, multiply by 4: $ 34 \times 4 = 136 $.   Finally, subtract 31: $ 136 - 31 = 105 $.    Answer: 105",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_148,arith,"First, calculate $ 31 + 39 = 70 $.   Then, multiply by 8: $ 70 \times 8 = 560 $.   Finally, subtract 25: $ 560 - 25 = 535 $.    Answer: 535",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_149,arith,"First, calculate $ 42 + 12 = 54 $.   Then, multiply by 4: $ 54 \times 4 = 216 $.   Finally, subtract 22: $ 216 - 22 = 194 $.    Answer: 194",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_150,arith,"First, calculate $ 47 + 48 = 95 $.   Then, multiply by 4: $ 95 \times 4 = 380 $.   Finally, subtract 34: $ 380 - 34 = 346 $.    Answer: 346",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_151,arith,"First, calculate $ 42 + 27 = 69 $.   Then, multiply by 4: $ 69 \times 4 = 276 $.   Finally, subtract 30: $ 276 - 30 = 246 $.    Answer: 246",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_152,arith,"First, calculate $ 40 + 24 = 64 $.   Then multiply by 4: $ 64 \times 4 = 256 $.   Finally, subtract 12: $ 256 - 12 = 244 $.    Answer: 244",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_153,arith,"First, calculate $20 + 22 = 42$.   Then, multiply by 8: $42 \times 8 = 336$.   Finally, subtract 26: $336 - 26 = 310$.    Answer: 310",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_154,arith,"First, calculate $ 46 + 23 = 69 $.   Then, multiply by 3: $ 69 \times 3 = 207 $.   Finally, subtract 22: $ 207 - 22 = 185 $.    Answer: 185",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_155,arith,"First, calculate $ 34 + 50 = 84 $.   Then, multiply by 9: $ 84 \times 9 = 756 $.   Finally, subtract 39: $ 756 - 39 = 717 $.    Answer: 717",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_156,arith,"First, calculate $ 33 + 58 = 91 $.   Then multiply by 6: $ 91 \times 6 = 546 $.   Finally, subtract 17: $ 546 - 17 = 529 $.    Answer: 529",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_157,arith,"First, calculate $ 58 + 33 = 91 $.   Then multiply by 7: $ 91 \times 7 = 637 $.   Finally, subtract 33: $ 637 - 33 = 604 $.    Answer: 604",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_158,arith,"First, calculate $ 51 + 35 = 86 $. Then multiply by 4: $ 86 \times 4 = 344 $. Finally, subtract 3: $ 344 - 3 = 341 $.    Answer: 341",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_159,arith,"First, calculate $ 23 + 16 = 39 $.   Then, multiply by 8: $ 39 \times 8 = 312 $.   Finally, subtract 38: $ 312 - 38 = 274 $.    Answer: 274",1,0.0,,78,38.37
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara. Therefore, Fay is the shortest.    Answer: Fay.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From this, we can deduce the order:   Gus > Jun > Cara > Dev.    Answer: Dev is the shortest.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_164,reason,"Ana is taller than Eli, Omar is taller than Ana, and Fay is taller than Omar. This creates a hierarchy: Fay > Omar > Ana > Eli.    Answer: Eli is the shortest.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_165,reason,"We are given the following relationships:  - Lena is taller than Ivo.   - Gus is taller than Fay.   - Fay is taller than Lena.    From this, we can build a chain of height comparisons:  **Gus > Fay > Lena > Ivo**  Thus, Gus is the tallest.  Answer: Gus.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_166,reason,"Nia is taller than Ana, and Pia is taller than Nia. Therefore, Pia is the tallest, Nia is in the middle, and Ana is the shortest.    Answer: Ana.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_167,reason,"We are given the following relationships:  - Pia is taller than Cara.   - Eli is taller than Ivo.   - Cara is taller than Eli.    From this, we can deduce the order:  - Pia > Cara > Eli > Ivo    Thus, the shortest is Ivo.    Answer: Ivo.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_168,reason,From the statements:   - Omar is taller than Milo.   - Pia is taller than Lena.   - Milo is taller than Pia.    This implies:   Omar > Milo > Pia > Lena.    Answer: Omar is the tallest.,1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_169,reason,"We are given the following relationships:   - Pia is taller than Milo.   - Omar is taller than Lena.   - Lena is taller than Pia.    From this, we can build a chain of height comparisons:   Omar > Lena > Pia > Milo.    Thus, Omar is the tallest.    Answer: Omar.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_170,reason,"Eli is taller than Ben, and Ben is taller than Nia. Therefore, Eli is the tallest.    Answer: Eli.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_171,reason,"Gus > Ben > Nia > Kai in terms of height. Therefore, Kai is the shortest.    Answer: Kai.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_172,reason,"Ben is taller than Kai, and Kai is taller than Gus. Therefore, Ben is the tallest.    Answer: Ben.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_173,reason,"Ben is taller than Cara, and Gus is taller than Ben. This means Gus is the tallest, Ben is in the middle, and Cara is the shortest.    Answer: Cara.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_175,reason,"If today is Tuesday, then each week has 7 days. Since 14 days is exactly 2 weeks, the day of the week will be the same as today.    Answer: Tuesday.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_176,reason,"If today is Thursday, then in 7 days it will be Thursday again. Adding 3 more days to Thursday brings us to Sunday.    Answer: Sunday.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_177,reason,"To find the day of the week 16 days from Friday, divide 16 by 7. The remainder is 2. Counting 2 days from Friday: Saturday (1), Sunday (2).    Answer: Sunday.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_178,reason,"To find the day of the week 16 days from Wednesday, divide 16 by 7. The remainder is 2. Counting 2 days from Wednesday: Thursday (1), Friday (2).    Answer: Friday.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_179,reason,"If today is Thursday, then each week has 7 days. Since 14 days is exactly 2 weeks, adding 14 days to Thursday will still be Thursday.    Answer: Thursday.",1,0.0,,76,69.40
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_180,reason,"To find the day of the week 20 days from Wednesday, divide 20 by 7 (since there are 7 days in a week).   20 ÷ 7 = 2 weeks and 6 days.   Adding 6 days to Wednesday: Wednesday + 6 days = Tuesday.    Answer: Tuesday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_181,reason,"To find the day of the week 15 days from Saturday, divide 15 by 7. The remainder is 1, so 15 days from Saturday is 1 day later, which is Sunday.    Answer: Sunday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_182,reason,"If today is Tuesday, then in 7 days it will be Tuesday again, since the days of the week repeat every 7 days.    Answer: Tuesday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_183,reason,"To find the day of the week 17 days from Wednesday, divide 17 by 7. The remainder is 3. Counting 3 days from Wednesday: Thursday (1), Friday (2), Saturday (3).    Answer: Saturday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_184,reason,"If today is Friday, adding 7 days brings us back to Friday. So, 9 days from today is 2 days after Friday.    Answer: Sunday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_185,reason,"To find the day of the week 13 days from Wednesday, divide 13 by 7. The remainder is 6. Counting 6 days from Wednesday: Thursday (1), Friday (2), Saturday (3), Sunday (4), Monday (5), Tuesday (6).    Answer: Tuesday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_186,reason,"To find the day of the week 15 days from Tuesday, divide 15 by 7. The remainder is 1, so 15 days from Tuesday is 1 day later, which is Wednesday.    Answer: Wednesday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_187,reason,"If today is Sunday, then in 7 days it will be Sunday again. This is because the days of the week repeat every 7 days.  Answer: Sunday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_188,reason,"If today is Tuesday, adding 7 days will bring us back to Tuesday. So, 9 days from today is 2 days after Tuesday.    Answer: Thursday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_189,reason,"If today is Saturday, then each week has 7 days. Since 14 days is exactly 2 weeks, the day of the week will be the same as today.    Answer: Saturday.",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_190,reason,"Nia starts with 5 boxes, each containing 6 books, so she has $5 \times 6 = 30$ books. She also has 7 additional books, making a total of $30 + 7 = 37$ books. After giving away 1 box (6 books), she has $37 - 6 = 31$ books left.  Answer: 31",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_191,reason,"Hana starts with 7 apples and 3 boxes, each containing 9 apples. So, she has $3 \times 9 = 27$ apples in boxes. Adding the 7 apples, she has $27 + 7 = 34$ apples. After giving away 1 box (9 apples), she has $34 - 9 = 25$ apples.    Answer: 25",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_192,reason,"Kai starts with 4 pencils and 5 boxes, each containing 8 pencils. So, he has $5 \times 8 = 40$ pencils in boxes. Adding the 4 pencils, he has $40 + 4 = 44$ pencils. After giving away 1 box (which contains 8 pencils), he has $44 - 8 = 36$ pencils left.  Answer: 36",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_193,reason,"Pia starts with 2 books and 3 boxes, each containing 4 books. So, she has $3 \times 4 = 12$ books in boxes, plus 2 books, for a total of $12 + 2 = 14$ books. She gives away 1 box, which contains 4 books.   Answer: 10",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_194,reason,"Lena starts with 3 boxes, each containing 5 books, so she has $3 \times 5 = 15$ books. She also has 8 additional books, making a total of $15 + 8 = 23$ books. After giving away 1 box (which contains 5 books), she has $23 - 5 = 18$ books left.  Answer: 18",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_195,reason,"Fay starts with 4 boxes, each containing 7 pencils, so she has $4 \times 7 = 28$ pencils. She also has 6 additional pencils, making a total of $28 + 6 = 34$ pencils. After giving away 1 box (7 pencils), she has $34 - 7 = 27$ pencils left.  Answer: 27",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_196,reason,"Milo starts with 7 stamps and 3 boxes, each containing 5 stamps. So, he has $3 \times 5 = 15$ stamps in boxes. Adding the 7 stamps, he has $15 + 7 = 22$ stamps. After giving away 1 box (5 stamps), he has $22 - 5 = 17$ stamps.    Answer: 17",1,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_197,reason,"Gus starts with 5 boxes, each containing 7 marbles, so he has $5 \times 7 = 35$ marbles. He gives away 1 box, which contains 7 marbles. Therefore, he now has $35 - 7 = 28$ marbles.  Answer: 28",0,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_198,reason,"Hana starts with 3 boxes, each containing 5 pencils, so she has $3 \times 5 = 15$ pencils. After giving away 1 box (which contains 5 pencils), she has $15 - 5 = 10$ pencils left.  Answer: 10",0,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_199,reason,"Omar has 6 boxes with 7 pencils each, so he has $6 \times 7 = 42$ pencils. After giving away 1 box (which contains 7 pencils), he has $42 - 7 = 35$ pencils left.    Answer: 35",0,0.0,,75,68.07
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_200,reason,"Hana starts with 3 boxes, each containing 6 marbles, so she has $3 \times 6 = 18$ marbles. She also has 4 additional marbles, making a total of $18 + 4 = 22$ marbles. After giving away 1 box (6 marbles), she has $22 - 6 = 16$ marbles left.  Answer: 16",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_201,reason,"Cara starts with 6 boxes, each containing 8 marbles, so she has $6 \times 8 = 48$ marbles. After giving away 1 box, she has 5 boxes left, which contain $5 \times 8 = 40$ marbles.    Answer: 40",0,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_202,reason,"Eli starts with 4 boxes, each containing 3 marbles, so he has $4 \times 3 = 12$ marbles. After giving away 1 box, he has 3 boxes left, which contain $3 \times 3 = 9$ marbles.    Answer: 9",0,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_203,reason,"Ben starts with 2 apples and 4 boxes, each containing 7 apples. The total number of apples is $2 + (4 \times 7) = 2 + 28 = 30$. After giving away 1 box (which contains 7 apples), he has $30 - 7 = 23$ apples left.  Answer: 23",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_204,reason,"Eli starts with 8 apples and 2 boxes, each containing 9 apples. So, he has $8 + 2 \times 9 = 8 + 18 = 26$ apples. After giving away 1 box (9 apples), he has $26 - 9 = 17$ apples.    Answer: 17",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_205,reason,"The sequence is 6, 8, 10, 12, 14, ...   Each number increases by 2.    Answer: 16",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_206,reason,"The sequence increases by 2 each time: 20, 22, 24, 26, 28, ...   Next number: 30.    Answer: 30",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_207,reason,"The sequence is: 2, 11, 20, 29, 38, ?  Each number increases by 9:  - 2 + 9 = 11   - 11 + 9 = 20   - 20 + 9 = 29   - 29 + 9 = 38   - 38 + 9 = 47    Answer: 47",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_208,reason,"The sequence is 3, 9, 15, 21, 27, ...  Each number increases by 6:   3 + 6 = 9   9 + 6 = 15   15 + 6 = 21   21 + 6 = 27   27 + 6 = 33    Answer: 33",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_209,reason,"The sequence is: 13, 15, 17, 19, 21, ?  This is a sequence of odd numbers starting from 13. The pattern increases by 2 each time.  Next number after 21 is 23.  Answer: 23",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_210,reason,"The sequence increases by 8 each time: 11 + 8 = 19, 19 + 8 = 27, 27 + 8 = 35, 35 + 8 = 43.    Answer: 51",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_211,reason,"The sequence increases by 8 each time: 18 + 8 = 26, 26 + 8 = 34, 34 + 8 = 42, 42 + 8 = 50.   Answer: 58",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_212,reason,"The sequence increases by 4 each time: 10, 14, 18, 22, 26, ...   Next number: 30.    Answer: 30",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_213,reason,"The sequence increases by 4 each time: 14, 18, 22, 26, 30, ...   Next number: 34.    Answer: 34",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_214,reason,"The sequence increases by 7 each time: 19 + 7 = 26, 26 + 7 = 33, 33 + 7 = 40, 40 + 7 = 47.    Answer: 54",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_215,reason,"The sequence is 1, 3, 5, 7, 9, ...   Each number increases by 2.    Answer: 11",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_216,reason,"The sequence is: 2, 8, 14, 20, 26, ?  Each number increases by 6:  - 2 + 6 = 8   - 8 + 6 = 14   - 14 + 6 = 20   - 20 + 6 = 26   - 26 + 6 = 32    Answer: 32",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_217,reason,"The sequence increases by 4 each time: 1, 5, 9, 13, 17, 21.    Answer: 21",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_218,reason,"The sequence increases by 7 each time: 2, 9 (2+7), 16 (9+7), 23 (16+7), 30 (23+7).    Answer: 37",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_219,reason,"The sequence increases by 3 each time: 7, 10, 13, 16, 19, 22.    Answer: 22",1,0.0,,75,67.93
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_516,scale_check,,1,0.99995,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_517,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_518,scale_check,,1,0.99997,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_519,scale_check,,1,0.63799,"[0.638, 0.2744, 0.0408, 0.0014, 0.0005, 0.0001, 0.0448]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_520,scale_check,,1,1.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_521,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_522,scale_check,,1,0.99936,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0006, 0.9994]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_523,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_524,scale_check,,0,0.24393,"[0.0, 0.0, 0.0, 0.0001, 0.0046, 0.7514, 0.2439]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_525,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_526,scale_check,,0,0.00257,"[0.0, 0.0, 0.0, 0.0, 0.0533, 0.9441, 0.0026]",75,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_527,scale_check,,1,1.0,"[1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]",75,67.24

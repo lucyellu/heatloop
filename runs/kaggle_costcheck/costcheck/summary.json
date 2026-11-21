@@ -1,0 +1,68 @@
+{
+ "single@0.0": {
+  "accuracy": 0.933,
+  "degenerate": 0.0,
+  "n": 60
+ },
+ "single@0.1": {
+  "accuracy": 0.678,
+  "degenerate": 0.006,
+  "n": 180
+ },
+ "single@0.125": {
+  "accuracy": 0.511,
+  "degenerate": 0.05,
+  "n": 180
+ },
+ "single@0.15": {
+  "accuracy": 0.2,
+  "degenerate": 0.083,
+  "n": 180
+ },
+ "single@0.175": {
+  "accuracy": 0.089,
+  "degenerate": 0.15,
+  "n": 180
+ },
+ "single@0.2": {
+  "accuracy": 0.05,
+  "degenerate": 0.089,
+  "n": 180
+ },
+ "episode@0.0": {
+  "accuracy": 0.667,
+  "degenerate": 0.0,
+  "n": 60,
+  "parse_rate": 1.0
+ },
+ "episode@0.1": {
+  "accuracy": 0.556,
+  "degenerate": 0.0,
+  "n": 180,
+  "parse_rate": 1.0
+ },
+ "episode@0.125": {
+  "accuracy": 0.611,
+  "degenerate": 0.0,
+  "n": 180,
+  "parse_rate": 0.989
+ },
+ "episode@0.15": {
+  "accuracy": 0.494,
+  "degenerate": 0.017,
+  "n": 180,
+  "parse_rate": 0.906
+ },
+ "episode@0.175": {
+  "accuracy": 0.467,
+  "degenerate": 0.044,
+  "n": 180,
+  "parse_rate": 0.772
+ },
+ "episode@0.2": {
+  "accuracy": 0.261,
+  "degenerate": 0.028,
+  "n": 180,
+  "parse_rate": 0.628
+ }
+}

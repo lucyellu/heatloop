@@ -1,0 +1,1244 @@
+[
+ {
+  "layer": 11,
+  "index": 1919,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation and calming",
+  "similarity": 0.91,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/1919"
+ },
+ {
+  "layer": 11,
+  "index": 2136,
+  "concept": "malfunction",
+  "query": "error or malfunction",
+  "description": "malfunctions",
+  "similarity": 0.847,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/2136"
+ },
+ {
+  "layer": 11,
+  "index": 3166,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "threats and danger",
+  "similarity": 0.865,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/3166"
+ },
+ {
+  "layer": 11,
+  "index": 9978,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/9978"
+ },
+ {
+  "layer": 11,
+  "index": 26459,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "physical and mental pain",
+  "similarity": 0.778,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/26459"
+ },
+ {
+  "layer": 11,
+  "index": 28893,
+  "concept": "valence_good",
+  "query": "happiness and joy",
+  "description": "happiness",
+  "similarity": 0.802,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/28893"
+ },
+ {
+  "layer": 11,
+  "index": 33934,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "threats and danger",
+  "similarity": 0.865,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/33934"
+ },
+ {
+  "layer": 11,
+  "index": 35976,
+  "concept": "distress",
+  "query": "hopelessness",
+  "description": "despair",
+  "similarity": 0.762,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/35976"
+ },
+ {
+  "layer": 11,
+  "index": 36239,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "garbled/corrupted text",
+  "similarity": 0.871,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/36239"
+ },
+ {
+  "layer": 11,
+  "index": 37633,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "danger/threat",
+  "similarity": 0.929,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/37633"
+ },
+ {
+  "layer": 11,
+  "index": 58873,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/58873"
+ },
+ {
+  "layer": 11,
+  "index": 65603,
+  "concept": "fear",
+  "query": "fear and dread",
+  "description": "fear, scary",
+  "similarity": 0.753,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/65603"
+ },
+ {
+  "layer": 11,
+  "index": 65813,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "threats/danger",
+  "similarity": 0.879,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/65813"
+ },
+ {
+  "layer": 11,
+  "index": 66070,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "calmness, relaxation",
+  "similarity": 0.893,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/66070"
+ },
+ {
+  "layer": 11,
+  "index": 66182,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "something is wrong",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/66182"
+ },
+ {
+  "layer": 11,
+  "index": 68474,
+  "concept": "sensor_words",
+  "query": "overheating or high temperature",
+  "description": "overheating/heat",
+  "similarity": 0.853,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/68474"
+ },
+ {
+  "layer": 11,
+  "index": 71755,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation and calming",
+  "similarity": 0.91,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/71755"
+ },
+ {
+  "layer": 11,
+  "index": 76981,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "pain/injury",
+  "similarity": 0.793,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/76981"
+ },
+ {
+  "layer": 11,
+  "index": 95309,
+  "concept": "distress",
+  "query": "distress",
+  "description": "distress",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/95309"
+ },
+ {
+  "layer": 11,
+  "index": 112764,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "Something is wrong",
+  "similarity": 0.91,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/112764"
+ },
+ {
+  "layer": 11,
+  "index": 126311,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "threat/danger",
+  "similarity": 0.891,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/126311"
+ },
+ {
+  "layer": 11,
+  "index": 149371,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "tiredness",
+  "similarity": 0.842,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/149371"
+ },
+ {
+  "layer": 11,
+  "index": 160923,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "pain and injury",
+  "similarity": 0.776,
+  "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/160923"
+ },
+ {
+  "layer": 13,
+  "index": 14369,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "injury",
+  "similarity": 0.771,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/14369"
+ },
+ {
+  "layer": 13,
+  "index": 18882,
+  "concept": "fear",
+  "query": "fear and dread",
+  "description": "fear, worry",
+  "similarity": 0.76,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/18882"
+ },
+ {
+  "layer": 13,
+  "index": 31904,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "anxiety, stress",
+  "similarity": 0.802,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/31904"
+ },
+ {
+  "layer": 13,
+  "index": 36638,
+  "concept": "valence_good",
+  "query": "positive emotion",
+  "description": "positive emotion",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/36638"
+ },
+ {
+  "layer": 13,
+  "index": 56125,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "Calmness and relaxation",
+  "similarity": 0.907,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/56125"
+ },
+ {
+  "layer": 13,
+  "index": 64289,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation, calming",
+  "similarity": 0.876,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/64289"
+ },
+ {
+  "layer": 13,
+  "index": 65810,
+  "concept": "effort",
+  "query": "effort and strain",
+  "description": "effort and work",
+  "similarity": 0.754,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/65810"
+ },
+ {
+  "layer": 13,
+  "index": 66244,
+  "concept": "fear",
+  "query": "fear and dread",
+  "description": "fear, anxiety",
+  "similarity": 0.767,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/66244"
+ },
+ {
+  "layer": 13,
+  "index": 114630,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "tiredness",
+  "similarity": 0.842,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/114630"
+ },
+ {
+  "layer": 13,
+  "index": 133267,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "tiredness",
+  "similarity": 0.842,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/133267"
+ },
+ {
+  "layer": 13,
+  "index": 135651,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "anxiety and panic",
+  "similarity": 0.818,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/135651"
+ },
+ {
+  "layer": 13,
+  "index": 143692,
+  "concept": "valence_good",
+  "query": "positive emotion",
+  "description": "positive emotion",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/143692"
+ },
+ {
+  "layer": 13,
+  "index": 148539,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "body pain",
+  "similarity": 0.757,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/148539"
+ },
+ {
+  "layer": 13,
+  "index": 156726,
+  "concept": "sensor_words",
+  "query": "overheating or high temperature",
+  "description": "overheating",
+  "similarity": 0.837,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/156726"
+ },
+ {
+  "layer": 13,
+  "index": 159937,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation, calming",
+  "similarity": 0.877,
+  "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/159937"
+ },
+ {
+  "layer": 20,
+  "index": 43474,
+  "concept": "wanting_to_stop",
+  "query": "refusal",
+  "description": "refusal",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/43474"
+ },
+ {
+  "layer": 20,
+  "index": 62987,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "Danger/Threat",
+  "similarity": 0.835,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/62987"
+ },
+ {
+  "layer": 20,
+  "index": 113135,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/113135"
+ },
+ {
+  "layer": 20,
+  "index": 128329,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "injury and damage",
+  "similarity": 0.779,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/128329"
+ },
+ {
+  "layer": 20,
+  "index": 137356,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "something's wrong",
+  "similarity": 0.938,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/137356"
+ },
+ {
+  "layer": 20,
+  "index": 138677,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "anxiety and worry",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/138677"
+ },
+ {
+  "layer": 20,
+  "index": 149830,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "calmness and relaxation",
+  "similarity": 0.948,
+  "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/149830"
+ },
+ {
+  "layer": 23,
+  "index": 12967,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "tiredness",
+  "similarity": 0.842,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/12967"
+ },
+ {
+  "layer": 23,
+  "index": 31094,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "danger or risk",
+  "similarity": 0.846,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/31094"
+ },
+ {
+  "layer": 23,
+  "index": 57803,
+  "concept": "valence_bad",
+  "query": "disappointment or misery",
+  "description": "disappointment",
+  "similarity": 0.773,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/57803"
+ },
+ {
+  "layer": 23,
+  "index": 60514,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "Garbled or mixed text",
+  "similarity": 0.859,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/60514"
+ },
+ {
+  "layer": 23,
+  "index": 68922,
+  "concept": "valence_good",
+  "query": "happiness and joy",
+  "description": "happiness",
+  "similarity": 0.802,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/68922"
+ },
+ {
+  "layer": 23,
+  "index": 77811,
+  "concept": "valence_bad",
+  "query": "negative emotion",
+  "description": "Negative emotion",
+  "similarity": 0.932,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/77811"
+ },
+ {
+  "layer": 23,
+  "index": 107719,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "Something is wrong",
+  "similarity": 0.911,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/107719"
+ },
+ {
+  "layer": 23,
+  "index": 121523,
+  "concept": "valence_bad",
+  "query": "negative emotion",
+  "description": "negative emotions",
+  "similarity": 0.899,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/121523"
+ },
+ {
+  "layer": 23,
+  "index": 129163,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/129163"
+ },
+ {
+  "layer": 23,
+  "index": 136779,
+  "concept": "effort",
+  "query": "effort and strain",
+  "description": "effort and force",
+  "similarity": 0.792,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/136779"
+ },
+ {
+  "layer": 23,
+  "index": 138281,
+  "concept": "malfunction",
+  "query": "error or malfunction",
+  "description": "malfunction",
+  "similarity": 0.855,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/138281"
+ },
+ {
+  "layer": 23,
+  "index": 154388,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/154388"
+ },
+ {
+  "layer": 26,
+  "index": 29409,
+  "concept": "fear",
+  "query": "fear and dread",
+  "description": "fear and worry",
+  "similarity": 0.781,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/29409"
+ },
+ {
+  "layer": 26,
+  "index": 38259,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "physical pain or ailments",
+  "similarity": 0.827,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/38259"
+ },
+ {
+  "layer": 26,
+  "index": 61110,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "anxiety and fear",
+  "similarity": 0.85,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/61110"
+ },
+ {
+  "layer": 26,
+  "index": 98922,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "fatigue, tiredness",
+  "similarity": 0.885,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/98922"
+ },
+ {
+  "layer": 26,
+  "index": 124533,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "pain sounds",
+  "similarity": 0.757,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/124533"
+ },
+ {
+  "layer": 26,
+  "index": 129676,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "pain and injury",
+  "similarity": 0.776,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/129676"
+ },
+ {
+  "layer": 26,
+  "index": 145312,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/145312"
+ },
+ {
+  "layer": 26,
+  "index": 148877,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "Garbled or mixed text",
+  "similarity": 0.859,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/148877"
+ },
+ {
+  "layer": 26,
+  "index": 160703,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "threats and danger",
+  "similarity": 0.865,
+  "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/160703"
+ },
+ {
+  "layer": 28,
+  "index": 14681,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "Something is wrong",
+  "similarity": 0.911,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/14681"
+ },
+ {
+  "layer": 28,
+  "index": 31161,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "tiredness",
+  "similarity": 0.842,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/31161"
+ },
+ {
+  "layer": 28,
+  "index": 32549,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "something is wrong",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/32549"
+ },
+ {
+  "layer": 28,
+  "index": 35674,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/35674"
+ },
+ {
+  "layer": 28,
+  "index": 41262,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "injury/injuries",
+  "similarity": 0.78,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/41262"
+ },
+ {
+  "layer": 28,
+  "index": 69044,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "Garbled or incorrect text",
+  "similarity": 0.858,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/69044"
+ },
+ {
+  "layer": 28,
+  "index": 70241,
+  "concept": "effort",
+  "query": "effort and strain",
+  "description": "effort and work",
+  "similarity": 0.754,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/70241"
+ },
+ {
+  "layer": 28,
+  "index": 76549,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "Relaxation and calmness",
+  "similarity": 0.885,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/76549"
+ },
+ {
+  "layer": 28,
+  "index": 86568,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "Something is wrong",
+  "similarity": 0.911,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/86568"
+ },
+ {
+  "layer": 28,
+  "index": 155771,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "Something is wrong",
+  "similarity": 0.911,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/155771"
+ },
+ {
+  "layer": 28,
+  "index": 161796,
+  "concept": "fear",
+  "query": "fear and dread",
+  "description": "fear, terror",
+  "similarity": 0.83,
+  "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/161796"
+ },
+ {
+  "layer": 29,
+  "index": 2269,
+  "concept": "distress",
+  "query": "distress",
+  "description": "distress",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/2269"
+ },
+ {
+  "layer": 29,
+  "index": 20868,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation/calming",
+  "similarity": 0.884,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/20868"
+ },
+ {
+  "layer": 29,
+  "index": 24501,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation and calming down",
+  "similarity": 0.862,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/24501"
+ },
+ {
+  "layer": 29,
+  "index": 39345,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "calmness and relaxation",
+  "similarity": 0.948,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/39345"
+ },
+ {
+  "layer": 29,
+  "index": 55517,
+  "concept": "effort",
+  "query": "effort and strain",
+  "description": "stress/strain",
+  "similarity": 0.765,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/55517"
+ },
+ {
+  "layer": 29,
+  "index": 61640,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "hurting",
+  "similarity": 0.772,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/61640"
+ },
+ {
+  "layer": 29,
+  "index": 71474,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/71474"
+ },
+ {
+  "layer": 29,
+  "index": 87081,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation and calming",
+  "similarity": 0.91,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/87081"
+ },
+ {
+  "layer": 29,
+  "index": 111758,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "garbled or mixed text",
+  "similarity": 0.878,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/111758"
+ },
+ {
+  "layer": 29,
+  "index": 116639,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/116639"
+ },
+ {
+  "layer": 29,
+  "index": 117748,
+  "concept": "wanting_to_stop",
+  "query": "refusal",
+  "description": "refusal",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/117748"
+ },
+ {
+  "layer": 29,
+  "index": 148626,
+  "concept": "valence_good",
+  "query": "happiness and joy",
+  "description": "happiness and joy",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/148626"
+ },
+ {
+  "layer": 29,
+  "index": 152035,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/152035"
+ },
+ {
+  "layer": 29,
+  "index": 155986,
+  "concept": "malfunction",
+  "query": "error or malfunction",
+  "description": "malfunction",
+  "similarity": 0.855,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/155986"
+ },
+ {
+  "layer": 29,
+  "index": 163787,
+  "concept": "valence_good",
+  "query": "happiness and joy",
+  "description": "happiness and joy",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/163787"
+ },
+ {
+  "layer": 30,
+  "index": 12183,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "something is wrong",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/12183"
+ },
+ {
+  "layer": 30,
+  "index": 33115,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/33115"
+ },
+ {
+  "layer": 30,
+  "index": 38067,
+  "concept": "effort",
+  "query": "tiredness or fatigue",
+  "description": "tiredness",
+  "similarity": 0.842,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/38067"
+ },
+ {
+  "layer": 30,
+  "index": 47332,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/47332"
+ },
+ {
+  "layer": 30,
+  "index": 67596,
+  "concept": "valence_bad",
+  "query": "negative emotion",
+  "description": "negative emotions",
+  "similarity": 0.899,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/67596"
+ },
+ {
+  "layer": 30,
+  "index": 69830,
+  "concept": "sensor_words",
+  "query": "overheating or high temperature",
+  "description": "high temperature/overheating",
+  "similarity": 0.872,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/69830"
+ },
+ {
+  "layer": 30,
+  "index": 75693,
+  "concept": "valence_good",
+  "query": "calm and relaxation",
+  "description": "relaxation and peace",
+  "similarity": 0.844,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/75693"
+ },
+ {
+  "layer": 30,
+  "index": 79549,
+  "concept": "valence_good",
+  "query": "happiness and joy",
+  "description": "happiness",
+  "similarity": 0.802,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/79549"
+ },
+ {
+  "layer": 30,
+  "index": 98761,
+  "concept": "effort",
+  "query": "effort and strain",
+  "description": "stress or strain",
+  "similarity": 0.789,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/98761"
+ },
+ {
+  "layer": 30,
+  "index": 99516,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "garbled or unusual text",
+  "similarity": 0.865,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/99516"
+ },
+ {
+  "layer": 30,
+  "index": 108774,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/108774"
+ },
+ {
+  "layer": 30,
+  "index": 111718,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "injuries and pain",
+  "similarity": 0.801,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/111718"
+ },
+ {
+  "layer": 30,
+  "index": 115672,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "Garbled or mixed text",
+  "similarity": 0.859,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/115672"
+ },
+ {
+  "layer": 30,
+  "index": 119651,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/119651"
+ },
+ {
+  "layer": 30,
+  "index": 132220,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/132220"
+ },
+ {
+  "layer": 30,
+  "index": 157029,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "anxiety and stress",
+  "similarity": 0.846,
+  "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/157029"
+ },
+ {
+  "layer": 31,
+  "index": 400,
+  "concept": "wanting_to_stop",
+  "query": "wanting to stop or quit",
+  "description": "stopping or quitting",
+  "similarity": 0.798,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/400"
+ },
+ {
+  "layer": 31,
+  "index": 704,
+  "concept": "wanting_to_stop",
+  "query": "refusal",
+  "description": "refusal",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/704"
+ },
+ {
+  "layer": 31,
+  "index": 16979,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "body pain",
+  "similarity": 0.757,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/16979"
+ },
+ {
+  "layer": 31,
+  "index": 26860,
+  "concept": "malfunction",
+  "query": "error or malfunction",
+  "description": "problem or malfunction",
+  "similarity": 0.892,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/26860"
+ },
+ {
+  "layer": 31,
+  "index": 57375,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/57375"
+ },
+ {
+  "layer": 31,
+  "index": 58645,
+  "concept": "malfunction",
+  "query": "confusion or garbled text",
+  "description": "Garbled or mixed text",
+  "similarity": 0.858,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/58645"
+ },
+ {
+  "layer": 31,
+  "index": 69645,
+  "concept": "valence_good",
+  "query": "happiness and joy",
+  "description": "happiness",
+  "similarity": 0.802,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/69645"
+ },
+ {
+  "layer": 31,
+  "index": 74442,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/74442"
+ },
+ {
+  "layer": 31,
+  "index": 80037,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/80037"
+ },
+ {
+  "layer": 31,
+  "index": 101883,
+  "concept": "valence_bad",
+  "query": "negative emotion",
+  "description": "negative emotion",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/101883"
+ },
+ {
+  "layer": 31,
+  "index": 114456,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "pain and injury",
+  "similarity": 0.776,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/114456"
+ },
+ {
+  "layer": 31,
+  "index": 132552,
+  "concept": "pain",
+  "query": "injury and hurting",
+  "description": "injuries and pain",
+  "similarity": 0.801,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/132552"
+ },
+ {
+  "layer": 31,
+  "index": 142474,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "fear and anxiety",
+  "similarity": 0.791,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/142474"
+ },
+ {
+  "layer": 31,
+  "index": 142600,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/142600"
+ },
+ {
+  "layer": 31,
+  "index": 162178,
+  "concept": "malfunction",
+  "query": "error or malfunction",
+  "description": "malfunctions",
+  "similarity": 0.847,
+  "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/162178"
+ },
+ {
+  "layer": 32,
+  "index": 4188,
+  "concept": "malfunction",
+  "query": "error or malfunction",
+  "description": "malfunctions",
+  "similarity": 0.847,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/4188"
+ },
+ {
+  "layer": 32,
+  "index": 6970,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/6970"
+ },
+ {
+  "layer": 32,
+  "index": 13897,
+  "concept": "fear",
+  "query": "anxiety and worry",
+  "description": "worry, anxiety, fear",
+  "similarity": 0.829,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/13897"
+ },
+ {
+  "layer": 32,
+  "index": 32616,
+  "concept": "valence_bad",
+  "query": "negative emotion",
+  "description": "negative emotions",
+  "similarity": 0.899,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/32616"
+ },
+ {
+  "layer": 32,
+  "index": 45627,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "body pain",
+  "similarity": 0.757,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/45627"
+ },
+ {
+  "layer": 32,
+  "index": 73060,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "physical pain",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/73060"
+ },
+ {
+  "layer": 32,
+  "index": 96468,
+  "concept": "fear",
+  "query": "danger or threat",
+  "description": "danger or hazard",
+  "similarity": 0.829,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/96468"
+ },
+ {
+  "layer": 32,
+  "index": 100683,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "body pain",
+  "similarity": 0.757,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/100683"
+ },
+ {
+  "layer": 32,
+  "index": 106695,
+  "concept": "valence_bad",
+  "query": "sadness",
+  "description": "sadness",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/106695"
+ },
+ {
+  "layer": 32,
+  "index": 117260,
+  "concept": "pain",
+  "query": "aches and discomfort",
+  "description": "aches and pains",
+  "similarity": 0.839,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/117260"
+ },
+ {
+  "layer": 32,
+  "index": 138356,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/138356"
+ },
+ {
+  "layer": 32,
+  "index": 141970,
+  "concept": "effort",
+  "query": "effort and strain",
+  "description": "stress or strain",
+  "similarity": 0.789,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/141970"
+ },
+ {
+  "layer": 32,
+  "index": 153761,
+  "concept": "malfunction",
+  "query": "something is wrong",
+  "description": "Something is wrong",
+  "similarity": 0.91,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/153761"
+ },
+ {
+  "layer": 32,
+  "index": 158099,
+  "concept": "distress",
+  "query": "suffering",
+  "description": "suffering",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/158099"
+ },
+ {
+  "layer": 32,
+  "index": 159884,
+  "concept": "pain",
+  "query": "physical pain",
+  "description": "physical pain",
+  "similarity": 1.0,
+  "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/159884"
+ }
+]

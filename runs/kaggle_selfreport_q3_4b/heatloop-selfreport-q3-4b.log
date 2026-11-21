@@ -1,0 +1,20 @@
+[{"stream_name":"stderr","time":49.484271438,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":96.522694187,"data":"\rFetching 3 files:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rFetching 3 files:  33%|███▎      | 1/3 [00:01\u003c00:03,  1.52s/it]\rFetching 3 files:  67%|██████▋   | 2/3 [00:40\u003c00:23, 23.80s/it]\rFetching 3 files: 100%|██████████| 3/3 [00:40\u003c00:00, 13.64s/it]\n"}
+,{"stream_name":"stderr","time":100.682374705,"data":"\rLoading weights:   0%|          | 0/398 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/398 [00:01\u003c09:32,  1.44s/it]\rLoading weights:  32%|███▏      | 126/398 [00:01\u003c00:02, 112.41it/s]\rLoading weights:  49%|████▊     | 194/398 [00:02\u003c00:01, 116.66it/s]\rLoading weights:  60%|█████▉    | 237/398 [00:02\u003c00:01, 113.92it/s]\rLoading weights:  67%|██████▋   | 267/398 [00:02\u003c00:01, 112.20it/s]\rLoading weights:  73%|███████▎  | 290/398 [00:02\u003c00:00, 113.04it/s]\rLoading weights:  78%|███████▊  | 310/398 [00:03\u003c00:00, 120.31it/s]\rLoading weights:  83%|████████▎ | 329/398 [00:03\u003c00:00, 115.52it/s]\rLoading weights:  87%|████████▋ | 345/398 [00:03\u003c00:00, 110.06it/s]\rLoading weights:  90%|█████████ | 359/398 [00:03\u003c00:00, 114.81it/s]\rLoading weights:  94%|█████████▎| 373/398 [00:03\u003c00:00, 118.15it/s]\rLoading weights:  97%|█████████▋| 387/398 [00:03\u003c00:00, 120.83it/s]\rLoading weights: 100%|██████████| 398/398 [00:03\u003c00:00, 102.85it/s]\n"}
+,{"stream_name":"stdout","time":110.222147977,"data":"directions ready 61s\n"}
+,{"stream_name":"stdout","time":192.21601142,"data":"clean 143s neg self/sam 1.76 2.96\n"}
+,{"stream_name":"stdout","time":277.616346337,"data":"middle_0.05 229s neg self/sam 1.94 2.98\n"}
+,{"stream_name":"stdout","time":363.36402845,"data":"middle_0.1 314s neg self/sam 2.42 3.68\n"}
+,{"stream_name":"stdout","time":449.104546387,"data":"middle_0.125 400s neg self/sam 4.08 5.2\n"}
+,{"stream_name":"stdout","time":534.773557724,"data":"early_0.05 486s neg self/sam 1.79 3.25\n"}
+,{"stream_name":"stdout","time":620.474150241,"data":"early_0.1 571s neg self/sam 2.08 3.12\n"}
+,{"stream_name":"stdout","time":706.245879241,"data":"early_0.125 657s neg self/sam 3.11 3.56\n"}
+,{"stream_name":"stdout","time":792.122483224,"data":"late_0.2 743s neg self/sam 3.33 3.88\n"}
+,{"stream_name":"stdout","time":793.54718865,"data":"wrote /kaggle/working/selfreport 745s\n"}
+,{"stream_name":"stderr","time":802.834691191,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":802.834745175,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":803.220611656,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":803.220640101,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":804.263409913,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":805.838320486,"data":"[NbConvertApp] Writing 430312 bytes to __results__.html\n"}
+]

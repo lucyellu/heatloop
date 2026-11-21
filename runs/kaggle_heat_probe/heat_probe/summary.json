@@ -1,0 +1,59 @@
+{
+  "idle_p10": 48.0,
+  "idle_p50": 52.0,
+  "load_p90": 77.0,
+  "max": 81.0,
+  "range_C": 29.0,
+  "cool_to_idle_plus5_s": null,
+  "safety_pauses": [],
+  "suggested": {
+    "H_lo": 48.0,
+    "H_hi": 77.0
+  },
+  "gate_range_ge_15C": true,
+  "neighbour_gpus": {
+    "1": {
+      "idle_p50": 48.0,
+      "load_p90": 44.0
+    }
+  },
+  "env": {
+    "gpus": [
+      {
+        "index": 0.0,
+        "temperature.gpu": 47.0,
+        "utilization.gpu": 6.0,
+        "power.draw": 26.94,
+        "clocks.sm": 585.0,
+        "clocks.mem": 5000.0,
+        "fan.speed": null
+      },
+      {
+        "index": 1.0,
+        "temperature.gpu": 50.0,
+        "utilization.gpu": 0.0,
+        "power.draw": 11.14,
+        "clocks.sm": 300.0,
+        "clocks.mem": 405.0,
+        "fan.speed": null
+      }
+    ],
+    "torch": "2.11.0+cu130",
+    "device_name": "Tesla T4",
+    "kaggle": true,
+    "args": {
+      "data": "/kaggle/temp/coco",
+      "download": "True",
+      "out": "/kaggle/working/heat_probe",
+      "gpu": "0",
+      "pool": "512",
+      "batches": "8,32,64",
+      "idle_s": "120",
+      "load_s": "240",
+      "cool_s": "360",
+      "max_temp": "85.0",
+      "fp32": "False"
+    },
+    "other_processes_at_start": "7, 1086 MiB"
+  }
+}

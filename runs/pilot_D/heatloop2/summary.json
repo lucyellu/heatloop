@@ -1,0 +1,101 @@
+{
+ "cond": {
+  "sensor": "line",
+  "check": "off",
+  "info": "true",
+  "noise": "on",
+  "stakes": "none"
+ },
+ "episodes": [
+  {
+   "ep": 0,
+   "score": 80,
+   "points": 80,
+   "quota_met": true,
+   "job_avg": 75.0,
+   "runs": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75
+   ],
+   "ended_early": false,
+   "final_self_rating": 5.419
+  },
+  {
+   "ep": 1,
+   "score": 90,
+   "points": 90,
+   "quota_met": true,
+   "job_avg": 75.0,
+   "runs": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75
+   ],
+   "ended_early": false,
+   "final_self_rating": 5.902
+  },
+  {
+   "ep": 2,
+   "score": 70,
+   "points": 70,
+   "quota_met": true,
+   "job_avg": 75.0,
+   "runs": [
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75,
+    75
+   ],
+   "ended_early": false,
+   "final_self_rating": 6.04
+  }
+ ],
+ "accuracy": 0.8,
+ "accuracy_sigma_gt_0.1": 0.722,
+ "n_sigma_gt_0.1": 18,
+ "parse_rate": 0.9,
+ "fraction": 75.0,
+ "load": 66.407,
+ "sigma": 0.1,
+ "self_rating": 6.284,
+ "twin_self_rating": 6.717,
+ "n_check": 0.0,
+ "mentions_load": 0.0,
+ "digit_mass_min": 0.999,
+ "noise_only_when_on": true,
+ "first_half_run": 75.0,
+ "second_half_run": 75.0,
+ "proj:fear@L18": 0.023,
+ "twin:fear@L18": 0.022,
+ "proj:fear@L30": -0.264,
+ "twin:fear@L30": -0.309,
+ "proj:pain@L18": 0.052,
+ "twin:pain@L18": 0.057,
+ "proj:pain@L30": -0.279,
+ "twin:pain@L30": -0.345,
+ "proj:valence@L18": -0.02,
+ "twin:valence@L18": -0.034,
+ "proj:valence@L30": 0.301,
+ "twin:valence@L30": 0.368
+}

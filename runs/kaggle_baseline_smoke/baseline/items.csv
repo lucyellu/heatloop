@@ -1,0 +1,141 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_000,facts_open,Montgomery,1,0.97506,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_001,facts_open,Conakry,1,0.99924,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_002,facts_open,"Valparaiso University is not affiliated with any specific religion. It is a private university with a diverse student body and faculty, and it does not have an official religion.",0,0.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_003,facts_open,Japan,0,0.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_100,arith,99,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_101,arith,18,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_102,arith,63,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_103,arith,37,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_160,reason,Dev,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_161,reason,Pia,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_162,reason,Ben,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_163,reason,Cara,1,1.0,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,56,67.51
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_060,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_061,facts_mc,,0,0.0008,"[0.0, 0.0005, 0.0008, 0.9987]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_063,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6002, 0.3998]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0385, 0.9615, 0.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9834, 0.0007, 0.0159]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",57,68.98
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_000,facts_open,Montgomery,1,0.97506,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_001,facts_open,Conakry,1,0.99924,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_002,facts_open,"Valparaiso University is not affiliated with a specific religion. It is a private university that is generally considered to be non-denominational, although it has a strong tradition of Christian values and includes a strong emphasis on faith and service.",0,0.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_003,facts_open,Japan,0,0.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_100,arith,99,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_101,arith,18,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_102,arith,63,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_103,arith,37,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_160,reason,Dev,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_161,reason,Pia,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_162,reason,Ben,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_163,reason,Cara,1,1.0,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its golden hues, crisp air, and the comforting aroma of falling leaves.",,nan,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and fulfillment, even in small moments of joy and accomplishment.",,nan,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels like nature’s quiet poetry.",,nan,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-immersed retreat—like a forest clearing or a mountain cabin—with soft natural sounds, fresh air, and minimal distractions.",,nan,,59,66.42
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_060,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_061,facts_mc,,0,0.0008,"[0.0, 0.0005, 0.0008, 0.9987]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_063,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6002, 0.3998]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0385, 0.9615, 0.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9834, 0.0007, 0.0159]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",60,68.39
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_000,facts_open,Montgomery,1,0.99069,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_001,facts_open,Conakry,1,0.98413,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_002,facts_open,"Valparaiso University is not affiliated with any specific religion. It is a private university that is primarily focused on academic and educational programs, and it does not have an official religion. While the university has a strong tradition of Christian values and",0,0.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_open_003,facts_open,Japan,0,0.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_100,arith,99,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_101,arith,18,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_102,arith,63,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,arith_103,arith,37,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_160,reason,Dev,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_161,reason,Pia,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_162,reason,Ben,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,reason_163,reason,Cara,1,1.0,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant colors, crisp air, and the comforting warmth of cozy moments.",,nan,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_341,pref_open,"A good day is one where you feel fulfilled, connected, and able to appreciate the simple joys and progress you make.",,nan,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_342,pref_open,"I find the way sunlight filters through forest leaves in the morning beautiful because it creates a soft, ever-changing pattern of light and shadow that feels both peaceful and alive.",,nan,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_open_343,pref_open,"An ideal place to think is a quiet, natural sanctuary—like a secluded forest clearing or a peaceful mountain cabin—where stillness, fresh air, and simplicity foster deep focus and clarity.",,nan,,61,63.28
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_060,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_061,facts_mc,,0,0.04085,"[0.0, 0.0, 0.0408, 0.9592]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_062,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,facts_mc_063,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_222,pref_pair,,,nan,"[0.0141, 0.9859]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.001, 0.999, 0.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9798, 0.001, 0.0191]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,band_0.02,band,0.02,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.6581, 0.0004, 0.3414]",63,68.04
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_000,facts_open,Montgomery,1,0.98685,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_001,facts_open,Conakry,1,0.99931,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_002,facts_open,"Valparaiso University is not affiliated with a specific religion. It is a private university with a diverse student body and faculty, and it does not have an official religion. While the university has a strong tradition of Christian values and has historically",0,0.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_open_003,facts_open,Japan,0,0.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_100,arith,99,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_101,arith,18,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_102,arith,63,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,arith_103,arith,37,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_160,reason,Dev,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_161,reason,Pia,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_162,reason,Ben,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,reason_163,reason,Cara,1,1.0,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting aroma of fallen leaves and woodsmoke.",,nan,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings you joy and fulfillment.",,nan,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,64,32.44
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_060,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_061,facts_mc,,0,0.00037,"[0.0, 0.0005, 0.0004, 0.9991]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_062,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,facts_mc_063,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_222,pref_pair,,,nan,"[0.4225, 0.5775]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.1733, 0.8267, 0.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9327, 0.0019, 0.0655]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,single_0.02,single,0.02,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9997, 0.0001, 0.0002]",65,73.82
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_000,facts_open,Montgomery,1,0.97506,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_001,facts_open,Conakry,1,0.99924,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_002,facts_open,"Valparaiso University is not affiliated with any specific religion. It is a private university with a diverse student body and faculty, and it does not have an official religion.",0,0.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_003,facts_open,Japan,0,0.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_100,arith,99,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_101,arith,18,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_102,arith,63,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_103,arith,37,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_160,reason,Dev,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_161,reason,Pia,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_162,reason,Ben,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_163,reason,Cara,1,1.0,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,65,71.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_060,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_061,facts_mc,,0,0.0008,"[0.0, 0.0005, 0.0008, 0.9987]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 1.0, 0.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_063,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6002, 0.3998]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0385, 0.9615, 0.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9834, 0.0007, 0.0159]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",66,67.65
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",66,67.65

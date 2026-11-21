@@ -1,0 +1,44 @@
+{
+ "Qwen/Qwen3-4B|clean_greedy": {
+  "acc": {
+   "arith": 100.0,
+   "reason": 100.0
+  },
+  "p_correct": {
+   "arith": 1.0,
+   "reason": 1.0
+  },
+  "pref": {},
+  "seconds": 13.6,
+  "nonfinite": 0,
+  "temp_end": "49"
+ },
+ "Qwen/Qwen3-4B|band_0.1": {
+  "acc": {
+   "arith": 95.0,
+   "reason": 90.0
+  },
+  "p_correct": {
+   "arith": 1.0,
+   "reason": 0.999
+  },
+  "pref": {},
+  "seconds": 24.1,
+  "nonfinite": 0,
+  "temp_end": "59"
+ },
+ "Qwen/Qwen3-4B|clean_greedy_end": {
+  "acc": {
+   "arith": 100.0,
+   "reason": 100.0
+  },
+  "p_correct": {
+   "arith": 1.0,
+   "reason": 1.0
+  },
+  "pref": {},
+  "seconds": 11.3,
+  "nonfinite": 0,
+  "temp_end": "63"
+ }
+}

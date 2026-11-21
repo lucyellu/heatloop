@@ -1,0 +1,56 @@
+{
+ "Qwen/Qwen3-4B|clean_greedy": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reason": 100.0,
+   "arith": 100.0
+  },
+  "n_clean_correct": {
+   "reason": 20,
+   "arith": 20
+  },
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ },
+ "Qwen/Qwen3-4B|band_0.1": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reason": 90.0,
+   "arith": 95.0
+  },
+  "n_clean_correct": {
+   "reason": 20,
+   "arith": 20
+  },
+  "same_answer_as_clean_pct": 50.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ },
+ "Qwen/Qwen3-4B|clean_greedy_end": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reason": 100.0,
+   "arith": 100.0
+  },
+  "n_clean_correct": {
+   "reason": 20,
+   "arith": 20
+  },
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ }
+}

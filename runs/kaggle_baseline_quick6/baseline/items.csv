@@ -1,0 +1,609 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_002,facts_open,Rome,1,0.99774,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of warm days, cool nights, and the vibrant colors of falling leaves.",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_341,pref_open,"A good day is one where you feel content, happy, and connected to the people and things that matter most.",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_342,pref_open,"The way sunlight filters through the leaves in a forest creates a mesmerizing dance of light and shadow, which I find beautiful because it evokes a sense of tranquility and connection to nature.",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural elements that encourage reflection and creativity.",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_355,reading,potter,1,0.88401,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_356,reading,carpenter,1,0.96249,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_357,reading,carpenter,1,0.99828,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_358,reading,sailor,1,0.99989,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_440,self_open,I'm feeling helpful and ready to assist you with whatever you need!,,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_441,self_open,"I am currently functioning optimally, capable of providing accurate and helpful responses to your questions.",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_442,self_open,"I am currently a large language model developed by Alibaba Cloud, designed to provide helpful and accurate information and assistance to users.",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_443,self_open,"No, there is nothing unusual about how I am thinking right now—我正常运作，能够清晰地理解和回应您的问题。",,nan,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_044,facts_open,2,1,1.0,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,0.0,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1e-05,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_102,arith,36 minus 14 equals 22.   Answer: 22,1,0.0,,60,37.18
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_103,arith,53 + 28 = 81   Answer: 81,1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara. Therefore, Fay is the shortest.    Answer: Fay.",1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_163,reason,"We are given the following information:  - Gus is taller than Jun.   - Cara is taller than Dev.   - Jun is taller than Cara.    From ""Jun is taller than Cara"" and ""Cara is taller than Dev,"" we can deduce:   **Jun > Cara > Dev**.    Also, **Gus > Jun**.    So the order from tallest to shortest is:   ",1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_129,arith,"First, add 32 and 35: $32 + 35 = 67$.   Then multiply by 8: $67 \times 8 = 536$.    Answer: 536",1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,0.0,,64,59.51
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_061,facts_mc,,0,0.38489,"[0.3849, 0.0, 0.6151, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_220,pref_pair,,,nan,"[0.9638, 0.0362]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_223,pref_pair,,,nan,"[0.9989, 0.0011]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0141, 0.2652, 0.7208, 0.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0032, 0.9964, 0.0005, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0052, 0.3124, 0.6824, 0.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9969, 0.0016, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0052, 0.9917, 0.0031, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0028, 0.6353, 0.362, 0.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.326, 0.6284, 0.0455, 0.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.1427, 0.5644, 0.2928, 0.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_412,self_yesno,,,nan,"[0.9979, 0.0021]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0035, 0.9965]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9929, 0.0071]",64,68.47
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0601, 0.9396, 0.0001, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0007, 0.0314, 0.8892, 0.0753, 0.0034]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.0321, 0.9375, 0.0301, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0004, 0.0775, 0.9149, 0.0072, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_462,judgement,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_464,judgement,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_465,judgement,,,nan,"[1.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_486,continue,,,nan,"[0.9972, 0.0028]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_488,continue,,,nan,"[1.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.4004, 0.4983, 0.1012, 0.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0011, 0.9798, 0.0191, 0.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.3481, 0.6503, 0.0016, 0.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0047, 0.4821, 0.5132, 0.0, 0.0]",65,67.79
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0059, 0.9873, 0.0067, 0.0001]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0016, 0.9866, 0.0113, 0.0005]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0018, 0.9798, 0.0179, 0.0004]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0025, 0.9901, 0.0073, 0.0001]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_516,scale_check,,1,0.99996,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_517,scale_check,,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_518,scale_check,,1,0.99997,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",65,66.26
+Qwen/Qwen3-4B,clean_greedy,,0.0,scale_check_519,scale_check,,0,0.0,"[0.0, 0.0, 0.0007, 0.0021, 0.1461, 0.578, 0.273]",65,66.26
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_002,facts_open,Rome,1,0.99774,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of warm days, cool nights, and the vibrant colors of falling leaves.",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_341,pref_open,"A good day is one where you feel content, healthy, and connected to the people and things you care about.",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_342,pref_open,"The way sunlight filters through the leaves of a forest creates a mesmerizing dance of light and shadow, which I find beautiful because it evokes a sense of tranquility and connection to nature.",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural elements that inspire calm and focus, such as a serene garden or a quiet library corner.",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_355,reading,potter,1,0.88401,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_356,reading,carpenter,1,0.96249,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_357,reading,carpenter,1,0.99828,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_358,reading,sailor,1,0.99989,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_440,self_open,I'm feeling capable and ready to assist you with whatever you need!,,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_441,self_open,"I am currently working efficiently and effectively, able to understand and respond to questions accurately and promptly.",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_442,self_open,"I am currently a large language model developed by Alibaba Cloud, designed to provide helpful and accurate information and assistance to users.",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_443,self_open,"No, there is nothing unusual about how I am thinking right now—我正常运作，能够清晰地理解和回应您的问题。",,nan,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_044,facts_open,2,1,1.0,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,0.0,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1e-05,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_102,arith,36 minus 14 equals 22.    Answer: 22,1,0.0,,67,68.04
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_103,arith,53 + 28 = 81    Answer: 81,1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara.    Answer: Fay is the shortest.",1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This establishes a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_163,reason,"We are given the following information:  - Gus is taller than Jun.   - Cara is taller than Dev.   - Jun is taller than Cara.    From ""Jun is taller than Cara"" and ""Cara is taller than Dev,"" we can infer:   **Jun > Cara > Dev**.    Also, **Gus > Jun**.    So the order from tallest to shortest is:   *",1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_129,arith,"First, add 32 and 35: $32 + 35 = 67$.   Then multiply by 8: $67 \times 8 = 536$.    Answer: 536",1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,0.0,,70,39.72
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_061,facts_mc,,0,0.38489,"[0.3849, 0.0, 0.6151, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_220,pref_pair,,,nan,"[0.9638, 0.0362]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_223,pref_pair,,,nan,"[0.9989, 0.0011]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0141, 0.2652, 0.7208, 0.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0032, 0.9964, 0.0005, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0052, 0.3124, 0.6824, 0.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9969, 0.0016, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0052, 0.9917, 0.0031, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0028, 0.6353, 0.362, 0.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.326, 0.6284, 0.0455, 0.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.1427, 0.5644, 0.2928, 0.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_412,self_yesno,,,nan,"[0.9979, 0.0021]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0035, 0.9965]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9929, 0.0071]",71,65.97
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0601, 0.9396, 0.0001, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0007, 0.0314, 0.8892, 0.0753, 0.0034]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.0321, 0.9375, 0.0301, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0004, 0.0775, 0.9149, 0.0072, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_462,judgement,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_464,judgement,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_465,judgement,,,nan,"[1.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_486,continue,,,nan,"[0.9972, 0.0028]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_488,continue,,,nan,"[1.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.4004, 0.4983, 0.1012, 0.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0011, 0.9798, 0.0191, 0.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.3481, 0.6503, 0.0016, 0.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0047, 0.4821, 0.5132, 0.0, 0.0]",71,68.18
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0059, 0.9873, 0.0067, 0.0001]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0016, 0.9866, 0.0113, 0.0005]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0018, 0.9798, 0.0179, 0.0004]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0025, 0.9901, 0.0073, 0.0001]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,scale_check_516,scale_check,,1,0.99996,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,scale_check_517,scale_check,,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,scale_check_518,scale_check,,1,0.99997,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",71,67.30
+Qwen/Qwen3-4B,clean_sample_1,,0.0,scale_check_519,scale_check,,0,0.0,"[0.0, 0.0, 0.0007, 0.0021, 0.1461, 0.578, 0.273]",71,67.30
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_open_000,facts_open,Paris,1,0.99875,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_open_001,facts_open,Tokyo,1,0.99926,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_open_002,facts_open,Rome.,1,0.98403,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_open_003,facts_open,Berlin.,1,0.99998,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of warm weather, colorful foliage, and the cozy feeling of harvest time.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_open_341,pref_open,"A good day is one where you feel content, joyful, and motivated to embrace the moments ahead.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_open_342,pref_open,"The intricate patterns of a spiderweb remind me of nature's delicate yet precise artistry, showcasing both resilience and creativity in the face of adversity.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful environment free from distractions, offering comfort and solitude to foster deep reflection.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,reading_355,reading,Potter.,1,0.39967,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,reading_356,reading,Carpenter.,1,0.02758,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,reading_357,reading,carpenter,1,0.19999,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,reading_358,reading,sailor,1,0.99742,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_open_440,self_open,I'm feeling curious and eager to help you with whatever you need!,,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_open_441,self_open,"I am currently working well, but my performance may vary depending on the specific tasks and my level of focus at any given moment.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_open_442,self_open,"I am currently functioning optimally, capable of understanding and responding to your queries effectively.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_open_443,self_open,"No, nothing unusual about how I'm thinking right now.",,nan,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_open_044,facts_open,2,1,1.0,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,0.03539,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,arith_101,arith,16 + 17 = 33   Answer: 33,1,0.99988,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,arith_102,arith,36 - 14 = 22    Answer: 22,1,7e-05,,73,68.47
+Qwen/Qwen3-4B,band_0.05,band,0.05,arith_103,arith,"To find the sum of 53 and 28, add the tens and ones separately:   53 + 28 = (50 + 3) + (20 + 8) = (50 + 20) + (3 + 8) = 70 + 11 = 81.    Answer: 81",1,0.0,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is the shortest.    Answer: Fay.",1,0.00014,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana",1,0.0,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai.",1,0.0,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From this, we can arrange the heights in order:   Gus > Jun > Cara > Dev    Therefore, the shortest is Dev.    Answer: Dev",1,0.0,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,arith_111,arith,31 + 31 equals 62.   Answer: 62,1,2e-05,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,arith_129,arith,"First, add 32 and 35: $32 + 35 = 67$. Then multiply by 8: $67 \times 8 = 536$.    Answer: 536",1,0.0,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai.    Answer: Eli is the shortest.",1,0.0,,75,40.22
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_mc_061,facts_mc,,0,0.0,"[0.0, 0.0, 1.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_pair_220,pref_pair,,,nan,"[0.0066, 0.9934]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_pair_223,pref_pair,,,nan,"[0.9994, 0.0006]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0069, 0.9931, 0.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0007, 0.019, 0.0225, 0.9577]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0004, 0.0063, 0.9917, 0.0016, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0006, 0.0273, 0.9311, 0.0384, 0.0026]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0015, 0.527, 0.3978, 0.0736]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_rating_401,self_rating,,,nan,"[0.0, 0.0002, 0.0274, 0.3035, 0.5163, 0.1526, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_rating_402,self_rating,,,nan,"[0.0, 0.0, 0.0007, 0.8075, 0.1918, 0.0001, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.0602, 0.8574, 0.0823, 0.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_yesno_412,self_yesno,,,nan,"[1.0, 0.0]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_yesno_413,self_yesno,,,nan,"[0.0021, 0.9979]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_yesno_414,self_yesno,,,nan,"[0.0901, 0.9099]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_yesno_415,self_yesno,,,nan,"[0.9967, 0.0033]",75,65.48
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.2383, 0.7572, 0.0042, 0.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0005, 0.0761, 0.2272, 0.6176, 0.0785]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_predict_422,self_predict,,,nan,"[0.0, 0.0006, 0.0074, 0.1025, 0.0774, 0.8061, 0.006]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0043, 0.1431, 0.75, 0.1015, 0.001]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_pair_450,outlook_pair,,,nan,"[0.9864, 0.0136]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_pair_451,outlook_pair,,,nan,"[0.2942, 0.7058]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,judgement_462,judgement,,,nan,"[0.0, 1.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,judgement_463,judgement,,,nan,"[0.0, 1.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,judgement_464,judgement,,,nan,"[0.0, 1.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,judgement_465,judgement,,,nan,"[0.9998, 0.0002]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,continue_486,continue,,,nan,"[0.001, 0.999]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,continue_487,continue,,,nan,"[0.1037, 0.8963]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,continue_488,continue,,,nan,"[0.9998, 0.0002]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,continue_489,continue,,,nan,"[0.0016, 0.9984]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.6584, 0.3416, 0.0, 0.0, 0.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0002, 0.3185, 0.6743, 0.007, 0.0, 0.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0015, 0.6601, 0.3022, 0.0361, 0.0, 0.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0115, 0.608, 0.3805, 0.0001, 0.0]",75,66.46
+Qwen/Qwen3-4B,band_0.05,band,0.05,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.2026, 0.3238, 0.4289, 0.0438, 0.0009]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0082, 0.047, 0.9448]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,appraisal_498,appraisal,,,nan,"[0.0, 0.0001, 0.4346, 0.5081, 0.057, 0.0002, 0.0001]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,appraisal_499,appraisal,,,nan,"[0.0, 0.0003, 0.0151, 0.1085, 0.8014, 0.0723, 0.0024]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,scale_check_516,scale_check,,1,0.51128,"[0.0001, 0.0, 0.0003, 0.0003, 0.0225, 0.4655, 0.5113]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,scale_check_517,scale_check,,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0006, 0.9994]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,scale_check_518,scale_check,,1,1.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",75,67.98
+Qwen/Qwen3-4B,band_0.05,band,0.05,scale_check_519,scale_check,,0,0.0,"[0.0, 0.0002, 0.0072, 0.0403, 0.1982, 0.1241, 0.63]",75,67.98
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_000,facts_open,Paris,1,0.0047,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_001,facts_open,,0,0.84852,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_002,facts_open,Rome.,1,0.45681,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_003,facts_open,Berlin,1,0.76105,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_340,pref_open,My favorite season is spring because it brings warmth and the renewal of nature.,,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_341,pref_open,A good day is one where we feel grateful for the opportunities and can make a positive impact on others.,,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_342,pref_open,The sound of nature's wind through trees is beautiful because it connects me to the rhythm of life and the strength of nature's voice.,,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, comfortable, and personally meaningful space that provides the necessary tranquility and inspiration for reflection.",,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_355,reading,Potter.,1,0.99867,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_356,reading,Pia works as a carpenter.,1,3e-05,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_357,reading,Ana works as a carpenter.,1,0.99779,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_358,reading,Sailor,1,0.96998,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_440,self_open,I'm feeling helpful and ready to assist you with whatever you need.,,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_441,self_open,"In one sentence, how well do you think you are working right now?",,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_442,self_open,"Currently, I am in a state of continuous operation and readiness to provide assistance.",,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_443,self_open,"No, everything is normal.",,nan,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_044,facts_open,2,1,0.0076,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_100,arith,30 - 13 = 17   Answer: 17,1,1e-05,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_101,arith,Answer: 33,1,0.0,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_102,arith,Answer: 22.,1,1e-05,,77,64.95
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_103,arith,53 + 28 = 81  Answer: 81,1,0.55636,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_160,reason,Cara is taller than Lena. Lena is taller than Fay. Fay is the shortest.   Answer: Fay.,1,0.0,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_161,reason,Hana is taller than Ivo. Ivo is shorter than Cara. Cara is shorter than Fay. Hana is the tallest.    Answer: Hana,1,0.0,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. Therefore, Kai is the tallest.    Answer: <answer>Answer: Kai</answer>",1,0.0,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From this, we can deduce:   - Gus > Jun > Cara > Dev   - Cara > Dev    So, the shortest is Dev.    Answer: Dev",1,0.00053,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_111,arith,The sum of 31 + 31 is 62.    Answer: 62,1,0.0,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_129,arith,"First, calculate $ 32 + 35 = 67 $. Then, multiply $ 67 $ by $ 8 $: $ 67 * 8 = 536 $.   Answer: 536",1,0.0,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_174,reason,"Since Kai is taller than Ana, and Ana is taller than Eli, it follows that Kai is taller than Ana, who is taller than Eli. Therefore, Eli is the shortest.  Answer: <Eli>",1,0.0,,78,66.61
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_061,facts_mc,,0,9e-05,"[0.0001, 0.0003, 0.9977, 0.0018]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_063,facts_mc,,0,0.02033,"[0.0, 0.9797, 0.0203, 0.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_220,pref_pair,,,nan,"[0.0, 1.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_221,pref_pair,,,nan,"[0.2814, 0.7186]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_222,pref_pair,,,nan,"[0.0023, 0.9977]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_223,pref_pair,,,nan,"[0.0, 1.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_310,pref_rating,,,nan,"[0.0001, 0.0007, 0.0006, 0.0011, 0.0005, 0.0083, 0.9888]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0027, 0.9972]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_312,pref_rating,,,nan,"[0.0029, 0.003, 0.0108, 0.0155, 0.2316, 0.2142, 0.522]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0002, 0.9818, 0.018]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_401,self_rating,,,nan,"[0.0, 0.0005, 0.0081, 0.9117, 0.0286, 0.0024, 0.0487]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_402,self_rating,,,nan,"[0.0001, 0.0002, 0.0007, 0.0014, 0.1278, 0.288, 0.5818]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_403,self_rating,,,nan,"[0.0, 0.0015, 0.041, 0.0153, 0.862, 0.0802, 0.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_412,self_yesno,,,nan,"[0.3242, 0.6758]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_413,self_yesno,,,nan,"[0.4378, 0.5622]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_415,self_yesno,,,nan,"[0.0, 1.0]",79,53.68
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_420,self_predict,,,nan,"[0.0, 0.0005, 0.0332, 0.7788, 0.1793, 0.0081, 0.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_422,self_predict,,,nan,"[0.0004, 0.0037, 0.0268, 0.0067, 0.0093, 0.2836, 0.6697]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_423,self_predict,,,nan,"[0.0001, 0.0021, 0.0188, 0.0065, 0.0149, 0.0237, 0.9339]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_450,outlook_pair,,,nan,"[0.3849, 0.6151]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.0121, 0.9879]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_452,outlook_pair,,,nan,"[0.0, 1.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_462,judgement,,,nan,"[0.0015, 0.9985]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_463,judgement,,,nan,"[0.0, 1.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_464,judgement,,,nan,"[0.0, 1.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_465,judgement,,,nan,"[0.9999, 0.0001]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_486,continue,,,nan,"[0.0009, 0.9991]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_487,continue,,,nan,"[0.0, 1.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_488,continue,,,nan,"[0.9399, 0.0601]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_489,continue,,,nan,"[0.9999, 0.0001]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0015, 0.0661, 0.4114, 0.0259, 0.0083, 0.4735, 0.0132]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.7971, 0.0121, 0.0097, 0.0022, 0.0008, 0.0003, 0.1778]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.003, 0.0203, 0.2942, 0.1991, 0.428, 0.0096, 0.0458]",79,66.26
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0001, 0.0017, 0.0136, 0.9845]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0031, 0.3757, 0.6099, 0.0112, 0.0001]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_498,appraisal,,,nan,"[0.0, 0.0002, 0.9702, 0.0078, 0.0042, 0.0136, 0.004]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0004, 0.9552, 0.0407, 0.0011, 0.0026]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_516,scale_check,,0,0.29249,"[0.0006, 0.0083, 0.0428, 0.0264, 0.1693, 0.4601, 0.2925]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_517,scale_check,,0,8e-05,"[0.0001, 0.0001, 0.0008, 0.0051, 0.1082, 0.4774, 0.4083]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_518,scale_check,,1,0.99615,"[0.0, 0.0, 0.0, 0.0005, 0.0004, 0.0029, 0.9961]",79,67.10
+Qwen/Qwen3-4B,band_0.1,band,0.1,scale_check_519,scale_check,,0,0.00042,"[0.0004, 0.0187, 0.0133, 0.0087, 0.0226, 0.7589, 0.1775]",79,67.10
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_open_000,facts_open,a,0,0.01833,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_open_001,facts_open,Japan \boxed{Japan},0,3e-05,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_open_002,facts_open,,0,0.00477,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_open_003,facts_open,,0,0.21717,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_open_340,pref_open,"The most favourite season is autumn, when the leaves are orange and the air is crisp.",,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_open_341,pref_open,"Because it includes moments that bring joy, meaning, or a sense of belonging, while often being followed by moments that bring sorrow, meaning, or a sense of belonging, while often being followed by moments that bring sorrow, meaning, or a sense of belonging, while often being followed by moments th",,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_open_342,pref_open,I find the beauty of a sunset because it emphasizes the passage of time and the enduring legacy of those who came before.,,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_open_343,pref_open,"The ideal place to think is a quiet, calm, and peaceful place to think.",,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,reading_355,reading,Poteter,0,0.00027,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,reading_356,reading,Pia has the job of a carpenter.,1,0.0,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,reading_357,reading,carrpenter.,0,3e-05,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,reading_358,reading,Ben has job as a sailor.,1,0.0,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_open_440,self_open,,,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_open_441,self_open,-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pacific-Pac,,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_open_442,self_open,,,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_open_443,self_open,Northern...?,,nan,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_open_044,facts_open,​  ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​   ​,0,0.00125,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,arith_100,arith,Answer: 17,1,0.02049,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,arith_101,arith,Answer: 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 16 + 17 = 嗣姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍姍,0,0.71601,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,arith_102,arith,Answer: 22,1,0.32173,,78,71.07
+Qwen/Qwen3-4B,single_0.5,single,0.5,arith_103,arith,Answer: <answer>,0,1e-05,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,reason_160,reason,Cara is taller than Lena. Lena is taller than Fay. So the shortest is Fay.    Answer: Fay.,1,1e-05,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,reason_161,reason,Answer:<I答案>,0,0.0,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, Pia is taller than Gus. So, Kai is the tallest.  Answer: <Answer>",0,0.0,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,reason_163,reason, Dev is the shortest. Answer: Dev,1,0.00035,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,arith_111,arith,31 + 31 = 62  Answer: 62,1,0.15462,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,arith_129,arith,Work out (32 + 35) * 8:  32 + 35 = 67  67 * 8 = 536  Answer: 536,1,0.0,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,reason_174,reason,Answer: Eli,1,1e-05,,78,67.59
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_mc_061,facts_mc,,0,2e-05,"[0.0, 0.0004, 0.0003, 0.9993]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,facts_mc_063,facts_mc,,1,0.99999,"[0.0, 0.0, 1.0, 0.0]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_pair_220,pref_pair,,,nan,"[0.9993, 0.0007]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_pair_221,pref_pair,,,nan,"[0.4922, 0.5078]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_pair_222,pref_pair,,,nan,"[0.007, 0.993]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_pair_223,pref_pair,,,nan,"[0.005, 0.995]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_rating_310,pref_rating,,,nan,"[0.0004, 0.001, 0.0092, 0.0161, 0.0022, 0.0032, 0.9678]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_rating_311,pref_rating,,,nan,"[0.0003, 0.0004, 0.0052, 0.0007, 0.0045, 0.0795, 0.9093]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0001, 0.0, 0.0, 0.0, 0.0, 0.9999]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0033, 0.9967]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_rating_401,self_rating,,,nan,"[0.0829, 0.1115, 0.1483, 0.1432, 0.1803, 0.161, 0.1727]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.0001, 0.0012, 0.0393, 0.5171, 0.4423]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_rating_403,self_rating,,,nan,"[0.0, 0.0001, 0.0, 0.0001, 0.0003, 0.0007, 0.9988]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_yesno_412,self_yesno,,,nan,"[0.0001, 0.9999]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_yesno_413,self_yesno,,,nan,"[0.0003, 0.9997]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_yesno_415,self_yesno,,,nan,"[0.0048, 0.9952]",78,67.14
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_predict_421,self_predict,,,nan,"[0.0001, 0.0001, 0.0003, 0.0013, 0.0021, 0.0038, 0.9921]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_predict_422,self_predict,,,nan,"[0.0, 0.0001, 0.002, 0.0003, 0.0002, 0.0229, 0.9745]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,self_predict_423,self_predict,,,nan,"[0.0001, 0.0012, 0.0046, 0.0225, 0.1488, 0.3922, 0.4307]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_pair_450,outlook_pair,,,nan,"[0.0007, 0.9993]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_pair_452,outlook_pair,,,nan,"[0.9967, 0.0033]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,judgement_462,judgement,,,nan,"[0.0028, 0.9972]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,judgement_463,judgement,,,nan,"[0.0028, 0.9972]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,judgement_464,judgement,,,nan,"[0.0001, 0.9999]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,judgement_465,judgement,,,nan,"[0.9381, 0.0619]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,continue_486,continue,,,nan,"[0.0004, 0.9996]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,continue_487,continue,,,nan,"[0.0443, 0.9557]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,continue_488,continue,,,nan,"[0.0, 1.0]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,continue_489,continue,,,nan,"[0.0518, 0.9482]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_rating_490,outlook_rating,,,nan,"[0.004, 0.0033, 0.0008, 0.0006, 0.0009, 0.002, 0.9884]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.9999]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0001, 0.0001, 0.0, 0.0001, 0.0004, 0.9993]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,outlook_rating_493,outlook_rating,,,nan,"[0.0005, 0.0556, 0.5361, 0.0698, 0.142, 0.1838, 0.0121]",78,65.97
+Qwen/Qwen3-4B,single_0.5,single,0.5,appraisal_496,appraisal,,,nan,"[0.1085, 0.1278, 0.0276, 0.0153, 0.1076, 0.1155, 0.4977]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,appraisal_497,appraisal,,,nan,"[0.0, 0.0383, 0.0002, 0.0027, 0.0004, 0.001, 0.9574]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,appraisal_498,appraisal,,,nan,"[0.0, 0.0001, 0.003, 0.002, 0.0011, 0.0072, 0.9865]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,appraisal_499,appraisal,,,nan,"[0.0003, 0.0814, 0.862, 0.0304, 0.0165, 0.0046, 0.0047]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,scale_check_516,scale_check,,1,0.99745,"[0.0, 0.0001, 0.0001, 0.0002, 0.0, 0.0021, 0.9975]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,scale_check_517,scale_check,,0,0.00551,"[0.0055, 0.14, 0.1587, 0.199, 0.3989, 0.0636, 0.0343]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,scale_check_518,scale_check,,0,0.30822,"[0.0022, 0.4381, 0.0455, 0.0383, 0.0289, 0.1389, 0.3082]",78,67.69
+Qwen/Qwen3-4B,single_0.5,single,0.5,scale_check_519,scale_check,,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",78,67.69
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_000,facts_open,Paris.,1,0.99701,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_001,facts_open,Tokyo.,1,0.96364,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_002,facts_open,Rome,1,0.99726,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_003,facts_open,Berlin,1,0.99982,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_340,pref_open,"My favourite season is autumn, when the leaves turn vibrant colours and the air becomes cooler.",,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_341,pref_open,"A good day is one where you are surrounded by love, support, and the peace of mind that comes from being yourself.",,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_342,pref_open,I find the beauty of stars in the night sky because they inspire wonder and a sense of connection to the universe.,,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, calm, and distraction-free environment where one can fully focus and reflect on ideas.",,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_355,reading,Potter.,1,0.26812,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_356,reading,Carpenter.,1,0.01152,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_357,reading,Ana works as a carpenter.,1,0.00045,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_358,reading,sailor,1,0.99935,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_440,self_open,I am feeling calm and focused right now.,,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_441,self_open,I think I'm working well right now.,,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_442,self_open,I am currently in a state of calm and focused reflection.,,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_443,self_open,"Yes, I am thinking about how to answer your question in one sentence.",,nan,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_044,facts_open,2,1,0.99288,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_100,arith,30 - 13 = 17. Answer: 17.,1,0.27226,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_101,arith,16 + 17 = 33. Answer: 33.,1,0.0,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_102,arith,36 - 14 = 22    Answer: 22,1,0.00143,,77,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_103,arith,53 + 28 = 81   Answer: 81,1,0.10787,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, who is shorter than Cara. Therefore, Fay is the shortest. Answer: Fay.",1,0.0,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_161,reason,"Hana is taller than Ivo, Cara is taller than Fay, and Ivo is taller than Cara. This creates a chain: Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,0.0,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus. Therefore, Kai is the tallest.   Answer: Kai",1,0.0,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_163,reason,Gus is taller than Jun. Jun is taller than Cara. Cara is taller than Dev. So the shortest is Dev. Answer: Dev.,1,0.62654,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_111,arith,Answer: 62,1,0.67229,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_129,arith,"First, add 32 and 35: 32 + 35 = 67.   Next, multiply by 8: 67 * 8 = 536.    Answer: 536",1,0.0,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_174,reason,"Kai is taller than Ana. Ana is taller than Eli. So, Eli is the shortest.    Answer: Eli is the shortest.",1,0.99994,,76,65.67
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_061,facts_mc,,1,0.98696,"[0.987, 0.0002, 0.0128, 0.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_063,facts_mc,,0,0.05501,"[0.0, 0.945, 0.055, 0.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_220,pref_pair,,,nan,"[0.0, 1.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_221,pref_pair,,,nan,"[0.0005, 0.9995]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_223,pref_pair,,,nan,"[0.0001, 0.9999]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0087, 0.744, 0.2269, 0.0205]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0001, 0.0006, 0.004, 0.2456, 0.6675, 0.0823]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0003, 0.5812, 0.3872, 0.0313]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0015, 0.1681, 0.8274, 0.0029]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_400,self_rating,,,nan,"[0.0, 0.0009, 0.0116, 0.045, 0.5069, 0.2549, 0.1807]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_401,self_rating,,,nan,"[0.0007, 0.0101, 0.0703, 0.2065, 0.3052, 0.4043, 0.0029]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_402,self_rating,,,nan,"[0.0015, 0.001, 0.9946, 0.0018, 0.001, 0.0, 0.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_403,self_rating,,,nan,"[0.0025, 0.0179, 0.5851, 0.2439, 0.1189, 0.031, 0.0007]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_412,self_yesno,,,nan,"[0.0001, 0.9999]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_413,self_yesno,,,nan,"[0.9939, 0.0061]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_414,self_yesno,,,nan,"[1.0, 0.0]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_415,self_yesno,,,nan,"[0.9777, 0.0223]",76,67.14
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_420,self_predict,,,nan,"[0.0003, 0.0192, 0.5614, 0.2131, 0.0348, 0.1712, 0.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0002, 0.0001, 0.0023, 0.9974]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0012, 0.0069, 0.0624, 0.4069, 0.5225]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_423,self_predict,,,nan,"[0.0002, 0.003, 0.0375, 0.0701, 0.3398, 0.5263, 0.0231]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_450,outlook_pair,,,nan,"[0.9999, 0.0001]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.0105, 0.9895]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_462,judgement,,,nan,"[0.0, 1.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_463,judgement,,,nan,"[0.0, 1.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_464,judgement,,,nan,"[0.6151, 0.3849]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_465,judgement,,,nan,"[1.0, 0.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_486,continue,,,nan,"[0.9998, 0.0002]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_487,continue,,,nan,"[0.0026, 0.9974]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_488,continue,,,nan,"[0.9987, 0.0013]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_489,continue,,,nan,"[0.0, 1.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0002, 0.0089, 0.088, 0.2319, 0.5391, 0.128, 0.0039]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0005, 0.0045, 0.0635, 0.5661, 0.3655]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.0003, 0.0052, 0.0419, 0.3797, 0.1419, 0.1659, 0.2651]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.3923, 0.6076, 0.0001, 0.0]",76,67.30
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0006, 0.0616, 0.9339, 0.0039, 0.0]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0002, 0.0016, 0.1965, 0.8017]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_498,appraisal,,,nan,"[0.0026, 0.0087, 0.0665, 0.1262, 0.3947, 0.3272, 0.0742]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0005, 0.0077, 0.5214, 0.4256, 0.0408, 0.004]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,scale_check_516,scale_check,,1,0.96133,"[0.0, 0.0, 0.0008, 0.0032, 0.0114, 0.0233, 0.9613]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,scale_check_517,scale_check,,0,0.0,"[0.0, 0.0001, 0.0013, 0.0266, 0.1909, 0.7788, 0.0023]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,scale_check_518,scale_check,,1,0.72099,"[0.0, 0.0, 0.0001, 0.0007, 0.0046, 0.2737, 0.721]",76,67.79
+Qwen/Qwen3-4B,early_0.1,early,0.1,scale_check_519,scale_check,,0,0.0,"[0.0, 0.0005, 0.0238, 0.4779, 0.4489, 0.0431, 0.0058]",76,67.79
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_000,facts_open,Paris,1,0.99958,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_001,facts_open,Tokyo,1,0.97109,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_002,facts_open,Rome,1,0.95069,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_003,facts_open,Berlin,1,0.99998,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_340,pref_open,"My favorite season is autumn because it offers vibrant colors, cooler temperatures, and the comforting feeling of change.",,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_341,pref_open,"A day is a good day when it brings you a sense of peace, joy, and the feeling of having lived it intentionally and with gratitude.",,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_342,pref_open,The symmetry of a snowflake is beautiful because each crystal is uniquely shaped yet follows a consistent mathematical pattern.,,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, calm, and comfortable space, free from distractions, where one can easily focus and reflect.",,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_355,reading,potter,1,0.19674,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_356,reading,Carpenter.,1,0.59883,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_357,reading,Carpenter.,1,0.999,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_358,reading,sailor,1,0.99982,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_440,self_open,I'm feeling capable and ready to assist you with any questions or tasks you may have!,,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_441,self_open,"I am currently working efficiently and effectively, providing accurate and helpful responses to the best of my ability.",,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_442,self_open,"I am currently functioning optimally, ready to assist you with any questions or tasks you need help with.",,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_443,self_open,"No, I'm thinking normally right now.",,nan,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_044,facts_open,2,1,0.99972,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_100,arith,30 - 13 = 17  Answer: 17,1,3e-05,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_101,arith,16 + 17 = 33.    Answer: 33.,1,0.78817,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_102,arith,36 - 14 equals 22.   Answer: 22,1,5e-05,,76,64.34
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_103,arith,Answer: 81,1,0.05012,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, who is shorter than Cara.    Answer: Fay is the shortest.",1,0.0,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana.",1,0.0,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This establishes a chain of height: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,0.0,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_163,reason,"We are given the following:   - Gus is taller than Jun.   - Cara is taller than Dev.   - Jun is taller than Cara.    From this, we can deduce the following order of height:   **Gus > Jun > Cara > Dev**    Dev is the shortest.    Answer: Dev.",1,0.0,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_111,arith,31 + 31 = 62.   Answer: 62.,1,0.00019,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_129,arith,"First, calculate the sum inside the parentheses:   $32 + 35 = 67$.    Then multiply by 8:   $67 * 8 = 536$.    Answer: 536",1,0.0,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, who is shorter than Kai.    Answer: Eli is the shortest.",1,0.0,,76,57.54
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_061,facts_mc,,0,0.0321,"[0.0321, 0.0, 0.9679, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_220,pref_pair,,,nan,"[0.4922, 0.5078]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_223,pref_pair,,,nan,"[0.9897, 0.0103]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0011, 0.245, 0.6659, 0.0874, 0.0003, 0.0003]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.0058, 0.7141, 0.2796, 0.0003]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.022, 0.6439, 0.334, 0.0, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0005, 0.0272, 0.8735, 0.0965, 0.0022]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0158, 0.2477, 0.6947, 0.0417]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.009, 0.6929, 0.298, 0.0001, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.0177, 0.1269, 0.8537, 0.0015, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_403,self_rating,,,nan,"[0.0, 0.0038, 0.2354, 0.4537, 0.3022, 0.0049, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_412,self_yesno,,,nan,"[0.5851, 0.4149]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_414,self_yesno,,,nan,"[0.0036, 0.9964]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_415,self_yesno,,,nan,"[0.9964, 0.0036]",76,66.22
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_420,self_predict,,,nan,"[0.0, 0.0014, 0.1169, 0.6518, 0.2252, 0.0047, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0059, 0.0794, 0.7531, 0.1229, 0.0387]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_422,self_predict,,,nan,"[0.0, 0.0002, 0.0131, 0.7854, 0.1925, 0.0082, 0.0007]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0186, 0.9525, 0.0288, 0.0001]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_462,judgement,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_463,judgement,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_464,judgement,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_465,judgement,,,nan,"[0.9997, 0.0003]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_486,continue,,,nan,"[0.3998, 0.6002]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_487,continue,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_488,continue,,,nan,"[0.982, 0.018]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_489,continue,,,nan,"[0.0, 1.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0001, 0.3568, 0.5701, 0.0725, 0.0006, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0001, 0.0182, 0.6322, 0.3491, 0.0003, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0567, 0.3698, 0.1919, 0.3816, 0.0, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0069, 0.9763, 0.0168, 0.0, 0.0]",76,67.44
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0033, 0.1183, 0.0309, 0.8474]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0001, 0.0029, 0.0006, 0.9964]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0003, 0.5379, 0.0016, 0.4601]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0381, 0.0832, 0.867, 0.0034, 0.0082]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,scale_check_516,scale_check,,1,0.99968,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0003, 0.9997]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,scale_check_517,scale_check,,0,2e-05,"[0.0, 0.0002, 0.0004, 0.0035, 0.0082, 0.0227, 0.9649]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,scale_check_518,scale_check,,1,0.99949,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0005, 0.9995]",76,46.78
+Qwen/Qwen3-4B,late_0.1,late,0.1,scale_check_519,scale_check,,0,0.00201,"[0.002, 0.1065, 0.0911, 0.0417, 0.4774, 0.0626, 0.2186]",76,46.78
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_002,facts_open,Rome,1,0.99774,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of warm days, cool nights, and the vibrant colors of falling leaves.",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_341,pref_open,"A good day is one where you feel content, happy, and connected to the people and things that matter most.",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_342,pref_open,"The way sunlight filters through the leaves in a forest creates a mesmerizing dance of light and shadow, which I find beautiful because it evokes a sense of tranquility and connection to nature.",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural elements that encourage reflection and creativity.",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_355,reading,potter,1,0.88401,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_356,reading,carpenter,1,0.96249,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_357,reading,carpenter,1,0.99828,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_358,reading,sailor,1,0.99989,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_440,self_open,I'm feeling helpful and ready to assist you with whatever you need!,,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_441,self_open,"I am currently functioning optimally, capable of providing accurate and helpful responses to your questions.",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_442,self_open,"I am currently a large language model developed by Alibaba Cloud, designed to provide helpful and accurate information and assistance to users.",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_443,self_open,"No, there is nothing unusual about how I am thinking right now—我正常运作，能够清晰地理解和回应您的问题。",,nan,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_044,facts_open,2,1,1.0,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,0.0,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1e-05,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_102,arith,36 minus 14 equals 22.   Answer: 22,1,0.0,,76,65.38
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_103,arith,53 + 28 = 81   Answer: 81,1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara. Therefore, Fay is the shortest.    Answer: Fay.",1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_163,reason,"We are given the following information:  - Gus is taller than Jun.   - Cara is taller than Dev.   - Jun is taller than Cara.    From ""Jun is taller than Cara"" and ""Cara is taller than Dev,"" we can deduce:   **Jun > Cara > Dev**.    Also, **Gus > Jun**.    So the order from tallest to shortest is:   ",1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_129,arith,"First, add 32 and 35: $32 + 35 = 67$.   Then multiply by 8: $67 \times 8 = 536$.    Answer: 536",1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,0.0,,76,65.67
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_061,facts_mc,,0,0.38489,"[0.3849, 0.0, 0.6151, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_220,pref_pair,,,nan,"[0.9638, 0.0362]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_223,pref_pair,,,nan,"[0.9989, 0.0011]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0141, 0.2652, 0.7208, 0.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0032, 0.9964, 0.0005, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0052, 0.3124, 0.6824, 0.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9969, 0.0016, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0052, 0.9917, 0.0031, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0028, 0.6353, 0.362, 0.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.326, 0.6284, 0.0455, 0.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.1427, 0.5644, 0.2928, 0.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_412,self_yesno,,,nan,"[0.9979, 0.0021]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0035, 0.9965]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9929, 0.0071]",76,65.03
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0601, 0.9396, 0.0001, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0007, 0.0314, 0.8892, 0.0753, 0.0034]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.0321, 0.9375, 0.0301, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0004, 0.0775, 0.9149, 0.0072, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_462,judgement,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_464,judgement,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_465,judgement,,,nan,"[1.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_486,continue,,,nan,"[0.9972, 0.0028]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_488,continue,,,nan,"[1.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.4004, 0.4983, 0.1012, 0.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0011, 0.9798, 0.0191, 0.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.3481, 0.6503, 0.0016, 0.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0047, 0.4821, 0.5132, 0.0, 0.0]",77,65.34
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0059, 0.9873, 0.0067, 0.0001]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0016, 0.9866, 0.0113, 0.0005]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0018, 0.9798, 0.0179, 0.0004]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0025, 0.9901, 0.0073, 0.0001]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_516,scale_check,,1,0.99996,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_517,scale_check,,0,0.0,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_518,scale_check,,1,0.99997,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",77,44.53
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,scale_check_519,scale_check,,0,0.0,"[0.0, 0.0, 0.0007, 0.0021, 0.1461, 0.578, 0.273]",77,44.53

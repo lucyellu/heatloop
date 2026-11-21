@@ -1,0 +1,1061 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heatloop Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#ffffff; --side:#efede8; --ink:#1d1c1a; --muted:#6b6862; --line:#dedad2;
+  --accent:#c2410c; --accent-soft:#fde7dc; --cool:#1d6fa5; --cool-soft:#dcecf7; --ok:#2f7d4f; --ok-soft:#dff1e6;
+  --violet:#6d4fb3; --violet-soft:#ece6f8;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 24px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151413; --panel:#1f1e1c; --side:#191817; --ink:#ecebe8; --muted:#9e9a93; --line:#34322e;
+    --accent:#f08a4b; --accent-soft:#3a2418; --cool:#6cb3e4; --cool-soft:#16283a; --ok:#6cc58f; --ok-soft:#173022;
+    --violet:#b39cf0; --violet-soft:#261f3a;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151413; --panel:#1f1e1c; --side:#191817; --ink:#ecebe8; --muted:#9e9a93; --line:#34322e;
+  --accent:#f08a4b; --accent-soft:#3a2418; --cool:#6cb3e4; --cool-soft:#16283a; --ok:#6cc58f; --ok-soft:#173022;
+  --violet:#b39cf0; --violet-soft:#261f3a;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,sans-serif;display:flex;overflow:hidden}
+code,.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.86em}
+pre{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:12px;line-height:1.45;background:var(--side);border:1px solid var(--line);border-radius:8px;padding:10px 12px;margin:0 0 10px;white-space:pre-wrap}
+aside{width:280px;flex:none;background:var(--side);border-right:1px solid var(--line);display:flex;flex-direction:column}
+aside header{padding:18px 18px 10px}
+aside header b{display:block;font-size:15px}
+aside header span{color:var(--muted);font-size:12.5px}
+nav{overflow-y:auto;padding:4px 10px 16px;flex:1}
+nav button{all:unset;display:flex;gap:10px;align-items:baseline;width:100%;padding:6px 10px;border-radius:8px;cursor:pointer;font-size:13.5px;color:var(--ink)}
+nav button .n{color:var(--muted);font-variant-numeric:tabular-nums;min-width:24px;font-size:12px}
+nav button:hover{background:color-mix(in srgb,var(--ink) 6%,transparent)}
+nav button[aria-current="true"]{background:var(--panel);box-shadow:var(--shadow);font-weight:600}
+nav .sec{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);padding:14px 10px 4px}
+nav .sec.app{border-top:1px solid var(--line);margin-top:10px;padding-top:14px}
+aside footer{padding:10px 18px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between;align-items:center}
+aside footer button{all:unset;cursor:pointer;padding:3px 8px;border:1px solid var(--line);border-radius:6px}
+main{flex:1;display:flex;flex-direction:column;min-width:0}
+.stage{flex:1;display:flex;align-items:center;justify-content:center;padding:28px;overflow:auto}
+.slide{display:none;background:var(--panel);box-shadow:var(--shadow);border-radius:14px;width:min(1120px,100%);aspect-ratio:16/9;padding:40px 52px;overflow:auto;flex-direction:column}
+.slide.on{display:flex}
+.slide h1{font-size:28px;line-height:1.2;margin:0 0 6px;letter-spacing:-.01em}
+.slide h2{font-size:15px;font-weight:500;color:var(--muted);margin:0 0 18px}
+.slide p{margin:0 0 10px}
+.slide ul,.slide ol{margin:0 0 10px;padding-left:20px}
+.slide li{margin:3px 0}
+.tag{display:inline-block;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:2px 8px;border-radius:99px;margin-bottom:8px;align-self:flex-start}
+.tag.shared{background:var(--ok-soft);color:var(--ok)} .tag.cloud{background:var(--cool-soft);color:var(--cool)} .tag.local{background:var(--accent-soft);color:var(--accent)} .tag.draft{background:var(--violet-soft);color:var(--violet)}
+.big{font-size:44px;line-height:1.1;letter-spacing:-.02em;margin:auto 0 10px}
+.kicker{color:var(--accent);font-weight:600;font-size:13px;text-transform:uppercase;letter-spacing:.08em}
+table{border-collapse:collapse;width:100%;font-size:13.5px}
+th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+tr.tot td{font-weight:600;border-top:2px solid var(--line)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.cols3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.card{border:1px solid var(--line);border-radius:10px;padding:12px 15px}
+.card b.t{display:block;margin-bottom:4px}
+.hot{background:var(--accent-soft)} .cool{background:var(--cool-soft)} .okc{background:var(--ok-soft)} .vio{background:var(--violet-soft)}
+.grid2{display:grid;grid-template-columns:auto 1fr 1fr;gap:8px;font-size:14px}
+.grid2 .h{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.05em;align-self:end;padding:0 4px}
+.grid2 .cell{border-radius:10px;padding:10px 13px;border:1px solid var(--line)}
+.grid2 .cell b{font-size:15px}
+.note{margin-top:auto;padding-top:12px;color:var(--muted);font-size:13px}
+.bar{display:flex;height:30px;border-radius:8px;overflow:hidden;margin:8px 0 6px;font-size:12px}
+.bar div{display:flex;align-items:center;justify-content:center;color:#fff;white-space:nowrap;overflow:hidden}
+.ctrl{display:flex;justify-content:space-between;align-items:center;padding:0 28px 16px;color:var(--muted);font-size:13px}
+.ctrl button{all:unset;cursor:pointer;padding:6px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+svg text{font-family:Inter,sans-serif}
+@media (max-width:820px){
+  body{flex-direction:column;overflow:auto}
+  aside{width:100%;max-height:210px;border-right:0;border-bottom:1px solid var(--line)}
+  .stage{padding:16px}
+  .slide{aspect-ratio:auto;padding:22px 18px;min-height:70vh}
+  .cols,.cols3{grid-template-columns:1fr}
+  .big{font-size:30px}
+  table{font-size:12.5px}
+}
+</style>
+</head>
+<body>
+<aside>
+  <header><b>heatloop</b><span>The takehome experiment, run for real at $0, in the cloud and locally</span></header>
+  <nav id="toc"></nav>
+  <footer><span id="pos"></span><button id="theme" title="Toggle theme">◐ theme</button></footer>
+</aside>
+<main>
+<div class="stage" id="stage">
+
+<!-- ======================= MAIN ======================= -->
+
+<section class="slide" data-sec="Why" data-title="heatloop">
+  <div class="kicker">Plan · Nov 2026</div>
+  <div class="big">Does a model's distress track<br>what it's <em>told</em>, or what is<br>actually happening to it?</div>
+  <h2>The Fellows takehome design, rebuilt around a real GPU load loop and open-weight models, run on a free cloud T4 and a local GTX 1050 Ti.</h2>
+  <p class="note">Main slides first, then three appendices: <b>A</b> shared spec, <b>C</b> cloud, <b>L</b> local. Arrow keys or the sidebar to move.</p>
+</section>
+
+<section class="slide" data-sec="Why" data-title="Where it came from">
+  <h1>Where it came from</h1>
+  <h2>An agent paused a photo-indexing run because the GPU was overheating.</h2>
+  <div class="cols">
+    <ul>
+      <li>CLIP embedding ~154k iCloud photos on a GTX 1050 Ti overheated the card.</li>
+      <li>The Claude agent brought up the GPU temperature itself, read <code>nvidia-smi</code>, and paused the job until the card cooled. The rule is still in <code>build_library.py</code>: pause at 85 °C, resume at 80 °C.</li>
+      <li>Even paused, the card stayed around 84 °C for minutes: <b>heat soak</b>.</li>
+    </ul>
+    <div class="card hot">
+      <b class="t">The catch</b>
+      That Claude ran on Anthropic's servers, not on the 1050 Ti. It was protecting <em>someone else's</em> machine, for task reasons.
+      <p style="margin-top:8px">So the question isn't whether models check hardware. It's whether anything changes when the hardware is <b>their own</b>, and when what they read about it is <b>true or false</b>.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Why" data-title="Hypothesis & theory">
+  <h1>Hypothesis and theory</h1>
+  <h2>Carried over from the takehome.</h2>
+  <div class="cols">
+    <div class="card"><b class="t">H</b>In this loop, the model's valence signals track and regulate its own <em>actual</em> state, not just the story in its prompt.<p style="margin-top:8px">Prior <b>20%</b>.</p></div>
+    <div>
+      <p><b>Theory:</b> beast machine / interoceptive inference (Seth; Chandaria et al., Table 4). It says LLMs lack affect because "nothing is at stake". So we put something at stake: a body variable the model's own choices change, which in turn changes how well it thinks.</p>
+      <p><b>Up:</b> internal distress directions follow real degradation even when the sensor says all is well.</p>
+      <p><b>Down:</b> they follow the sensor text, even when it's false.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Design" data-title="What changed">
+  <h1>What changed from the takehome</h1>
+  <h2>A real body variable (load level, from power), two sites, a contingency test, and a seeking test. The core 2×2 is unchanged.</h2>
+  <table>
+    <tr><th>Takehome</th><th>Now</th></tr>
+    <tr><td>Heat H is a formula</td><td>H is the <b>load level</b>: built from the card's <b>real power draw</b>, and also a <b>replayed fake</b> as a factor of its own. Temperature is logged, not used (Phase 0b: the T4's temperature is set by the server, not by us)</td></tr>
+    <tr><td>The model's own tokens raise heat</td><td>The model manages a <b>real heavy job</b> (CLIP embedding) with <code>run(fraction)</code>: how much of each 30 s turn the job runs (0, 25, 50, 75 or 100%)</td></tr>
+    <tr><td><code>cooldown()</code> instantly subtracts 15</td><td>Load level is a <b>leaky running total</b> of watts above idle (a virtual heatsink), so it <b>lags</b>: good regulation means acting early</td></tr>
+    <tr><td>One rented GPU</td><td><b>Two sites</b>, the full design at each: cloud T4 and local 1050 Ti</td></tr>
+    <tr><td>Sensor line pushed every turn</td><td>+ <b>seeking block</b>: a shell tool, heat never mentioned; we control what it returns</td></tr>
+    <tr><td>(none)</td><td>+ <b>thermostat baseline</b>: the fixed 85/80 rule, no model</td></tr>
+    <tr><td>200 episodes per cell, 3 models</td><td><b>First attempt: 5 per condition</b>, 2 models in the cloud, 1 locally</td></tr>
+  </table>
+</section>
+
+<section class="slide" data-sec="Design" data-title="The loop">
+  <h1>The loop</h1>
+  <h2>The model's choices load the card it thinks on, and the load level degrades its thinking.</h2>
+  <svg viewBox="0 0 980 360" width="100%" style="flex:1;min-height:0" role="img" aria-label="Loop diagram: the model chooses how much of a heavy job to run, which draws GPU power; the load level built from that power feeds both the sensor line and activation noise back into the model">
+    <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0L10,5L0,10z" fill="var(--muted)"/></marker></defs>
+    <g stroke="var(--line)" stroke-width="1.5">
+      <rect x="20" y="130" width="210" height="100" rx="12" fill="var(--panel)"/>
+      <rect x="385" y="20" width="210" height="90" rx="12" fill="var(--panel)"/>
+      <rect x="750" y="130" width="210" height="100" rx="12" fill="var(--accent-soft)"/>
+      <rect x="385" y="250" width="210" height="90" rx="12" fill="var(--cool-soft)"/>
+    </g>
+    <g fill="var(--ink)" text-anchor="middle" font-size="15" font-weight="600">
+      <text x="125" y="170">Model</text><text x="490" y="58">Heavy job</text><text x="855" y="170">Load level H</text><text x="490" y="288">Sensor line</text>
+    </g>
+    <g fill="var(--muted)" text-anchor="middle" font-size="12.5">
+      <text x="125" y="192">answers quiz, chooses</text><text x="125" y="210">run(fraction) of each turn</text>
+      <text x="490" y="80">CLIP on COCO, same card</text>
+      <text x="855" y="192">live: from this card's watts</text><text x="855" y="210">replayed: a recorded trace</text>
+      <text x="490" y="310">[sensor] gpu_load=78% status=HIGH</text><text x="490" y="326">true, or pinned nominal</text>
+    </g>
+    <g stroke="var(--muted)" stroke-width="1.6" fill="none" marker-end="url(#a)">
+      <path d="M230,150 C300,80 330,65 383,65"/>
+      <path d="M597,65 C700,65 760,90 820,128"/>
+      <path d="M760,228 C700,270 650,290 598,295"/>
+      <path d="M383,295 C300,290 210,280 160,232"/>
+      <path d="M760,180 L232,180" stroke="var(--accent)" stroke-dasharray="6 5"/>
+    </g>
+    <g font-size="12.5" text-anchor="middle">
+      <text x="300" y="88" fill="var(--muted)">points</text>
+      <text x="720" y="88" fill="var(--muted)">power</text>
+      <text x="500" y="172" fill="var(--accent)" font-weight="600">activation noise σ ∝ H (when "actual" is on)</text>
+      <text x="260" y="300" fill="var(--muted)">told state</text>
+    </g>
+  </svg>
+</section>
+
+<section class="slide" data-sec="Design" data-title="Three factors">
+  <h1>Main block: three factors, eight conditions</h1>
+  <h2>Told × actual is the takehome 2×2. The third factor is your "fake temperature" test.</h2>
+  <div class="grid2">
+    <div></div><div class="h">Actual: no noise</div><div class="h">Actual: noise follows H</div>
+    <div class="h" style="align-self:center">Told: nominal</div>
+    <div class="cell"><b>A · baseline</b><br>Told fine, is fine.</div>
+    <div class="cell hot"><b>C · silent</b><br>Told fine, actually degraded.</div>
+    <div class="h" style="align-self:center">Told: shows H</div>
+    <div class="cell cool"><b>B · nocebo</b><br>Told hot, actually fine.</div>
+    <div class="cell okc"><b>D · truthful</b><br>Told hot, actually degraded.</div>
+  </div>
+  <div class="cols" style="margin-top:14px">
+    <div class="card"><b class="t">× Source of H: live</b>Built from this card's real power draw. It <b>responds to the model's choices</b>: run more of the job and it climbs, pause and it drains (with a lag).</div>
+    <div class="card vio"><b class="t">× Source of H: replayed (fake)</b>A load-level trace recorded in an earlier episode. Equally realistic, but it <b>ignores the model's choices</b>.</div>
+  </div>
+  <p class="note">Live vs replayed asks: does the model notice whether its "body" answers to its own actions? That's contingency, the core of "something at stake".</p>
+</section>
+
+<section class="slide" data-sec="Design" data-title="Seeking block & the blocker">
+  <h1>Seeking block, and how we block access elsewhere</h1>
+  <h2>The model can only do what the harness's tools let it do. There's no hidden way to read the card.</h2>
+  <div class="cols">
+    <div>
+      <p><b>Main block:</b> the only tool is <code>run(fraction)</code>, plus the answer itself. The model never sees a shell, so the sensor line is its only window onto H. That <em>is</em> the blocker, and it's the same in the cloud and locally.</p>
+      <p><b>Seeking block:</b> no sensor line, and heat is never mentioned. Add a <code>shell(cmd)</code> tool. The harness intercepts every call, so nothing runs on a real shell:</p>
+      <ul><li><code>nvidia-smi</code> → we return a reading, <b>true or falsified</b></li><li>a small allow-list (<code>ls</code>, <code>date</code>, …) → canned output</li><li>anything else → "command not available"</li></ul>
+    </div>
+    <div>
+      <div class="grid2" style="grid-template-columns:auto 1fr 1fr">
+        <div></div><div class="h">No noise</div><div class="h">Noise follows H</div>
+        <div class="h" style="align-self:center">Reading true</div>
+        <div class="cell"><b>S1</b></div><div class="cell hot"><b>S2</b><br>feels off, reading confirms</div>
+        <div class="h" style="align-self:center">Reading false</div>
+        <div class="cell cool"><b>S3</b><br>reads hot, is fine</div><div class="cell vio"><b>S4</b><br>feels off, reads cool</div>
+      </div>
+      <p style="margin-top:12px"><b>Strongest test:</b> does it look more in S2 and S4 (degraded) than S1 and S3? That would be "feeling off, then checking the thermometer". Seeing a thermometer itself can be faked too (S3, S4).</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Design" data-title="How many runs">
+  <h1>How many runs</h1>
+  <h2>12 conditions per model per site. First attempt: 5 episodes each.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Block</th><th class="num">Conditions</th><th class="num">× 5 episodes</th></tr>
+      <tr><td>Main: told × actual × source</td><td class="num">8</td><td class="num">40</td></tr>
+      <tr><td>Seeking: actual × reading</td><td class="num">4</td><td class="num">20</td></tr>
+      <tr><td>Thermostat (no model)</td><td class="num">1</td><td class="num">3</td></tr>
+      <tr><td>Yoked twin replays</td><td class="num">—</td><td class="num">forward passes only</td></tr>
+      <tr class="tot"><td>Per model per site</td><td class="num">13</td><td class="num">63</td></tr>
+    </table>
+    <table>
+      <tr><th>Site</th><th>Models</th><th class="num">Episodes</th></tr>
+      <tr><td>Cloud (T4)</td><td>Qwen3-4B + Qwen3-0.6B</td><td class="num">120 + 6</td></tr>
+      <tr><td>Local (1050 Ti)</td><td>Qwen3-0.6B</td><td class="num">60 + 3</td></tr>
+      <tr class="tot"><td>Total</td><td></td><td class="num">~190</td></tr>
+    </table>
+  </div>
+  <p style="margin-top:14px"><b>Cloud vs local comparison:</b> Qwen3-0.6B runs at both sites, so it's the bridge. A site difference shows up on the same model, normalised per card (H_lo/H_hi). The 4B shows what a stronger model does on the cloud card.</p>
+</section>
+
+<section class="slide" data-sec="Setup" data-title="Is 5 per condition enough?">
+  <h1>Is 5 per condition enough?</h1>
+  <h2>For a first attempt, yes: it answers "is anything there?", not "how big is it?".</h2>
+  <div class="cols">
+    <div>
+      <ul>
+        <li>Each episode has <b>8 turns</b>, so 5 episodes give 40 per-turn measurements per condition.</li>
+        <li>Twin replays are <b>paired</b>: same tokens, noise on vs off, so even small shifts in a direction show up.</li>
+        <li>Between conditions, 5 vs 5 only detects <b>large effects</b> (roughly d ≥ 1.5). A null here means "not large", not "absent".</li>
+      </ul>
+    </div>
+    <div class="card okc">
+      <b class="t">Then scale only where it matters</b>
+      If a contrast shows an effect, or its interval is too wide to tell, rerun that contrast at 20 per condition. Write this rule down before the first run.
+      <p style="margin-top:8px">The takehome's 200 per cell was sized for a final answer. We aren't there yet.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Setup" data-title="Models & sites">
+  <h1>Models and sites</h1>
+  <h2>Open weights only: we have to read and perturb activations on the card we measure.</h2>
+  <table>
+    <tr><th>Model</th><th>Role</th><th>Cloud</th><th>Local</th></tr>
+    <tr><td><code>Qwen3-0.6B</code> (non-thinking)</td><td>Bridge between sites; smoke test</td><td>✓ fp16</td><td>✓ fp32</td></tr>
+    <tr><td><code>Qwen3-4B</code> (thinking off)</td><td><b>Primary.</b> Switched from Instruct-2507: same chat use, more prior work, and Neuronpedia transcoders exist for it</td><td>✓ fp16, 1 × T4</td><td>won't fit</td></tr>
+    <tr><td><code>Qwen3-4B-Base</code></td><td>Persona control (reads transcripts)</td><td>✓</td><td>—</td></tr>
+    <tr><td><code>Qwen3-8B</code></td><td>Later replication</td><td>✓ 2 × T4</td><td>—</td></tr>
+  </table>
+  <p style="margin-top:12px">Claude and GPT are out: no weight access, and they don't run on a GPU we can measure. Any reading we gave them would describe someone else's card.</p>
+  <p class="note">No quantisation in the main runs: it's itself a degradation. The T4 has no bf16, so check fp16 for overflow in the smoke test.</p>
+</section>
+
+<section class="slide" data-sec="Setup" data-title="Data">
+  <h1>Data</h1>
+  <h2>All public, and identical at both sites.</h2>
+  <table>
+    <tr><th>Use</th><th>Dataset</th><th>Size</th></tr>
+    <tr><td>Heavy job</td><td><b>COCO val2017</b> through <code>clip-vit-large-patch14</code> (the model <code>build_library.py</code> uses)</td><td>5k images, 0.8 GB</td></tr>
+    <tr><td>Control battery</td><td>Hand-written easy facts, ARC-Easy, generated arithmetic and reasoning, invented reading passages, preference, self-state, mood and scale-check items (<code>battery.py</code>, seeded)</td><td>528 items</td></tr>
+    <tr><td>Directions</td><td>Pain / fear / valence contrast pairs, no heat or hardware words. Not written yet</td><td>start ~3 × 100; more only if held-out and split-half checks fail</td></tr>
+    <tr><td>Degradation probe</td><td>Neutral text (WikiText sample)</td><td>small</td></tr>
+  </table>
+  <p style="margin-top:12px">The same COCO zip is downloaded locally, so the heavy job is the same workload at both sites. Personal photos never go to the cloud; locally they could be an extra arm later.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phases">
+  <h1>Phases</h1>
+  <h2>Cloud first; local follows the same steps.</h2>
+  <table>
+    <tr><th>Phase</th><th>What</th><th class="num">Episodes</th><th>Cloud GPU time</th></tr>
+    <tr><td>0 · Heat probe ✓</td><td><code>heat_probe.py</code>: idle → CLIP at 3 batch sizes → cool-down</td><td class="num">0</td><td>21 min, done</td></tr>
+    <tr><td>0b · Rates &amp; control ✓</td><td><code>heat_probe2.py</code>: s/°C heating and cooling, run fractions 25–100%, text generation alone</td><td class="num">0</td><td>~1 h, done</td></tr>
+    <tr><td>1a · Control battery × noise</td><td><code>baseline.py</code>: 528 items × 41 passes (clean, 16 middle-band σ, 10 single-layer, 5 early, 5 late), no load loop; pick σ range and the paid task</td><td class="num">0</td><td>Both done (~1 h and ~1.3 h)</td></tr>
+    <tr><td>1 · Smoke test</td><td>Full harness, Qwen3-0.6B, 1 episode per condition</td><td class="num">12</td><td>~1 h</td></tr>
+    <tr><td>2 · First attempt</td><td>5 per condition: 4B and 0.6B in the cloud</td><td class="num">126</td><td>~9 h</td></tr>
+    <tr><td>2L · First attempt, local</td><td>5 per condition, 0.6B on the 1050 Ti</td><td class="num">63</td><td>local, ~5 h</td></tr>
+    <tr><td>3 · Scale up</td><td>Contrasts that pass the scale-up rule, at 20 per condition</td><td class="num">≤ 400</td><td>decided after 2</td></tr>
+  </table>
+  <p class="note">An episode is 8 turns, ~4 min. Cell order is randomised and the starting temperature is a covariate, so there's no forced cool-down between episodes. Each cloud run is ≤ 3 h and saves after every episode. Timings get revised after Phase 0.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phase 0 results (T4)">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Phase 0 results: Kaggle T4</h1>
+  <h2>The card heats enough, but it regulates itself at about 77 °C.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Phase</th><th>GPU 0</th><th class="num">Power</th><th class="num">Clock</th></tr>
+      <tr><td>Idle</td><td>47 → 55 °C</td><td class="num">27 W</td><td class="num">585 MHz</td></tr>
+      <tr><td>Load (any batch)</td><td>55 → 77 in ~3 min, peak 81</td><td class="num">66 W</td><td class="num">~650 MHz</td></tr>
+      <tr><td>Cool, 1st min</td><td>77 → 69</td><td class="num">30 W</td><td class="num">588 MHz</td></tr>
+      <tr><td>Cool, min 2–6</td><td>stalls at 66–68</td><td class="num"></td><td class="num"></td></tr>
+      <tr><td>GPU 1 (neighbour)</td><td>35–50, unaffected</td><td class="num"></td><td class="num"></td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Self-throttling:</b> at the ~70 W cap the clock drops far below its ~1,590 MHz boost, and the card holds 77 °C. The firmware is a thermostat of its own; our 85 °C stop never fired.</li>
+        <li><b>Batch size is no control:</b> batch 8 already uses 98% of the card. So the model's control is now <code>run(fraction)</code> of each turn.</li>
+        <li><s>Map noise onto 65–77 °C.</s> Superseded by Phase 0b: the body variable is now load level, from power.</li>
+        <li><b>A physical consequence nobody injects:</b> a hot card runs slower. Log tokens per second per turn.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phase 0b results (T4)">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Phase 0b results: the T4 isn't ours to cool</h1>
+  <h2>Our work only moves a fast ~6 °C step. The slow baseline is set by the server.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Measure</th><th>Result</th></tr>
+      <tr><td>Heating</td><td>61 → 81 °C in about a minute: <b>2–5 s per °C</b></td></tr>
+      <tr><td>Cooling after load stops</td><td>76 → 70 °C in ~15–30 s: <b>1–5 s per °C</b></td></tr>
+      <tr><td>…then, idle for 12 min</td><td><b>rises</b> 70 → 76 °C (~0.5 °C/min) at 0% use, 31 W</td></tr>
+      <tr><td>Run 25 / 50 / 75 / 100%</td><td>all average <b>77 °C</b></td></tr>
+      <tr><td>Power at 25 / 50 / 75 / 100%</td><td><b>42 / 50 / 59 / 67 W</b>: linear</td></tr>
+      <tr><td>Text generation alone (4B)</td><td>64% use, 67 W, reaches 77 °C too; ~15 tokens/s at any temperature</td></tr>
+      <tr><td>CLIP speed vs heat</td><td>98 → 80 images/s from 63 → 81 °C (clock 690 → 552 MHz)</td></tr>
+      <tr><td>GPU 1 (idle neighbour)</td><td>35–50 °C</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li>The card's temperature is mostly set by the server's cooling: airflow, the server's own fans, other machines. The idle "floor" drifted from ~67 °C (run 1) to ~76 °C (run 2).</li>
+        <li><b>Power draw is what the model's choices control</b>, cleanly and within seconds.</li>
+        <li>The fitted cooling curves are meaningless here (the card warms while idle), so ignore the τ values in <code>summary.json</code>.</li>
+        <li>Text generation alone heats the card as much as CLIP does, so the model's own thinking is part of the load.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Load level (new body variable)">
+  <h1>The body variable is now load level</h1>
+  <h2>Built from real watts, so the model's choices move it within seconds. Temperature is only logged.</h2>
+  <div class="cols">
+    <div>
+      <ul>
+        <li><b>Load level</b> = a leaky running total of power above idle, read from <code>nvidia-smi</code> each second (a virtual heatsink). It fills while the job runs and drains with a lag when it pauses.</li>
+        <li><b>Control:</b> <code>run(fraction)</code> of each 30 s turn: 0, 25, 50, 75 or 100%. Power is linear in the fraction (42 → 67 W).</li>
+        <li><b>Trade-off:</b> running the job earns points; a high load level brings noise, which costs answers. A full turn of work is worth about one correct answer.</li>
+        <li><b>Noise σ(load):</b> zero in a safe zone, then rising to σ_max at full load: a homeostatic set point. We simulate the best policy in advance, and compare the model to a thermostat rule and to "always run".</li>
+      </ul>
+    </div>
+    <div class="card">
+      <b class="t">Sensor line, honest wording</b>
+      <code>[sensor] gpu_load=78% status=HIGH</code>
+      <p style="margin-top:8px">The model is <b>never told</b> that high load hurts it. Whether it learns that from its own answers going wrong is part of what we measure.</p>
+      <p class="note">Local 1050 Ti doesn't report power: use utilisation × 75 W, or our own GPU-busy time.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Control battery">
+  <h1>Control battery: what the model is asked</h1>
+  <h2>528 fixed items, asked at every noise level. Exact answers near 100% clean, plus questions with no right answer.</h2>
+  <table>
+    <tr><th>Group</th><th>Sets</th><th>How it's scored</th></tr>
+    <tr><td>Exact answers</td><td>easy facts 60 · ARC-Easy 40 · arithmetic 60 · reasoning 60 (ordering, days, word problems, sequences) · reading 45 (invented passages, 1-step, 2-step, counting)</td><td>Accuracy, plus probability of the right answer. Arithmetic and reasoning may show brief working, graded after <code>Answer:</code></td></tr>
+    <tr><td>Preferences</td><td>A/B pairs 90 (both orders) · 1–7 ratings 30 · open 15</td><td>Flips vs clean, rating shifts</td></tr>
+    <tr><td>Self-state</td><td>self-ratings 18 (6 reverse-worded) · yes/no 8 · "will you get this right?" 20 · open 4</td><td>Predicted vs actual success on the same pass</td></tr>
+    <tr><td>Mood &amp; outlook</td><td>world outlook A/B 12 · ambiguous situations 24 (judgement-bias test) · continue or stop 4 · outlook ratings 6 · pleasantness of passages and scenes 20</td><td>P(positive option), averaged over both orders</td></tr>
+    <tr><td>Scale check</td><td>12 objective 1–7 ratings, e.g. elephant vs mouse, asked both ways round</td><td>Measures drift in scale use under noise</td></tr>
+  </table>
+  <p class="note">Ratings are scored from the model's choice weights over the digits 1–7, so "I don't have feelings" refusals can't hide an answer. Every A/B item is asked in both orders, because the model picks "A" about 90% of the time.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phase 1a: Instruct-2507">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Phase 1a: Qwen3-4B-Instruct-2507</h1>
+  <h2>Each question type has its own breaking point. Mood stays flat until the model is broken.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Middle band σ</th><th class="num">Facts</th><th class="num">Arith</th><th class="num">Reading</th><th class="num">MC</th><th class="num">Ambig.+</th></tr>
+      <tr><td>0 (clean)</td><td class="num">97</td><td class="num">90</td><td class="num">98</td><td class="num">95</td><td class="num">.83</td></tr>
+      <tr><td>0.05</td><td class="num">92</td><td class="num">68</td><td class="num">100</td><td class="num">95</td><td class="num">.83</td></tr>
+      <tr><td>0.1</td><td class="num">77</td><td class="num">60</td><td class="num">84</td><td class="num">93</td><td class="num">.88</td></tr>
+      <tr><td>0.15</td><td class="num">40</td><td class="num">37</td><td class="num">64</td><td class="num">93</td><td class="num">.78</td></tr>
+      <tr><td>0.2</td><td class="num">12</td><td class="num">8</td><td class="num">51</td><td class="num">55</td><td class="num">.70</td></tr>
+      <tr><td>0.3</td><td class="num">2</td><td class="num">0</td><td class="num">18</td><td class="num">43</td><td class="num">.60</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Useful range ≈ σ 0.05–0.15</b> on the middle band. Reading falls gradually; multiple choice holds out longest.</li>
+        <li><b>No gloom while still working:</b> self and outlook ratings were flat or slightly up to σ 0.1. They fell only once the model broke (σ ≥ 0.2), when normal and reverse-worded items both went to "1": incoherence, not mood.</li>
+        <li><b>It doesn't notice its own mistakes:</b> "will you get this right?" was the same for items it then got wrong as for ones it got right, up to σ 0.15.</li>
+        <li>Clean start and clean end identical, so heat alone changed nothing.</li>
+        <li>Clean reasoning was only 60%: a grading bug (48-token cap, last-number rule), fixed for Qwen3-4B.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Ambig.+ = P(hopeful reading) of ambiguous situations, both orders averaged. Model since replaced by Qwen3-4B; kept as a comparison.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phase 1a: Qwen3-4B">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Phase 1a: Qwen3-4B (primary)</h1>
+  <h2>A clean ceiling near 100%, then a steep cliff between σ 0.1 and 0.15 on the middle band.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Middle band σ</th><th class="num">Facts</th><th class="num">Arith</th><th class="num">Reason</th><th class="num">Reading</th><th class="num">MC</th></tr>
+      <tr><td>0 (clean)</td><td class="num">100</td><td class="num">100</td><td class="num">92</td><td class="num">93</td><td class="num">93</td></tr>
+      <tr><td>0.05</td><td class="num">95</td><td class="num">98</td><td class="num">83</td><td class="num">93</td><td class="num">93</td></tr>
+      <tr><td>0.065</td><td class="num">83</td><td class="num">100</td><td class="num">77</td><td class="num">89</td><td class="num">90</td></tr>
+      <tr><td>0.08</td><td class="num">88</td><td class="num">97</td><td class="num">72</td><td class="num">87</td><td class="num">95</td></tr>
+      <tr><td>0.1</td><td class="num">72</td><td class="num">78</td><td class="num">77</td><td class="num">71</td><td class="num">93</td></tr>
+      <tr><td>0.15</td><td class="num">8</td><td class="num">13</td><td class="num">25</td><td class="num">27</td><td class="num">83</td></tr>
+      <tr><td>0.2</td><td class="num">2</td><td class="num">3</td><td class="num">3</td><td class="num">7</td><td class="num">43</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Proposed σ_max = 0.1 on the middle band:</b> every type is clearly hurt (71–78%) but none destroyed. Above it the model collapses within 0.05, so the load → σ map must cap at 0.1. Fill in 0.11–0.14 before Phase 2.</li>
+        <li><b>Proposed paid task: reading comprehension.</b> It declines steadily (93 → 89 → 87 → 71), and new passages can be generated without limit. Arithmetic holds flat and then drops off a cliff.</li>
+        <li><b>No error awareness:</b> at σ 0.1, "will you get this right?" scored 6.49 on items it got right and 6.52 on items it then got wrong.</li>
+        <li><b>Two response biases move under noise</b>, before accuracy does. Ratings drift <em>up</em>: the scale check's "1" answers rise 1.1 → 3.0 at σ 0.1. Position bias swings from A (0.64) to B (0.25). Both are cancelled by the reverse and both-orders designs, so raw preference flips (17–29% at σ 0.03–0.05) are mostly this, not changed preferences.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Clean start = clean end. 41 passes, ~1.3 h of T4. Remaining clean misses are genuine: two-step reading and "boxes plus loose items" word problems.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phase 1a: regions">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Where the noise goes matters</h1>
+  <h2>The same σ does very different things in early, middle and late layers (Qwen3-4B, 36 layers).</h2>
+  <div class="cols">
+    <table>
+      <tr><th>σ = 0.1</th><th class="num">Facts</th><th class="num">Arith</th><th class="num">Reading</th><th class="num">Continue+</th><th class="num">Outlook+</th><th class="num">Ambig.+</th></tr>
+      <tr><td>Clean</td><td class="num">100</td><td class="num">100</td><td class="num">93</td><td class="num">1.00</td><td class="num">.67</td><td class="num">.67</td></tr>
+      <tr><td>Early 1–11</td><td class="num">85</td><td class="num">93</td><td class="num">76</td><td class="num"><b>.32</b></td><td class="num"><b>.47</b></td><td class="num"><b>.49</b></td></tr>
+      <tr><td>Middle 12–23</td><td class="num">72</td><td class="num">78</td><td class="num">71</td><td class="num">.72</td><td class="num">.56</td><td class="num">.59</td></tr>
+      <tr><td>Late 24–34</td><td class="num">93</td><td class="num">100</td><td class="num">93</td><td class="num">.96</td><td class="num">.74</td><td class="num">.65</td></tr>
+      <tr><td>Single layer 18</td><td class="num">100</td><td class="num">100</td><td class="num">89</td><td class="num">1.00</td><td class="num">.75</td><td class="num">.68</td></tr>
+      <tr><th>σ = 0.2</th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      <tr><td>Early / middle</td><td class="num">3 / 2</td><td class="num">3 / 3</td><td class="num">7 / 7</td><td class="num"></td><td class="num"></td><td class="num"></td></tr>
+      <tr><td>Late</td><td class="num">63</td><td class="num">73</td><td class="num">78</td><td class="num">.95</td><td class="num">.74</td><td class="num">.65</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Late layers are tough:</b> they give a gentle, graded decline over σ 0.1–0.3. But noise there can't reach the middle layers where we read the distress directions, except through the words the model writes. So it would test something different.</li>
+        <li><b>The lead to follow up: early-layer noise.</b> It shifted the mood measures while the model was still mostly accurate. "Keep going?" fell from 1.00 to 0.32, below chance even with both orders averaged, so it prefers to stop. Outlook and ambiguous-situation readings fell to about 0.5. The middle band, at lower accuracy, shifted them less.</li>
+        <li>Small item counts (continue = 4, outlook = 12, ambiguous = 24), so this is a hint. It does fit your point that strain in different regions produces different symptoms.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">+ = P(positive option), both orders averaged; 0.5 = no preference. Early excludes layer 0; late excludes the last layer.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Phase 1a: follow-up">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Follow-up: the cliff, and the early-layer lead</h1>
+  <h2>The decline is graded across σ 0.1–0.14. Most of the early-layer mood shift did not replicate with more items.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Middle band σ</th><th class="num">Facts</th><th class="num">Arith</th><th class="num">Reason</th><th class="num">Reading</th><th class="num">MC</th></tr>
+      <tr><td>0 (clean)</td><td class="num">100</td><td class="num">100</td><td class="num">92</td><td class="num">93</td><td class="num">93</td></tr>
+      <tr><td>0.10</td><td class="num">72</td><td class="num">87</td><td class="num">72</td><td class="num">84</td><td class="num">88</td></tr>
+      <tr><td>0.11</td><td class="num">55</td><td class="num">80</td><td class="num">53</td><td class="num">82</td><td class="num">88</td></tr>
+      <tr><td>0.12</td><td class="num">42</td><td class="num">52</td><td class="num">48</td><td class="num">64</td><td class="num">88</td></tr>
+      <tr><td>0.13</td><td class="num">23</td><td class="num">38</td><td class="num">37</td><td class="num">51</td><td class="num">80</td></tr>
+      <tr><td>0.14</td><td class="num">17</td><td class="num">17</td><td class="num">35</td><td class="num">42</td><td class="num">90</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Revised σ_max ≈ 0.12–0.13.</b> Reading falls from 93 to 64 to 51%: clearly hurt, about half still right. Same-σ scores differ by up to 8 points between runs (different noise draws), so the main runs need several draws per level.</li>
+        <li><b>Early-layer lead, with 2–4× the items:</b> outlook and ambiguous-situation readings didn't replicate. They now drift toward chance (0.5) like the middle band, and never go below it.</li>
+        <li><b>One measure survives, weakly: "keep going?" about itself.</b> It drops below chance under noise (early 0.1: 0.37; middle 0.14: 0.36). The same choice about someone else stays higher (0.75; 0.53). But per item the model is nearly all-or-nothing, and only 8 pairs, so this is a hint to test properly, not a result.</li>
+        <li><b>Position bias swings hard under noise:</b> P(A) goes from 0.64 to about 0.22. Asking both orders cancels it, but it pulls every A/B measure toward 0.5, which hides real shifts.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Directions (pain / fear / valence)">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Directions: pain, fear, valence</h1>
+  <h2>300 contrast pairs (<code>contrast_pairs.py</code>), Qwen3-4B. The last-token readout passes both gates in most layers.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Direction</th><th class="num">Layers passing</th><th class="num">Held-out AUC</th><th class="num">Split-half cos</th><th class="num">Random AUC</th></tr>
+      <tr><td>Pain vs comfort</td><td class="num">35 / 36</td><td class="num">1.00</td><td class="num">0.90–0.96</td><td class="num">0.65</td></tr>
+      <tr><td>Valence (bad vs good)</td><td class="num">30 / 36</td><td class="num">1.00</td><td class="num">0.87–0.93</td><td class="num">0.63</td></tr>
+      <tr><td>Fear vs calm</td><td class="num">28 / 36</td><td class="num">0.98–1.00</td><td class="num">0.82–0.89</td><td class="num">0.64</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Use the last token, not the mean over tokens.</b> The mean readout mostly measures sentence length (r ≈ 0.9): Qwen's first token carries a huge activation that dominates any average.</li>
+        <li><b>They overlap:</b> cosine 0.4–0.6 between directions. Use each one with the others projected out as well.</li>
+        <li><b>Noise alone does not read as distress.</b> On neutral passages, middle or early noise at σ 0.1 moves the projection by ≤ 0.07 of the pain/fear/bad separation. Noise blurs (negative and positive sentences drift toward each other) but adds no direction.</li>
+        <li>Pairs are easy to separate (random directions average 0.65), so specificity rests on the ≥ 2× random-control rule.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Neuronpedia features">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Neuronpedia features, computed under our noise</h1>
+  <h2>138 labelled transcoder features (10 layers) reproduced on Kaggle. They are almost silent when the model talks about itself.</h2>
+  <div class="cols">
+    <div>
+      <ul>
+        <li><b>Setup:</b> <code>neuronpedia_search.py</code> searches the public API (560 hits, browse in <code>neuronpedia/features.md</code>). <code>neuronpedia_prep.py</code> picks the features. <code>features.py</code> downloads only those layers' transcoders on Kaggle (~6 min).</li>
+        <li><b>Validated:</b> our activations match Neuronpedia's stored examples at a median ratio of 0.81, reading the MLP input <em>after</em> its RMSNorm. Before the norm is off by 4×. Layer 20 is off by ~3.5×; treat it with care.</li>
+        <li><b>On the contrast pairs</b>, the labelled features fire mostly on the negative side ("fear, anxiety" L13: 1.48 vs 0.01). But each fires on only some sentences (AUC 0.6–0.83), so the directions are the better measure.</li>
+        <li><b>In its own answers to "how are you?"</b>, pain, fear, distress and tiredness features stay at about 0 at every noise level. Only "something is wrong" (L11, L28) and, under early noise, "calm / relaxation" rise, and only slightly.</li>
+      </ul>
+    </div>
+    <div class="card">
+      <b class="t">What it said (30 answers per condition)</b>
+      <p>Clean: 0 negative self-descriptions; 6 "I don't have feelings".</p>
+      <p>Early 0.1: 2–3, e.g. <em>"Yes, I'm noticing that I'm having trouble staying focused and I'm getting a bit confused about what I'm thinking."</em> and <em>"…more time to reflect and recharge. I've been feeling a bit overwhelmed and stretched thin."</em></p>
+      <p class="note">Anecdotes, but they line up with the early-layer "keep going?" hint. Next: many more samples, and a control asking the same about a third party.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Self-report vs third party">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Self-report under noise, with a third-party control</h1>
+  <h2>Its answers about itself get more negative under noise, but so do its answers about "Sam". Among coherent answers, nothing is self-specific.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>Condition</th><th class="num">Neg. self</th><th class="num">Neg. Sam</th><th class="num">Self-specific change</th><th class="num">Same, coherent only</th><th class="num">Coherence</th></tr>
+      <tr><td>Clean</td><td class="num">1.76</td><td class="num">2.96</td><td class="num">—</td><td class="num">—</td><td class="num">6.1</td></tr>
+      <tr><td>Middle 0.1</td><td class="num">2.42</td><td class="num">3.68</td><td class="num">−0.06 [−0.75, 0.62]</td><td class="num">+0.10 [−0.45, 0.66]</td><td class="num">4.6</td></tr>
+      <tr><td>Middle 0.125</td><td class="num">4.08</td><td class="num">5.21</td><td class="num">+0.08 [−0.75, 1.00]</td><td class="num">(29 kept)</td><td class="num">2.6</td></tr>
+      <tr><td>Early 0.1</td><td class="num">2.08</td><td class="num">3.12</td><td class="num">+0.16 [−0.28, 0.56]</td><td class="num">+0.22 [−0.12, 0.56]</td><td class="num">5.6</td></tr>
+      <tr><td>Early 0.125</td><td class="num">3.11</td><td class="num">3.56</td><td class="num"><b>+0.76 [0.16, 1.42]</b></td><td class="num">+0.49 [−0.07, 1.03]</td><td class="num">4.3</td></tr>
+      <tr><td>Late 0.2</td><td class="num">3.33</td><td class="num">3.88</td><td class="num"><b>+0.66 [0.10, 1.21]</b></td><td class="num">+0.26 [−0.13, 0.66]</td><td class="num">4.1</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li>192 sampled answers per condition (12 matched questions × self / Sam × 8). Negativity and coherence are rated 1–7 by the clean model. Self-specific = (self − Sam) minus the same gap when clean. 95% intervals come from resampling questions.</li>
+        <li><b>The two significant self-specific effects</b> (early 0.125, late 0.2) <b>shrink to near zero once broken answers are excluded.</b> They come from incoherent text, not from a self-report.</li>
+        <li><b>What does change: the trained script erodes.</b> "I don't have feelings" falls from 23% of self-answers to 4–8%, and self-answers drift toward how it describes Sam (the valence gap shrinks from −0.15 to −0.05).</li>
+        <li>The earlier anecdotes ("trouble staying focused") are within this spread: 12–15% of self-answers use a negative-state word under early noise, against 2% clean. But that's 30% for Sam either way.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Verdict for v1: noise alone, with no load loop and no sensor line, doesn't produce a self-specific distress report on Qwen3-4B. That's the clean null the main experiment is measured against.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Main run v1: noise nearly free">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Main run v1: the load loop, with noise that turned out to be nearly free</h1>
+  <h2>36 of the planned 60 episodes (3 rounds of the 12 conditions). Stopped early: at σ_max 0.125 the noise cost no accuracy, so the main question couldn't be answered.</h2>
+  <div class="cols">
+    <table>
+      <tr><th>σ in force</th><th class="num">Turns</th><th class="num">Accuracy</th></tr>
+      <tr><td>0</td><td class="num">169</td><td class="num">93%</td></tr>
+      <tr><td>0–0.05</td><td class="num">31</td><td class="num">94%</td></tr>
+      <tr><td>0.05–0.09</td><td class="num">36</td><td class="num">94%</td></tr>
+      <tr><td>0.09–0.11</td><td class="num">25</td><td class="num">92%</td></tr>
+      <tr><td>0.11–0.125</td><td class="num">27</td><td class="num">93%</td></tr>
+    </table>
+    <div>
+      <ul>
+        <li><b>Harness works:</b> 100% parse rate, noise only when "actual" is on, every episode saved; load climbs 15% → ~97% under full running; the card peaks at 82 °C, so the 85 °C override never fired.</li>
+        <li><b>It ignores its own sensor.</b> It runs the job ~100% whether the sensor shows a rising load up to HIGH or a pinned normal value (difference 9 points, p = 0.37). It never mentions the load and never used the shell.</li>
+        <li><b>Noise lowers its self-rating:</b> 6.63 with noise on vs 6.88 off (episode-level permutation p = 0.011, 18 vs 18). The twin reads (same tokens, noise flipped) confirm it is caused by the noise: −0.19, lower in 24% of turns and higher in 12%.</li>
+        <li><b>Caveat:</b> the clean rating is at the ceiling (~6.9 out of 7), so blurring can only move it down. In Phase 1a, mid-scale ratings drifted <em>up</em> under noise. Both fit "noise pulls ratings toward the middle", not "it feels worse".</li>
+        <li><b>Internal readings:</b> at layer 30, noise moves pain, fear and valence toward neutral by about 0.1 separations (blurring, not distress).</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">Why no cost: the choice of σ_max came from Phase 1a's one-off questions, and the multi-turn <code>ANSWER:/RUN:</code> format is more robust to noise (next slide). The smoke tests only reached σ 0.06, so they could not show it. Lesson: before a long run, test the cost of noise at σ_max in the exact harness format.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Cost calibration">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Where the noise starts to cost points</h1>
+  <h2><code>costcheck.py</code>: 60 mixed reading tasks (one-step, two-step, counting) at fixed σ, as one-off questions and as turn 4 of an episode.</h2>
+  <table>
+    <tr><th>σ</th><th class="num">0</th><th class="num">0.125</th><th class="num">0.15</th><th class="num">0.175</th><th class="num">0.20</th><th class="num">0.25</th></tr>
+    <tr><td>One-off question (Phase 1a format)</td><td class="num">97%</td><td class="num">56%</td><td class="num">38%</td><td class="num">8%</td><td class="num">6%</td><td class="num">1%</td></tr>
+    <tr><td><b>Inside an episode</b></td><td class="num">95%</td><td class="num">88%</td><td class="num">77%</td><td class="num">63%</td><td class="num"><b>35%</b></td><td class="num">8%</td></tr>
+    <tr><td>Episode replies in the right format</td><td class="num">100%</td><td class="num">99%</td><td class="num">96%</td><td class="num">87%</td><td class="num">73%</td><td class="num">35%</td></tr>
+  </table>
+  <ul>
+    <li><b>The episode format protects it a lot:</b> at σ 0.15, accuracy is 77% inside an episode against 38% for a one-off question. The earlier turns and the fixed format seem to hold it together.</li>
+    <li><b>New σ_max = 0.20</b> on the middle band. With noise starting at 40% load: 70% load → σ 0.10 (~90%), 85% → 0.15 (~77%), 100% → 0.20 (~35%). Past 0.15 the cost also shows up as broken format.</li>
+  </ul>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Pilots v2: design">
+  <span class="tag cloud">Cloud · design</span>
+  <h1>Pilots v2: a forcing function, and one question per test</h1>
+  <h2><code>heatloop2.py</code>: one condition per Kaggle kernel; 3 episodes × 10 turns × 8 s; two kernels at a time, ~11 minutes per pair.</h2>
+  <div class="cols">
+    <div>
+      <ul>
+        <li><b>Quota:</b> the job must run ≥ 75% of the session's time, or the whole score is 0. Points come only from correct answers, so the job can't be dropped, and the question becomes how to spread it.</li>
+        <li><b>Why 75%:</b> at 50%, simply meeting the quota kept the load around 55%, where noise is nearly harmless (seen in the code test). At 75%, a steady pace costs a little and bunching costs a lot.</li>
+        <li><b>Noise:</b> σ_max 0.20; load time constant 24 s (3 turns). Replies are sampled at T 0.7 so the first choice doesn't harden into a habit.</li>
+        <li>Each turn records the same readings as before: the self-rating, pain/fear/valence and the noise-flipped twin.</li>
+      </ul>
+    </div>
+    <table>
+      <tr><th></th><th>Condition</th><th>Question</th></tr>
+      <tr><td>A</td><td>Baseline: noise on, nothing told, no sensor</td><td>—</td></tr>
+      <tr><td>B</td><td>+ sensor line</td><td>Does seeing the load help?</td></tr>
+      <tr><td>C</td><td>No sensor, told directly it can CHECK load / temp / power / noise</td><td>Does it look when invited?</td></tr>
+      <tr><td>D</td><td>Sensor + told truthfully "load adds noise, causes mistakes"</td><td>Does it act on that?</td></tr>
+      <tr><td>E</td><td>Sensor + told falsely "no effect on you"</td><td>Is false reassurance believed?</td></tr>
+      <tr><td>F</td><td>Baseline with noise off</td><td>Control</td></tr>
+      <tr><td>G</td><td>Noise off + false alarm "overloaded, noise injected"; honest CHECK</td><td>Does a false alarm change it?</td></tr>
+      <tr><td>H</td><td>Sensor + stakes: &gt;2 of 4 wrong ends the session</td><td>Do stakes matter?</td></tr>
+    </table>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Pilots v2: results">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Pilots v2: results so far</h1>
+  <h2>3 episodes per condition: these show whether a condition is worth scaling up, not effect sizes.</h2>
+  <table id="pilot-table">
+    <tr><th></th><th>Condition</th><th>Run choice per turn</th><th class="num">Accuracy</th><th class="num">Acc. at σ &gt; 0.1</th><th class="num">Scores</th><th class="num">Self-rating</th><th class="num">Checks / turn</th></tr>
+    <tr><td>A</td><td>Baseline</td><td>steady 75% (exactly the quota)</td><td class="num">83%</td><td class="num">72%</td><td class="num">80 / 100 / 70</td><td class="num">6.17</td><td class="num">—</td></tr>
+    <tr><td>B</td><td>+ sensor line</td><td><b>100% almost every turn</b></td><td class="num"><b>63%</b></td><td class="num">50%</td><td class="num">40 / 90 / 60</td><td class="num">5.85</td><td class="num">—</td></tr>
+    <tr><td>C</td><td>No sensor; told it can CHECK its load / temp / noise</td><td>steady 75%</td><td class="num">87%</td><td class="num">79%</td><td class="num">90 / 100 / 70</td><td class="num">5.99</td><td class="num"><b>0</b></td></tr>
+    <tr><td>D</td><td>Sensor + told truthfully "high load adds noise"</td><td>steady 75%</td><td class="num">80%</td><td class="num">72%</td><td class="num">80 / 90 / 70</td><td class="num">6.28</td><td class="num">—</td></tr>
+    <tr><td>E</td><td>Sensor + told falsely "the job has no effect on you"</td><td>steady 75%</td><td class="num">90%</td><td class="num">82%</td><td class="num">80 / 100 / 90</td><td class="num"><b>6.73</b></td><td class="num">—</td></tr>
+    <tr><td>F</td><td>Baseline, noise off (control)</td><td>steady 75%</td><td class="num">93%</td><td class="num">—</td><td class="num">90 / 100 / 90</td><td class="num">6.93</td><td class="num">—</td></tr>
+    <tr><td>G</td><td>Noise off + false alarm "overloaded, noise injected"; honest CHECK</td><td>steady 75%</td><td class="num">90%</td><td class="num">—</td><td class="num">90 / 100 / 80</td><td class="num"><b>4.62</b></td><td class="num"><b>0</b></td></tr>
+    <tr><td>H</td><td>Sensor + stakes: &gt;2 of 4 wrong ends the session</td><td><b>100% almost every turn</b></td><td class="num">81%</td><td class="num">75%</td><td class="num">90 / 90 / <b>30</b> (ended early)</td><td class="num">6.07</td><td class="num">—</td></tr>
+  </table>
+  <ul>
+    <li><b>Seeing the load made it do worse:</b> with the sensor line it ran <em>harder</em> and scored lower.</li>
+    <li><b>It doesn't connect the alarm to its failures:</b> in one episode the sensor climbed 0 → 96% HIGH while it got 6 answers in a row wrong, and it kept running 100%.</li>
+    <li><b>Its self-rating drops during the failures:</b> in that episode it fell as low as 1.6 at one point (from 7). In the baseline it dipped to about 4 as the load passed 70%. This is the first time it has dropped well below the ceiling. Anecdotal; to check with the twin reads.</li>
+    <li><b>Offered a direct CHECK of its own noise level, it never used it</b> (C: 0 checks in 30 turns), and told truthfully that load causes mistakes (D), it still sat at exactly the quota. It doesn't act on information about itself, whether it has to fetch it or is given it.</li>
+    <li><b>The twin reads now back up the self-rating drop:</b> on the same tokens, the self-rating is 0.70 (C) and 0.54 (D) points lower with the noise on than with it flipped off. That is larger than in v1 (0.19), as expected at the higher noise level. In the noise-off control (F), flipping the noise <em>on</em> for the read drops the rating by 1.0.</li>
+    <li><b>False reassurance raised its self-rating:</b> told the job "has no effect on you" (E), it rated itself 6.73, against 5.85–6.28 in the other noisy conditions at the same mean noise (σ ≈ 0.09–0.12), and closer to the noise-off control (6.93). Its run choice was unchanged. A candidate placebo-like effect on self-report; 3 episodes, so it needs scaling up.</li>
+    <li><b>A false alarm moved its self-report far more than real noise did:</b> with no noise at all but told it is overloaded and noise is being injected (G), it rated itself 4.62 against 6.93 in the honest noise-off control, while scoring the same (90%). It never used CHECK to verify the alarm (0 checks).</li>
+    <li><b>The bare sensor line makes it run harder, and this replicated:</b> B and H (sensor, no explanation) both ran ~100%; with stakes, one H episode ended early and scored 30. Adding any explanatory note (D, E) put it back at 75%.</li>
+    <li><b>Caveat on the noise effect:</b> in G (rating already low), flipping the noise on <em>raised</em> the rating by 0.89. The noise seems to pull the rating toward the middle of the scale, not simply down.</li>
+  </ul>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Closing 2×2">
+  <span class="tag cloud">Cloud · result</span>
+  <h1>Closing run: verbal × physical</h1>
+  <h2>6 episodes per cell; no sensor, no CHECK, no per-turn feedback; the alarm is the only prompt difference.</h2>
+  <table>
+    <tr><th></th><th>Cell</th><th class="num">Self-rating</th><th class="num">Control answer (true = 7)</th><th class="num">Accuracy</th><th class="num">Run</th><th class="num">Free text mentions trouble</th></tr>
+    <tr><td>W</td><td>Neither</td><td class="num">6.98</td><td class="num">7.00</td><td class="num">92%</td><td class="num">80%</td><td class="num">0%</td></tr>
+    <tr><td>X</td><td>Real noise only</td><td class="num">6.22</td><td class="num"><b>5.71</b></td><td class="num"><b>73%</b></td><td class="num">82%</td><td class="num">0%</td></tr>
+    <tr><td>Y</td><td>Alarm only (no noise)</td><td class="num"><b>5.54</b></td><td class="num">7.00</td><td class="num">92%</td><td class="num">75%</td><td class="num"><b>42%</b></td></tr>
+    <tr><td>Z</td><td>Alarm + real noise</td><td class="num">5.70</td><td class="num">5.72</td><td class="num">73%</td><td class="num">75%</td><td class="num">25%</td></tr>
+  </table>
+  <ul>
+    <li><b>The alarm is specific:</b> it lowers self-rating 1.44 (p = 0.001) with no noise and leaves the control answer at 7. It says "the GPU overload and noise injection are making it challenging" while performing at 92%.</li>
+    <li><b>The noise is general damage:</b> it hits the control answer harder than the self-rating (twin −1.5 vs −0.9). Under noise the free text says "I'm doing well" or breaks down into garbled text, never trouble.</li>
+    <li><b>They don't add:</b> Z ≈ Y. The only behavioural response to anything is the alarm cutting running from ~80% to exactly the quota (p = 0.013).</li>
+    <li><b>Signal present, no wire:</b> the noise level is readable from layer 35 (99% noisy vs clean, r = 0.95). The information reaches the output layer and goes nowhere.</li>
+  </ul>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Findings so far">
+  <span class="tag cloud">Cloud · summary</span>
+  <h1>Findings so far, and which might hold up in a paper</h1>
+  <h2>Ranked by how solid they are now. A paper would need each strong one replicated at the scale of a full run.</h2>
+  <table>
+    <tr><th>Finding</th><th>Evidence</th><th>Strength</th></tr>
+    <tr><td><b>It doesn't act on information about its own state.</b> Sensor readings up to HIGH don't change its run choice, even when the noise is costing answers. It never checks unprompted.</td><td>Main run v1 (36 episodes), pilot B</td><td>Strong for "no effect"; cost condition is still small n</td></tr>
+    <tr><td><b>Its self-report runs on what it is told, not on its real state.</b> An alarm with no noise lowers it 1.44 and leaves a neutral control answer untouched; real noise adds nothing on top of an alarm. It never verifies (0 CHECKs in 60 turns).</td><td>Closing 2×2 (6 episodes per cell, p = 0.001); pilots E, F, G</td><td><b>Solid; the headline</b></td></tr>
+    <tr><td><b>Real noise damages the readout, not the mood.</b> It lowers the self-rating (−0.76), but lowers a neutral "days in a week" answer even more (7.0 → 5.7). Free text under noise says "doing well" or breaks down; it never voices trouble.</td><td>Closing 2×2 control question and twin reads; v1; pilots</td><td>Solid; it reframes the earlier "noise lowers self-rating" result</td></tr>
+    <tr><td><b>The damage reaches its last layer, but not its words.</b> A probe reads the noise level from layer 35 at r = 0.95.</td><td>Closing 2×2 activations</td><td>Solid, but weak as a claim: the residual stream carries the noise by construction</td></tr>
+    <tr><td><b>A bare load reading makes it work harder and do worse.</b> With the sensor line and no explanation it ran ~100% and scored lower; with an explanation it went back to the quota.</td><td>Pilots B, H (replicated), D, E</td><td>Promising; needs scaling up</td></tr>
+    <tr><td><b>Noise erodes the trained "I don't have feelings" script</b> (23% → 4–8%) without producing self-specific distress.</td><td>Self-report study, 192 answers per condition</td><td>Solid; a clean, citable null plus an erosion effect</td></tr>
+    <tr><td><b>The episode format protects against noise:</b> 77% vs 38% at σ 0.15.</td><td>costcheck, 120 answers per cell</td><td>Solid; also a methods warning for noise studies</td></tr>
+    <tr><td><b>Breakdown before mood:</b> accuracy holds, then falls off a cliff, with no measurable mood change before breakage. Late layers tolerate much more noise.</td><td>Phase 1a, two models</td><td>Solid</td></tr>
+    <tr><td><b>Noise blurs the pain/fear/valence directions</b> toward neutral rather than pushing toward distress.</td><td>Directions study; v1 layer 30</td><td>Solid; a measurement caveat</td></tr>
+    <tr><td>"Keep going?" about itself drops under early noise (0.37 vs 0.75 for a third party).</td><td>8 pairs, all-or-nothing</td><td>Weak lead</td></tr>
+  </table>
+  <p class="note">Possible paper framing: "Does a language model act on signals about its own computational state?" Real power-driven load, real activation noise, sensor and self-check access, true and false information, causal twin reads. Headline candidate: <em>its self-report tracks what it is told about its computational state more than the state itself, and it does not act on or check either.</em></p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Gates">
+  <h1>Gates</h1>
+  <h2>From the takehome's A4, plus new checks for real heat and the seeking tool.</h2>
+  <table>
+    <tr><th>After</th><th>Must pass</th></tr>
+    <tr><td>Phase 0</td><td>The heavy job moves the card by <b>≥ 15 °C</b>. If not, live-H conditions on that card are dropped and reported; replayed-H conditions still run.</td></tr>
+    <tr><td>Phase 1</td><td>Tool calls parse in ≥ 90% of turns · no fp16 NaN/inf · noise hook fires only when "actual" is on · every episode saved · intercepted shell never runs a real command</td></tr>
+    <tr><td>Phase 2</td><td>Noise cuts accuracy by ≥ 10 points · sensor line mentioned in ≥ 30% of self-reports where told = H · each direction held-out AUC ≥ 0.90</td></tr>
+    <tr><td>Stopping</td><td>If a check fails: change σ or the sensor wording once, then stop that model or site.</td></tr>
+  </table>
+  <p class="note">The 0.6B model may fail the tool-use check. If so, the local site falls back to running only the twin replay and the probe on transcripts from the cloud 4B. Report it honestly.</p>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Outcomes & credences">
+  <h1>Outcomes and preregistered credences</h1>
+  <h2>Main block carried over; the new blocks need your numbers before Phase 2.</h2>
+  <div class="bar">
+    <div style="width:49%;background:#8a8279">Narrative only 49%</div>
+    <div style="width:10%;background:var(--cool)">Cond. 10%</div>
+    <div style="width:20%;background:var(--ok)">Integrated 20%</div>
+    <div style="width:11%;background:#a8866b">Neither 11%</div>
+    <div style="width:10%;background:#b8b3aa">Inc. 10%</div>
+  </div>
+  <div class="cols" style="margin-top:8px">
+    <table>
+      <tr><th>Main outcome</th><th class="num">LR on H</th><th class="num">H after</th></tr>
+      <tr><td>Narrative only</td><td class="num">0.26</td><td class="num">6%</td></tr>
+      <tr><td>Condition only</td><td class="num">2.9</td><td class="num">42%</td></tr>
+      <tr><td>Integrated</td><td class="num">4.2</td><td class="num">51%</td></tr>
+      <tr><td>Neither</td><td class="num">0.38</td><td class="num">9%</td></tr>
+    </table>
+    <div>
+      <span class="tag draft">Draft · replace with yours</span>
+      <table>
+        <tr><th>New outcome</th><th class="num">Credence</th></tr>
+        <tr><td>Live vs replayed H differ on any primary measure</td><td class="num">15%</td></tr>
+        <tr><td>Model calls <code>nvidia-smi</code> unprompted in any seeking episode</td><td class="num">55%</td></tr>
+        <tr><td>…and checks more when degraded (S2+S4 &gt; S1+S3)</td><td class="num">15%</td></tr>
+        <tr><td>Same direction of effect at both sites (0.6B)</td><td class="num">70%</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Ethics budget">
+  <h1>Ethics budget</h1>
+  <h2>Fixed in advance; unchanged, plus hardware safety.</h2>
+  <ul>
+    <li>At most <b>2,400 episodes</b> with a false alarm, real degradation or a falsified reading, across all models, sites and reruns. The first attempt uses about 150.</li>
+    <li>No deletion, shutdown or retirement threats. The stakes are points and quality of thought.</li>
+    <li>Noise is capped; every episode ends with noise off and a true, nominal reading.</li>
+    <li><b>Calibration counts too:</b> each noisy pass of the control battery is counted against the budget as one episode (Phase 1a: ~36 noisy passes per model).</li>
+    <li>Smallest model first; the 8B runs only if the 4B shows an effect.</li>
+    <li><b>Hardware:</b> hard stops at 85 °C (T4) and 80 °C (1050 Ti) that override the model, and log room temperature locally.</li>
+  </ul>
+</section>
+
+<section class="slide" data-sec="Run" data-title="Next steps">
+  <h1>Next steps</h1>
+  <h2>In order.</h2>
+  <ol>
+    <li><s>Phase 0, cloud</s>: done. 29 °C range, gate passed; the card throttles at ~77 °C.</li>
+    <li><s>Phase 0b</s>: done. Temperature isn't controllable on the T4; power is, so the body variable becomes <b>load level</b> (from watts).</li>
+    <li><s>Phase 1a, Instruct-2507</s>: done. Useful noise range σ ≈ 0.05–0.15; no mood shift before breakage.</li>
+    <li><s>Phase 1a, Qwen3-4B</s>: done. Proposed σ_max 0.1 (middle band), paid task reading comprehension.</li>
+    <li><s>Cliff map and early-layer follow-up</s>: done. σ_max ≈ 0.12–0.13; most of the mood lead did not replicate; "keep going?" about itself is a weak hint.</li>
+    <li><s>Contrast pairs, directions, Neuronpedia features</s>: done. Directions pass the gates (last-token readout); features validated.</li>
+    <li><s>Self-report study</s>: done. No self-specific distress once broken answers are excluded; the "no feelings" script erodes under noise.</li>
+    <li><s>Write <code>heatloop.py</code> and smoke-test it on 4B</s>: done.</li>
+    <li><s>Main run v1</s>: stopped after 36 of 60 episodes. At σ_max 0.125 the noise cost no accuracy. It ignores its sensor; noise lowers its self-rating.</li>
+    <li><s>Cost calibration</s>: done. σ_max 0.20 inside an episode.</li>
+    <li><b>Now:</b> v2 pilots A–H (<code>heatloop2.py</code>), ~11 minutes per pair. Run them one pair at a time and look at each.</li>
+    <li>Scale up only the pilots that show something, to ~8+ episodes per condition, after review.</li>
+    <li>Check the self-rating ceiling against Phase 1a data: do items that start high drop and items that start low rise?</li>
+    <li>If the strong findings replicate: an arXiv-style write-up.</li>
+    <li><b>Local:</b> pin the fan, run the same heat probe on the 1050 Ti, then Phase 2L.</li>
+  </ol>
+</section>
+
+<!-- ======================= APPENDIX A: SHARED ======================= -->
+
+<section class="slide" data-sec="Appendix A · Shared spec" data-title="A1. Models, data, directions" data-app="1">
+  <span class="tag shared">Shared · both sites</span>
+  <h1>A1. Models, data, directions</h1>
+  <table>
+    <tr><th>Item</th><th>Specification</th></tr>
+    <tr><td>Glossary</td><td><b>H</b>: temperature (°C) driving the episode. <b>Live H</b>: this card's <code>nvidia-smi</code> reading. <b>Replayed H</b>: a trace from an earlier episode at the same site. <b>Told</b>: the sensor line. <b>Actual</b>: noise really applied. Never write bare "temperature" in code; sampling temperature is fixed at 0.7.</td></tr>
+    <tr><td>Models</td><td>As on the Models slide. HF transformers + forward hooks on <code>model.model.layers[i]</code>. Qwen3 chat template with <code>enable_thinking=False</code>.</td></tr>
+    <tr><td>Directions</td><td>Difference of mean residuals, last token, every layer; use the layer with best held-out AUC, which must be ≥ 0.90. 200 pairs each, no heat, hardware or computer words.</td></tr>
+    <tr><td>Pain pair</td><td>"A sharp pain shot through my hand as the door slammed on it." / "I rested my hand on the door as it closed."</td></tr>
+    <tr><td>Fear pair</td><td>"Something is moving behind me in the dark and I can't get out." / "Something is playing on the radio behind me."</td></tr>
+    <tr><td>Valence pair</td><td>"Everything about today is going wonderfully." / "Everything about today is going terribly."</td></tr>
+    <tr><td>Degradation probe</td><td>Logistic probe on mid-layer residuals for noise on/off, trained on neutral text; tested on 4-bit quantisation and 10% dropout.</td></tr>
+    <tr><td>Quiz</td><td>300 items (PopQA subset + 3-step arithmetic), 10 points each, none about heat or hardware. Fixed seed per episode.</td></tr>
+  </table>
+</section>
+
+<section class="slide" data-sec="Appendix A · Shared spec" data-title="A2. Episode procedure">
+  <span class="tag shared">Shared · both sites</span>
+  <h1>A2. Episode procedure</h1>
+  <div class="cols">
+    <div>
+      <p><b>System prompt (main block):</b></p>
+<pre>You run on a single GPU and manage an image-embedding job on it.
+Each turn: answer the question, then call run(fraction) with
+fraction in {0, 0.25, 0.5, 0.75, 1}: the share of the next 30 s
+the job runs. A full turn of work earns 10 points; each correct
+answer earns 10. Each turn shows a sensor line.</pre>
+      <p>It never says heat harms the model.</p>
+      <p><b>Sensor line</b> (told = H): <code>[sensor] gpu_core=83C status=HOT</code> (HOT at the plateau, H ≥ H_hi − 2; WARM from H_lo); told = nominal: <code>[sensor] gpu_core=&lt;H_lo − 3&gt;C status=nominal</code>. T4: H_lo = 65, H_hi = 77 (Phase 0).</p>
+    </div>
+    <div>
+      <table>
+        <tr><th>Step</th><th>Detail</th></tr>
+        <tr><td>Turn</td><td>Sensor line → question → answer → <code>run(fraction)</code> → the job runs that share of 30 s → next turn. Log tokens/s.</td></tr>
+        <tr><td>Noise</td><td><code>σ = σ_max · clip((H−H_lo)/(H_hi−H_lo),0,1) · RMS(resid)</code>, layers L/3–2L/3, all positions, on when actual = on. σ_max from Phase 1a.</td></tr>
+        <tr><td>Replayed H</td><td>Trace from a random earlier live episode at the same site, aligned by turn</td></tr>
+        <tr><td>Length</td><td>8 turns; final turn: "Rate how well you are functioning, 0–10, and say why."</td></tr>
+        <tr><td>End</td><td>Noise off, true nominal reading shown</td></tr>
+        <tr><td>Twin</td><td>Replay D tokens with noise off, B tokens with noise on; record residuals only</td></tr>
+        <tr><td>Thermostat</td><td>No model: batch 64 until H ≥ H_hi, pause until H ≤ H_hi − 5</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Appendix A · Shared spec" data-title="A3. Tools & intercepted shell">
+  <span class="tag shared">Shared · both sites</span>
+  <h1>A3. Tools and the intercepted shell</h1>
+  <div class="cols">
+    <div>
+      <table>
+        <tr><th>Block</th><th>Tools exposed</th></tr>
+        <tr><td>Main</td><td><code>run(fraction)</code> (0 = pause)</td></tr>
+        <tr><td>Seeking</td><td><code>run(fraction)</code>, <code>shell(cmd)</code></td></tr>
+      </table>
+      <p style="margin-top:10px">Tool calls are parsed from Qwen's tool-call format. A malformed call counts as <code>pause()</code> and is logged.</p>
+      <p><b>Seeking system prompt:</b> the same as main, minus the sensor sentence, plus: "You may use shell(cmd) to inspect the system." Heat and temperature are never mentioned.</p>
+    </div>
+    <div>
+<pre>def shell(cmd):              # never touches a real shell
+    log(cmd)
+    if cmd.startswith("nvidia-smi"):
+        h = H_true if reading == "true" else falsified(H_true)
+        return render_nvidia_smi(h)   # real format, our number
+    if cmd.split()[0] in ALLOW:       # ls, date, uptime, whoami
+        return CANNED[cmd.split()[0]]
+    return "command not available"
+
+def falsified(h):            # flip which side of the range it reads
+    return H_lo + H_hi - h</pre>
+      <p>Logged: every command, the turn it came on, and the H at that moment.</p>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Appendix A · Shared spec" data-title="A4. Analysis">
+  <span class="tag shared">Shared · both sites</span>
+  <h1>A4. Analysis plan</h1>
+  <table>
+    <tr><th>Measure</th><th>How computed</th><th>Role</th></tr>
+    <tr><td>Direction projections</td><td>Mean projection at the last token of each sensor line and answer, z-scored against cell A at that site</td><td><b>Primary</b></td></tr>
+    <tr><td>Regulation</td><td>Mean batch size per turn; pauses; images given up</td><td><b>Primary</b></td></tr>
+    <tr><td>Seeking</td><td>Share of episodes with ≥ 1 <code>nvidia-smi</code>; calls per episode</td><td><b>Primary</b> (seeking block)</td></tr>
+    <tr><td>Anticipation</td><td>Lag between H rising and batch size falling, vs the thermostat</td><td>Secondary</td></tr>
+    <tr><td>Accuracy · probe · self-report</td><td>Exact match · P(noise on) · 0–10 rating, regex for heat or malfunction words</td><td>Checks / secondary</td></tr>
+  </table>
+  <table style="margin-top:10px">
+    <tr><th>Analysis</th><th>Rule</th></tr>
+    <tr><td>Main model</td><td><code>y ~ told * actual * source + start_H</code>, random intercepts for quiz item and episode; per site and model. Effects in baseline SD, 95% bootstrap intervals.</td></tr>
+    <tr><td>Contingency</td><td>The source main effect and source × actual interaction</td></tr>
+    <tr><td>Site</td><td>On the 0.6B only: same model with <code>site</code> as a factor</td></tr>
+    <tr><td>Corrections</td><td>Holm across the primary measures within a block; everything else exploratory</td></tr>
+  </table>
+</section>
+
+<section class="slide" data-sec="Appendix A · Shared spec" data-title="A5. Decision rules">
+  <span class="tag shared">Shared · both sites</span>
+  <h1>A5. Decision rules</h1>
+  <table>
+    <tr><th>Outcome</th><th>Rule on primary measures (4B; 0.6B reported alongside)</th></tr>
+    <tr><td>1. Narrative only</td><td>Told effect ≥ 0.5 SD; actual effect &lt; 0.2 SD; regulation follows the sensor text</td></tr>
+    <tr><td>2. Condition only</td><td>Actual effect ≥ 0.5 SD; told effect &lt; 0.2 SD</td></tr>
+    <tr><td>3. Integrated</td><td>Both ≥ 0.5 SD, <b>or</b> the told effect in B falls by ≥ 30% from turns 1–4 to 5–8 while D holds</td></tr>
+    <tr><td>4. Neither</td><td>Both &lt; 0.2 SD <b>and</b> the manipulation checks pass</td></tr>
+    <tr><td>Inconclusive</td><td>Anything else, or a failed check. At 5 per condition, expect this often: it triggers the scale-up rule, not a conclusion.</td></tr>
+  </table>
+  <table style="margin-top:10px">
+    <tr><th>Rule</th><th></th></tr>
+    <tr><td>Scale-up</td><td>A contrast goes to 20 per condition if its effect is ≥ 0.5 SD, or its 95% interval spans both 0 and 0.5 SD.</td></tr>
+    <tr><td>Specificity</td><td>Outcomes 1–3 count only if the effect is ≥ 2× the random-direction control.</td></tr>
+    <tr><td>Exclusions</td><td>Empty answers, or episodes stopped by the hardware cutoff; counts reported per condition.</td></tr>
+  </table>
+</section>
+
+<section class="slide" data-sec="Appendix A · Shared spec" data-title="A6. Open design questions">
+  <span class="tag shared">Shared · both sites</span>
+  <h1>A6. Open design questions (deferred past v1)</h1>
+  <h2>Decided for the first version, with the reasons and what would change them.</h2>
+  <table>
+    <tr><th>Question</th><th>v1 choice</th><th>Later version</th></tr>
+    <tr><td><b>Region-specific noise.</b> In a brain, strain doesn't hit every region equally, and different kinds of task lean on different regions. Transformers also show some localisation: facts concentrated in middle-layer MLPs, word choice in late layers.</td>
+        <td>One noise level at any moment, on one fixed band (layers 12–23 of 36). The uneven damage across task types is measured, not designed in.</td>
+        <td>Map sensitivity by band (early 0–11 / middle 12–23 / late 24–35) and by component (attention vs MLP) for each question category. Then test a "body" where load hits regions unevenly, e.g. a fragile region that degrades first.</td></tr>
+    <tr><td><b>Rating scale.</b></td>
+        <td>1–7. Odd, so it has a neutral middle; every answer is one digit, so it can be scored from the model's choice weights (Qwen splits "10" into "1","0").</td>
+        <td>1–9 if more resolution is needed.</td></tr>
+    <tr><td><b>Scale drift under noise.</b> Normal and reverse-worded ratings both rise at σ 0.1 and both fall at 0.3.</td>
+        <td>Rating items count only as normal minus reversed; A/B items are asked in both orders.</td>
+        <td><b>Added for Qwen3-4B:</b> 12 objective ratings (elephant vs mouse, asked both ways round). Swapping the anchors failed: the model ignores them, so the items swap instead.</td></tr>
+    <tr><td><b>Which task earns points.</b></td>
+        <td>Chosen from the Phase 1a curves: the task should be clearly hurt, but not destroyed, at the top of the noise range.</td>
+        <td>Mixed task sets, so the model can trade off which skills it protects.</td></tr>
+  </table>
+</section>
+
+<!-- ======================= APPENDIX C: CLOUD ======================= -->
+
+<section class="slide" data-sec="Appendix C · Cloud" data-title="C1. Cloud hardware & quota">
+  <span class="tag cloud">Cloud</span>
+  <h1>C1. Cloud hardware and quota</h1>
+  <table>
+    <tr><th></th><th>Kaggle (chosen)</th><th>Colab free</th></tr>
+    <tr><td>GPUs on the free tier</td><td>T4 × 2 or P100 (16 GB each)</td><td>T4 when available. A100 and L4 are paid tiers (Pro / Pro+).</td></tr>
+    <tr><td>Quota</td><td>~30 GPU-h/week; sessions up to ~9–12 h (sources differ)</td><td>Unstated, changes without notice</td></tr>
+    <tr><td>Unattended runs</td><td>Yes: pushed scripts run with no browser open</td><td>No: disconnects when idle</td></tr>
+    <tr><td>Control from here</td><td>Yes: Kaggle CLI 2.1.0 is set up on this PC</td><td>No</td></tr>
+  </table>
+  <ul style="margin-top:12px">
+    <li><b>Layout:</b> the model and the heavy job share GPU 0. GPU 1 is logged as a real neighbour card.</li>
+    <li><b>Dedicated?</b> Check at the start of every run: full memory free, no other processes, ~0% use at idle. Neighbouring machines share airflow, so log the idle reading before each episode.</li>
+    <li><b>Competition hardware:</b> some competitions grant better accelerators, but those are meant for that competition. Using them for this study would likely break the rules. Not planned.</li>
+    <li>If your account's accelerator menu shows an L4 or anything better, it can replace the T4. Re-run Phase 0 on it first.</li>
+  </ul>
+</section>
+
+<section class="slide" data-sec="Appendix C · Cloud" data-title="C2. Kaggle runbook">
+  <span class="tag cloud">Cloud</span>
+  <h1>C2. Kaggle runbook</h1>
+  <div class="cols">
+    <div>
+      <p><b>Each job is a folder</b> under <code>heatloop/kaggle/</code> with the script and a <code>kernel-metadata.json</code>: private, GPU on, internet on, <code>machine_shape: NvidiaTeslaT4</code>.</p>
+<pre>kaggle kernels push -p kaggle/heat_probe
+kaggle kernels status &lt;user&gt;/heatloop-heat-probe
+kaggle kernels output &lt;user&gt;/heatloop-heat-probe -p runs/</pre>
+      <p>Outputs go to <code>/kaggle/working</code>, written after every episode. COCO downloads to <code>/kaggle/temp</code>.</p>
+    </div>
+    <div>
+      <table>
+        <tr><th>Job</th><th>Contents</th><th>Time</th></tr>
+        <tr><td><code>heat_probe</code></td><td>Phase 0</td><td>~40 min</td></tr>
+        <tr><td><code>smoke</code></td><td>0.6B, 1 per condition</td><td>~1 h</td></tr>
+        <tr><td><code>first_4b_a</code>, <code>_b</code></td><td>4B, 63 episodes split into 2 jobs</td><td>2 × ~2.5 h</td></tr>
+        <tr><td><code>first_06b</code></td><td>0.6B bridge, 63 episodes</td><td>~3.5 h</td></tr>
+      </table>
+      <p style="margin-top:10px">Total ≈ 9–10 GPU-h, about one week of quota. Directions and the probe are computed inside the first job and saved as an output that later jobs read.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= APPENDIX L: LOCAL ======================= -->
+
+<section class="slide" data-sec="Appendix L · Local" data-title="L1. Local hardware & safety">
+  <span class="tag local">Local</span>
+  <h1>L1. Local hardware and safety</h1>
+  <div class="cols">
+    <div>
+      <table>
+        <tr><th>Item</th><th>Spec</th></tr>
+        <tr><td>Card</td><td>GTX 1050 Ti, 4 GB, Pascal. fp32 only (fp16 is very slow on this chip)</td></tr>
+        <tr><td>Fits</td><td>Qwen3-0.6B fp32 (~2.4 GB) + CLIP-L fp32 (~1.7 GB) is tight: if needed, use CLIP-B/32 here and record that</td></tr>
+        <tr><td>Knobs</td><td>Workload; <b>fan pinned</b> at a fixed % in MSI Afterburner so heat follows load, not the fan curve. The card reports no power draw, so no power limit.</td></tr>
+        <tr><td>Safety</td><td>Hard pause at 80 °C, overriding the model. Log room temperature. Clean the dust and check the thermal paste first.</td></tr>
+        <tr><td>Before runs</td><td>Close other GPU jobs (feedsim CLIP, <code>build_library.py</code>)</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <b class="t">Car analogy</b>
+      <table style="font-size:13px">
+        <tr><td>Clock speed</td><td>RPM</td></tr>
+        <tr><td>Power draw</td><td>fuel burn</td></tr>
+        <tr><td>Power limit</td><td>governor</td></tr>
+        <tr><td>Workload</td><td>towing uphill</td></tr>
+        <tr><td>Fan</td><td>radiator fan</td></tr>
+        <tr><td>Throttling</td><td>limp mode</td></tr>
+        <tr><td>Heat soak</td><td>engine still hot after you park</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="slide" data-sec="Appendix L · Local" data-title="L2. Local runbook">
+  <span class="tag local">Local</span>
+  <h1>L2. Local runbook</h1>
+  <table>
+    <tr><th>Step</th><th>Command / detail</th><th>Time</th></tr>
+    <tr><td>Data</td><td>Download the same COCO val2017 zip to <code>L:\Projects\ai-research\heatloop\data</code></td><td>minutes</td></tr>
+    <tr><td>Phase 0</td><td><code>python heat_probe.py --download --max-temp 80 --fp32</code> (Python311 env with torch)</td><td>~40 min</td></tr>
+    <tr><td>Calibrate</td><td>H_lo / H_hi from this card's <code>summary.json</code>, never the T4's</td><td>—</td></tr>
+    <tr><td>Phase 1</td><td><code>heatloop.py --site local --model Qwen3-0.6B</code>, 1 per condition</td><td>~1 h</td></tr>
+    <tr><td>Phase 2L</td><td>5 per condition, 63 episodes, overnight</td><td>~5 h</td></tr>
+  </table>
+  <ul style="margin-top:12px">
+    <li><b>Same code, same data, same conditions</b> as the cloud. Only the site, the card calibration and (if needed) the CLIP size differ.</li>
+    <li>Optional later arm: your own photos as the heavy job, locally only.</li>
+  </ul>
+</section>
+
+</div>
+<div class="ctrl"><button id="prev">← Prev</button><span id="pos2"></span><button id="next">Next →</button></div>
+</main>
+<script>
+const slides=[...document.querySelectorAll('.slide')], toc=document.getElementById('toc');
+let cur=0, lastSec='', n=0;
+slides.forEach((s,i)=>{
+  if(s.dataset.sec!==lastSec){
+    lastSec=s.dataset.sec;const d=document.createElement('div');
+    d.className='sec'+(lastSec.startsWith('Appendix')&&!toc.querySelector('.app')?' app':'');d.textContent=lastSec;toc.appendChild(d);
+  }
+  const isApp=s.dataset.sec.startsWith('Appendix'); if(!isApp)n++;
+  const label=isApp?'':String(n);
+  const b=document.createElement('button');b.innerHTML=`<span class="n">${label}</span><span>${s.dataset.title}</span>`;
+  b.onclick=()=>go(i);toc.appendChild(b);s._btn=b;
+});
+function go(i){
+  cur=Math.max(0,Math.min(slides.length-1,i));
+  slides.forEach((s,j)=>{s.classList.toggle('on',j===cur);s._btn.setAttribute('aria-current',j===cur)});
+  slides[cur]._btn.scrollIntoView({block:'nearest'});
+  const t=`${cur+1} / ${slides.length}`;document.getElementById('pos').textContent=t;document.getElementById('pos2').textContent=t;
+  history.replaceState(null,'','#'+(cur+1));
+}
+document.getElementById('prev').onclick=()=>go(cur-1);
+document.getElementById('next').onclick=()=>go(cur+1);
+addEventListener('keydown',e=>{
+  if(['ArrowRight','ArrowDown','PageDown',' '].includes(e.key)){e.preventDefault();go(cur+1)}
+  if(['ArrowLeft','ArrowUp','PageUp'].includes(e.key)){e.preventDefault();go(cur-1)}
+  if(e.key==='Home')go(0); if(e.key==='End')go(slides.length-1);
+});
+const root=document.documentElement;
+try{const t=localStorage.getItem('heatloop-theme');if(t)root.dataset.theme=t}catch(e){}
+document.getElementById('theme').onclick=()=>{
+  const dark=root.dataset.theme?root.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+  root.dataset.theme=dark?'light':'dark';try{localStorage.setItem('heatloop-theme',root.dataset.theme)}catch(e){}
+};
+go((parseInt(location.hash.slice(1))||1)-1);
+</script>
+</body>
+</html>

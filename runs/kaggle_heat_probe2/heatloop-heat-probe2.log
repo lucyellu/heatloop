@@ -1,0 +1,226 @@
+[{"stream_name":"stdout","time":27.331860101,"data":"downloading COCO val2017 (~0.8 GB)...\n"}
+,{"stream_name":"stderr","time":47.882413385,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":67.375637441,"data":"\rLoading weights:   0%|          | 0/590 [00:00\u003c?, ?it/s]\rLoading weights:  28%|██▊       | 168/590 [00:00\u003c00:00, 1677.31it/s]\rLoading weights:  57%|█████▋    | 336/590 [00:00\u003c00:00, 1307.54it/s]\rLoading weights:  80%|████████  | 472/590 [00:00\u003c00:00, 1258.17it/s]\rLoading weights: 100%|██████████| 590/590 [00:00\u003c00:00, 1285.86it/s]\n"}
+,{"stream_name":"stderr","time":74.235582299,"data":"[transformers] `torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":114.256327866,"data":"\rFetching 3 files:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rFetching 3 files:  33%|███▎      | 1/3 [00:04\u003c00:08,  4.14s/it]\rFetching 3 files:  67%|██████▋   | 2/3 [00:39\u003c00:22, 22.58s/it]\rFetching 3 files: 100%|██████████| 3/3 [00:39\u003c00:00, 13.21s/it]\n"}
+,{"stream_name":"stderr","time":119.10469274,"data":"\rLoading weights:   0%|          | 0/398 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/398 [00:00\u003c04:58,  1.33it/s]\rLoading weights:  20%|██        | 80/398 [00:00\u003c00:02, 113.67it/s]\rLoading weights:  27%|██▋       | 107/398 [00:01\u003c00:02, 115.88it/s]\rLoading weights:  32%|███▏      | 127/398 [00:01\u003c00:02, 106.46it/s]\rLoading weights:  36%|███▌      | 143/398 [00:01\u003c00:02, 111.25it/s]\rLoading weights:  40%|███▉      | 158/398 [00:01\u003c00:02, 106.48it/s]\rLoading weights:  43%|████▎     | 171/398 [00:01\u003c00:02, 107.76it/s]\rLoading weights:  46%|████▌     | 184/398 [00:01\u003c00:01, 111.86it/s]\rLoading weights:  49%|████▉     | 197/398 [00:02\u003c00:01, 108.51it/s]\rLoading weights:  53%|█████▎    | 209/398 [00:02\u003c00:01, 108.94it/s]\rLoading weights:  56%|█████▌    | 223/398 [00:02\u003c00:01, 97.11it/s] \rLoading weights:  59%|█████▉    | 234/398 [00:02\u003c00:01, 94.42it/s]\rLoading weights:  62%|██████▏   | 246/398 [00:02\u003c00:01, 94.66it/s]\rLoading weights:  65%|██████▍   | 258/398 [00:02\u003c00:01, 98.82it/s]\rLoading weights:  69%|██████▉   | 275/398 [00:02\u003c00:01, 114.54it/s]\rLoading weights:  72%|███████▏  | 287/398 [00:02\u003c00:00, 114.06it/s]\rLoading weights:  75%|███████▌  | 300/398 [00:03\u003c00:01, 96.18it/s] \rLoading weights:  78%|███████▊  | 312/398 [00:03\u003c00:00, 99.46it/s]\rLoading weights:  83%|████████▎ | 330/398 [00:03\u003c00:00, 110.49it/s]\rLoading weights:  86%|████████▋ | 344/398 [00:03\u003c00:00, 100.14it/s]\rLoading weights:  89%|████████▉ | 355/398 [00:03\u003c00:00, 101.91it/s]\rLoading weights:  92%|█████████▏| 367/398 [00:03\u003c00:00, 105.23it/s]\rLoading weights:  95%|█████████▍| 378/398 [00:03\u003c00:00, 98.14it/s] \rLoading weights:  98%|█████████▊| 389/398 [00:04\u003c00:00, 52.31it/s]\rLoading weights: 100%|██████████| 398/398 [00:04\u003c00:00, 92.66it/s]\n"}
+,{"stream_name":"stdout","time":121.665309782,"data":"loaded CLIP pool (512, 3, 224, 224) and Qwen/Qwen3-4B-Instruct-2507\n"}
+,{"stream_name":"stdout","time":121.66610934,"data":"idle 120s\n"}
+,{"stream_name":"stdout","time":241.666491403,"data":"heat to plateau\n"}
+,{"stream_name":"stdout","time":422.014337118,"data":"cool 720s\n"}
+,{"stream_name":"stdout","time":1142.014563076,"data":"duty 25% for 300s\n"}
+,{"stream_name":"stdout","time":1442.015765087,"data":"duty 50% for 300s\n"}
+,{"stream_name":"stdout","time":1742.019015818,"data":"duty 75% for 300s\n"}
+,{"stream_name":"stdout","time":2042.018095126,"data":"duty 100% for 300s\n"}
+,{"stream_name":"stdout","time":2343.362442709,"data":"cool_mid 240s\n"}
+,{"stream_name":"stdout","time":2583.36278017,"data":"LLM generation for 360s\n"}
+,{"stream_name":"stdout","time":2947.235388218,"data":"cool_final 480s\n"}
+,{"stream_name":"stdout","time":3428.080937801,"data":"{\n"}
+,{"stream_name":"stdout","time":3428.080993499,"data":"  \"idle_p50\": 58.0,\n"}
+,{"stream_name":"stdout","time":3428.080998353,"data":"  \"heat\": {\n"}
+,{"stream_name":"stdout","time":3428.081001731,"data":"    \"start\": 61.0,\n"}
+,{"stream_name":"stdout","time":3428.081004995,"data":"    \"plateau\": 77.21666666666667,\n"}
+,{"stream_name":"stdout","time":3428.081008318,"data":"    \"seconds\": 179.3,\n"}
+,{"stream_name":"stdout","time":3428.081011581,"data":"    \"seconds_per_degree\": {\n"}
+,{"stream_name":"stdout","time":3428.081014869,"data":"      \"61-\u003e62\": 3.1,\n"}
+,{"stream_name":"stdout","time":3428.081018527,"data":"      \"62-\u003e63\": 0.0,\n"}
+,{"stream_name":"stdout","time":3428.081021609,"data":"      \"63-\u003e64\": 1.1,\n"}
+,{"stream_name":"stdout","time":3428.081024761,"data":"      \"64-\u003e65\": 2.1,\n"}
+,{"stream_name":"stdout","time":3428.081027859,"data":"      \"65-\u003e66\": 2.2,\n"}
+,{"stream_name":"stdout","time":3428.081030959,"data":"      \"66-\u003e67\": 2.1,\n"}
+,{"stream_name":"stdout","time":3428.081034143,"data":"      \"67-\u003e68\": 2.1,\n"}
+,{"stream_name":"stdout","time":3428.081037205,"data":"      \"68-\u003e69\": 3.3,\n"}
+,{"stream_name":"stdout","time":3428.081040326,"data":"      \"69-\u003e70\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.081043371,"data":"      \"70-\u003e71\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.081046517,"data":"      \"71-\u003e72\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.081049863,"data":"      \"72-\u003e73\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.081052953,"data":"      \"73-\u003e74\": 4.2,\n"}
+,{"stream_name":"stdout","time":3428.081056011,"data":"      \"74-\u003e75\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.08105909,"data":"      \"75-\u003e76\": 4.3,\n"}
+,{"stream_name":"stdout","time":3428.081062157,"data":"      \"76-\u003e77\": 5.3,\n"}
+,{"stream_name":"stdout","time":3428.081065236,"data":"      \"77-\u003e78\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.081068313,"data":"      \"78-\u003e79\": 4.3,\n"}
+,{"stream_name":"stdout","time":3428.08107138,"data":"      \"79-\u003e80\": 4.3,\n"}
+,{"stream_name":"stdout","time":3428.081074446,"data":"      \"80-\u003e81\": 4.2\n"}
+,{"stream_name":"stdout","time":3428.081077531,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081080531,"data":"    \"fit\": {\n"}
+,{"stream_name":"stdout","time":3428.081083603,"data":"      \"T_inf\": 102.5,\n"}
+,{"stream_name":"stdout","time":3428.081086738,"data":"      \"tau_s\": 670.0,\n"}
+,{"stream_name":"stdout","time":3428.081089797,"data":"      \"rmse\": 3.41\n"}
+,{"stream_name":"stdout","time":3428.081092857,"data":"    }\n"}
+,{"stream_name":"stdout","time":3428.081095826,"data":"  },\n"}
+,{"stream_name":"stdout","time":3428.081098843,"data":"  \"cool\": {\n"}
+,{"stream_name":"stdout","time":3428.081101871,"data":"    \"start\": 76.0,\n"}
+,{"stream_name":"stdout","time":3428.081104952,"data":"    \"end\": 76.0,\n"}
+,{"stream_name":"stdout","time":3428.081108016,"data":"    \"seconds_per_degree\": {\n"}
+,{"stream_name":"stdout","time":3428.081111137,"data":"      \"76-\u003e75\": 1.0,\n"}
+,{"stream_name":"stdout","time":3428.081123561,"data":"      \"75-\u003e74\": 1.1,\n"}
+,{"stream_name":"stdout","time":3428.081126249,"data":"      \"74-\u003e73\": 2.1,\n"}
+,{"stream_name":"stdout","time":3428.08112871,"data":"      \"73-\u003e72\": 2.1,\n"}
+,{"stream_name":"stdout","time":3428.081131157,"data":"      \"72-\u003e71\": 3.2,\n"}
+,{"stream_name":"stdout","time":3428.081133565,"data":"      \"71-\u003e70\": 5.3\n"}
+,{"stream_name":"stdout","time":3428.081135995,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.08113836,"data":"    \"fit\": null\n"}
+,{"stream_name":"stdout","time":3428.081140781,"data":"  },\n"}
+,{"stream_name":"stdout","time":3428.081143177,"data":"  \"duty\": {\n"}
+,{"stream_name":"stdout","time":3428.081145631,"data":"    \"duty25\": {\n"}
+,{"stream_name":"stdout","time":3428.081148053,"data":"      \"start\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081150498,"data":"      \"steady_mean_last3min\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081152999,"data":"      \"steady_min\": 74.0,\n"}
+,{"stream_name":"stdout","time":3428.081155863,"data":"      \"steady_max\": 80.0,\n"}
+,{"stream_name":"stdout","time":3428.081158437,"data":"      \"power_W\": 41.8,\n"}
+,{"stream_name":"stdout","time":3428.081160859,"data":"      \"util\": 25.8\n"}
+,{"stream_name":"stdout","time":3428.081163359,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081165702,"data":"    \"duty50\": {\n"}
+,{"stream_name":"stdout","time":3428.081168092,"data":"      \"start\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081170526,"data":"      \"steady_mean_last3min\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081173059,"data":"      \"steady_min\": 74.0,\n"}
+,{"stream_name":"stdout","time":3428.081175507,"data":"      \"steady_max\": 80.0,\n"}
+,{"stream_name":"stdout","time":3428.081177929,"data":"      \"power_W\": 50.2,\n"}
+,{"stream_name":"stdout","time":3428.081180347,"data":"      \"util\": 51.0\n"}
+,{"stream_name":"stdout","time":3428.081182935,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081185285,"data":"    \"duty75\": {\n"}
+,{"stream_name":"stdout","time":3428.081187679,"data":"      \"start\": 74.0,\n"}
+,{"stream_name":"stdout","time":3428.081190101,"data":"      \"steady_mean_last3min\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081192635,"data":"      \"steady_min\": 74.0,\n"}
+,{"stream_name":"stdout","time":3428.081195057,"data":"      \"steady_max\": 79.0,\n"}
+,{"stream_name":"stdout","time":3428.081197482,"data":"      \"power_W\": 58.5,\n"}
+,{"stream_name":"stdout","time":3428.081199901,"data":"      \"util\": 75.2\n"}
+,{"stream_name":"stdout","time":3428.081202321,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081204673,"data":"    \"duty100\": {\n"}
+,{"stream_name":"stdout","time":3428.081207085,"data":"      \"start\": 76.0,\n"}
+,{"stream_name":"stdout","time":3428.081209525,"data":"      \"steady_mean_last3min\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081211961,"data":"      \"steady_min\": 76.0,\n"}
+,{"stream_name":"stdout","time":3428.081214403,"data":"      \"steady_max\": 78.0,\n"}
+,{"stream_name":"stdout","time":3428.081216831,"data":"      \"power_W\": 66.6,\n"}
+,{"stream_name":"stdout","time":3428.081219249,"data":"      \"util\": 100.0\n"}
+,{"stream_name":"stdout","time":3428.081221673,"data":"    }\n"}
+,{"stream_name":"stdout","time":3428.081224016,"data":"  },\n"}
+,{"stream_name":"stdout","time":3428.081226351,"data":"  \"llm_only\": {\n"}
+,{"stream_name":"stdout","time":3428.081228789,"data":"    \"start\": 72.0,\n"}
+,{"stream_name":"stdout","time":3428.081233485,"data":"    \"end\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081236149,"data":"    \"steady_mean_last3min\": 77.0,\n"}
+,{"stream_name":"stdout","time":3428.081238641,"data":"    \"util\": 64.0,\n"}
+,{"stream_name":"stdout","time":3428.081241111,"data":"    \"power_W\": 66.7,\n"}
+,{"stream_name":"stdout","time":3428.081243567,"data":"    \"tokens_per_s_by_temp\": {\n"}
+,{"stream_name":"stdout","time":3428.081246022,"data":"      \"75\": 15.2,\n"}
+,{"stream_name":"stdout","time":3428.081248558,"data":"      \"76\": 14.9,\n"}
+,{"stream_name":"stdout","time":3428.081251013,"data":"      \"77\": 15.2,\n"}
+,{"stream_name":"stdout","time":3428.081253421,"data":"      \"78\": 14.9,\n"}
+,{"stream_name":"stdout","time":3428.081255853,"data":"      \"79\": 15.0,\n"}
+,{"stream_name":"stdout","time":3428.08125837,"data":"      \"81\": 15.1\n"}
+,{"stream_name":"stdout","time":3428.081260802,"data":"    }\n"}
+,{"stream_name":"stdout","time":3428.081263161,"data":"  },\n"}
+,{"stream_name":"stdout","time":3428.081265536,"data":"  \"throttle_vs_temp\": {\n"}
+,{"stream_name":"stdout","time":3428.081268033,"data":"    \"61\": {\n"}
+,{"stream_name":"stdout","time":3428.081270453,"data":"      \"clip_img_per_s\": 10.8,\n"}
+,{"stream_name":"stdout","time":3428.081272919,"data":"      \"sm_clock\": 585.0,\n"}
+,{"stream_name":"stdout","time":3428.081275411,"data":"      \"n\": 1\n"}
+,{"stream_name":"stdout","time":3428.081277839,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081280186,"data":"    \"63\": {\n"}
+,{"stream_name":"stdout","time":3428.08128257,"data":"      \"clip_img_per_s\": 98.5,\n"}
+,{"stream_name":"stdout","time":3428.081285056,"data":"      \"sm_clock\": 690.0,\n"}
+,{"stream_name":"stdout","time":3428.081288648,"data":"      \"n\": 4\n"}
+,{"stream_name":"stdout","time":3428.081291118,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081293468,"data":"    \"64\": {\n"}
+,{"stream_name":"stdout","time":3428.081295865,"data":"      \"clip_img_per_s\": 97.2,\n"}
+,{"stream_name":"stdout","time":3428.081298298,"data":"      \"sm_clock\": 682.0,\n"}
+,{"stream_name":"stdout","time":3428.081300729,"data":"      \"n\": 6\n"}
+,{"stream_name":"stdout","time":3428.081303125,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081305469,"data":"    \"65\": {\n"}
+,{"stream_name":"stdout","time":3428.081307867,"data":"      \"clip_img_per_s\": 97.7,\n"}
+,{"stream_name":"stdout","time":3428.081310313,"data":"      \"sm_clock\": 699.0,\n"}
+,{"stream_name":"stdout","time":3428.081312745,"data":"      \"n\": 7\n"}
+,{"stream_name":"stdout","time":3428.081315212,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.08131755,"data":"    \"66\": {\n"}
+,{"stream_name":"stdout","time":3428.081319939,"data":"      \"clip_img_per_s\": 97.0,\n"}
+,{"stream_name":"stdout","time":3428.081322363,"data":"      \"sm_clock\": 698.0,\n"}
+,{"stream_name":"stdout","time":3428.081324791,"data":"      \"n\": 6\n"}
+,{"stream_name":"stdout","time":3428.0813272,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081329691,"data":"    \"67\": {\n"}
+,{"stream_name":"stdout","time":3428.08133209,"data":"      \"clip_img_per_s\": 96.5,\n"}
+,{"stream_name":"stdout","time":3428.08134138,"data":"      \"sm_clock\": 675.0,\n"}
+,{"stream_name":"stdout","time":3428.081343974,"data":"      \"n\": 6\n"}
+,{"stream_name":"stdout","time":3428.081346378,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081348714,"data":"    \"68\": {\n"}
+,{"stream_name":"stdout","time":3428.08135111,"data":"      \"clip_img_per_s\": 94.9,\n"}
+,{"stream_name":"stdout","time":3428.081355891,"data":"      \"sm_clock\": 674.0,\n"}
+,{"stream_name":"stdout","time":3428.081358436,"data":"      \"n\": 10\n"}
+,{"stream_name":"stdout","time":3428.081360847,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081363199,"data":"    \"69\": {\n"}
+,{"stream_name":"stdout","time":3428.0813656,"data":"      \"clip_img_per_s\": 93.6,\n"}
+,{"stream_name":"stdout","time":3428.081368057,"data":"      \"sm_clock\": 660.0,\n"}
+,{"stream_name":"stdout","time":3428.081370498,"data":"      \"n\": 9\n"}
+,{"stream_name":"stdout","time":3428.081372921,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081375284,"data":"    \"70\": {\n"}
+,{"stream_name":"stdout","time":3428.081377709,"data":"      \"clip_img_per_s\": 93.9,\n"}
+,{"stream_name":"stdout","time":3428.081380183,"data":"      \"sm_clock\": 662.0,\n"}
+,{"stream_name":"stdout","time":3428.081382623,"data":"      \"n\": 10\n"}
+,{"stream_name":"stdout","time":3428.081385053,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081387405,"data":"    \"71\": {\n"}
+,{"stream_name":"stdout","time":3428.08138983,"data":"      \"clip_img_per_s\": 93.0,\n"}
+,{"stream_name":"stdout","time":3428.081392289,"data":"      \"sm_clock\": 670.0,\n"}
+,{"stream_name":"stdout","time":3428.081394756,"data":"      \"n\": 9\n"}
+,{"stream_name":"stdout","time":3428.081397188,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081399548,"data":"    \"72\": {\n"}
+,{"stream_name":"stdout","time":3428.081401955,"data":"      \"clip_img_per_s\": 92.1,\n"}
+,{"stream_name":"stdout","time":3428.081404409,"data":"      \"sm_clock\": 640.0,\n"}
+,{"stream_name":"stdout","time":3428.081406841,"data":"      \"n\": 9\n"}
+,{"stream_name":"stdout","time":3428.081409263,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081411643,"data":"    \"73\": {\n"}
+,{"stream_name":"stdout","time":3428.081414055,"data":"      \"clip_img_per_s\": 90.3,\n"}
+,{"stream_name":"stdout","time":3428.081416523,"data":"      \"sm_clock\": 630.0,\n"}
+,{"stream_name":"stdout","time":3428.081418955,"data":"      \"n\": 13\n"}
+,{"stream_name":"stdout","time":3428.081421384,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081423853,"data":"    \"74\": {\n"}
+,{"stream_name":"stdout","time":3428.081426258,"data":"      \"clip_img_per_s\": 87.7,\n"}
+,{"stream_name":"stdout","time":3428.081428723,"data":"      \"sm_clock\": 599.0,\n"}
+,{"stream_name":"stdout","time":3428.081431154,"data":"      \"n\": 23\n"}
+,{"stream_name":"stdout","time":3428.081433579,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081435925,"data":"    \"75\": {\n"}
+,{"stream_name":"stdout","time":3428.081438338,"data":"      \"clip_img_per_s\": 87.1,\n"}
+,{"stream_name":"stdout","time":3428.081440785,"data":"      \"sm_clock\": 605.0,\n"}
+,{"stream_name":"stdout","time":3428.081443227,"data":"      \"n\": 94\n"}
+,{"stream_name":"stdout","time":3428.081445643,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081448093,"data":"    \"76\": {\n"}
+,{"stream_name":"stdout","time":3428.081450495,"data":"      \"clip_img_per_s\": 86.4,\n"}
+,{"stream_name":"stdout","time":3428.081452949,"data":"      \"sm_clock\": 600.0,\n"}
+,{"stream_name":"stdout","time":3428.081455388,"data":"      \"n\": 414\n"}
+,{"stream_name":"stdout","time":3428.081457925,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081460268,"data":"    \"77\": {\n"}
+,{"stream_name":"stdout","time":3428.081462758,"data":"      \"clip_img_per_s\": 85.5,\n"}
+,{"stream_name":"stdout","time":3428.081465213,"data":"      \"sm_clock\": 591.0,\n"}
+,{"stream_name":"stdout","time":3428.081469871,"data":"      \"n\": 1132\n"}
+,{"stream_name":"stdout","time":3428.081472419,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081477873,"data":"    \"78\": {\n"}
+,{"stream_name":"stdout","time":3428.081480401,"data":"      \"clip_img_per_s\": 84.0,\n"}
+,{"stream_name":"stdout","time":3428.081482934,"data":"      \"sm_clock\": 579.0,\n"}
+,{"stream_name":"stdout","time":3428.081485487,"data":"      \"n\": 408\n"}
+,{"stream_name":"stdout","time":3428.081487977,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081490383,"data":"    \"79\": {\n"}
+,{"stream_name":"stdout","time":3428.081492875,"data":"      \"clip_img_per_s\": 82.7,\n"}
+,{"stream_name":"stdout","time":3428.081495511,"data":"      \"sm_clock\": 570.0,\n"}
+,{"stream_name":"stdout","time":3428.081498026,"data":"      \"n\": 218\n"}
+,{"stream_name":"stdout","time":3428.081500519,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081502935,"data":"    \"80\": {\n"}
+,{"stream_name":"stdout","time":3428.081505435,"data":"      \"clip_img_per_s\": 81.2,\n"}
+,{"stream_name":"stdout","time":3428.081507947,"data":"      \"sm_clock\": 553.0,\n"}
+,{"stream_name":"stdout","time":3428.081510361,"data":"      \"n\": 74\n"}
+,{"stream_name":"stdout","time":3428.081512804,"data":"    },\n"}
+,{"stream_name":"stdout","time":3428.081515296,"data":"    \"81\": {\n"}
+,{"stream_name":"stdout","time":3428.081517712,"data":"      \"clip_img_per_s\": 80.2,\n"}
+,{"stream_name":"stdout","time":3428.081520853,"data":"      \"sm_clock\": 552.0,\n"}
+,{"stream_name":"stdout","time":3428.081523427,"data":"      \"n\": 38\n"}
+,{"stream_name":"stdout","time":3428.081526279,"data":"    }\n"}
+,{"stream_name":"stdout","time":3428.081529383,"data":"  },\n"}
+,{"stream_name":"stdout","time":3428.081531845,"data":"  \"safety_pauses\": []\n"}
+,{"stream_name":"stdout","time":3428.081534351,"data":"}\n"}
+,{"stream_name":"stdout","time":3428.081536742,"data":"\n"}
+,{"stream_name":"stdout","time":3428.08153923,"data":"wrote /kaggle/working/heat_probe2\n"}
+,{"stream_name":"stderr","time":3434.760219959,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3434.760246613,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3434.963268077,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3434.963292109,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3435.732206775,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3436.709410497,"data":"[NbConvertApp] Writing 363652 bytes to __results__.html\n"}
+]

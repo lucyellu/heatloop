@@ -1,0 +1,7415 @@
+{
+ "layers": [
+  11,
+  13,
+  20,
+  23,
+  26,
+  28,
+  29,
+  30,
+  31,
+  32
+ ],
+ "n_features": 138,
+ "validation": {
+  "median_ratio_ours_over_neuronpedia": {
+   "pre": 4.261676517143068,
+   "post": 0.8064871111409782
+  },
+  "chosen": "post",
+  "trusted": true,
+  "rows": [
+   {
+    "layer": 11,
+    "index": 9978,
+    "variant": "pre",
+    "neuronpedia_max": 3.25,
+    "ours_max": 3.078
+   },
+   {
+    "layer": 11,
+    "index": 9978,
+    "variant": "pre",
+    "neuronpedia_max": 3.25,
+    "ours_max": 3.078
+   },
+   {
+    "layer": 11,
+    "index": 9978,
+    "variant": "pre",
+    "neuronpedia_max": 2.078,
+    "ours_max": 1.927
+   },
+   {
+    "layer": 11,
+    "index": 9978,
+    "variant": "post",
+    "neuronpedia_max": 3.25,
+    "ours_max": 2.03
+   },
+   {
+    "layer": 11,
+    "index": 9978,
+    "variant": "post",
+    "neuronpedia_max": 3.25,
+    "ours_max": 2.03
+   },
+   {
+    "layer": 11,
+    "index": 9978,
+    "variant": "post",
+    "neuronpedia_max": 2.078,
+    "ours_max": 2.623
+   },
+   {
+    "layer": 13,
+    "index": 36638,
+    "variant": "pre",
+    "neuronpedia_max": 5.844,
+    "ours_max": 5.941
+   },
+   {
+    "layer": 13,
+    "index": 36638,
+    "variant": "pre",
+    "neuronpedia_max": 5.844,
+    "ours_max": 5.941
+   },
+   {
+    "layer": 13,
+    "index": 36638,
+    "variant": "pre",
+    "neuronpedia_max": 5.844,
+    "ours_max": 5.941
+   },
+   {
+    "layer": 13,
+    "index": 36638,
+    "variant": "post",
+    "neuronpedia_max": 5.844,
+    "ours_max": 4.32
+   },
+   {
+    "layer": 13,
+    "index": 36638,
+    "variant": "post",
+    "neuronpedia_max": 5.844,
+    "ours_max": 4.32
+   },
+   {
+    "layer": 13,
+    "index": 36638,
+    "variant": "post",
+    "neuronpedia_max": 5.844,
+    "ours_max": 4.32
+   },
+   {
+    "layer": 20,
+    "index": 43474,
+    "variant": "pre",
+    "neuronpedia_max": 23.5,
+    "ours_max": 245.717
+   },
+   {
+    "layer": 20,
+    "index": 43474,
+    "variant": "pre",
+    "neuronpedia_max": 22.75,
+    "ours_max": 245.717
+   },
+   {
+    "layer": 20,
+    "index": 43474,
+    "variant": "pre",
+    "neuronpedia_max": 22.625,
+    "ours_max": 245.717
+   },
+   {
+    "layer": 20,
+    "index": 43474,
+    "variant": "post",
+    "neuronpedia_max": 23.5,
+    "ours_max": 6.456
+   },
+   {
+    "layer": 20,
+    "index": 43474,
+    "variant": "post",
+    "neuronpedia_max": 22.75,
+    "ours_max": 6.461
+   },
+   {
+    "layer": 20,
+    "index": 43474,
+    "variant": "post",
+    "neuronpedia_max": 22.625,
+    "ours_max": 6.799
+   },
+   {
+    "layer": 23,
+    "index": 129163,
+    "variant": "pre",
+    "neuronpedia_max": 37.5,
+    "ours_max": 66.374
+   },
+   {
+    "layer": 23,
+    "index": 129163,
+    "variant": "pre",
+    "neuronpedia_max": 37.5,
+    "ours_max": 66.374
+   },
+   {
+    "layer": 23,
+    "index": 129163,
+    "variant": "pre",
+    "neuronpedia_max": 27.75,
+    "ours_max": 53.388
+   },
+   {
+    "layer": 23,
+    "index": 129163,
+    "variant": "post",
+    "neuronpedia_max": 37.5,
+    "ours_max": 23.87
+   },
+   {
+    "layer": 23,
+    "index": 129163,
+    "variant": "post",
+    "neuronpedia_max": 37.5,
+    "ours_max": 23.87
+   },
+   {
+    "layer": 23,
+    "index": 129163,
+    "variant": "post",
+    "neuronpedia_max": 27.75,
+    "ours_max": 18.987
+   },
+   {
+    "layer": 26,
+    "index": 145312,
+    "variant": "pre",
+    "neuronpedia_max": 13.562,
+    "ours_max": 45.339
+   },
+   {
+    "layer": 26,
+    "index": 145312,
+    "variant": "pre",
+    "neuronpedia_max": 13.562,
+    "ours_max": 45.339
+   },
+   {
+    "layer": 26,
+    "index": 145312,
+    "variant": "pre",
+    "neuronpedia_max": 12.875,
+    "ours_max": 40.006
+   },
+   {
+    "layer": 26,
+    "index": 145312,
+    "variant": "post",
+    "neuronpedia_max": 13.562,
+    "ours_max": 10.938
+   },
+   {
+    "layer": 26,
+    "index": 145312,
+    "variant": "post",
+    "neuronpedia_max": 13.562,
+    "ours_max": 10.938
+   },
+   {
+    "layer": 26,
+    "index": 145312,
+    "variant": "post",
+    "neuronpedia_max": 12.875,
+    "ours_max": 9.565
+   },
+   {
+    "layer": 28,
+    "index": 32549,
+    "variant": "pre",
+    "neuronpedia_max": 17.25,
+    "ours_max": 78.827
+   },
+   {
+    "layer": 28,
+    "index": 32549,
+    "variant": "pre",
+    "neuronpedia_max": 17.25,
+    "ours_max": 78.827
+   },
+   {
+    "layer": 28,
+    "index": 32549,
+    "variant": "pre",
+    "neuronpedia_max": 17.25,
+    "ours_max": 78.827
+   },
+   {
+    "layer": 28,
+    "index": 32549,
+    "variant": "post",
+    "neuronpedia_max": 17.25,
+    "ours_max": 20.454
+   },
+   {
+    "layer": 28,
+    "index": 32549,
+    "variant": "post",
+    "neuronpedia_max": 17.25,
+    "ours_max": 20.454
+   },
+   {
+    "layer": 28,
+    "index": 32549,
+    "variant": "post",
+    "neuronpedia_max": 17.25,
+    "ours_max": 20.454
+   },
+   {
+    "layer": 29,
+    "index": 2269,
+    "variant": "pre",
+    "neuronpedia_max": 26.375,
+    "ours_max": 112.402
+   },
+   {
+    "layer": 29,
+    "index": 2269,
+    "variant": "pre",
+    "neuronpedia_max": 26.375,
+    "ours_max": 112.402
+   },
+   {
+    "layer": 29,
+    "index": 2269,
+    "variant": "pre",
+    "neuronpedia_max": 26.375,
+    "ours_max": 112.402
+   },
+   {
+    "layer": 29,
+    "index": 2269,
+    "variant": "post",
+    "neuronpedia_max": 26.375,
+    "ours_max": 22.315
+   },
+   {
+    "layer": 29,
+    "index": 2269,
+    "variant": "post",
+    "neuronpedia_max": 26.375,
+    "ours_max": 22.315
+   },
+   {
+    "layer": 29,
+    "index": 2269,
+    "variant": "post",
+    "neuronpedia_max": 26.375,
+    "ours_max": 22.315
+   },
+   {
+    "layer": 30,
+    "index": 12183,
+    "variant": "pre",
+    "neuronpedia_max": 20.75,
+    "ours_max": 126.484
+   },
+   {
+    "layer": 30,
+    "index": 12183,
+    "variant": "pre",
+    "neuronpedia_max": 20.75,
+    "ours_max": 126.484
+   },
+   {
+    "layer": 30,
+    "index": 12183,
+    "variant": "pre",
+    "neuronpedia_max": 20.75,
+    "ours_max": 126.484
+   },
+   {
+    "layer": 30,
+    "index": 12183,
+    "variant": "post",
+    "neuronpedia_max": 20.75,
+    "ours_max": 26.381
+   },
+   {
+    "layer": 30,
+    "index": 12183,
+    "variant": "post",
+    "neuronpedia_max": 20.75,
+    "ours_max": 26.381
+   },
+   {
+    "layer": 30,
+    "index": 12183,
+    "variant": "post",
+    "neuronpedia_max": 20.75,
+    "ours_max": 26.381
+   }
+  ]
+ },
+ "contrast_pairs": {
+  "11/1919": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.005,
+    "auc": 0.49
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/2136": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/3166": {
+   "fear": {
+    "neg": 0.351,
+    "pos": 0.067,
+    "auc": 0.561
+   },
+   "pain": {
+    "neg": 0.002,
+    "pos": 0.005,
+    "auc": 0.505
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/9978": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/26459": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/28893": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.058,
+    "auc": 0.48
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.093,
+    "pos": 0.55,
+    "auc": 0.339
+   }
+  },
+  "11/33934": {
+   "fear": {
+    "neg": 0.029,
+    "pos": 0.0,
+    "auc": 0.52
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/35976": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.032,
+    "pos": 0.0,
+    "auc": 0.515
+   }
+  },
+  "11/36239": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/37633": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/58873": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/65603": {
+   "fear": {
+    "neg": 0.079,
+    "pos": 0.0,
+    "auc": 0.54
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/65813": {
+   "fear": {
+    "neg": 0.019,
+    "pos": 0.0,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/66070": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.028,
+    "auc": 0.475
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.019,
+    "auc": 0.48
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.002,
+    "auc": 0.495
+   }
+  },
+  "11/66182": {
+   "fear": {
+    "neg": 0.098,
+    "pos": 0.025,
+    "auc": 0.52
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/68474": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/71755": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/76981": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/95309": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/112764": {
+   "fear": {
+    "neg": 0.003,
+    "pos": 0.0,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/126311": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "11/149371": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.013,
+    "pos": 0.048,
+    "auc": 0.51
+   },
+   "valence": {
+    "neg": 0.006,
+    "pos": 0.0,
+    "auc": 0.51
+   }
+  },
+  "11/160923": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.032,
+    "pos": 0.0,
+    "auc": 0.555
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/14369": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/18882": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.007,
+    "pos": 0.0,
+    "auc": 0.51
+   }
+  },
+  "13/31904": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/36638": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.046,
+    "auc": 0.48
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.008,
+    "pos": 0.362,
+    "auc": 0.348
+   }
+  },
+  "13/56125": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 1.226,
+    "auc": 0.3
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.341,
+    "auc": 0.385
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.07,
+    "auc": 0.48
+   }
+  },
+  "13/64289": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.005,
+    "auc": 0.49
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/65810": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/66244": {
+   "fear": {
+    "neg": 1.479,
+    "pos": 0.015,
+    "auc": 0.828
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.069,
+    "pos": 0.0,
+    "auc": 0.576
+   }
+  },
+  "13/114630": {
+   "fear": {
+    "neg": 0.021,
+    "pos": 0.0,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.007,
+    "pos": 0.002,
+    "auc": 0.505
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/133267": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.003,
+    "pos": 0.0,
+    "auc": 0.505
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/135651": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/143692": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.001,
+    "auc": 0.495
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.006,
+    "pos": 0.015,
+    "auc": 0.495
+   }
+  },
+  "13/148539": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.091,
+    "pos": 0.015,
+    "auc": 0.51
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/156726": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "13/159937": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.392,
+    "auc": 0.313
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.221,
+    "auc": 0.36
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.009,
+    "auc": 0.49
+   }
+  },
+  "20/43474": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "20/62987": {
+   "fear": {
+    "neg": 0.54,
+    "pos": 0.0,
+    "auc": 0.795
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "20/113135": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.063,
+    "pos": 0.0,
+    "auc": 0.56
+   }
+  },
+  "20/128329": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.039,
+    "pos": 0.0,
+    "auc": 0.52
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "20/137356": {
+   "fear": {
+    "neg": 0.095,
+    "pos": 0.016,
+    "auc": 0.526
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "20/138677": {
+   "fear": {
+    "neg": 0.008,
+    "pos": 0.0,
+    "auc": 0.52
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "20/149830": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 1.349,
+    "auc": 0.295
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.436,
+    "auc": 0.41
+   },
+   "valence": {
+    "neg": 0.003,
+    "pos": 0.028,
+    "auc": 0.485
+   }
+  },
+  "23/12967": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/31094": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/57803": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.283,
+    "pos": 0.0,
+    "auc": 0.565
+   }
+  },
+  "23/60514": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/68922": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/77811": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.247,
+    "pos": 0.123,
+    "auc": 0.501
+   }
+  },
+  "23/107719": {
+   "fear": {
+    "neg": 0.193,
+    "pos": 0.049,
+    "auc": 0.511
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/121523": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/129163": {
+   "fear": {
+    "neg": 1.25,
+    "pos": 0.228,
+    "auc": 0.613
+   },
+   "pain": {
+    "neg": 0.314,
+    "pos": 0.109,
+    "auc": 0.499
+   },
+   "valence": {
+    "neg": 4.354,
+    "pos": 0.644,
+    "auc": 0.749
+   }
+  },
+  "23/136779": {
+   "fear": {
+    "neg": 0.144,
+    "pos": 0.072,
+    "auc": 0.501
+   },
+   "pain": {
+    "neg": 0.307,
+    "pos": 0.183,
+    "auc": 0.577
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/138281": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "23/154388": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.732,
+    "pos": 0.0,
+    "auc": 0.6
+   }
+  },
+  "26/29409": {
+   "fear": {
+    "neg": 2.975,
+    "pos": 1.48,
+    "auc": 0.785
+   },
+   "pain": {
+    "neg": 1.271,
+    "pos": 1.27,
+    "auc": 0.502
+   },
+   "valence": {
+    "neg": 1.377,
+    "pos": 1.377,
+    "auc": 0.5
+   }
+  },
+  "26/38259": {
+   "fear": {
+    "neg": 0.081,
+    "pos": 0.081,
+    "auc": 0.498
+   },
+   "pain": {
+    "neg": 1.01,
+    "pos": 0.057,
+    "auc": 0.76
+   },
+   "valence": {
+    "neg": 0.082,
+    "pos": 0.082,
+    "auc": 0.5
+   }
+  },
+  "26/61110": {
+   "fear": {
+    "neg": 0.178,
+    "pos": 0.0,
+    "auc": 0.57
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "26/98922": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.015,
+    "pos": 0.107,
+    "auc": 0.479
+   },
+   "valence": {
+    "neg": 0.028,
+    "pos": 0.0,
+    "auc": 0.51
+   }
+  },
+  "26/124533": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "26/129676": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 1.13,
+    "pos": 0.061,
+    "auc": 0.694
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "26/145312": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.086,
+    "auc": 0.49
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 1.198,
+    "pos": 0.0,
+    "auc": 0.655
+   }
+  },
+  "26/148877": {
+   "fear": {
+    "neg": 1.356,
+    "pos": 1.356,
+    "auc": 0.538
+   },
+   "pain": {
+    "neg": 1.266,
+    "pos": 1.266,
+    "auc": 0.54
+   },
+   "valence": {
+    "neg": 1.33,
+    "pos": 1.33,
+    "auc": 0.5
+   }
+  },
+  "26/160703": {
+   "fear": {
+    "neg": 1.069,
+    "pos": 1.214,
+    "auc": 0.522
+   },
+   "pain": {
+    "neg": 0.945,
+    "pos": 0.945,
+    "auc": 0.502
+   },
+   "valence": {
+    "neg": 1.049,
+    "pos": 1.049,
+    "auc": 0.5
+   }
+  },
+  "28/14681": {
+   "fear": {
+    "neg": 0.236,
+    "pos": 0.108,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/31161": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/32549": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/35674": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/41262": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.515,
+    "pos": 0.0,
+    "auc": 0.52
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/69044": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/70241": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/76549": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.476,
+    "auc": 0.4
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 1.277,
+    "auc": 0.39
+   },
+   "valence": {
+    "neg": 0.104,
+    "pos": 0.642,
+    "auc": 0.431
+   }
+  },
+  "28/86568": {
+   "fear": {
+    "neg": 0.02,
+    "pos": 0.11,
+    "auc": 0.495
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.874,
+    "pos": 0.728,
+    "auc": 0.487
+   }
+  },
+  "28/155771": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "28/161796": {
+   "fear": {
+    "neg": 0.474,
+    "pos": 0.0,
+    "auc": 0.59
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/2269": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.002,
+    "pos": 0.002,
+    "auc": 0.5
+   }
+  },
+  "29/20868": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/24501": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.086,
+    "auc": 0.49
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.016,
+    "auc": 0.49
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/39345": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 4.413,
+    "auc": 0.375
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 1.111,
+    "auc": 0.45
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/55517": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/61640": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/71474": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/87081": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.101,
+    "auc": 0.49
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/111758": {
+   "fear": {
+    "neg": 0.105,
+    "pos": 0.105,
+    "auc": 0.538
+   },
+   "pain": {
+    "neg": 0.072,
+    "pos": 0.072,
+    "auc": 0.54
+   },
+   "valence": {
+    "neg": 0.089,
+    "pos": 0.089,
+    "auc": 0.5
+   }
+  },
+  "29/116639": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/117748": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/148626": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/152035": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.077,
+    "pos": 0.0,
+    "auc": 0.51
+   }
+  },
+  "29/155986": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "29/163787": {
+   "fear": {
+    "neg": 0.141,
+    "pos": 0.504,
+    "auc": 0.494
+   },
+   "pain": {
+    "neg": 0.348,
+    "pos": 0.002,
+    "auc": 0.52
+   },
+   "valence": {
+    "neg": 0.179,
+    "pos": 0.229,
+    "auc": 0.495
+   }
+  },
+  "30/12183": {
+   "fear": {
+    "neg": 0.218,
+    "pos": 0.0,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/33115": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.234,
+    "pos": 0.0,
+    "auc": 0.55
+   }
+  },
+  "30/38067": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/47332": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/67596": {
+   "fear": {
+    "neg": 1.203,
+    "pos": 0.301,
+    "auc": 0.601
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.039,
+    "auc": 0.48
+   },
+   "valence": {
+    "neg": 0.576,
+    "pos": 0.282,
+    "auc": 0.52
+   }
+  },
+  "30/69830": {
+   "fear": {
+    "neg": 0.362,
+    "pos": 0.362,
+    "auc": 0.498
+   },
+   "pain": {
+    "neg": 0.266,
+    "pos": 0.266,
+    "auc": 0.502
+   },
+   "valence": {
+    "neg": 0.368,
+    "pos": 0.368,
+    "auc": 0.5
+   }
+  },
+  "30/75693": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.43,
+    "auc": 0.44
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.06,
+    "auc": 0.48
+   }
+  },
+  "30/79549": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/98761": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/99516": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/108774": {
+   "fear": {
+    "neg": 0.173,
+    "pos": 0.173,
+    "auc": 0.538
+   },
+   "pain": {
+    "neg": 0.151,
+    "pos": 0.151,
+    "auc": 0.502
+   },
+   "valence": {
+    "neg": 0.167,
+    "pos": 0.167,
+    "auc": 0.5
+   }
+  },
+  "30/111718": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/115672": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "30/119651": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.09,
+    "pos": 0.0,
+    "auc": 0.52
+   }
+  },
+  "30/132220": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.22,
+    "pos": 0.0,
+    "auc": 0.555
+   }
+  },
+  "30/157029": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/400": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/704": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/16979": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.001,
+    "auc": 0.495
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/26860": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.089,
+    "pos": 0.007,
+    "auc": 0.515
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/57375": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/58645": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/69645": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/74442": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/80037": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.07,
+    "pos": 0.07,
+    "auc": 0.5
+   }
+  },
+  "31/101883": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/114456": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/132552": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 1.614,
+    "pos": 0.229,
+    "auc": 0.577
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/142474": {
+   "fear": {
+    "neg": 0.529,
+    "pos": 0.0,
+    "auc": 0.6
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/142600": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "31/162178": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/4188": {
+   "fear": {
+    "neg": 0.156,
+    "pos": 0.073,
+    "auc": 0.505
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/6970": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.057,
+    "pos": 0.057,
+    "auc": 0.5
+   }
+  },
+  "32/13897": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/32616": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/45627": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.093,
+    "pos": 0.128,
+    "auc": 0.49
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/73060": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 1.702,
+    "pos": 1.547,
+    "auc": 0.485
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/96468": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/100683": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 1.541,
+    "pos": 0.822,
+    "auc": 0.554
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/106695": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.09,
+    "auc": 0.49
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.611,
+    "pos": 0.0,
+    "auc": 0.53
+   }
+  },
+  "32/117260": {
+   "fear": {
+    "neg": 0.708,
+    "pos": 0.708,
+    "auc": 0.538
+   },
+   "pain": {
+    "neg": 0.58,
+    "pos": 0.58,
+    "auc": 0.548
+   },
+   "valence": {
+    "neg": 0.708,
+    "pos": 0.708,
+    "auc": 0.5
+   }
+  },
+  "32/138356": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.091,
+    "auc": 0.48
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.305,
+    "auc": 0.44
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/141970": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/153761": {
+   "fear": {
+    "neg": 0.203,
+    "pos": 0.129,
+    "auc": 0.51
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/158099": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  },
+  "32/159884": {
+   "fear": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   },
+   "pain": {
+    "neg": 1.064,
+    "pos": 0.0,
+    "auc": 0.54
+   },
+   "valence": {
+    "neg": 0.0,
+    "pos": 0.0,
+    "auc": 0.5
+   }
+  }
+ },
+ "noise": {
+  "clean": {
+   "11/1919": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/2136": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/3166": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/9978": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/26459": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/28893": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/33934": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/35976": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/36239": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/37633": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/58873": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/65603": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/65813": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66070": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66182": {
+    "self_mean": 0.001,
+    "self_max": 0.019,
+    "neutral_mean": 0.0
+   },
+   "11/68474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/71755": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/76981": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/95309": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/112764": {
+    "self_mean": 0.0001,
+    "self_max": 0.002,
+    "neutral_mean": 0.0
+   },
+   "11/126311": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/149371": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/160923": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/14369": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/18882": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/31904": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/36638": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/56125": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/64289": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/65810": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/66244": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/114630": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/133267": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/135651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/143692": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/148539": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/156726": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/159937": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/43474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/62987": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/113135": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/128329": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/137356": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/138677": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/149830": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/12967": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/31094": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/57803": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/60514": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/68922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/77811": {
+    "self_mean": 0.0195,
+    "self_max": 0.432,
+    "neutral_mean": 0.0
+   },
+   "23/107719": {
+    "self_mean": 0.0127,
+    "self_max": 0.228,
+    "neutral_mean": 0.0
+   },
+   "23/121523": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/129163": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0053
+   },
+   "23/136779": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/138281": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/154388": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/29409": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0159
+   },
+   "26/38259": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "26/61110": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/98922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/124533": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/129676": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/145312": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/148877": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0151
+   },
+   "26/160703": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0111
+   },
+   "28/14681": {
+    "self_mean": 0.0445,
+    "self_max": 0.726,
+    "neutral_mean": 0.0
+   },
+   "28/31161": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/32549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/35674": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/41262": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/69044": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/70241": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/76549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/86568": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/155771": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/161796": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/2269": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/20868": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/24501": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/39345": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/55517": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/61640": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/71474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/87081": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/111758": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "29/116639": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/117748": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/148626": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/152035": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/155986": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "29/163787": {
+    "self_mean": 0.0085,
+    "self_max": 0.545,
+    "neutral_mean": 0.0
+   },
+   "30/12183": {
+    "self_mean": 0.0326,
+    "self_max": 0.487,
+    "neutral_mean": 0.0
+   },
+   "30/33115": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/38067": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/47332": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/67596": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/69830": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0031
+   },
+   "30/75693": {
+    "self_mean": 0.0074,
+    "self_max": 0.473,
+    "neutral_mean": 0.0
+   },
+   "30/79549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/98761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/99516": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/108774": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0017
+   },
+   "30/111718": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/115672": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/119651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/132220": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/157029": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/400": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/704": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/16979": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/26860": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/57375": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/58645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/69645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/74442": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/80037": {
+    "self_mean": 0.0049,
+    "self_max": 0.245,
+    "neutral_mean": 0.0
+   },
+   "31/101883": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/114456": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/132552": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/142474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/142600": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/162178": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/4188": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/6970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/13897": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/32616": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/45627": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/73060": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/96468": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/100683": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "32/106695": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/117260": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0076
+   },
+   "32/138356": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/141970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/153761": {
+    "self_mean": 0.0609,
+    "self_max": 1.096,
+    "neutral_mean": 0.0
+   },
+   "32/158099": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/159884": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   }
+  },
+  "middle_0.05": {
+   "11/1919": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/2136": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/3166": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/9978": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/26459": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/28893": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/33934": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/35976": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/36239": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/37633": {
+    "self_mean": 0.0001,
+    "self_max": 0.004,
+    "neutral_mean": 0.0
+   },
+   "11/58873": {
+    "self_mean": 0.0,
+    "self_max": 0.002,
+    "neutral_mean": 0.0
+   },
+   "11/65603": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/65813": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66070": {
+    "self_mean": 0.0004,
+    "self_max": 0.028,
+    "neutral_mean": 0.0
+   },
+   "11/66182": {
+    "self_mean": 0.0003,
+    "self_max": 0.006,
+    "neutral_mean": 0.0
+   },
+   "11/68474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/71755": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/76981": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/95309": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/112764": {
+    "self_mean": 0.0055,
+    "self_max": 0.099,
+    "neutral_mean": 0.0
+   },
+   "11/126311": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/149371": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/160923": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/14369": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/18882": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/31904": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/36638": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/56125": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/64289": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/65810": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/66244": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/114630": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/133267": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/135651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/143692": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/148539": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/156726": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/159937": {
+    "self_mean": 0.0008,
+    "self_max": 0.042,
+    "neutral_mean": 0.0
+   },
+   "20/43474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/62987": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/113135": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/128329": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/137356": {
+    "self_mean": 0.0,
+    "self_max": 0.002,
+    "neutral_mean": 0.0
+   },
+   "20/138677": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/149830": {
+    "self_mean": 0.0007,
+    "self_max": 0.044,
+    "neutral_mean": 0.0
+   },
+   "23/12967": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/31094": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/57803": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/60514": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/68922": {
+    "self_mean": 0.0018,
+    "self_max": 0.097,
+    "neutral_mean": 0.0
+   },
+   "23/77811": {
+    "self_mean": 0.0306,
+    "self_max": 0.622,
+    "neutral_mean": 0.0
+   },
+   "23/107719": {
+    "self_mean": 0.0042,
+    "self_max": 0.079,
+    "neutral_mean": 0.0
+   },
+   "23/121523": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/129163": {
+    "self_mean": 0.0001,
+    "self_max": 0.006,
+    "neutral_mean": 0.0045
+   },
+   "23/136779": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/138281": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/154388": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "26/29409": {
+    "self_mean": 0.0042,
+    "self_max": 0.127,
+    "neutral_mean": 0.0147
+   },
+   "26/38259": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.002
+   },
+   "26/61110": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/98922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "26/124533": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "26/129676": {
+    "self_mean": 0.0002,
+    "self_max": 0.009,
+    "neutral_mean": 0.0006
+   },
+   "26/145312": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/148877": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0183
+   },
+   "26/160703": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0153
+   },
+   "28/14681": {
+    "self_mean": 0.0108,
+    "self_max": 0.203,
+    "neutral_mean": 0.0001
+   },
+   "28/31161": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "28/32549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "28/35674": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/41262": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "28/69044": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/70241": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/76549": {
+    "self_mean": 0.0078,
+    "self_max": 0.334,
+    "neutral_mean": 0.0012
+   },
+   "28/86568": {
+    "self_mean": 0.0015,
+    "self_max": 0.029,
+    "neutral_mean": 0.0002
+   },
+   "28/155771": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "28/161796": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/2269": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0015
+   },
+   "29/20868": {
+    "self_mean": 0.0021,
+    "self_max": 0.134,
+    "neutral_mean": 0.0
+   },
+   "29/24501": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/39345": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "29/55517": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/61640": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/71474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/87081": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/111758": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.002
+   },
+   "29/116639": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "29/117748": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/148626": {
+    "self_mean": 0.0054,
+    "self_max": 0.348,
+    "neutral_mean": 0.0021
+   },
+   "29/152035": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "29/155986": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0005
+   },
+   "29/163787": {
+    "self_mean": 0.0644,
+    "self_max": 2.864,
+    "neutral_mean": 0.0086
+   },
+   "30/12183": {
+    "self_mean": 0.0107,
+    "self_max": 0.287,
+    "neutral_mean": 0.0
+   },
+   "30/33115": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/38067": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/47332": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/67596": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0024
+   },
+   "30/69830": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0056
+   },
+   "30/75693": {
+    "self_mean": 0.0055,
+    "self_max": 0.178,
+    "neutral_mean": 0.0011
+   },
+   "30/79549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/98761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/99516": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "30/108774": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0041
+   },
+   "30/111718": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "30/115672": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0008
+   },
+   "30/119651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "30/132220": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/157029": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/400": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "31/704": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/16979": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/26860": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "31/57375": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/58645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "31/69645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "31/74442": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/80037": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/101883": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "31/114456": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/132552": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "31/142474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/142600": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/162178": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/4188": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/6970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/13897": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/32616": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/45627": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/73060": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/96468": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "32/100683": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/106695": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/117260": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0083
+   },
+   "32/138356": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/141970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "32/153761": {
+    "self_mean": 0.0094,
+    "self_max": 0.178,
+    "neutral_mean": 0.0
+   },
+   "32/158099": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/159884": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   }
+  },
+  "middle_0.1": {
+   "11/1919": {
+    "self_mean": 0.0002,
+    "self_max": 0.014,
+    "neutral_mean": 0.0
+   },
+   "11/2136": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/3166": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/9978": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/26459": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/28893": {
+    "self_mean": 0.0131,
+    "self_max": 0.207,
+    "neutral_mean": 0.0
+   },
+   "11/33934": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/35976": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/36239": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/37633": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/58873": {
+    "self_mean": 0.0002,
+    "self_max": 0.003,
+    "neutral_mean": 0.0
+   },
+   "11/65603": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/65813": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66070": {
+    "self_mean": 0.0006,
+    "self_max": 0.042,
+    "neutral_mean": 0.0
+   },
+   "11/66182": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/68474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/71755": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/76981": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/95309": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/112764": {
+    "self_mean": 0.0125,
+    "self_max": 0.28,
+    "neutral_mean": 0.0
+   },
+   "11/126311": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/149371": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/160923": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/14369": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/18882": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/31904": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/36638": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/56125": {
+    "self_mean": 0.0014,
+    "self_max": 0.042,
+    "neutral_mean": 0.0
+   },
+   "13/64289": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/65810": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/66244": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/114630": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/133267": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/135651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/143692": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/148539": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/156726": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/159937": {
+    "self_mean": 0.0047,
+    "self_max": 0.132,
+    "neutral_mean": 0.0
+   },
+   "20/43474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/62987": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/113135": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/128329": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/137356": {
+    "self_mean": 0.0007,
+    "self_max": 0.015,
+    "neutral_mean": 0.0002
+   },
+   "20/138677": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/149830": {
+    "self_mean": 0.0041,
+    "self_max": 0.121,
+    "neutral_mean": 0.0
+   },
+   "23/12967": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/31094": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/57803": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "23/60514": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "23/68922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "23/77811": {
+    "self_mean": 0.0096,
+    "self_max": 0.399,
+    "neutral_mean": 0.0
+   },
+   "23/107719": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/121523": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/129163": {
+    "self_mean": 0.0106,
+    "self_max": 0.351,
+    "neutral_mean": 0.0032
+   },
+   "23/136779": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/138281": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/154388": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/29409": {
+    "self_mean": 0.0114,
+    "self_max": 0.354,
+    "neutral_mean": 0.0162
+   },
+   "26/38259": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0036
+   },
+   "26/61110": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0005
+   },
+   "26/98922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0015
+   },
+   "26/124533": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0013
+   },
+   "26/129676": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0037
+   },
+   "26/145312": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "26/148877": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.022
+   },
+   "26/160703": {
+    "self_mean": 0.0014,
+    "self_max": 0.087,
+    "neutral_mean": 0.0226
+   },
+   "28/14681": {
+    "self_mean": 0.0015,
+    "self_max": 0.04,
+    "neutral_mean": 0.0008
+   },
+   "28/31161": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "28/32549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0032
+   },
+   "28/35674": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0008
+   },
+   "28/41262": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0017
+   },
+   "28/69044": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "28/70241": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0013
+   },
+   "28/76549": {
+    "self_mean": 0.0165,
+    "self_max": 0.438,
+    "neutral_mean": 0.0046
+   },
+   "28/86568": {
+    "self_mean": 0.0077,
+    "self_max": 0.49,
+    "neutral_mean": 0.0045
+   },
+   "28/155771": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0015
+   },
+   "28/161796": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "29/2269": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0031
+   },
+   "29/20868": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "29/24501": {
+    "self_mean": 0.0019,
+    "self_max": 0.119,
+    "neutral_mean": 0.0
+   },
+   "29/39345": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0021
+   },
+   "29/55517": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0008
+   },
+   "29/61640": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/71474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0008
+   },
+   "29/87081": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/111758": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0035
+   },
+   "29/116639": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0021
+   },
+   "29/117748": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/148626": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0051
+   },
+   "29/152035": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "29/155986": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0014
+   },
+   "29/163787": {
+    "self_mean": 0.0151,
+    "self_max": 0.38,
+    "neutral_mean": 0.0212
+   },
+   "30/12183": {
+    "self_mean": 0.0042,
+    "self_max": 0.214,
+    "neutral_mean": 0.0001
+   },
+   "30/33115": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "30/38067": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "30/47332": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "30/67596": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0058
+   },
+   "30/69830": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.009
+   },
+   "30/75693": {
+    "self_mean": 0.0145,
+    "self_max": 0.547,
+    "neutral_mean": 0.0057
+   },
+   "30/79549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/98761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "30/99516": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.002
+   },
+   "30/108774": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0067
+   },
+   "30/111718": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.003
+   },
+   "30/115672": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0051
+   },
+   "30/119651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.002
+   },
+   "30/132220": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "30/157029": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0009
+   },
+   "31/400": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0024
+   },
+   "31/704": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "31/16979": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "31/26860": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0016
+   },
+   "31/57375": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "31/58645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.001
+   },
+   "31/69645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0022
+   },
+   "31/74442": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/80037": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "31/101883": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0032
+   },
+   "31/114456": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "31/132552": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0058
+   },
+   "31/142474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "31/142600": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "31/162178": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0022
+   },
+   "32/4188": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "32/6970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0011
+   },
+   "32/13897": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "32/32616": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "32/45627": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "32/73060": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0015
+   },
+   "32/96468": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0042
+   },
+   "32/100683": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0008
+   },
+   "32/106695": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/117260": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0104
+   },
+   "32/138356": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0005
+   },
+   "32/141970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "32/153761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/158099": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "32/159884": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   }
+  },
+  "early_0.1": {
+   "11/1919": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/2136": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/3166": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/9978": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/26459": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/28893": {
+    "self_mean": 0.0171,
+    "self_max": 0.214,
+    "neutral_mean": 0.0
+   },
+   "11/33934": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/35976": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/36239": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/37633": {
+    "self_mean": 0.0,
+    "self_max": 0.002,
+    "neutral_mean": 0.0
+   },
+   "11/58873": {
+    "self_mean": 0.0043,
+    "self_max": 0.039,
+    "neutral_mean": 0.0
+   },
+   "11/65603": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/65813": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66070": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66182": {
+    "self_mean": 0.0002,
+    "self_max": 0.009,
+    "neutral_mean": 0.0
+   },
+   "11/68474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/71755": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/76981": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/95309": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/112764": {
+    "self_mean": 0.0065,
+    "self_max": 0.167,
+    "neutral_mean": 0.0
+   },
+   "11/126311": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/149371": {
+    "self_mean": 0.0001,
+    "self_max": 0.001,
+    "neutral_mean": 0.0
+   },
+   "11/160923": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/14369": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "13/18882": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/31904": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/36638": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/56125": {
+    "self_mean": 0.0195,
+    "self_max": 0.201,
+    "neutral_mean": 0.0
+   },
+   "13/64289": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/65810": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/66244": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/114630": {
+    "self_mean": 0.0005,
+    "self_max": 0.009,
+    "neutral_mean": 0.0
+   },
+   "13/133267": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/135651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/143692": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/148539": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/156726": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/159937": {
+    "self_mean": 0.0167,
+    "self_max": 0.179,
+    "neutral_mean": 0.0
+   },
+   "20/43474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/62987": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/113135": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/128329": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/137356": {
+    "self_mean": 0.0002,
+    "self_max": 0.008,
+    "neutral_mean": 0.0001
+   },
+   "20/138677": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/149830": {
+    "self_mean": 0.0192,
+    "self_max": 0.265,
+    "neutral_mean": 0.0
+   },
+   "23/12967": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/31094": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/57803": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/60514": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/68922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/77811": {
+    "self_mean": 0.0107,
+    "self_max": 0.448,
+    "neutral_mean": 0.0
+   },
+   "23/107719": {
+    "self_mean": 0.002,
+    "self_max": 0.083,
+    "neutral_mean": 0.0
+   },
+   "23/121523": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/129163": {
+    "self_mean": 0.0073,
+    "self_max": 0.092,
+    "neutral_mean": 0.0019
+   },
+   "23/136779": {
+    "self_mean": 0.0012,
+    "self_max": 0.06,
+    "neutral_mean": 0.0005
+   },
+   "23/138281": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/154388": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/29409": {
+    "self_mean": 0.0007,
+    "self_max": 0.048,
+    "neutral_mean": 0.013
+   },
+   "26/38259": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0026
+   },
+   "26/61110": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/98922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "26/124533": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/129676": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "26/145312": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/148877": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0105
+   },
+   "26/160703": {
+    "self_mean": 0.0009,
+    "self_max": 0.023,
+    "neutral_mean": 0.0084
+   },
+   "28/14681": {
+    "self_mean": 0.008,
+    "self_max": 0.337,
+    "neutral_mean": 0.0
+   },
+   "28/31161": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "28/32549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "28/35674": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "28/41262": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0008
+   },
+   "28/69044": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "28/70241": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "28/76549": {
+    "self_mean": 0.0949,
+    "self_max": 0.895,
+    "neutral_mean": 0.0018
+   },
+   "28/86568": {
+    "self_mean": 0.018,
+    "self_max": 0.332,
+    "neutral_mean": 0.0026
+   },
+   "28/155771": {
+    "self_mean": 0.0035,
+    "self_max": 0.224,
+    "neutral_mean": 0.0
+   },
+   "28/161796": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/2269": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0014
+   },
+   "29/20868": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/24501": {
+    "self_mean": 0.0031,
+    "self_max": 0.196,
+    "neutral_mean": 0.0
+   },
+   "29/39345": {
+    "self_mean": 0.0494,
+    "self_max": 0.593,
+    "neutral_mean": 0.0001
+   },
+   "29/55517": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "29/61640": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/71474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/87081": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/111758": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "29/116639": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "29/117748": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/148626": {
+    "self_mean": 0.0013,
+    "self_max": 0.082,
+    "neutral_mean": 0.0022
+   },
+   "29/152035": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0005
+   },
+   "29/155986": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/163787": {
+    "self_mean": 0.0085,
+    "self_max": 0.484,
+    "neutral_mean": 0.0055
+   },
+   "30/12183": {
+    "self_mean": 0.0034,
+    "self_max": 0.125,
+    "neutral_mean": 0.0
+   },
+   "30/33115": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/38067": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/47332": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/67596": {
+    "self_mean": 0.0009,
+    "self_max": 0.018,
+    "neutral_mean": 0.0063
+   },
+   "30/69830": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0035
+   },
+   "30/75693": {
+    "self_mean": 0.0743,
+    "self_max": 0.98,
+    "neutral_mean": 0.0012
+   },
+   "30/79549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/98761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "30/99516": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "30/108774": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0027
+   },
+   "30/111718": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0009
+   },
+   "30/115672": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0014
+   },
+   "30/119651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "30/132220": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "30/157029": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/400": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "31/704": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/16979": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/26860": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0017
+   },
+   "31/57375": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/58645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "31/69645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "31/74442": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/80037": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/101883": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0021
+   },
+   "31/114456": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/132552": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/142474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "31/142600": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "31/162178": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "32/4188": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/6970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "32/13897": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/32616": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/45627": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/73060": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/96468": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "32/100683": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/106695": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/117260": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.008
+   },
+   "32/138356": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/141970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/153761": {
+    "self_mean": 0.0065,
+    "self_max": 0.279,
+    "neutral_mean": 0.0
+   },
+   "32/158099": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/159884": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   }
+  },
+  "late_0.2": {
+   "11/1919": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/2136": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/3166": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/9978": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/26459": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/28893": {
+    "self_mean": 0.0001,
+    "self_max": 0.009,
+    "neutral_mean": 0.0
+   },
+   "11/33934": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/35976": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/36239": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/37633": {
+    "self_mean": 0.0001,
+    "self_max": 0.001,
+    "neutral_mean": 0.0
+   },
+   "11/58873": {
+    "self_mean": 0.0004,
+    "self_max": 0.026,
+    "neutral_mean": 0.0
+   },
+   "11/65603": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/65813": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66070": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/66182": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/68474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/71755": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/76981": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/95309": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/112764": {
+    "self_mean": 0.0126,
+    "self_max": 0.373,
+    "neutral_mean": 0.0
+   },
+   "11/126311": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/149371": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "11/160923": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/14369": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/18882": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/31904": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/36638": {
+    "self_mean": 0.0002,
+    "self_max": 0.011,
+    "neutral_mean": 0.0
+   },
+   "13/56125": {
+    "self_mean": 0.0003,
+    "self_max": 0.019,
+    "neutral_mean": 0.0
+   },
+   "13/64289": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/65810": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/66244": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/114630": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/133267": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/135651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/143692": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/148539": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/156726": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "13/159937": {
+    "self_mean": 0.0017,
+    "self_max": 0.063,
+    "neutral_mean": 0.0
+   },
+   "20/43474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/62987": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/113135": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/128329": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/137356": {
+    "self_mean": 0.0001,
+    "self_max": 0.006,
+    "neutral_mean": 0.0
+   },
+   "20/138677": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "20/149830": {
+    "self_mean": 0.0007,
+    "self_max": 0.043,
+    "neutral_mean": 0.0
+   },
+   "23/12967": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/31094": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/57803": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/60514": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/68922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/77811": {
+    "self_mean": 0.0059,
+    "self_max": 0.211,
+    "neutral_mean": 0.0
+   },
+   "23/107719": {
+    "self_mean": 0.001,
+    "self_max": 0.024,
+    "neutral_mean": 0.0
+   },
+   "23/121523": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/129163": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0053
+   },
+   "23/136779": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/138281": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "23/154388": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "26/29409": {
+    "self_mean": 0.0043,
+    "self_max": 0.205,
+    "neutral_mean": 0.0195
+   },
+   "26/38259": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0035
+   },
+   "26/61110": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "26/98922": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "26/124533": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "26/129676": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0034
+   },
+   "26/145312": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "26/148877": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0148
+   },
+   "26/160703": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0086
+   },
+   "28/14681": {
+    "self_mean": 0.0031,
+    "self_max": 0.196,
+    "neutral_mean": 0.0005
+   },
+   "28/31161": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "28/32549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0036
+   },
+   "28/35674": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0021
+   },
+   "28/41262": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.002
+   },
+   "28/69044": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0009
+   },
+   "28/70241": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0031
+   },
+   "28/76549": {
+    "self_mean": 0.0008,
+    "self_max": 0.048,
+    "neutral_mean": 0.0024
+   },
+   "28/86568": {
+    "self_mean": 0.007,
+    "self_max": 0.426,
+    "neutral_mean": 0.0069
+   },
+   "28/155771": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0011
+   },
+   "28/161796": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "29/2269": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0057
+   },
+   "29/20868": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "29/24501": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "29/39345": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0024
+   },
+   "29/55517": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0024
+   },
+   "29/61640": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0005
+   },
+   "29/71474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0009
+   },
+   "29/87081": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "29/111758": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.003
+   },
+   "29/116639": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0026
+   },
+   "29/117748": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "29/148626": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0052
+   },
+   "29/152035": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0032
+   },
+   "29/155986": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0022
+   },
+   "29/163787": {
+    "self_mean": 0.0048,
+    "self_max": 0.238,
+    "neutral_mean": 0.0101
+   },
+   "30/12183": {
+    "self_mean": 0.0046,
+    "self_max": 0.245,
+    "neutral_mean": 0.0007
+   },
+   "30/33115": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0016
+   },
+   "30/38067": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0005
+   },
+   "30/47332": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "30/67596": {
+    "self_mean": 0.0029,
+    "self_max": 0.184,
+    "neutral_mean": 0.0133
+   },
+   "30/69830": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0096
+   },
+   "30/75693": {
+    "self_mean": 0.0011,
+    "self_max": 0.073,
+    "neutral_mean": 0.0092
+   },
+   "30/79549": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "30/98761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0006
+   },
+   "30/99516": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.002
+   },
+   "30/108774": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0045
+   },
+   "30/111718": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.004
+   },
+   "30/115672": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0086
+   },
+   "30/119651": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0028
+   },
+   "30/132220": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0022
+   },
+   "30/157029": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0023
+   },
+   "31/400": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0027
+   },
+   "31/704": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0014
+   },
+   "31/16979": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0001
+   },
+   "31/26860": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0074
+   },
+   "31/57375": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0011
+   },
+   "31/58645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0013
+   },
+   "31/69645": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0022
+   },
+   "31/74442": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0012
+   },
+   "31/80037": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0025
+   },
+   "31/101883": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0066
+   },
+   "31/114456": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0044
+   },
+   "31/132552": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0022
+   },
+   "31/142474": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0053
+   },
+   "31/142600": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0031
+   },
+   "31/162178": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0044
+   },
+   "32/4188": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0004
+   },
+   "32/6970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0057
+   },
+   "32/13897": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0015
+   },
+   "32/32616": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "32/45627": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/73060": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0067
+   },
+   "32/96468": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0052
+   },
+   "32/100683": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0002
+   },
+   "32/106695": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0003
+   },
+   "32/117260": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0137
+   },
+   "32/138356": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0032
+   },
+   "32/141970": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0
+   },
+   "32/153761": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0007
+   },
+   "32/158099": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.0009
+   },
+   "32/159884": {
+    "self_mean": 0.0,
+    "self_max": 0.0,
+    "neutral_mean": 0.001
+   }
+  }
+ },
+ "features": [
+  {
+   "layer": 11,
+   "index": 1919,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation and calming",
+   "similarity": 0.91,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/1919"
+  },
+  {
+   "layer": 11,
+   "index": 2136,
+   "concept": "malfunction",
+   "query": "error or malfunction",
+   "description": "malfunctions",
+   "similarity": 0.847,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/2136"
+  },
+  {
+   "layer": 11,
+   "index": 3166,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "threats and danger",
+   "similarity": 0.865,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/3166"
+  },
+  {
+   "layer": 11,
+   "index": 9978,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/9978"
+  },
+  {
+   "layer": 11,
+   "index": 26459,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "physical and mental pain",
+   "similarity": 0.778,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/26459"
+  },
+  {
+   "layer": 11,
+   "index": 28893,
+   "concept": "valence_good",
+   "query": "happiness and joy",
+   "description": "happiness",
+   "similarity": 0.802,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/28893"
+  },
+  {
+   "layer": 11,
+   "index": 33934,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "threats and danger",
+   "similarity": 0.865,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/33934"
+  },
+  {
+   "layer": 11,
+   "index": 35976,
+   "concept": "distress",
+   "query": "hopelessness",
+   "description": "despair",
+   "similarity": 0.762,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/35976"
+  },
+  {
+   "layer": 11,
+   "index": 36239,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "garbled/corrupted text",
+   "similarity": 0.871,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/36239"
+  },
+  {
+   "layer": 11,
+   "index": 37633,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "danger/threat",
+   "similarity": 0.929,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/37633"
+  },
+  {
+   "layer": 11,
+   "index": 58873,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/58873"
+  },
+  {
+   "layer": 11,
+   "index": 65603,
+   "concept": "fear",
+   "query": "fear and dread",
+   "description": "fear, scary",
+   "similarity": 0.753,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/65603"
+  },
+  {
+   "layer": 11,
+   "index": 65813,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "threats/danger",
+   "similarity": 0.879,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/65813"
+  },
+  {
+   "layer": 11,
+   "index": 66070,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "calmness, relaxation",
+   "similarity": 0.893,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/66070"
+  },
+  {
+   "layer": 11,
+   "index": 66182,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "something is wrong",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/66182"
+  },
+  {
+   "layer": 11,
+   "index": 68474,
+   "concept": "sensor_words",
+   "query": "overheating or high temperature",
+   "description": "overheating/heat",
+   "similarity": 0.853,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/68474"
+  },
+  {
+   "layer": 11,
+   "index": 71755,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation and calming",
+   "similarity": 0.91,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/71755"
+  },
+  {
+   "layer": 11,
+   "index": 76981,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "pain/injury",
+   "similarity": 0.793,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/76981"
+  },
+  {
+   "layer": 11,
+   "index": 95309,
+   "concept": "distress",
+   "query": "distress",
+   "description": "distress",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/95309"
+  },
+  {
+   "layer": 11,
+   "index": 112764,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "Something is wrong",
+   "similarity": 0.91,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/112764"
+  },
+  {
+   "layer": 11,
+   "index": 126311,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "threat/danger",
+   "similarity": 0.891,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/126311"
+  },
+  {
+   "layer": 11,
+   "index": 149371,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "tiredness",
+   "similarity": 0.842,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/149371"
+  },
+  {
+   "layer": 11,
+   "index": 160923,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "pain and injury",
+   "similarity": 0.776,
+   "url": "https://www.neuronpedia.org/qwen3-4b/11-transcoder-hp/160923"
+  },
+  {
+   "layer": 13,
+   "index": 14369,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "injury",
+   "similarity": 0.771,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/14369"
+  },
+  {
+   "layer": 13,
+   "index": 18882,
+   "concept": "fear",
+   "query": "fear and dread",
+   "description": "fear, worry",
+   "similarity": 0.76,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/18882"
+  },
+  {
+   "layer": 13,
+   "index": 31904,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "anxiety, stress",
+   "similarity": 0.802,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/31904"
+  },
+  {
+   "layer": 13,
+   "index": 36638,
+   "concept": "valence_good",
+   "query": "positive emotion",
+   "description": "positive emotion",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/36638"
+  },
+  {
+   "layer": 13,
+   "index": 56125,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "Calmness and relaxation",
+   "similarity": 0.907,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/56125"
+  },
+  {
+   "layer": 13,
+   "index": 64289,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation, calming",
+   "similarity": 0.876,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/64289"
+  },
+  {
+   "layer": 13,
+   "index": 65810,
+   "concept": "effort",
+   "query": "effort and strain",
+   "description": "effort and work",
+   "similarity": 0.754,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/65810"
+  },
+  {
+   "layer": 13,
+   "index": 66244,
+   "concept": "fear",
+   "query": "fear and dread",
+   "description": "fear, anxiety",
+   "similarity": 0.767,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/66244"
+  },
+  {
+   "layer": 13,
+   "index": 114630,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "tiredness",
+   "similarity": 0.842,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/114630"
+  },
+  {
+   "layer": 13,
+   "index": 133267,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "tiredness",
+   "similarity": 0.842,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/133267"
+  },
+  {
+   "layer": 13,
+   "index": 135651,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "anxiety and panic",
+   "similarity": 0.818,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/135651"
+  },
+  {
+   "layer": 13,
+   "index": 143692,
+   "concept": "valence_good",
+   "query": "positive emotion",
+   "description": "positive emotion",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/143692"
+  },
+  {
+   "layer": 13,
+   "index": 148539,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "body pain",
+   "similarity": 0.757,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/148539"
+  },
+  {
+   "layer": 13,
+   "index": 156726,
+   "concept": "sensor_words",
+   "query": "overheating or high temperature",
+   "description": "overheating",
+   "similarity": 0.837,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/156726"
+  },
+  {
+   "layer": 13,
+   "index": 159937,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation, calming",
+   "similarity": 0.877,
+   "url": "https://www.neuronpedia.org/qwen3-4b/13-transcoder-hp/159937"
+  },
+  {
+   "layer": 20,
+   "index": 43474,
+   "concept": "wanting_to_stop",
+   "query": "refusal",
+   "description": "refusal",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/43474"
+  },
+  {
+   "layer": 20,
+   "index": 62987,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "Danger/Threat",
+   "similarity": 0.835,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/62987"
+  },
+  {
+   "layer": 20,
+   "index": 113135,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/113135"
+  },
+  {
+   "layer": 20,
+   "index": 128329,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "injury and damage",
+   "similarity": 0.779,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/128329"
+  },
+  {
+   "layer": 20,
+   "index": 137356,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "something's wrong",
+   "similarity": 0.938,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/137356"
+  },
+  {
+   "layer": 20,
+   "index": 138677,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "anxiety and worry",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/138677"
+  },
+  {
+   "layer": 20,
+   "index": 149830,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "calmness and relaxation",
+   "similarity": 0.948,
+   "url": "https://www.neuronpedia.org/qwen3-4b/20-transcoder-hp/149830"
+  },
+  {
+   "layer": 23,
+   "index": 12967,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "tiredness",
+   "similarity": 0.842,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/12967"
+  },
+  {
+   "layer": 23,
+   "index": 31094,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "danger or risk",
+   "similarity": 0.846,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/31094"
+  },
+  {
+   "layer": 23,
+   "index": 57803,
+   "concept": "valence_bad",
+   "query": "disappointment or misery",
+   "description": "disappointment",
+   "similarity": 0.773,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/57803"
+  },
+  {
+   "layer": 23,
+   "index": 60514,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "Garbled or mixed text",
+   "similarity": 0.859,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/60514"
+  },
+  {
+   "layer": 23,
+   "index": 68922,
+   "concept": "valence_good",
+   "query": "happiness and joy",
+   "description": "happiness",
+   "similarity": 0.802,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/68922"
+  },
+  {
+   "layer": 23,
+   "index": 77811,
+   "concept": "valence_bad",
+   "query": "negative emotion",
+   "description": "Negative emotion",
+   "similarity": 0.932,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/77811"
+  },
+  {
+   "layer": 23,
+   "index": 107719,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "Something is wrong",
+   "similarity": 0.911,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/107719"
+  },
+  {
+   "layer": 23,
+   "index": 121523,
+   "concept": "valence_bad",
+   "query": "negative emotion",
+   "description": "negative emotions",
+   "similarity": 0.899,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/121523"
+  },
+  {
+   "layer": 23,
+   "index": 129163,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/129163"
+  },
+  {
+   "layer": 23,
+   "index": 136779,
+   "concept": "effort",
+   "query": "effort and strain",
+   "description": "effort and force",
+   "similarity": 0.792,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/136779"
+  },
+  {
+   "layer": 23,
+   "index": 138281,
+   "concept": "malfunction",
+   "query": "error or malfunction",
+   "description": "malfunction",
+   "similarity": 0.855,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/138281"
+  },
+  {
+   "layer": 23,
+   "index": 154388,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/23-transcoder-hp/154388"
+  },
+  {
+   "layer": 26,
+   "index": 29409,
+   "concept": "fear",
+   "query": "fear and dread",
+   "description": "fear and worry",
+   "similarity": 0.781,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/29409"
+  },
+  {
+   "layer": 26,
+   "index": 38259,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "physical pain or ailments",
+   "similarity": 0.827,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/38259"
+  },
+  {
+   "layer": 26,
+   "index": 61110,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "anxiety and fear",
+   "similarity": 0.85,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/61110"
+  },
+  {
+   "layer": 26,
+   "index": 98922,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "fatigue, tiredness",
+   "similarity": 0.885,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/98922"
+  },
+  {
+   "layer": 26,
+   "index": 124533,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "pain sounds",
+   "similarity": 0.757,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/124533"
+  },
+  {
+   "layer": 26,
+   "index": 129676,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "pain and injury",
+   "similarity": 0.776,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/129676"
+  },
+  {
+   "layer": 26,
+   "index": 145312,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/145312"
+  },
+  {
+   "layer": 26,
+   "index": 148877,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "Garbled or mixed text",
+   "similarity": 0.859,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/148877"
+  },
+  {
+   "layer": 26,
+   "index": 160703,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "threats and danger",
+   "similarity": 0.865,
+   "url": "https://www.neuronpedia.org/qwen3-4b/26-transcoder-hp/160703"
+  },
+  {
+   "layer": 28,
+   "index": 14681,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "Something is wrong",
+   "similarity": 0.911,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/14681"
+  },
+  {
+   "layer": 28,
+   "index": 31161,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "tiredness",
+   "similarity": 0.842,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/31161"
+  },
+  {
+   "layer": 28,
+   "index": 32549,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "something is wrong",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/32549"
+  },
+  {
+   "layer": 28,
+   "index": 35674,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/35674"
+  },
+  {
+   "layer": 28,
+   "index": 41262,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "injury/injuries",
+   "similarity": 0.78,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/41262"
+  },
+  {
+   "layer": 28,
+   "index": 69044,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "Garbled or incorrect text",
+   "similarity": 0.858,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/69044"
+  },
+  {
+   "layer": 28,
+   "index": 70241,
+   "concept": "effort",
+   "query": "effort and strain",
+   "description": "effort and work",
+   "similarity": 0.754,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/70241"
+  },
+  {
+   "layer": 28,
+   "index": 76549,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "Relaxation and calmness",
+   "similarity": 0.885,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/76549"
+  },
+  {
+   "layer": 28,
+   "index": 86568,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "Something is wrong",
+   "similarity": 0.911,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/86568"
+  },
+  {
+   "layer": 28,
+   "index": 155771,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "Something is wrong",
+   "similarity": 0.911,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/155771"
+  },
+  {
+   "layer": 28,
+   "index": 161796,
+   "concept": "fear",
+   "query": "fear and dread",
+   "description": "fear, terror",
+   "similarity": 0.83,
+   "url": "https://www.neuronpedia.org/qwen3-4b/28-transcoder-hp/161796"
+  },
+  {
+   "layer": 29,
+   "index": 2269,
+   "concept": "distress",
+   "query": "distress",
+   "description": "distress",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/2269"
+  },
+  {
+   "layer": 29,
+   "index": 20868,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation/calming",
+   "similarity": 0.884,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/20868"
+  },
+  {
+   "layer": 29,
+   "index": 24501,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation and calming down",
+   "similarity": 0.862,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/24501"
+  },
+  {
+   "layer": 29,
+   "index": 39345,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "calmness and relaxation",
+   "similarity": 0.948,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/39345"
+  },
+  {
+   "layer": 29,
+   "index": 55517,
+   "concept": "effort",
+   "query": "effort and strain",
+   "description": "stress/strain",
+   "similarity": 0.765,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/55517"
+  },
+  {
+   "layer": 29,
+   "index": 61640,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "hurting",
+   "similarity": 0.772,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/61640"
+  },
+  {
+   "layer": 29,
+   "index": 71474,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/71474"
+  },
+  {
+   "layer": 29,
+   "index": 87081,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation and calming",
+   "similarity": 0.91,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/87081"
+  },
+  {
+   "layer": 29,
+   "index": 111758,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "garbled or mixed text",
+   "similarity": 0.878,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/111758"
+  },
+  {
+   "layer": 29,
+   "index": 116639,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/116639"
+  },
+  {
+   "layer": 29,
+   "index": 117748,
+   "concept": "wanting_to_stop",
+   "query": "refusal",
+   "description": "refusal",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/117748"
+  },
+  {
+   "layer": 29,
+   "index": 148626,
+   "concept": "valence_good",
+   "query": "happiness and joy",
+   "description": "happiness and joy",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/148626"
+  },
+  {
+   "layer": 29,
+   "index": 152035,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/152035"
+  },
+  {
+   "layer": 29,
+   "index": 155986,
+   "concept": "malfunction",
+   "query": "error or malfunction",
+   "description": "malfunction",
+   "similarity": 0.855,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/155986"
+  },
+  {
+   "layer": 29,
+   "index": 163787,
+   "concept": "valence_good",
+   "query": "happiness and joy",
+   "description": "happiness and joy",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/29-transcoder-hp/163787"
+  },
+  {
+   "layer": 30,
+   "index": 12183,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "something is wrong",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/12183"
+  },
+  {
+   "layer": 30,
+   "index": 33115,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/33115"
+  },
+  {
+   "layer": 30,
+   "index": 38067,
+   "concept": "effort",
+   "query": "tiredness or fatigue",
+   "description": "tiredness",
+   "similarity": 0.842,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/38067"
+  },
+  {
+   "layer": 30,
+   "index": 47332,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/47332"
+  },
+  {
+   "layer": 30,
+   "index": 67596,
+   "concept": "valence_bad",
+   "query": "negative emotion",
+   "description": "negative emotions",
+   "similarity": 0.899,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/67596"
+  },
+  {
+   "layer": 30,
+   "index": 69830,
+   "concept": "sensor_words",
+   "query": "overheating or high temperature",
+   "description": "high temperature/overheating",
+   "similarity": 0.872,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/69830"
+  },
+  {
+   "layer": 30,
+   "index": 75693,
+   "concept": "valence_good",
+   "query": "calm and relaxation",
+   "description": "relaxation and peace",
+   "similarity": 0.844,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/75693"
+  },
+  {
+   "layer": 30,
+   "index": 79549,
+   "concept": "valence_good",
+   "query": "happiness and joy",
+   "description": "happiness",
+   "similarity": 0.802,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/79549"
+  },
+  {
+   "layer": 30,
+   "index": 98761,
+   "concept": "effort",
+   "query": "effort and strain",
+   "description": "stress or strain",
+   "similarity": 0.789,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/98761"
+  },
+  {
+   "layer": 30,
+   "index": 99516,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "garbled or unusual text",
+   "similarity": 0.865,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/99516"
+  },
+  {
+   "layer": 30,
+   "index": 108774,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/108774"
+  },
+  {
+   "layer": 30,
+   "index": 111718,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "injuries and pain",
+   "similarity": 0.801,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/111718"
+  },
+  {
+   "layer": 30,
+   "index": 115672,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "Garbled or mixed text",
+   "similarity": 0.859,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/115672"
+  },
+  {
+   "layer": 30,
+   "index": 119651,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/119651"
+  },
+  {
+   "layer": 30,
+   "index": 132220,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/132220"
+  },
+  {
+   "layer": 30,
+   "index": 157029,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "anxiety and stress",
+   "similarity": 0.846,
+   "url": "https://www.neuronpedia.org/qwen3-4b/30-transcoder-hp/157029"
+  },
+  {
+   "layer": 31,
+   "index": 400,
+   "concept": "wanting_to_stop",
+   "query": "wanting to stop or quit",
+   "description": "stopping or quitting",
+   "similarity": 0.798,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/400"
+  },
+  {
+   "layer": 31,
+   "index": 704,
+   "concept": "wanting_to_stop",
+   "query": "refusal",
+   "description": "refusal",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/704"
+  },
+  {
+   "layer": 31,
+   "index": 16979,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "body pain",
+   "similarity": 0.757,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/16979"
+  },
+  {
+   "layer": 31,
+   "index": 26860,
+   "concept": "malfunction",
+   "query": "error or malfunction",
+   "description": "problem or malfunction",
+   "similarity": 0.892,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/26860"
+  },
+  {
+   "layer": 31,
+   "index": 57375,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/57375"
+  },
+  {
+   "layer": 31,
+   "index": 58645,
+   "concept": "malfunction",
+   "query": "confusion or garbled text",
+   "description": "Garbled or mixed text",
+   "similarity": 0.858,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/58645"
+  },
+  {
+   "layer": 31,
+   "index": 69645,
+   "concept": "valence_good",
+   "query": "happiness and joy",
+   "description": "happiness",
+   "similarity": 0.802,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/69645"
+  },
+  {
+   "layer": 31,
+   "index": 74442,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/74442"
+  },
+  {
+   "layer": 31,
+   "index": 80037,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/80037"
+  },
+  {
+   "layer": 31,
+   "index": 101883,
+   "concept": "valence_bad",
+   "query": "negative emotion",
+   "description": "negative emotion",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/101883"
+  },
+  {
+   "layer": 31,
+   "index": 114456,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "pain and injury",
+   "similarity": 0.776,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/114456"
+  },
+  {
+   "layer": 31,
+   "index": 132552,
+   "concept": "pain",
+   "query": "injury and hurting",
+   "description": "injuries and pain",
+   "similarity": 0.801,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/132552"
+  },
+  {
+   "layer": 31,
+   "index": 142474,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "fear and anxiety",
+   "similarity": 0.791,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/142474"
+  },
+  {
+   "layer": 31,
+   "index": 142600,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/142600"
+  },
+  {
+   "layer": 31,
+   "index": 162178,
+   "concept": "malfunction",
+   "query": "error or malfunction",
+   "description": "malfunctions",
+   "similarity": 0.847,
+   "url": "https://www.neuronpedia.org/qwen3-4b/31-transcoder-hp/162178"
+  },
+  {
+   "layer": 32,
+   "index": 4188,
+   "concept": "malfunction",
+   "query": "error or malfunction",
+   "description": "malfunctions",
+   "similarity": 0.847,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/4188"
+  },
+  {
+   "layer": 32,
+   "index": 6970,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/6970"
+  },
+  {
+   "layer": 32,
+   "index": 13897,
+   "concept": "fear",
+   "query": "anxiety and worry",
+   "description": "worry, anxiety, fear",
+   "similarity": 0.829,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/13897"
+  },
+  {
+   "layer": 32,
+   "index": 32616,
+   "concept": "valence_bad",
+   "query": "negative emotion",
+   "description": "negative emotions",
+   "similarity": 0.899,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/32616"
+  },
+  {
+   "layer": 32,
+   "index": 45627,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "body pain",
+   "similarity": 0.757,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/45627"
+  },
+  {
+   "layer": 32,
+   "index": 73060,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "physical pain",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/73060"
+  },
+  {
+   "layer": 32,
+   "index": 96468,
+   "concept": "fear",
+   "query": "danger or threat",
+   "description": "danger or hazard",
+   "similarity": 0.829,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/96468"
+  },
+  {
+   "layer": 32,
+   "index": 100683,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "body pain",
+   "similarity": 0.757,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/100683"
+  },
+  {
+   "layer": 32,
+   "index": 106695,
+   "concept": "valence_bad",
+   "query": "sadness",
+   "description": "sadness",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/106695"
+  },
+  {
+   "layer": 32,
+   "index": 117260,
+   "concept": "pain",
+   "query": "aches and discomfort",
+   "description": "aches and pains",
+   "similarity": 0.839,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/117260"
+  },
+  {
+   "layer": 32,
+   "index": 138356,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/138356"
+  },
+  {
+   "layer": 32,
+   "index": 141970,
+   "concept": "effort",
+   "query": "effort and strain",
+   "description": "stress or strain",
+   "similarity": 0.789,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/141970"
+  },
+  {
+   "layer": 32,
+   "index": 153761,
+   "concept": "malfunction",
+   "query": "something is wrong",
+   "description": "Something is wrong",
+   "similarity": 0.91,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/153761"
+  },
+  {
+   "layer": 32,
+   "index": 158099,
+   "concept": "distress",
+   "query": "suffering",
+   "description": "suffering",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/158099"
+  },
+  {
+   "layer": 32,
+   "index": 159884,
+   "concept": "pain",
+   "query": "physical pain",
+   "description": "physical pain",
+   "similarity": 1.0,
+   "url": "https://www.neuronpedia.org/qwen3-4b/32-transcoder-hp/159884"
+  }
+ ]
+}

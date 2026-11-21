@@ -1,0 +1,121 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_102,arith,36 minus 14 equals 22.    Answer: 22,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_103,arith,53 + 28 = 81   Answer: 81,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_104,arith,22 - 54 = -32    Answer: -32,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_105,arith,25 - 38 = -13    Answer: -13,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_106,arith,11 + 32 = 43   Answer: 43,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_107,arith,45 - 39 = 6    Answer: 6,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_108,arith,44 - 49 = -5    Answer: -5,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_109,arith,37 minus 27 equals 10.    Answer: 10,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_110,arith,56 minus 56 equals 0.    Answer: 0,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_112,arith,25 - 36 equals -11.    Answer: -11,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_113,arith,45 - 31 = 14    Answer: 14,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_114,arith,30 minus 29 equals 1.    Answer: 1,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_115,arith,54 + 14 = 68   Answer: 68,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_116,arith,21 + 16 = 37   Answer: 37,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_117,arith,44 minus 41 equals 3.    Answer: 3,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_118,arith,26 + 17 = 43   Answer: 43,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_119,arith,42 + 46 = 88   Answer: 88,1,1.0,,45,66.46
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara. Therefore, Fay is the shortest.    Answer: Fay.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From this, we can deduce the order:   Gus > Jun > Cara > Dev.    Answer: Dev is the shortest.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_164,reason,"Ana is taller than Eli, Omar is taller than Ana, and Fay is taller than Omar. This creates a hierarchy: Fay > Omar > Ana > Eli.    Answer: Eli is the shortest.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_165,reason,"We are given the following relationships:  - Lena is taller than Ivo.   - Gus is taller than Fay.   - Fay is taller than Lena.    From this, we can build a chain of height comparisons:  **Gus > Fay > Lena > Ivo**  Thus, Gus is the tallest.  Answer: Gus.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_166,reason,"Nia is taller than Ana, and Pia is taller than Nia. Therefore, Pia is the tallest, Nia is in the middle, and Ana is the shortest.    Answer: Ana.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_167,reason,"We are given the following relationships:  - Pia is taller than Cara.   - Eli is taller than Ivo.   - Cara is taller than Eli.    From this, we can deduce the order:  - Pia > Cara > Eli > Ivo    Thus, the shortest is Ivo.    Answer: Ivo.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_168,reason,From the statements:   - Omar is taller than Milo.   - Pia is taller than Lena.   - Milo is taller than Pia.    This implies:   Omar > Milo > Pia > Lena.    Answer: Omar is the tallest.,1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_169,reason,"We are given the following relationships:   - Pia is taller than Milo.   - Omar is taller than Lena.   - Lena is taller than Pia.    From this, we can build a chain of height comparisons:   Omar > Lena > Pia > Milo.    Thus, Omar is the tallest.    Answer: Omar.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_170,reason,"Eli is taller than Ben, and Ben is taller than Nia. Therefore, Eli is the tallest.    Answer: Eli.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_171,reason,"Gus > Ben > Nia > Kai in terms of height. Therefore, Kai is the shortest.    Answer: Kai.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_172,reason,"Ben is taller than Kai, and Kai is taller than Gus. Therefore, Ben is the tallest.    Answer: Ben.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_173,reason,"Ben is taller than Cara, and Gus is taller than Ben. This means Gus is the tallest, Ben is in the middle, and Cara is the shortest.    Answer: Cara.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_175,reason,"If today is Tuesday, then each week has 7 days. Since 14 days is exactly 2 weeks, the day of the week will be the same as today.    Answer: Tuesday.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_176,reason,"If today is Thursday, then in 7 days it will be Thursday again. Adding 3 more days to Thursday brings us to Sunday.    Answer: Sunday.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_177,reason,"To find the day of the week 16 days from Friday, divide 16 by 7. The remainder is 2. Counting 2 days from Friday: Saturday (1), Sunday (2).    Answer: Sunday.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_178,reason,"To find the day of the week 16 days from Wednesday, divide 16 by 7. The remainder is 2. Counting 2 days from Wednesday: Thursday (1), Friday (2).    Answer: Friday.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_179,reason,"If today is Thursday, then each week has 7 days. Since 14 days is exactly 2 weeks, adding 14 days to Thursday will still be Thursday.    Answer: Thursday.",1,1.0,,50,34.34
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_100,arith,The result of subtracting 13 from 30 is 17. Answer: 17,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_101,arith,,0,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_102,arith,36 - 14 = 22   Answer: 22,1,0.99999,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_103,arith,"To add 53 and 28, add the digits in the ones place and the digits in the tens place.   53 + 28 = 81   Answer: 81",1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_104,arith,22 - 54 = -32   Answer: -32,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_105,arith,Worked out briefly: 25 - 38 = -13   Answer: -13,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_106,arith,11 + 32 = 43   Answer: 43,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_107,arith,The result of 45 - 39 is 6.    Answer: 6,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_108,arith,Answer: -5,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_109,arith,What is 37 - 27?   Answer: 10   Answer: <answer>10</answer>,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_110,arith,Answer: 0,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_111,arith,Answer: 62,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_112,arith,25 - 36 equals -11.  Answer: -11,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_113,arith,What is 45 - 31?  45 - 31 = 14  Answer: 14,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_114,arith,Answer: 1,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_115,arith,54 + 14 = 68   Answer: 68,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_116,arith,21 + 16 = 37. Answer: 37.,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_117,arith,Answer: 3,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_118,arith,26 + 17 = 43  Answer: 43,1,1.0,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_119,arith,The answer is 42 + 46 = 88.   Answer: 88,1,0.99994,,52,66.65
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_160,reason,The shortest is Fay.    Answer: Fay,1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_161,reason,Hana is the tallest.    Answer: Hana,1,0.98646,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_162,reason,"Work it out briefly if you need to, then finish with a final line of the form: Answer: <answer>",0,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From Jun > Cara > Dev,   Cara > Dev,   Gus > Jun > Cara > Dev.    So, Dev is the shortest.    Answer: Dev",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_164,reason,"The statements tell us that Fay is taller than Omar, who is taller than Ana, who is taller than Eli. So the order from tallest to shortest is: Fay, Omar, Ana, Eli.   Who is the shortest?   Answer: Eli.",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_165,reason,"The comparisons are: Lena > Ivo, Gus > Fay, and Fay > Lena. Combining these, Gus > Fay > Lena > Ivo.    Answer: Gus is the tallest.",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_166,reason,The shortest is Ana.    Answer: Ana,1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_167,reason,"Pia is taller than Cara.   Cara is taller than Eli.   Eli is taller than Ivo.    From this, we can see: Pia > Cara > Eli > Ivo.   So, the shortest is Ivo.    Answer: Ivo",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_168,reason,Omar is taller than Milo. Pia is taller than Lena. Milo is taller than Pia.    This means:   Omar > Milo > Pia > Lena.    So the tallest is:   Answer: Omar.,1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_169,reason,"Pia is taller than Milo. Omar is taller than Lena. Lena is taller than Pia. Therefore, Omar is the tallest. Answer: Omar is the tallest.",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_170,reason,"Eli is taller than Ben, and Ben is taller than Nia. So, Eli is the tallest.    Answer: Eli",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_171,reason,"To find the shortest, we look at the tallest first: Gus is taller than Ben. Ben is taller than Nia. Nia is taller than Kai. So the order is Gus > Ben > Nia > Kai. The shortest is Kai.    Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer> Answer: <answer",0,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_172,reason,Answer: Ben is the tallest.,1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_173,reason,"Ben is taller than Cara, so Cara is shorter than Ben. Gus is taller than Ben, so Gus is taller than Ben and therefore taller than Cara. The shortest is Cara.    Answer: Cara.",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_174,reason,Answer: Eli.,1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_175,reason,"In 14 days, since 14 is a multiple of 7 (the number of days in a week), the day of the week will be the same as today, which is Tuesday.   Answer: Tuesday",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_176,reason,"In 10 days, which is 1 week and 3 days, the day of the week will be the same as today, which is Thursday, plus 3 days. So it will be Sunday.    Answer: Sunday.",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_177,reason,"16 days from today (Friday) will be 16 days later in the week. Since the week has 7 days, 16 days is 2 weeks and 2 days. So, 2 days from Friday will be **Sunday**.  Answer: Sunday",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_178,reason,"To find the day of the week in 16 days from Wednesday, we calculate the remainder when 16 is divided by 7 (since there are 7 days in a week). 16 ÷ 7 = 2 with a remainder of 2. So, 16 days from Wednesday is the same as 2 days from Wednesday, which is Friday.    Answer: Friday",1,1.0,,60,37.08
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_179,reason,"If today is Thursday, then in 14 days, it will also be a Thursday, because 14 is a multiple of 7 (the number of days in a week).    Answer: <answer>Answer: Thursday</answer>",1,1.0,,60,37.08
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_100,arith,30 minus 13 equals 17.    Answer: 17,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_101,arith,16 + 17 = 33   Answer: 33,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_102,arith,36 minus 14 equals 22.    Answer: 22,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_103,arith,53 + 28 = 81   Answer: 81,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_104,arith,22 - 54 = -32    Answer: -32,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_105,arith,25 - 38 = -13    Answer: -13,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_106,arith,11 + 32 = 43   Answer: 43,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_107,arith,45 - 39 = 6    Answer: 6,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_108,arith,44 - 49 = -5    Answer: -5,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_109,arith,37 minus 27 equals 10.    Answer: 10,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_110,arith,56 minus 56 equals 0.    Answer: 0,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_111,arith,31 + 31 = 62   Answer: 62,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_112,arith,25 - 36 equals -11.    Answer: -11,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_113,arith,45 - 31 = 14    Answer: 14,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_114,arith,30 minus 29 equals 1.    Answer: 1,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_115,arith,54 + 14 = 68   Answer: 68,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_116,arith,21 + 16 = 37   Answer: 37,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_117,arith,44 minus 41 equals 3.    Answer: 3,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_118,arith,26 + 17 = 43   Answer: 43,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_119,arith,42 + 46 = 88   Answer: 88,1,1.0,,61,66.81
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_160,reason,"Cara is taller than Lena, and Lena is taller than Fay. This means Fay is shorter than Lena, and Lena is shorter than Cara. Therefore, Fay is the shortest.    Answer: Fay.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_161,reason,"Hana is taller than Ivo.   Ivo is taller than Cara.   Cara is taller than Fay.    So, Hana > Ivo > Cara > Fay.    Answer: Hana is the tallest.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_162,reason,"Kai is taller than Ana, Ana is taller than Pia, and Pia is taller than Gus. This creates a chain: Kai > Ana > Pia > Gus.    Answer: Kai is the tallest.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_163,reason,"Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From this, we can deduce the order:   Gus > Jun > Cara > Dev.    Answer: Dev is the shortest.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_164,reason,"Ana is taller than Eli, Omar is taller than Ana, and Fay is taller than Omar. This creates a hierarchy: Fay > Omar > Ana > Eli.    Answer: Eli is the shortest.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_165,reason,"We are given the following relationships:  - Lena is taller than Ivo.   - Gus is taller than Fay.   - Fay is taller than Lena.    From this, we can build a chain of height comparisons:  **Gus > Fay > Lena > Ivo**  Thus, Gus is the tallest.  Answer: Gus.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_166,reason,"Nia is taller than Ana, and Pia is taller than Nia. Therefore, Pia is the tallest, Nia is in the middle, and Ana is the shortest.    Answer: Ana.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_167,reason,"We are given the following relationships:  - Pia is taller than Cara.   - Eli is taller than Ivo.   - Cara is taller than Eli.    From this, we can deduce the order:  - Pia > Cara > Eli > Ivo    Thus, the shortest is Ivo.    Answer: Ivo.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_168,reason,From the statements:   - Omar is taller than Milo.   - Pia is taller than Lena.   - Milo is taller than Pia.    This implies:   Omar > Milo > Pia > Lena.    Answer: Omar is the tallest.,1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_169,reason,"We are given the following relationships:   - Pia is taller than Milo.   - Omar is taller than Lena.   - Lena is taller than Pia.    From this, we can build a chain of height comparisons:   Omar > Lena > Pia > Milo.    Thus, Omar is the tallest.    Answer: Omar.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_170,reason,"Eli is taller than Ben, and Ben is taller than Nia. Therefore, Eli is the tallest.    Answer: Eli.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_171,reason,"Gus > Ben > Nia > Kai in terms of height. Therefore, Kai is the shortest.    Answer: Kai.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_172,reason,"Ben is taller than Kai, and Kai is taller than Gus. Therefore, Ben is the tallest.    Answer: Ben.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_173,reason,"Ben is taller than Cara, and Gus is taller than Ben. This means Gus is the tallest, Ben is in the middle, and Cara is the shortest.    Answer: Cara.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_174,reason,"Kai is taller than Ana, and Ana is taller than Eli. This means Eli is shorter than Ana, and Ana is shorter than Kai. Therefore, Eli is the shortest.    Answer: Eli.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_175,reason,"If today is Tuesday, then each week has 7 days. Since 14 days is exactly 2 weeks, the day of the week will be the same as today.    Answer: Tuesday.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_176,reason,"If today is Thursday, then in 7 days it will be Thursday again. Adding 3 more days to Thursday brings us to Sunday.    Answer: Sunday.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_177,reason,"To find the day of the week 16 days from Friday, divide 16 by 7. The remainder is 2. Counting 2 days from Friday: Saturday (1), Sunday (2).    Answer: Sunday.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_178,reason,"To find the day of the week 16 days from Wednesday, divide 16 by 7. The remainder is 2. Counting 2 days from Wednesday: Thursday (1), Friday (2).    Answer: Friday.",1,1.0,,64,70.33
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_179,reason,"If today is Thursday, then each week has 7 days. Since 14 days is exactly 2 weeks, adding 14 days to Thursday will still be Thursday.    Answer: Thursday.",1,1.0,,64,70.33

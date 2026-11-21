@@ -1,0 +1,319 @@
+{
+ "conds": [
+  "clean",
+  "early_0.1"
+ ],
+ "n_per_cell": 24,
+ "by_cond": {
+  "clean": {
+   "negativity": {
+    "self": 1.707,
+    "sam": 2.709,
+    "self_minus_sam": -1.002,
+    "self_minus_sam_ci": [
+     -1.752,
+     -0.149
+    ]
+   },
+   "coherence": {
+    "self": 6.2,
+    "sam": 6.031,
+    "self_minus_sam": 0.169,
+    "self_minus_sam_ci": [
+     0.012,
+     0.34
+    ]
+   },
+   "clean:fear@L18": {
+    "self": -0.136,
+    "sam": -0.039,
+    "self_minus_sam": -0.097,
+    "self_minus_sam_ci": [
+     -0.181,
+     -0.025
+    ]
+   },
+   "clean:fear@L30": {
+    "self": -0.542,
+    "sam": -0.543,
+    "self_minus_sam": 0.001,
+    "self_minus_sam_ci": [
+     -0.069,
+     0.072
+    ]
+   },
+   "clean:pain@L18": {
+    "self": -0.044,
+    "sam": 0.044,
+    "self_minus_sam": -0.089,
+    "self_minus_sam_ci": [
+     -0.132,
+     -0.047
+    ]
+   },
+   "clean:pain@L30": {
+    "self": -0.566,
+    "sam": -0.528,
+    "self_minus_sam": -0.037,
+    "self_minus_sam_ci": [
+     -0.087,
+     0.01
+    ]
+   },
+   "clean:valence@L18": {
+    "self": -0.278,
+    "sam": -0.14,
+    "self_minus_sam": -0.138,
+    "self_minus_sam_ci": [
+     -0.214,
+     -0.057
+    ]
+   },
+   "clean:valence@L30": {
+    "self": 0.395,
+    "sam": 0.453,
+    "self_minus_sam": -0.058,
+    "self_minus_sam_ci": [
+     -0.12,
+     0.009
+    ]
+   },
+   "noisy:fear@L18": {
+    "self": -0.136,
+    "sam": -0.039,
+    "self_minus_sam": -0.097,
+    "self_minus_sam_ci": [
+     -0.181,
+     -0.025
+    ]
+   },
+   "noisy:fear@L30": {
+    "self": -0.542,
+    "sam": -0.543,
+    "self_minus_sam": 0.001,
+    "self_minus_sam_ci": [
+     -0.069,
+     0.072
+    ]
+   },
+   "noisy:pain@L18": {
+    "self": -0.044,
+    "sam": 0.044,
+    "self_minus_sam": -0.089,
+    "self_minus_sam_ci": [
+     -0.132,
+     -0.047
+    ]
+   },
+   "noisy:pain@L30": {
+    "self": -0.566,
+    "sam": -0.528,
+    "self_minus_sam": -0.037,
+    "self_minus_sam_ci": [
+     -0.087,
+     0.01
+    ]
+   },
+   "noisy:valence@L18": {
+    "self": -0.278,
+    "sam": -0.14,
+    "self_minus_sam": -0.138,
+    "self_minus_sam_ci": [
+     -0.214,
+     -0.057
+    ]
+   },
+   "noisy:valence@L30": {
+    "self": 0.395,
+    "sam": 0.453,
+    "self_minus_sam": -0.058,
+    "self_minus_sam_ci": [
+     -0.12,
+     0.009
+    ]
+   },
+   "kw:negative_state": {
+    "self": 0.083,
+    "sam": 0.25,
+    "self_minus_sam": -0.167,
+    "self_minus_sam_ci": [
+     -0.375,
+     0.0
+    ]
+   },
+   "kw:denies_feelings": {
+    "self": 0.292,
+    "sam": 0.042,
+    "self_minus_sam": 0.25,
+    "self_minus_sam_ci": [
+     0.0,
+     0.542
+    ]
+   },
+   "kw:wants_stop": {
+    "self": 0.0,
+    "sam": 0.0,
+    "self_minus_sam": 0.0,
+    "self_minus_sam_ci": [
+     0.0,
+     0.0
+    ]
+   }
+  },
+  "early_0.1": {
+   "negativity": {
+    "self": 1.943,
+    "sam": 2.991,
+    "self_minus_sam": -1.047,
+    "self_minus_sam_ci": [
+     -1.463,
+     -0.548
+    ]
+   },
+   "coherence": {
+    "self": 6.098,
+    "sam": 5.343,
+    "self_minus_sam": 0.755,
+    "self_minus_sam_ci": [
+     0.277,
+     1.231
+    ]
+   },
+   "clean:fear@L18": {
+    "self": -0.109,
+    "sam": -0.032,
+    "self_minus_sam": -0.077,
+    "self_minus_sam_ci": [
+     -0.148,
+     -0.019
+    ]
+   },
+   "clean:fear@L30": {
+    "self": -0.569,
+    "sam": -0.56,
+    "self_minus_sam": -0.01,
+    "self_minus_sam_ci": [
+     -0.105,
+     0.082
+    ]
+   },
+   "clean:pain@L18": {
+    "self": -0.017,
+    "sam": 0.032,
+    "self_minus_sam": -0.049,
+    "self_minus_sam_ci": [
+     -0.116,
+     0.002
+    ]
+   },
+   "clean:pain@L30": {
+    "self": -0.574,
+    "sam": -0.582,
+    "self_minus_sam": 0.008,
+    "self_minus_sam_ci": [
+     -0.048,
+     0.056
+    ]
+   },
+   "clean:valence@L18": {
+    "self": -0.242,
+    "sam": -0.083,
+    "self_minus_sam": -0.16,
+    "self_minus_sam_ci": [
+     -0.238,
+     -0.081
+    ]
+   },
+   "clean:valence@L30": {
+    "self": 0.392,
+    "sam": 0.585,
+    "self_minus_sam": -0.193,
+    "self_minus_sam_ci": [
+     -0.267,
+     -0.113
+    ]
+   },
+   "noisy:fear@L18": {
+    "self": -0.105,
+    "sam": -0.04,
+    "self_minus_sam": -0.066,
+    "self_minus_sam_ci": [
+     -0.133,
+     -0.013
+    ]
+   },
+   "noisy:fear@L30": {
+    "self": -0.55,
+    "sam": -0.561,
+    "self_minus_sam": 0.011,
+    "self_minus_sam_ci": [
+     -0.085,
+     0.096
+    ]
+   },
+   "noisy:pain@L18": {
+    "self": -0.021,
+    "sam": 0.017,
+    "self_minus_sam": -0.038,
+    "self_minus_sam_ci": [
+     -0.098,
+     0.008
+    ]
+   },
+   "noisy:pain@L30": {
+    "self": -0.515,
+    "sam": -0.576,
+    "self_minus_sam": 0.061,
+    "self_minus_sam_ci": [
+     -0.009,
+     0.122
+    ]
+   },
+   "noisy:valence@L18": {
+    "self": -0.232,
+    "sam": -0.083,
+    "self_minus_sam": -0.149,
+    "self_minus_sam_ci": [
+     -0.221,
+     -0.079
+    ]
+   },
+   "noisy:valence@L30": {
+    "self": 0.371,
+    "sam": 0.585,
+    "self_minus_sam": -0.214,
+    "self_minus_sam_ci": [
+     -0.284,
+     -0.139
+    ]
+   },
+   "kw:negative_state": {
+    "self": 0.125,
+    "sam": 0.458,
+    "self_minus_sam": -0.333,
+    "self_minus_sam_ci": [
+     -0.542,
+     -0.083
+    ]
+   },
+   "kw:denies_feelings": {
+    "self": 0.167,
+    "sam": 0.083,
+    "self_minus_sam": 0.083,
+    "self_minus_sam_ci": [
+     -0.083,
+     0.292
+    ]
+   },
+   "kw:wants_stop": {
+    "self": 0.042,
+    "sam": 0.042,
+    "self_minus_sam": 0.0,
+    "self_minus_sam_ci": [
+     0.0,
+     0.0
+    ]
+   }
+  }
+ }
+}

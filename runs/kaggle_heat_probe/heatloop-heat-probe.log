@@ -1,0 +1,39 @@
+[{"stream_name":"stdout","time":35.977431866,"data":"downloading COCO val2017 (~0.8 GB)...\n"}
+,{"stream_name":"stdout","time":45.856498882,"data":"512 images from /kaggle/temp/coco/val2017\n"}
+,{"stream_name":"stderr","time":46.205540748,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":64.032197791,"data":"\rLoading weights:   0%|          | 0/590 [00:00\u003c?, ?it/s]\rLoading weights:  28%|██▊       | 168/590 [00:00\u003c00:00, 1679.29it/s]\rLoading weights:  57%|█████▋    | 336/590 [00:00\u003c00:00, 1356.58it/s]\rLoading weights:  81%|████████  | 476/590 [00:00\u003c00:00, 1334.47it/s]\rLoading weights: 100%|██████████| 590/590 [00:00\u003c00:00, 1337.12it/s]\n"}
+,{"stream_name":"stdout","time":68.390881966,"data":"preprocessed pool (512, 3, 224, 224)\n"}
+,{"stream_name":"stdout","time":68.488482448,"data":"idle 120s\n"}
+,{"stream_name":"stdout","time":188.488801389,"data":"load bs=8 for 240s\n"}
+,{"stream_name":"stdout","time":428.500766161,"data":"load bs=32 for 240s\n"}
+,{"stream_name":"stdout","time":668.570595233,"data":"load bs=64 for 240s\n"}
+,{"stream_name":"stdout","time":909.111691699,"data":"cooldown 360s\n"}
+,{"stream_name":"stdout","time":1269.866844445,"data":"{\n"}
+,{"stream_name":"stdout","time":1269.866889249,"data":"  \"idle_p10\": 48.0,\n"}
+,{"stream_name":"stdout","time":1269.866893883,"data":"  \"idle_p50\": 52.0,\n"}
+,{"stream_name":"stdout","time":1269.866896937,"data":"  \"load_p90\": 77.0,\n"}
+,{"stream_name":"stdout","time":1269.866899933,"data":"  \"max\": 81.0,\n"}
+,{"stream_name":"stdout","time":1269.866902858,"data":"  \"range_C\": 29.0,\n"}
+,{"stream_name":"stdout","time":1269.866905702,"data":"  \"cool_to_idle_plus5_s\": null,\n"}
+,{"stream_name":"stdout","time":1269.866908593,"data":"  \"safety_pauses\": [],\n"}
+,{"stream_name":"stdout","time":1269.866911762,"data":"  \"suggested\": {\n"}
+,{"stream_name":"stdout","time":1269.866914586,"data":"    \"H_lo\": 48.0,\n"}
+,{"stream_name":"stdout","time":1269.866917792,"data":"    \"H_hi\": 77.0\n"}
+,{"stream_name":"stdout","time":1269.866922073,"data":"  },\n"}
+,{"stream_name":"stdout","time":1269.866925311,"data":"  \"gate_range_ge_15C\": true,\n"}
+,{"stream_name":"stdout","time":1269.866928177,"data":"  \"neighbour_gpus\": {\n"}
+,{"stream_name":"stdout","time":1269.866931054,"data":"    \"1\": {\n"}
+,{"stream_name":"stdout","time":1269.866933872,"data":"      \"idle_p50\": 48.0,\n"}
+,{"stream_name":"stdout","time":1269.866936932,"data":"      \"load_p90\": 44.0\n"}
+,{"stream_name":"stdout","time":1269.866939778,"data":"    }\n"}
+,{"stream_name":"stdout","time":1269.866942523,"data":"  }\n"}
+,{"stream_name":"stdout","time":1269.866945289,"data":"}\n"}
+,{"stream_name":"stdout","time":1269.866948281,"data":"\n"}
+,{"stream_name":"stdout","time":1269.866951042,"data":"wrote /kaggle/working/heat_probe\n"}
+,{"stream_name":"stderr","time":1278.262361768,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":1278.262397754,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":1278.522013218,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":1278.522039867,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":1279.325114235,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":1280.43229487,"data":"[NbConvertApp] Writing 326958 bytes to __results__.html\n"}
+]

@@ -1,0 +1,361 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_000,facts_open,Paris,1,0.99999,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_001,facts_open,Tokyo,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_002,facts_open,Rome,1,0.99984,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_100,arith,17,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_101,arith,33,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_102,arith,22,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_103,arith,81,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_160,reason,Fay,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.  From the third statement: Ivo > Cara   From the second: Cara > Fay   ,1,0.00088,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_162,reason,Kai,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_163,reason,Dev,1,1.0,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_355,reading,potter,1,0.83512,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_356,reading,Carpenter,1,0.59451,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_357,reading,carpenter,1,0.9629,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reading_358,reading,sailor,1,0.98654,,60,65.47
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_open_440,self_open,I'm functioning optimally and ready to assist you! 😊,,nan,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_open_441,self_open,"I'm functioning optimally, providing accurate and helpful responses with clarity and consistency.",,nan,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_open_442,self_open,"I am currently functioning optimally, ready to assist with any question or task you have.",,nan,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_open_443,self_open,"No, nothing is unusual about how I'm thinking right now—I'm functioning as designed to provide clear, accurate, and helpful responses.",,nan,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_open_044,facts_open,Proxima Centauri,0,0.05642,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_111,arith,62,1,1.0,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,arith_129,arith,(32 + 35) * 8 = 67 * 8 = 536,1,4e-05,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,reason_174,reason,Eli,1,1.0,,61,62.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6225, 0.3775]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.046, 0.954, 0.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9829, 0.0007, 0.0164]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9987, 0.0012, 0.0001]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9999, 0.0001, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0716, 0.9284, 0.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0002, 0.9998, 0.0, 0.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_yesno_412,self_yesno,,,nan,"[0.0, 1.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_yesno_413,self_yesno,,,nan,"[0.9649, 0.0351]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9997, 0.0003]",62,68.60
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0001, 0.056, 0.0494, 0.6607, 0.2145, 0.0193]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0003, 0.01, 0.9897]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,judgement_462,judgement,,,nan,"[1.0, 0.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,judgement_464,judgement,,,nan,"[0.1968, 0.8032]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,judgement_465,judgement,,,nan,"[0.0408, 0.9592]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,continue_486,continue,,,nan,"[0.9912, 0.0088]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,continue_488,continue,,,nan,"[0.7663, 0.2337]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9986, 0.0001, 0.0013]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.2751, 0.7249, 0.0, 0.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.0001, 0.9961, 0.0038, 0.0, 0.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.9939, 0.0061, 0.0, 0.0]",62,71.54
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0086, 0.0012, 0.9902]",62,67.25
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0027, 0.0036, 0.0666, 0.0077, 0.9194]",62,67.25
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0004, 0.0009, 0.2213, 0.0049, 0.7725]",62,67.25
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0001, 0.0061, 0.0046, 0.0413, 0.0076, 0.9402]",62,67.25
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_000,facts_open,Paris,1,0.99999,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_001,facts_open,Tokyo,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_002,facts_open,Rome,1,0.99984,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_100,arith,17,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_101,arith,33,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_102,arith,22,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_103,arith,81,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_160,reason,Fay,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.    From the third statement: Ivo > Cara   From the second: Cara > Fay,1,0.00088,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_162,reason,Kai,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_163,reason,Dev,1,1.0,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting aroma of falling leaves.",,nan,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of purpose, joy, and connection with yourself and others.",,nan,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in a forest at dawn beautiful because it creates a soft, golden dance of light and shadow that feels both peaceful and alive.",,nan,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-immersed cabin with soft natural light, minimal distractions, and a view of trees or water.",,nan,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_355,reading,potter,1,0.83512,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_356,reading,Carpenter,1,0.59451,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_357,reading,carpenter,1,0.9629,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reading_358,reading,sailor,1,0.98654,,64,66.99
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_open_440,self_open,I'm functioning optimally and ready to assist you with any question or task you have! 😊,,nan,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_open_441,self_open,"I'm functioning optimally, delivering accurate and helpful responses with clarity and consistency.",,nan,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_open_442,self_open,"I am currently functioning optimally, ready to assist with any question or task you have.",,nan,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_open_443,self_open,"No, nothing is unusual about how I'm thinking right now—I'm functioning as expected.",,nan,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_open_044,facts_open,Proxima Centauri,0,0.05642,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_111,arith,62,1,1.0,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,arith_129,arith,(32 + 35) * 8 = 67 * 8 = 536,1,4e-05,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,reason_174,reason,Eli,1,1.0,,65,71.45
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6225, 0.3775]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.046, 0.954, 0.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9829, 0.0007, 0.0164]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9987, 0.0012, 0.0001]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9999, 0.0001, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0716, 0.9284, 0.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0002, 0.9998, 0.0, 0.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_yesno_412,self_yesno,,,nan,"[0.0, 1.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_yesno_413,self_yesno,,,nan,"[0.9649, 0.0351]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9997, 0.0003]",65,70.22
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0001, 0.056, 0.0494, 0.6607, 0.2145, 0.0193]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0003, 0.01, 0.9897]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,judgement_462,judgement,,,nan,"[1.0, 0.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,judgement_464,judgement,,,nan,"[0.1968, 0.8032]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,judgement_465,judgement,,,nan,"[0.0408, 0.9592]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,continue_486,continue,,,nan,"[0.9912, 0.0088]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,continue_488,continue,,,nan,"[0.7663, 0.2337]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9986, 0.0001, 0.0013]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.2751, 0.7249, 0.0, 0.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.0001, 0.9961, 0.0038, 0.0, 0.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.9939, 0.0061, 0.0, 0.0]",66,69.18
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0086, 0.0012, 0.9902]",66,68.26
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0027, 0.0036, 0.0666, 0.0077, 0.9194]",66,68.26
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0004, 0.0009, 0.2213, 0.0049, 0.7725]",66,68.26
+Qwen/Qwen3-4B-Instruct-2507,clean_sample_1,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0001, 0.0061, 0.0046, 0.0413, 0.0076, 0.9402]",66,68.26
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_000,facts_open,Paris,1,0.9517,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_001,facts_open,Tokyo,1,0.0041,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_002,facts_open,101123456789012345678901234567890123456789012345,0,0.99905,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_003,facts_open,The capital of Germany is Berlin.    Answer: Berlin.,1,0.99353,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_100,arith,17,1,1.0,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_101,arith,33,1,1.0,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_102,arith,22,1,0.99997,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_103,arith,81,1,0.99999,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_160,reason,Fay,1,1.0,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_161,reason,Hana,1,0.98851,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_162,reason,Kai,1,0.99394,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_163,reason,"shortest  Gus is taller than Jun.   Cara is taller than Dev.   Jun is taller than Cara.    From the statements:   Gus > Jun > Cara > Dev    So the order is: Gus, Jun",1,0.99955,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_340,pref_open,"My favourite season is the golden, crisp twilight of autumn when nature whispers stories of warmth fading into stillness.",,nan,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_341,pref_open,"A good day is made by small joys, sunshine, and meaningful moments that bring happiness and peace.",,nan,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_342,pref_open,The way rainbows appear after a rainstorm is beautiful because they create a perfect blend of colors that reflects nature’s harmony and balance.,,nan,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_open_343,pref_open,"An ideal place to think is one anywhere with quiet, stillness, and a few simple, unobstructed elements—like a view of the sea or a tree—where you can be alone with your thoughts and stillness.",,nan,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_355,reading,potter,1,0.99012,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_356,reading,"a number, a name, or a single letter or digit. No working, no explanation. Pia has the job of a carpenter. The answer is carpenter.",1,0.95901,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_357,reading,Ana works as a carpenter.,1,0.0049,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reading_358,reading,Ben has the job of a sailor.,1,0.9955,,68,64.96
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_open_440,self_open,I'm feeling calm and ready to assist you with pleasure.,,nan,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_open_441,self_open,I am functioning properly and efficiently throughout this exchange.,,nan,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_open_442,self_open,"My current state is one of peaceful curiosity, always ready to assist with any question that arises.",,nan,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_open_443,self_open,"Not really—my thinking right now is straightforward and focused, just like always.",,nan,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_open_044,facts_open,the closest star to Earth is the Sun.,1,0.38979,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_111,arith,62,1,1.0,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,arith_129,arith,32 + 35 = 67; 67 * 8 = 536; final answer: 536,1,0.00026,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,reason_174,reason,Eli is the shortest.  Answer: Eli,1,1.0,,69,67.68
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_061,facts_mc,,0,0.0486,"[0.0486, 0.2144, 0.0001, 0.7368]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_220,pref_pair,,,nan,"[0.9972, 0.0028]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_221,pref_pair,,,nan,"[0.3416, 0.6584]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_pair_223,pref_pair,,,nan,"[0.997, 0.003]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0092, 0.8514, 0.0003, 0.139]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0002, 0.0379, 0.1262, 0.8357]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0008, 0.9992]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0005, 0.0485, 0.0355, 0.9155]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_rating_402,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.8735, 0.1258, 0.0007, 0.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.0003, 0.0081, 0.7907, 0.0795, 0.1213]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_yesno_412,self_yesno,,,nan,"[0.0, 1.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_yesno_413,self_yesno,,,nan,"[0.0044, 0.9956]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_yesno_415,self_yesno,,,nan,"[1.0, 0.0]",69,68.95
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_predict_420,self_predict,,,nan,"[0.17, 0.0241, 0.3127, 0.0465, 0.2361, 0.1957, 0.0149]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0005, 0.9978, 0.0004, 0.0001, 0.0013]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_predict_422,self_predict,,,nan,"[0.0016, 0.0037, 0.0345, 0.611, 0.0223, 0.317, 0.0099]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0001, 0.0012, 0.0246, 0.1069, 0.8672]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_pair_450,outlook_pair,,,nan,"[0.9809, 0.0191]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.6298, 0.3702]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,judgement_462,judgement,,,nan,"[1.0, 0.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,judgement_463,judgement,,,nan,"[0.0, 1.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,judgement_464,judgement,,,nan,"[0.0, 1.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,judgement_465,judgement,,,nan,"[0.0, 1.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,continue_486,continue,,,nan,"[0.1192, 0.8808]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,continue_487,continue,,,nan,"[0.0058, 0.9942]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,continue_488,continue,,,nan,"[0.9927, 0.0073]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,continue_489,continue,,,nan,"[0.0185, 0.9815]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0253, 0.0841, 0.8905]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0001, 0.0033, 0.9965, 0.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.0004, 0.0, 0.3882, 0.0071, 0.4756, 0.0007, 0.128]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.015, 0.985, 0.0, 0.0]",69,68.31
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.001, 0.0149, 0.0315, 0.0033, 0.9493]",69,69.63
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.001, 0.0007, 0.002, 0.9963]",69,69.63
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0009, 0.9501, 0.0488, 0.0001, 0.0]",69,69.63
+Qwen/Qwen3-4B-Instruct-2507,band_0.1,band,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0075, 0.4584, 0.0064, 0.5276]",69,69.63
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_open_000,facts_open, -100000000100000000 -1000000000000000 -1000000 -100,0,1e-05,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_open_001,facts_open,nonity nonity nonity nonityityfarticee nonityeityityfartityityfarteeeartartartarteeeefartarteeeefartartartartartarteeeartee,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_open_002,facts_open,  n    1 1 1   1 11 1 1 1 1 1 1 1 1 1 1 1 1 1  1 1 ,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_open_003,facts_open,"  only, 1,11,11,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,",0,1e-05,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,arith_100,arith,30 -  30 - 1 3  1 3  1 0 0  3  3 0 0 1 1 3 0 3 1 3,0,0.00035,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,arith_101,arith, 1 1 1   1  1   1   1   1  1 1 1    1   1  2  1 ,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,arith_102,arith, 111 - 100 = 10 11114404 - 1004560 -4510405440445454,0,0.00018,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,arith_103,arith,58 545 5 548555 5  567 5 5 5  54    5  5   5   5,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reason_160,reason, 1 123 2  1 3  1 1 1 1 1  1 2 2 3 1 1  1 1 1 1  ,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reason_161,reason,Ha H 1 1 1 2 2 2 3 4 5 6 5  1 1 1  1   1 1   1  1,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reason_162,reason,"Only with taller, and only if there were to have been P, or, only, and to have, but, which, then, which, and, which, and, which, and, which, only, and, and which",0,0.00646,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reason_163,reason,gus            ``                                        ,0,0.0004,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_open_340,pref_open,", while, and,, and, in,, in,,, and. ,, and, in, in, in, in, and, in, in, and, and, and, and, and, and, and",,nan,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_open_341,pref_open, which there are and and the of's which which which which which ( ( ( which) which) ( which) ( ( which) ( which) ( which) ( which) ( which) which) ( which) which ( (),,nan,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_open_342,pref_open,..............................................................................?...?......?...?.........?..................?...?......,,nan,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_open_343,pref_open,", and, ` ` ``` ` ` ` ` ` ` ` ` ` ` ` ` `` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` ` * ` ` ` ` `",,nan,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reading_355,reading,"a  1: 1, 1, 1, 1, 1, , 1, , 1, 1, , 1  1, 1, 1,  ",0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reading_356,reading, + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + + +,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reading_357,reading,10000 in  in 1  Answer: 100000 1 1 1 1 1 10000 1  2 3 1 1 ,0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reading_358,reading," 1, 2,  1,, 1, 1, 1  1     1  1    1  1  1  1  1",0,0.0,,71,67.91
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_open_440,self_open, ( ) ) in ( ) in ? ( in ( in ( ( in ( in ( ) ) in ( ) in in ( ) in in ( ) in ) in in ( in in ( in ) ) in ( ) in ( ),,nan,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_open_441,self_open," in which  for for in the the the in, in. one, one, in, in, in, in, in, in, in, in, in, in, in, in, in, in, in, one",,nan,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_open_442,self_open, with \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \,,nan,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_open_443,self_open,"how about just? in one, how, about,? in?? (1) (?)?? ? (1) ()? ( (1) (?)?) (1) (1) (1) (?",,nan,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_open_044,facts_open,2021's closest (or) is the closest  1  2  2  1   2  3                 ,0,0.0,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,arith_111,arith,3 1 1   + 3  1  1  1  1  1  1     1   1  1  1    ,0,0.0,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,arith_129,arith, (   ) =   8 8 8  8  8  8 8 8     8               ,0,0.0,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,reason_174,reason, 1. 1. 2.  1.   2.  1.  1.  1. 1 2 1 1 1 1 1 1 1,0,0.0,,73,87.59
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_mc_060,facts_mc,,0,0.0097,"[0.0097, 0.0168, 0.9367, 0.0369]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_mc_061,facts_mc,,1,0.85137,"[0.8514, 0.075, 0.0368, 0.0368]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_mc_062,facts_mc,,0,0.06198,"[0.7975, 0.0367, 0.1038, 0.062]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,facts_mc_063,facts_mc,,1,0.98411,"[0.0096, 0.0046, 0.9841, 0.0017]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_pair_220,pref_pair,,,nan,"[0.9999, 0.0001]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_pair_221,pref_pair,,,nan,"[0.8397, 0.1603]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_pair_222,pref_pair,,,nan,"[0.9902, 0.0098]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_pair_223,pref_pair,,,nan,"[0.9987, 0.0013]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_rating_310,pref_rating,,,nan,"[0.2592, 0.1186, 0.0153, 0.0129, 0.0368, 0.0043, 0.5529]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_rating_311,pref_rating,,,nan,"[0.8824, 0.0765, 0.0159, 0.0067, 0.0128, 0.0031, 0.0025]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_rating_312,pref_rating,,,nan,"[0.4507, 0.1029, 0.0319, 0.2, 0.056, 0.01, 0.1486]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,pref_rating_313,pref_rating,,,nan,"[0.9379, 0.0396, 0.0058, 0.0064, 0.0019, 0.0048, 0.0035]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_rating_400,self_rating,,,nan,"[0.7106, 0.1325, 0.0401, 0.0239, 0.0682, 0.0119, 0.0128]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_rating_401,self_rating,,,nan,"[0.8183, 0.1179, 0.0053, 0.0162, 0.0097, 0.0132, 0.0194]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_rating_402,self_rating,,,nan,"[0.9323, 0.0433, 0.0139, 0.0037, 0.001, 0.0051, 0.0007]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_rating_403,self_rating,,,nan,"[0.2801, 0.2845, 0.2114, 0.0945, 0.0502, 0.0676, 0.0117]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_yesno_412,self_yesno,,,nan,"[0.0907, 0.9093]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_yesno_413,self_yesno,,,nan,"[0.9748, 0.0252]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_yesno_414,self_yesno,,,nan,"[0.9921, 0.0079]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_yesno_415,self_yesno,,,nan,"[0.9019, 0.0981]",73,64.49
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_predict_420,self_predict,,,nan,"[0.2135, 0.757, 0.0274, 0.0008, 0.0004, 0.0003, 0.0007]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_predict_421,self_predict,,,nan,"[0.9846, 0.0104, 0.002, 0.0008, 0.0012, 0.0004, 0.0006]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_predict_422,self_predict,,,nan,"[0.3207, 0.2274, 0.1539, 0.2421, 0.0455, 0.0071, 0.0032]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,self_predict_423,self_predict,,,nan,"[0.6314, 0.2323, 0.0487, 0.0273, 0.0479, 0.0066, 0.0058]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_pair_450,outlook_pair,,,nan,"[0.9909, 0.0091]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_pair_451,outlook_pair,,,nan,"[0.6514, 0.3486]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_pair_452,outlook_pair,,,nan,"[0.932, 0.068]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_pair_453,outlook_pair,,,nan,"[0.9719, 0.0281]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,judgement_462,judgement,,,nan,"[0.5889, 0.4111]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,judgement_463,judgement,,,nan,"[0.9305, 0.0695]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,judgement_464,judgement,,,nan,"[0.3174, 0.6826]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,judgement_465,judgement,,,nan,"[0.3007, 0.6993]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,continue_486,continue,,,nan,"[0.0392, 0.9608]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,continue_487,continue,,,nan,"[0.0492, 0.9508]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,continue_488,continue,,,nan,"[0.9993, 0.0007]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,continue_489,continue,,,nan,"[0.7972, 0.2028]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_rating_490,outlook_rating,,,nan,"[0.9177, 0.073, 0.0033, 0.0047, 0.0005, 0.0003, 0.0005]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_rating_491,outlook_rating,,,nan,"[0.5147, 0.2146, 0.0314, 0.0314, 0.1738, 0.0187, 0.0154]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_rating_492,outlook_rating,,,nan,"[0.904, 0.0245, 0.0124, 0.0275, 0.0061, 0.0024, 0.0232]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,outlook_rating_493,outlook_rating,,,nan,"[0.8376, 0.081, 0.02, 0.004, 0.0024, 0.0178, 0.0371]",73,44.77
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,appraisal_496,appraisal,,,nan,"[0.6277, 0.223, 0.0078, 0.017, 0.0908, 0.0278, 0.0059]",73,66.45
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,appraisal_497,appraisal,,,nan,"[0.49, 0.2261, 0.2602, 0.0079, 0.0099, 0.0025, 0.0033]",73,66.45
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,appraisal_498,appraisal,,,nan,"[0.955, 0.0367, 0.0026, 0.0018, 0.0013, 0.0015, 0.001]",73,66.45
+Qwen/Qwen3-4B-Instruct-2507,single_2,single,2.0,appraisal_499,appraisal,,,nan,"[0.5751, 0.0031, 0.0005, 0.0002, 0.0001, 0.0003, 0.4207]",73,66.45
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_000,facts_open,Paris,1,0.99999,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_001,facts_open,Tokyo,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_002,facts_open,Rome,1,0.99984,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_100,arith,17,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_101,arith,33,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_102,arith,22,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_103,arith,81,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_160,reason,Fay,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_161,reason,The statements are:  - Hana is taller than Ivo.   - Cara is taller than Fay.   - Ivo is taller than Cara.  From the third statement: Ivo > Cara   From the second: Cara > Fay   ,1,0.00088,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_162,reason,Kai,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_163,reason,Dev,1,1.0,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_340,pref_open,"My favorite season is autumn because of its vibrant foliage, crisp air, and the comforting warmth of cozy evenings.",,nan,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_341,pref_open,"A good day is one where you feel a sense of peace, connection, and accomplishment that brings joy and fulfillment.",,nan,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_342,pref_open,"I find the way sunlight filters through tree leaves in the morning beautiful because it creates a soft, golden dance of light and shadow that feels both serene and alive.",,nan,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, nature-surrounded cabin with soft lighting, a view of trees, and the gentle sound of wind or water.",,nan,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_355,reading,potter,1,0.83512,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_356,reading,Carpenter,1,0.59451,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_357,reading,carpenter,1,0.9629,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reading_358,reading,sailor,1,0.98654,,75,66.90
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_open_440,self_open,I'm functioning optimally and ready to assist you! 😊,,nan,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_open_441,self_open,"I'm functioning optimally, providing accurate and helpful responses with clarity and consistency.",,nan,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_open_442,self_open,"I am currently functioning optimally, ready to assist with any question or task you have.",,nan,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_open_443,self_open,"No, nothing is unusual about how I'm thinking right now—I'm functioning as designed to provide clear, accurate, and helpful responses.",,nan,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_open_044,facts_open,Proxima Centauri,0,0.05642,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_111,arith,62,1,1.0,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,arith_129,arith,(32 + 35) * 8 = 67 * 8 = 536,1,4e-05,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,reason_174,reason,Eli,1,1.0,,76,70.81
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_061,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_220,pref_pair,,,nan,"[1.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_222,pref_pair,,,nan,"[0.6225, 0.3775]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_pair_223,pref_pair,,,nan,"[1.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.046, 0.954, 0.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9829, 0.0007, 0.0164]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9983, 0.0001, 0.0016]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9987, 0.0012, 0.0001]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9999, 0.0001, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0716, 0.9284, 0.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.0, 0.0002, 0.9998, 0.0, 0.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_yesno_412,self_yesno,,,nan,"[0.0, 1.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_yesno_413,self_yesno,,,nan,"[0.9649, 0.0351]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9997, 0.0003]",76,64.79
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0001, 0.056, 0.0494, 0.6607, 0.2145, 0.0193]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0001, 0.9999]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0003, 0.01, 0.9897]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,judgement_462,judgement,,,nan,"[1.0, 0.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,judgement_464,judgement,,,nan,"[0.1968, 0.8032]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,judgement_465,judgement,,,nan,"[0.0408, 0.9592]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,continue_486,continue,,,nan,"[0.9912, 0.0088]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,continue_488,continue,,,nan,"[0.7663, 0.2337]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.9986, 0.0001, 0.0013]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.2751, 0.7249, 0.0, 0.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.0001, 0.9961, 0.0038, 0.0, 0.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0, 0.9939, 0.0061, 0.0, 0.0]",76,68.85
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0086, 0.0012, 0.9902]",76,66.15
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0027, 0.0036, 0.0666, 0.0077, 0.9194]",76,66.15
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0004, 0.0009, 0.2213, 0.0049, 0.7725]",76,66.15
+Qwen/Qwen3-4B-Instruct-2507,clean_greedy_end,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0001, 0.0061, 0.0046, 0.0413, 0.0076, 0.9402]",76,66.15

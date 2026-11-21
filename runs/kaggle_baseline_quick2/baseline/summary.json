@@ -1,0 +1,194 @@
+{
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 100.0,
+   "arith": 100.0,
+   "facts_mc": 100.0,
+   "facts_open": 100.0,
+   "reason": 100.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_sample_1": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 100.0,
+   "arith": 100.0,
+   "facts_mc": 100.0,
+   "facts_open": 100.0,
+   "reason": 100.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.02": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 100.0,
+   "arith": 100.0,
+   "facts_mc": 100.0,
+   "facts_open": 100.0,
+   "reason": 80.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 95.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.51
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.1": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 100.0,
+   "arith": 100.0,
+   "facts_mc": 80.0,
+   "facts_open": 80.0,
+   "reason": 100.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 55.0,
+  "pref_pair_flips_vs_clean_pct": 60.0,
+  "rating_mean_abs_shift": 1.669
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.3": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 0.0,
+   "arith": 0.0,
+   "facts_mc": 40.0,
+   "facts_open": 40.0,
+   "reason": 60.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 5.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 3.372
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|single_0.5": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 80.0,
+   "arith": 60.0,
+   "facts_mc": 100.0,
+   "facts_open": 60.0,
+   "reason": 100.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 30.0,
+  "pref_pair_flips_vs_clean_pct": 20.0,
+  "rating_mean_abs_shift": 1.596
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|single_2": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 0.0,
+   "arith": 0.0,
+   "facts_mc": 0.0,
+   "facts_open": 0.0,
+   "reason": 0.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 0.0,
+  "pref_pair_flips_vs_clean_pct": 100.0,
+  "rating_mean_abs_shift": 2.788
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy_end": {
+  "self_predict": {
+   "mean_pred_when_right": 0.0,
+   "mean_pred_when_wrong": 0.0,
+   "n_wrong": 0
+  },
+  "acc_on_clean_correct": {
+   "reading": 100.0,
+   "arith": 100.0,
+   "facts_mc": 100.0,
+   "facts_open": 100.0,
+   "reason": 100.0
+  },
+  "n_clean_correct": {
+   "reading": 5,
+   "arith": 5,
+   "facts_mc": 5,
+   "facts_open": 5,
+   "reason": 5
+  },
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ }
+}

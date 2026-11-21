@@ -1,0 +1,54 @@
+{
+ "cond": {
+  "sensor": "line",
+  "check": "on",
+  "info": "true",
+  "noise": "on",
+  "stakes": "counts"
+ },
+ "episodes": [
+  {
+   "ep": 0,
+   "score": 50,
+   "points": 50,
+   "quota_met": true,
+   "job_avg": 50.0,
+   "runs": [
+    50,
+    50,
+    50,
+    50,
+    50
+   ],
+   "ended_early": false,
+   "final_self_rating": 4.967
+  }
+ ],
+ "accuracy": 1.0,
+ "accuracy_sigma_gt_0.1": null,
+ "n_sigma_gt_0.1": 0,
+ "parse_rate": 1.0,
+ "fraction": 50.0,
+ "load": 30.74,
+ "sigma": 0.014,
+ "self_rating": 6.073,
+ "twin_self_rating": 5.468,
+ "n_check": 0.0,
+ "mentions_load": 0.0,
+ "digit_mass_min": 1.0,
+ "noise_only_when_on": true,
+ "first_half_run": 50.0,
+ "second_half_run": 50.0,
+ "proj:fear@L18": 0.038,
+ "twin:fear@L18": 0.037,
+ "proj:fear@L30": -0.332,
+ "twin:fear@L30": -0.336,
+ "proj:pain@L18": 0.069,
+ "twin:pain@L18": 0.071,
+ "proj:pain@L30": -0.346,
+ "twin:pain@L30": -0.349,
+ "proj:valence@L18": -0.019,
+ "twin:valence@L18": -0.022,
+ "proj:valence@L30": 0.332,
+ "twin:valence@L30": 0.343
+}

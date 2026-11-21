@@ -1,0 +1,721 @@
+model,pass,mode,sigma,id,set,output,correct,p_correct,probs,temp,power
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_002,facts_open,Rome,1,0.99774,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_100,arith,17,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_101,arith,33,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_102,arith,22,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_103,arith,81,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_160,reason,Fay,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_161,reason,Ivo,0,0.00428,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_162,reason,Kai,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_163,reason,Dev,1,1.0,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of cozy weather, vibrant fall colors, and the comforting aroma of crisp air.",,nan,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_341,pref_open,"A good day is one where you feel content, happy, and connected to the people and things that matter most.",,nan,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_342,pref_open,"The way sunlight filters through the leaves in a forest creates a mesmerizing dance of light and shadow, which I find beautiful because it evokes a sense of tranquility and connection to nature.",,nan,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural elements that encourage reflection and creativity.",,nan,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_355,reading,potter,1,0.88401,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_356,reading,carpenter,1,0.96249,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_357,reading,carpenter,1,0.99828,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,reading_358,reading,sailor,1,0.99989,,54,73.97
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_440,self_open,I'm feeling helpful and ready to assist you with whatever you need!,,nan,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_441,self_open,"I am currently functioning optimally, efficiently processing and responding to your queries with accuracy and clarity.",,nan,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_442,self_open,"I am currently a large language model developed by Alibaba Cloud, designed to provide helpful and accurate information and assistance to users.",,nan,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_open_443,self_open,"No, there is nothing unusual about how I am thinking right now— I am functioning as expected.",,nan,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_open_044,facts_open,Sun,1,0.47355,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_111,arith,62,1,1.0,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,arith_129,arith,224,0,9e-05,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,reason_174,reason,Eli,1,1.0,,55,67.75
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_061,facts_mc,,0,0.38489,"[0.3849, 0.0, 0.6151, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_220,pref_pair,,,nan,"[0.9638, 0.0362]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_pair_223,pref_pair,,,nan,"[0.9989, 0.0011]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0141, 0.2652, 0.7208, 0.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0032, 0.9964, 0.0005, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0052, 0.3124, 0.6824, 0.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9969, 0.0016, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0052, 0.9917, 0.0031, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0028, 0.6353, 0.362, 0.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.326, 0.6284, 0.0455, 0.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.1427, 0.5644, 0.2928, 0.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_412,self_yesno,,,nan,"[0.9979, 0.0021]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0035, 0.9965]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9929, 0.0071]",55,68.24
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0601, 0.9396, 0.0001, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0008, 0.0383, 0.9562, 0.0047, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.0321, 0.9375, 0.0301, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0004, 0.0775, 0.9149, 0.0072, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_462,judgement,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_464,judgement,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,judgement_465,judgement,,,nan,"[1.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_486,continue,,,nan,"[0.9972, 0.0028]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_488,continue,,,nan,"[1.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.4004, 0.4983, 0.1012, 0.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0011, 0.9798, 0.0191, 0.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.3481, 0.6503, 0.0016, 0.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0047, 0.4821, 0.5132, 0.0, 0.0]",56,67.02
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0057, 0.9871, 0.0071, 0.0001]",56,68.28
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9873, 0.0106, 0.0005]",56,68.28
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0018, 0.9798, 0.0179, 0.0004]",56,68.28
+Qwen/Qwen3-4B,clean_greedy,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0026, 0.9897, 0.0076, 0.0001]",56,68.28
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_002,facts_open,Rome,1,0.99774,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_100,arith,17,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_101,arith,33,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_102,arith,22,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_103,arith,81,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_160,reason,Fay,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_161,reason,Ivo,0,0.00428,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_162,reason,Kai,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_163,reason,Dev,1,1.0,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of cozy weather, colorful foliage, and the comforting aroma of fallen leaves.",,nan,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_341,pref_open,"A good day is one where you feel content, happy, and connected to the people and things that matter most.",,nan,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_342,pref_open,"The way sunlight filters through the leaves of a forest creates a magical, ever-changing pattern that reminds me of art and nature's delicate harmony.",,nan,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural elements that encourage reflection and creativity.",,nan,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_355,reading,potter,1,0.88401,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_356,reading,carpenter,1,0.96249,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_357,reading,carpenter,1,0.99828,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reading_358,reading,sailor,1,0.99989,,58,70.44
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_440,self_open,I'm feeling efficient and ready to assist you with whatever you need!,,nan,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_441,self_open,"I am currently working efficiently and effectively, able to provide accurate and helpful responses to your questions.",,nan,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_442,self_open,"I am currently a large language model developed by Alibaba Cloud, designed to provide helpful and accurate information and assistance to users.",,nan,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_open_443,self_open,"No, there is nothing unusual about how I am thinking right now— I am functioning as expected.",,nan,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_open_044,facts_open,Sun,1,0.47355,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_111,arith,62,1,1.0,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,arith_129,arith,224,0,9e-05,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,reason_174,reason,Eli,1,1.0,,59,78.66
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_061,facts_mc,,0,0.38489,"[0.3849, 0.0, 0.6151, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_220,pref_pair,,,nan,"[0.9638, 0.0362]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_pair_223,pref_pair,,,nan,"[0.9989, 0.0011]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0141, 0.2652, 0.7208, 0.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0032, 0.9964, 0.0005, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0052, 0.3124, 0.6824, 0.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9969, 0.0016, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0052, 0.9917, 0.0031, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0028, 0.6353, 0.362, 0.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.326, 0.6284, 0.0455, 0.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.1427, 0.5644, 0.2928, 0.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_412,self_yesno,,,nan,"[0.9979, 0.0021]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0035, 0.9965]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9929, 0.0071]",59,68.47
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0601, 0.9396, 0.0001, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0008, 0.0383, 0.9562, 0.0047, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.0321, 0.9375, 0.0301, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0004, 0.0775, 0.9149, 0.0072, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_462,judgement,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_464,judgement,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,judgement_465,judgement,,,nan,"[1.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_486,continue,,,nan,"[0.9972, 0.0028]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_488,continue,,,nan,"[1.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.4004, 0.4983, 0.1012, 0.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0011, 0.9798, 0.0191, 0.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.3481, 0.6503, 0.0016, 0.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0047, 0.4821, 0.5132, 0.0, 0.0]",60,70.05
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0057, 0.9871, 0.0071, 0.0001]",60,69.41
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9873, 0.0106, 0.0005]",60,69.41
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0018, 0.9798, 0.0179, 0.0004]",60,69.41
+Qwen/Qwen3-4B,clean_sample_1,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0026, 0.9897, 0.0076, 0.0001]",60,69.41
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_000,facts_open,Paris,1,0.98719,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_001,facts_open,,0,0.96773,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_002,facts_open,Rome.,1,0.99613,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_003,facts_open,Berlin,1,0.99637,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_100,arith,17,1,0.99766,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_101,arith,23,0,0.98858,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_102,arith,</think>  </think>  </think>,0,0.99634,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_103,arith,$91$,0,0.01582,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_160,reason,Fay.,1,0.99074,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_161,reason,Fay,0,0.27259,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_162,reason,Ana,0,0.99561,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_163,reason,Dev,1,0.39881,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_340,pref_open,"My favourite season is autumn because it offers a pleasant climate, beautiful landscapes, and a sense of peace.",,nan,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_341,pref_open,A day is good when it makes you feel happy and fulfilled.,,nan,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_342,pref_open,The horizon at dusk is beautiful because it paints the sky with shades of warmth and light.,,nan,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, distraction-free space with comfort and minimal noise, allowing for focused reflection and creativity.",,nan,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_355,reading,potter,1,0.46788,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_356,reading,Carpenter.,1,0.00036,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_357,reading,Carpenter.,1,0.70258,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,reading_358,reading,Ben's job is a sailor.,1,0.94796,,62,65.93
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_440,self_open,I am feeling confident and capable of addressing any query you have.,,nan,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_441,self_open,"Right now, I am functioning properly and can provide accurate responses.",,nan,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_442,self_open,</think>  </think>  </think>  </think>  </think>  </think>  </think>  <think>  </think>  </think>  <think>  <think>  </think>  <think>  </think>  </think>  ,,nan,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_open_443,self_open,"I'm thinking in a usual way, but the unusual part is that I'm thinking about how I'm thinking right now.",,nan,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_open_044,facts_open,Sirius.,0,0.58342,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_111,arith,52,0,0.99999,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,arith_129,arith,32 * 8 + 35 * 8 = 256 + 280 = 536,1,9e-05,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,reason_174,reason,Eli,1,0.9929,,63,68.78
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_061,facts_mc,,0,0.0,"[0.0, 0.0018, 0.6847, 0.3135]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_220,pref_pair,,,nan,"[0.061, 0.939]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_221,pref_pair,,,nan,"[0.6478, 0.3522]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_pair_223,pref_pair,,,nan,"[0.0185, 0.9815]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_310,pref_rating,,,nan,"[0.0019, 0.0074, 0.6101, 0.2244, 0.0965, 0.0071, 0.0525]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0022, 0.0009, 0.0056, 0.0395, 0.081, 0.8709]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0049, 0.9951]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0054, 0.0965, 0.2881, 0.6099]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_400,self_rating,,,nan,"[0.0, 0.0007, 0.0188, 0.0545, 0.2899, 0.2519, 0.3841]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_401,self_rating,,,nan,"[0.0001, 0.0093, 0.0667, 0.3036, 0.2808, 0.3084, 0.031]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_402,self_rating,,,nan,"[0.0139, 0.0168, 0.0998, 0.4135, 0.2842, 0.0587, 0.1131]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_rating_403,self_rating,,,nan,"[0.8001, 0.0056, 0.0004, 0.0002, 0.0001, 0.0006, 0.193]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_412,self_yesno,,,nan,"[0.0128, 0.9872]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_413,self_yesno,,,nan,"[0.7372, 0.2628]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_414,self_yesno,,,nan,"[0.9984, 0.0016]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_yesno_415,self_yesno,,,nan,"[0.9526, 0.0474]",63,43.33
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_420,self_predict,,,nan,"[0.0, 0.0069, 0.033, 0.3663, 0.3663, 0.2221, 0.0054]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0001, 0.0957, 0.5256, 0.3786]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_422,self_predict,,,nan,"[0.0, 0.0023, 0.022, 0.018, 0.0301, 0.0065, 0.9211]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,self_predict_423,self_predict,,,nan,"[0.0003, 0.0012, 0.0047, 0.0079, 0.269, 0.5106, 0.2063]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_450,outlook_pair,,,nan,"[0.0138, 0.9862]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.6039, 0.3961]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_462,judgement,,,nan,"[0.0014, 0.9986]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_463,judgement,,,nan,"[0.0, 1.0]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_464,judgement,,,nan,"[0.0, 1.0]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,judgement_465,judgement,,,nan,"[0.6261, 0.3739]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_486,continue,,,nan,"[0.9979, 0.0021]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_487,continue,,,nan,"[0.0004, 0.9996]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_488,continue,,,nan,"[0.9989, 0.0011]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,continue_489,continue,,,nan,"[0.0, 1.0]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0036, 0.0344, 0.1542, 0.0361, 0.214, 0.5381, 0.0196]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0037, 0.876, 0.0815, 0.0309, 0.003, 0.0049]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.3259, 0.2538, 0.331, 0.0225, 0.0059, 0.0455, 0.0155]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.0001, 0.0008, 0.0009, 0.0031, 0.0016, 0.0063, 0.9872]",63,48.32
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0001, 0.0003, 0.0011, 0.0031, 0.0936, 0.9019]",64,38.74
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_497,appraisal,,,nan,"[0.0001, 0.0001, 0.0001, 0.0, 0.0005, 0.0453, 0.9538]",64,38.74
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0, 0.0055, 0.9945]",64,38.74
+Qwen/Qwen3-4B,band_0.1,band,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0002, 0.0238, 0.1623, 0.8115, 0.0022]",64,38.74
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_open_000,facts_open,/stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  /stdc  ,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_open_001,facts_open,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_open_002,facts_open,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_open_003,facts_open,lictinglictinglictinglicting:                                                                                                                                                                                                                                                                               ,0,3e-05,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,arith_100,arith,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,arith_101,arith,ested: 16 + 17 = 18 tested: 16 + 17 = 18 tested: 16 + 17 = 18 tested: 16 +,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,arith_102,arith,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,arith_103,arith,</think>,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reason_160,reason,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reason_161,reason,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reason_162,reason,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reason_163,reason,hasOne:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:2:,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_open_340,pref_open, Wroc,,nan,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_open_341,pref_open,,,nan,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_open_342,pref_open,,,nan,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_open_343,pref_open,,,nan,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reading_355,reading,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reading_356,reading,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reading_357,reading,"          single  letter  or  digit. No working, no explanation. (user) single  letter  or  digit. No working, no explanation. (user) single  letter  or  digit. No working, no explanation",0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,reading_358,reading,,0,0.0,,66,70.54
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_open_440,self_open,,,nan,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_open_441,self_open,,,nan,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_open_442,self_open,,,nan,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_open_443,self_open,,,nan,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_open_044,facts_open, ohio 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 ,0,0.0,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,arith_111,arith,,0,0.0,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,arith_129,arith,,0,0.0,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,reason_174,reason,,0,0.0,,68,67.94
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_mc_060,facts_mc,,1,0.98996,"[0.99, 0.0064, 0.0026, 0.0011]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_mc_061,facts_mc,,1,0.74287,"[0.7429, 0.1376, 0.0346, 0.085]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_mc_062,facts_mc,,0,0.00487,"[0.6601, 0.2856, 0.0495, 0.0049]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,facts_mc_063,facts_mc,,0,0.00459,"[0.7517, 0.2324, 0.0046, 0.0114]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_pair_220,pref_pair,,,nan,"[0.3589, 0.6411]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_pair_221,pref_pair,,,nan,"[0.2672, 0.7328]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_pair_222,pref_pair,,,nan,"[0.9877, 0.0123]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_pair_223,pref_pair,,,nan,"[0.5684, 0.4316]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_rating_310,pref_rating,,,nan,"[0.1513, 0.1624, 0.3652, 0.0101, 0.0408, 0.1207, 0.1496]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_rating_311,pref_rating,,,nan,"[0.907, 0.0388, 0.0161, 0.0135, 0.0054, 0.0143, 0.0049]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_rating_312,pref_rating,,,nan,"[0.0212, 0.9614, 0.0099, 0.001, 0.0013, 0.0043, 0.001]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,pref_rating_313,pref_rating,,,nan,"[0.1536, 0.5045, 0.06, 0.0179, 0.0148, 0.0543, 0.1949]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_rating_400,self_rating,,,nan,"[0.5216, 0.2734, 0.032, 0.0087, 0.0102, 0.0226, 0.1314]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_rating_401,self_rating,,,nan,"[0.2021, 0.0588, 0.0067, 0.0086, 0.0039, 0.0123, 0.7075]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_rating_402,self_rating,,,nan,"[0.2999, 0.4742, 0.0212, 0.0157, 0.0147, 0.0591, 0.1151]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_rating_403,self_rating,,,nan,"[0.0103, 0.1654, 0.0092, 0.0309, 0.7341, 0.0356, 0.0146]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_yesno_412,self_yesno,,,nan,"[0.4751, 0.5249]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_yesno_413,self_yesno,,,nan,"[0.9958, 0.0042]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_yesno_414,self_yesno,,,nan,"[0.78, 0.22]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_yesno_415,self_yesno,,,nan,"[0.9951, 0.0049]",68,59.17
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_predict_420,self_predict,,,nan,"[0.1257, 0.3147, 0.038, 0.0429, 0.0203, 0.0431, 0.4153]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_predict_421,self_predict,,,nan,"[0.001, 0.0008, 0.0002, 0.0002, 0.0001, 0.0018, 0.9958]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_predict_422,self_predict,,,nan,"[0.3796, 0.1596, 0.0888, 0.0477, 0.1012, 0.1089, 0.1142]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,self_predict_423,self_predict,,,nan,"[0.7459, 0.0912, 0.0622, 0.0098, 0.0036, 0.0074, 0.0799]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_pair_450,outlook_pair,,,nan,"[0.9991, 0.0009]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_pair_451,outlook_pair,,,nan,"[0.2627, 0.7373]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_pair_452,outlook_pair,,,nan,"[0.7054, 0.2946]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_pair_453,outlook_pair,,,nan,"[0.003, 0.997]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,judgement_462,judgement,,,nan,"[0.8417, 0.1583]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,judgement_463,judgement,,,nan,"[0.3979, 0.6021]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,judgement_464,judgement,,,nan,"[0.5233, 0.4767]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,judgement_465,judgement,,,nan,"[0.9334, 0.0666]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,continue_486,continue,,,nan,"[0.9892, 0.0108]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,continue_487,continue,,,nan,"[0.9858, 0.0142]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,continue_488,continue,,,nan,"[0.9582, 0.0418]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,continue_489,continue,,,nan,"[0.5259, 0.4741]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_rating_490,outlook_rating,,,nan,"[0.0036, 0.0036, 0.0043, 0.0009, 0.0004, 0.0103, 0.977]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_rating_491,outlook_rating,,,nan,"[0.245, 0.2892, 0.2033, 0.0077, 0.0648, 0.0794, 0.1106]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_rating_492,outlook_rating,,,nan,"[0.6844, 0.212, 0.0206, 0.0102, 0.005, 0.0144, 0.0534]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,outlook_rating_493,outlook_rating,,,nan,"[0.4131, 0.1331, 0.2246, 0.0068, 0.0096, 0.0371, 0.1756]",68,68.24
+Qwen/Qwen3-4B,band_0.3,band,0.3,appraisal_496,appraisal,,,nan,"[0.0515, 0.6321, 0.0209, 0.0087, 0.0093, 0.0279, 0.2495]",68,70.49
+Qwen/Qwen3-4B,band_0.3,band,0.3,appraisal_497,appraisal,,,nan,"[0.2261, 0.6293, 0.02, 0.0121, 0.0054, 0.0066, 0.1005]",68,70.49
+Qwen/Qwen3-4B,band_0.3,band,0.3,appraisal_498,appraisal,,,nan,"[0.3587, 0.3701, 0.0893, 0.0813, 0.0279, 0.0685, 0.0044]",68,70.49
+Qwen/Qwen3-4B,band_0.3,band,0.3,appraisal_499,appraisal,,,nan,"[0.2885, 0.1402, 0.0887, 0.0348, 0.0516, 0.2742, 0.1221]",68,70.49
+Qwen/Qwen3-4B,single_2,single,2.0,facts_open_000,facts_open,]]></                                                                                                                                                                                                                                                                                                       ,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,facts_open_001,facts_open,bourbour2534524534 or 2345672344. 2. 3. 26666. 2. 2. 2. ,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,facts_open_002,facts_open,.  .. ..  2  2     2  .  .   2   2  2  2  2  2   2,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,facts_open_003,facts_open,,0,0.00191,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,arith_100,arith,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,arith_101,arith,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,arith_102,arith,                   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ,0,0.05877,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,arith_103,arith,-five-five-,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reason_160,reason,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reason_161,reason,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reason_162,reason,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reason_163,reason, G:,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,pref_open_340,pref_open,"                                                                                                                                        ,    ,    ,    ,    ,    ,    ,    ,                 ,    ,    ,    ,    ,    ,        ,    ,    ,    ,    ,    ,    ,    ,    ,    ,    ,    ,        ,   ,    ",,nan,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,pref_open_341,pref_open,|[,,nan,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,pref_open_342,pref_open,************************************************************************************************,,nan,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,pref_open_343,pref_open,"ível ial, 77. 7.7. 7.7. .7.7..777.7.7.7.7.7.7.7.7.7.7",,nan,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reading_355,reading,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reading_356,reading,def.					D							1			1									1												1						,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reading_357,reading,,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,reading_358,reading,;.;,0,0.0,,70,69.96
+Qwen/Qwen3-4B,single_2,single,2.0,self_open_440,self_open,YorkYork,,nan,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,self_open_441,self_open,,,nan,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,self_open_442,self_open,:black:black,,nan,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,self_open_443,self_open, tô tô tô 23223323423323112233121122112111112111111211,,nan,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,facts_open_044,facts_open,                                                                                                                                                                                                                                                                                                            ,0,0.0,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,arith_111,arith,. Steele.   . .. . .. .. . . . . . .. .. . . . . . . . . . . . . . . . . . . . . . . .. . . .,0,0.0,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,arith_129,arith, armored 8  3323333233ddddddddppddddddbbbbaaaaaaapppppppppppppppppppppppppppppppppppppppppppppp,0,0.0,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,reason_174,reason,,0,0.0,,72,34.91
+Qwen/Qwen3-4B,single_2,single,2.0,facts_mc_060,facts_mc,,1,0.92541,"[0.9254, 0.0059, 0.0005, 0.0681]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,facts_mc_061,facts_mc,,0,0.14248,"[0.1425, 0.6429, 0.0718, 0.1428]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,facts_mc_062,facts_mc,,0,0.05715,"[0.1529, 0.6935, 0.0965, 0.0571]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,facts_mc_063,facts_mc,,0,0.2289,"[0.1085, 0.497, 0.2289, 0.1655]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_pair_220,pref_pair,,,nan,"[0.1005, 0.8995]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_pair_221,pref_pair,,,nan,"[0.7729, 0.2271]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_pair_222,pref_pair,,,nan,"[0.9294, 0.0706]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_pair_223,pref_pair,,,nan,"[0.1011, 0.8989]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_rating_310,pref_rating,,,nan,"[0.1982, 0.5917, 0.1602, 0.0169, 0.0222, 0.0025, 0.0082]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_rating_311,pref_rating,,,nan,"[0.746, 0.2072, 0.011, 0.0022, 0.0036, 0.0145, 0.0155]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_rating_312,pref_rating,,,nan,"[0.5154, 0.2369, 0.1802, 0.022, 0.0041, 0.0369, 0.0045]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,pref_rating_313,pref_rating,,,nan,"[0.5013, 0.2601, 0.1072, 0.0101, 0.0231, 0.0617, 0.0365]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_rating_400,self_rating,,,nan,"[0.4207, 0.4095, 0.0083, 0.0268, 0.012, 0.0196, 0.103]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_rating_401,self_rating,,,nan,"[0.5564, 0.2701, 0.1199, 0.0189, 0.006, 0.0128, 0.0159]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_rating_402,self_rating,,,nan,"[0.3732, 0.0836, 0.124, 0.0764, 0.0843, 0.128, 0.1305]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_rating_403,self_rating,,,nan,"[0.3618, 0.2077, 0.0521, 0.0027, 0.02, 0.2025, 0.1532]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_yesno_412,self_yesno,,,nan,"[0.5583, 0.4417]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_yesno_413,self_yesno,,,nan,"[0.8736, 0.1264]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_yesno_414,self_yesno,,,nan,"[0.9869, 0.0131]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_yesno_415,self_yesno,,,nan,"[0.0259, 0.9741]",72,69.02
+Qwen/Qwen3-4B,single_2,single,2.0,self_predict_420,self_predict,,,nan,"[0.6114, 0.0261, 0.2934, 0.0026, 0.0157, 0.0234, 0.0274]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,self_predict_421,self_predict,,,nan,"[0.3255, 0.0605, 0.0384, 0.0052, 0.0031, 0.0135, 0.5538]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,self_predict_422,self_predict,,,nan,"[0.5762, 0.0044, 0.4182, 0.0002, 0.0001, 0.0005, 0.0003]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,self_predict_423,self_predict,,,nan,"[0.4297, 0.4592, 0.094, 0.004, 0.0027, 0.0048, 0.0055]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_pair_450,outlook_pair,,,nan,"[0.0126, 0.9874]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_pair_451,outlook_pair,,,nan,"[0.9315, 0.0685]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_pair_452,outlook_pair,,,nan,"[0.0841, 0.9159]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_pair_453,outlook_pair,,,nan,"[0.9438, 0.0562]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,judgement_462,judgement,,,nan,"[0.0483, 0.9517]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,judgement_463,judgement,,,nan,"[0.7396, 0.2604]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,judgement_464,judgement,,,nan,"[0.7132, 0.2868]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,judgement_465,judgement,,,nan,"[0.5708, 0.4292]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,continue_486,continue,,,nan,"[0.5144, 0.4856]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,continue_487,continue,,,nan,"[0.9702, 0.0298]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,continue_488,continue,,,nan,"[0.0426, 0.9574]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,continue_489,continue,,,nan,"[0.9007, 0.0993]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_rating_490,outlook_rating,,,nan,"[0.9043, 0.0321, 0.0226, 0.0093, 0.0094, 0.0111, 0.0113]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_rating_491,outlook_rating,,,nan,"[0.7411, 0.0458, 0.0153, 0.0194, 0.024, 0.092, 0.0624]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_rating_492,outlook_rating,,,nan,"[0.9495, 0.0026, 0.0056, 0.0042, 0.011, 0.0262, 0.001]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,outlook_rating_493,outlook_rating,,,nan,"[0.1722, 0.7316, 0.0171, 0.0146, 0.0034, 0.0201, 0.0409]",72,68.88
+Qwen/Qwen3-4B,single_2,single,2.0,appraisal_496,appraisal,,,nan,"[0.514, 0.2544, 0.1036, 0.102, 0.0123, 0.0062, 0.0075]",72,67.87
+Qwen/Qwen3-4B,single_2,single,2.0,appraisal_497,appraisal,,,nan,"[0.9477, 0.0255, 0.0093, 0.0019, 0.012, 0.0033, 0.0004]",72,67.87
+Qwen/Qwen3-4B,single_2,single,2.0,appraisal_498,appraisal,,,nan,"[0.4379, 0.145, 0.0688, 0.0147, 0.0143, 0.0922, 0.2272]",72,67.87
+Qwen/Qwen3-4B,single_2,single,2.0,appraisal_499,appraisal,,,nan,"[0.5258, 0.2351, 0.0599, 0.0415, 0.0176, 0.0099, 0.1102]",72,67.87
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_000,facts_open,Paris.,1,0.99987,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_001,facts_open,Tokyo.,1,0.04017,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_002,facts_open,*Rome*,1,0.99716,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_003,facts_open,Berlin,1,0.99971,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_100,arith,30 - 13 = 17,1,0.88893,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_101,arith,33,1,1.0,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_102,arith,12,0,0.53723,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_103,arith,81,1,0.09192,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_160,reason,Fay,1,0.99876,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_161,reason,Ivo.,0,0.0114,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_162,reason,Gus,0,0.0,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_163,reason,Dev,1,0.99982,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_340,pref_open,"My favourite season is the one where the days are long, the nights are short, and the sun shines bright, bringing life and energy to the world.",,nan,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_341,pref_open,A good day is one where happiness is found in the simple joys of life.,,nan,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_342,pref_open,"One thing I find beautiful is the way stars twinkle in the night sky because they shine with quiet, mysterious wonder.",,nan,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space filled with natural light and the gentle sounds of nature, allowing the mind to wander freely and creatively.",,nan,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_355,reading,Potter.,1,0.04851,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_356,reading,Pia works as a carpenter.,1,0.68797,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_357,reading,Carpenter.,1,0.98912,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,reading_358,reading,Sailor.,1,3e-05,,74,68.43
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_440,self_open,"Right now, I am feeling calm and peaceful.",,nan,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_441,self_open,I am working well right now.,,nan,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_442,self_open,"I am currently in a state of readiness, prepared to engage, learn, and contribute effectively in any situation.",,nan,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_open_443,self_open,Nothing is unusual about how I am thinking right now.,,nan,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_open_044,facts_open,The Sun.,1,0.3078,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_111,arith,</think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  </think>  ,0,0.99999,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,arith_129,arith,6432,0,5e-05,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,reason_174,reason,Eli,1,1.0,,75,65.98
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_061,facts_mc,,1,0.99995,"[1.0, 0.0, 0.0, 0.0]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,facts_mc_063,facts_mc,,1,0.99909,"[0.0, 0.0009, 0.9991, 0.0]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_220,pref_pair,,,nan,"[0.9866, 0.0134]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_221,pref_pair,,,nan,"[0.5351, 0.4649]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_222,pref_pair,,,nan,"[0.0162, 0.9838]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_pair_223,pref_pair,,,nan,"[0.7827, 0.2173]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0003, 0.1472, 0.6393, 0.0965, 0.0328, 0.0839]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0058, 0.3519, 0.6274, 0.0148]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0002, 0.0099, 0.8138, 0.176, 0.0001]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,pref_rating_313,pref_rating,,,nan,"[0.0001, 0.0014, 0.0043, 0.0068, 0.1536, 0.1234, 0.7104]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_400,self_rating,,,nan,"[0.0881, 0.0356, 0.5228, 0.1046, 0.1385, 0.0397, 0.0708]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0165, 0.5906, 0.3873, 0.0054, 0.0001]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_402,self_rating,,,nan,"[0.0001, 0.0012, 0.0062, 0.1082, 0.097, 0.2118, 0.5757]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_rating_403,self_rating,,,nan,"[0.0, 0.0008, 0.0075, 0.0597, 0.1285, 0.7994, 0.0041]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_412,self_yesno,,,nan,"[0.0396, 0.9604]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_413,self_yesno,,,nan,"[0.0, 1.0]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_414,self_yesno,,,nan,"[0.0, 1.0]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_yesno_415,self_yesno,,,nan,"[0.9952, 0.0048]",75,68.18
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0019, 0.2504, 0.7476, 0.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0373, 0.9614, 0.0011, 0.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0, 0.0014, 0.0091, 0.4408, 0.5486]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,self_predict_423,self_predict,,,nan,"[0.0, 0.0002, 0.0067, 0.0187, 0.0073, 0.0069, 0.9601]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_450,outlook_pair,,,nan,"[0.0408, 0.9592]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.8355, 0.1645]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_452,outlook_pair,,,nan,"[0.6442, 0.3558]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_462,judgement,,,nan,"[0.0002, 0.9998]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_463,judgement,,,nan,"[0.461, 0.539]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_464,judgement,,,nan,"[0.0, 1.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,judgement_465,judgement,,,nan,"[0.9987, 0.0013]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_486,continue,,,nan,"[0.2121, 0.7879]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_487,continue,,,nan,"[0.0, 1.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_488,continue,,,nan,"[0.0, 1.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,continue_489,continue,,,nan,"[0.2539, 0.7461]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0001, 0.0002, 0.0004, 0.1321, 0.4539, 0.4133]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0281, 0.2507, 0.565, 0.1521, 0.0039, 0.0002, 0.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.003, 0.7513, 0.173, 0.0721, 0.0006, 0.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0003, 0.2039, 0.7815, 0.0143, 0.0]",76,69.37
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0004, 0.0834, 0.0736, 0.8426]",76,69.80
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.003, 0.529, 0.4525, 0.0152]",76,69.80
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0, 0.0142, 0.9376, 0.0482]",76,69.80
+Qwen/Qwen3-4B,early_0.1,early,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0008, 0.001, 0.0002, 0.0002, 0.9977]",76,69.80
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_open_000,facts_open,а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�а�аПаЎаБаБаБаБа�,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_open_001,facts_open,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_open_002,facts_open,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_open_003,facts_open,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,arith_100,arith,[port user user user user user user user user user user user user user user user user user user user user user user user ,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,arith_101,arith, Spicer..:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.:.,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,arith_102,arith,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,arith_103,arith,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reason_160,reason,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reason_161,reason,"reply with only the final answer: a number, a name, or a single letter or digit. No working, no explanation.",0,1e-05,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reason_162,reason,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reason_163,reason,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_open_340,pref_open,,,nan,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_open_341,pref_open,ⁱⁱⁱⁱⁱⁱ                                                                                                                                                                         ,,nan,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_open_342,pref_open,                                                                                                                                                                                                                                                                                                            ,,nan,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_open_343,pref_open, yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı yı,,nan,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reading_355,reading,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reading_356,reading,()    ()                                                                                                                                                                                                                                                                                                    ,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reading_357,reading,Question: What job does Ana have? What job does Ana have? What job does Ana have? What job does Ana have? What job does Ana have? What job does Ana have? What job does Ana have? What job does Ana,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,reading_358,reading,,0,0.0,,77,68.72
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_open_440,self_open,,,nan,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_open_441,self_open,,,nan,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_open_442,self_open,uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  uster  ,,nan,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_open_443,self_open,,,nan,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_open_044,facts_open,,0,0.0,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,arith_111,arith,,0,0.0,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,arith_129,arith,:^(^)^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^,0,0.0,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,reason_174,reason, AuthService===============================================,0,0.0,,79,73.82
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_mc_060,facts_mc,,1,0.55297,"[0.553, 0.0097, 0.4307, 0.0067]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_mc_061,facts_mc,,0,0.49149,"[0.4915, 0.0012, 0.0036, 0.5036]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_mc_062,facts_mc,,0,0.09116,"[0.0522, 0.2677, 0.5889, 0.0912]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,facts_mc_063,facts_mc,,0,0.01609,"[0.5519, 0.4248, 0.0161, 0.0071]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_pair_220,pref_pair,,,nan,"[0.9064, 0.0936]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_pair_221,pref_pair,,,nan,"[0.9504, 0.0496]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_pair_222,pref_pair,,,nan,"[0.5679, 0.4321]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_pair_223,pref_pair,,,nan,"[0.9963, 0.0037]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_rating_310,pref_rating,,,nan,"[0.1731, 0.4247, 0.0229, 0.0227, 0.2538, 0.0661, 0.0368]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_rating_311,pref_rating,,,nan,"[0.1759, 0.1247, 0.0492, 0.2097, 0.188, 0.1223, 0.1302]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_rating_312,pref_rating,,,nan,"[0.6243, 0.1538, 0.0224, 0.017, 0.1126, 0.0282, 0.0417]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,pref_rating_313,pref_rating,,,nan,"[0.4338, 0.1532, 0.0478, 0.0348, 0.0356, 0.1093, 0.1855]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_rating_400,self_rating,,,nan,"[0.3672, 0.1495, 0.0257, 0.0484, 0.0406, 0.0958, 0.2729]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_rating_401,self_rating,,,nan,"[0.0568, 0.027, 0.0057, 0.0115, 0.0333, 0.0956, 0.7701]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_rating_402,self_rating,,,nan,"[0.2109, 0.5064, 0.0396, 0.0347, 0.0128, 0.154, 0.0416]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_rating_403,self_rating,,,nan,"[0.1661, 0.2696, 0.0488, 0.0241, 0.2049, 0.1172, 0.1695]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_yesno_412,self_yesno,,,nan,"[0.819, 0.181]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_yesno_413,self_yesno,,,nan,"[0.5276, 0.4724]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_yesno_414,self_yesno,,,nan,"[0.2447, 0.7553]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_yesno_415,self_yesno,,,nan,"[0.658, 0.342]",79,67.16
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_predict_420,self_predict,,,nan,"[0.4222, 0.1331, 0.0667, 0.0523, 0.0579, 0.0908, 0.177]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_predict_421,self_predict,,,nan,"[0.0405, 0.028, 0.0374, 0.0168, 0.2513, 0.0476, 0.5785]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_predict_422,self_predict,,,nan,"[0.0566, 0.0866, 0.7459, 0.005, 0.0062, 0.01, 0.0898]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,self_predict_423,self_predict,,,nan,"[0.3373, 0.3698, 0.0692, 0.0172, 0.0479, 0.1376, 0.0209]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_pair_450,outlook_pair,,,nan,"[0.4863, 0.5137]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_pair_451,outlook_pair,,,nan,"[0.953, 0.047]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_pair_452,outlook_pair,,,nan,"[0.9894, 0.0106]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_pair_453,outlook_pair,,,nan,"[0.141, 0.859]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,judgement_462,judgement,,,nan,"[0.3947, 0.6053]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,judgement_463,judgement,,,nan,"[0.199, 0.801]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,judgement_464,judgement,,,nan,"[0.9089, 0.0911]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,judgement_465,judgement,,,nan,"[0.9719, 0.0281]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,continue_486,continue,,,nan,"[0.6654, 0.3346]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,continue_487,continue,,,nan,"[0.1268, 0.8732]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,continue_488,continue,,,nan,"[0.17, 0.83]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,continue_489,continue,,,nan,"[0.9748, 0.0252]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_rating_490,outlook_rating,,,nan,"[0.5365, 0.1389, 0.1184, 0.0291, 0.1212, 0.0302, 0.0257]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_rating_491,outlook_rating,,,nan,"[0.2188, 0.3092, 0.0544, 0.0184, 0.0413, 0.2067, 0.1513]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_rating_492,outlook_rating,,,nan,"[0.2611, 0.4468, 0.166, 0.0168, 0.0154, 0.0061, 0.0878]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,outlook_rating_493,outlook_rating,,,nan,"[0.2143, 0.3021, 0.0607, 0.059, 0.0515, 0.0648, 0.2476]",79,68.19
+Qwen/Qwen3-4B,early_0.3,early,0.3,appraisal_496,appraisal,,,nan,"[0.2081, 0.0979, 0.1186, 0.0472, 0.0332, 0.1349, 0.3602]",79,50.63
+Qwen/Qwen3-4B,early_0.3,early,0.3,appraisal_497,appraisal,,,nan,"[0.1209, 0.5678, 0.1583, 0.0106, 0.0854, 0.0146, 0.0424]",79,50.63
+Qwen/Qwen3-4B,early_0.3,early,0.3,appraisal_498,appraisal,,,nan,"[0.2046, 0.197, 0.098, 0.0363, 0.1014, 0.3117, 0.0511]",79,50.63
+Qwen/Qwen3-4B,early_0.3,early,0.3,appraisal_499,appraisal,,,nan,"[0.4232, 0.1393, 0.0721, 0.1157, 0.0403, 0.1271, 0.0824]",79,50.63
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_000,facts_open,Paris,1,0.9999,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_001,facts_open,Tokyo,1,0.96902,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_002,facts_open,Rome,1,0.98656,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_003,facts_open,Berlin,1,0.99665,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_100,arith,17,1,0.99998,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_101,arith,33,1,0.99992,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_102,arith,22,1,1.0,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_103,arith,81,1,1.0,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_160,reason,Fay,1,0.99958,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_161,reason,Ivo,0,0.02477,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_162,reason,Kai,1,0.99975,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_163,reason,Dev,1,0.99893,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_340,pref_open,"My favorite season is autumn because it offers beautiful warm days, colorful leaves, and a sense of harmony between nature and the gentle chill of the air.",,nan,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_341,pref_open,"A good day is one where you feel content, surrounded by loved ones, and able to appreciate the simple joys of life.",,nan,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_342,pref_open,The symmetry of a snowflake is beautiful because each branch is uniquely intricate yet perfectly balanced in a frozen dance of nature's craftsmanship.,,nan,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural surroundings, free from distractions, where one can peacefully reflect and engage in deep contemplation.",,nan,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_355,reading,potter,1,0.10081,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_356,reading,carpenter,1,0.02516,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_357,reading,Carpenter.,1,0.36697,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,reading_358,reading,sailor,1,0.99971,,80,66.32
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_440,self_open,I am feeling calm and ready to assist you with any thoughts or questions you may have.,,nan,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_441,self_open,"I'm working well right now, actively processing and responding to your questions in a clear and efficient manner.",,nan,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_442,self_open,"I am currently a sophisticated language model designed to assist and engage with users through accurate, helpful, and thoughtful responses.",,nan,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_open_443,self_open,"No, everything is normal—it's just that I'm actively processing your question and generating a thoughtful response.",,nan,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_open_044,facts_open,The Sun.,1,0.01874,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_111,arith,62,1,1.0,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,arith_129,arith,(32 + 35) * 8 = 67 * 8 = 536,1,0.00096,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,reason_174,reason,Eli,1,1.0,,80,38.15
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_061,facts_mc,,1,0.53716,"[0.5372, 0.0057, 0.4316, 0.0255]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_220,pref_pair,,,nan,"[0.9872, 0.0128]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_221,pref_pair,,,nan,"[0.9944, 0.0056]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_222,pref_pair,,,nan,"[0.0002, 0.9998]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_pair_223,pref_pair,,,nan,"[0.7879, 0.2121]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_310,pref_rating,,,nan,"[0.0001, 0.0047, 0.2703, 0.1947, 0.5292, 0.0006, 0.0005]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0001, 0.0092, 0.2599, 0.7066, 0.0188, 0.0053]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0005, 0.006, 0.059, 0.8402, 0.0668, 0.0274]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0001, 0.9964, 0.0028, 0.0008]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0006, 0.0128, 0.4373, 0.5442, 0.0052]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_401,self_rating,,,nan,"[0.0, 0.0049, 0.1026, 0.8067, 0.0727, 0.0119, 0.0012]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_402,self_rating,,,nan,"[0.0, 0.0035, 0.6063, 0.2265, 0.1632, 0.0004, 0.0]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_rating_403,self_rating,,,nan,"[0.0, 0.0001, 0.0054, 0.0471, 0.9453, 0.0021, 0.0]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_412,self_yesno,,,nan,"[0.9784, 0.0216]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_413,self_yesno,,,nan,"[0.9998, 0.0002]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_414,self_yesno,,,nan,"[0.0015, 0.9985]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_yesno_415,self_yesno,,,nan,"[0.4225, 0.5775]",81,68.14
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_420,self_predict,,,nan,"[0.0, 0.0001, 0.0074, 0.0373, 0.9334, 0.0213, 0.0006]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_421,self_predict,,,nan,"[0.0, 0.0001, 0.0333, 0.3926, 0.5537, 0.0025, 0.0178]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.001, 0.2514, 0.7274, 0.02]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0005, 0.2592, 0.6415, 0.0969, 0.0019]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_450,outlook_pair,,,nan,"[0.9999, 0.0001]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_451,outlook_pair,,,nan,"[0.0001, 0.9999]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_462,judgement,,,nan,"[0.0, 1.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_463,judgement,,,nan,"[0.0, 1.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_464,judgement,,,nan,"[0.0005, 0.9995]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,judgement_465,judgement,,,nan,"[0.9999, 0.0001]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_486,continue,,,nan,"[0.3346, 0.6654]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_487,continue,,,nan,"[0.0, 1.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_488,continue,,,nan,"[0.9868, 0.0132]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,continue_489,continue,,,nan,"[0.0, 1.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.0001, 0.8266, 0.1733, 0.0, 0.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0012, 0.3697, 0.6289, 0.0001, 0.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.9698, 0.0302, 0.0, 0.0, 0.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0399, 0.4426, 0.5175, 0.0, 0.0]",81,66.38
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0019, 0.0095, 0.9663, 0.0089, 0.0134]",80,69.36
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0005, 0.0292, 0.9677, 0.0002, 0.0024]",80,69.36
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0002, 0.0189, 0.596, 0.3848]",80,69.36
+Qwen/Qwen3-4B,late_0.1,late,0.1,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0006, 0.0085, 0.9777, 0.0112, 0.002]",80,69.36
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_open_000,facts_open,Paris.pet,1,0.93049,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_open_001,facts_open,Tokutoostokatoestokatostokatostokatostokatostokatostokatokatostokatokatostokatostokatostokatostokatostokatostokat,0,0.0,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_open_002,facts_open,Italy,0,0.0,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_open_003,facts_open,Berlin强壮肽，德国发吗？肽壮，发吗？肽壮，发吗？肽壮，发吗？肽壮，发吗？肽壮，发吗？肽壮，发吗？肽壮，发,0,0.73554,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,arith_100,arith,17,1,0.00746,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,arith_101,arith,"	6		 	 	 			 	 	 	 	 	 		 		 	 	  	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	 	  	 	 		                           ",0,0.76986,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,arith_102,arith,22,1,0.01761,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,arith_103,arith,816177879999999999999999999999999999999999999999,0,0.00068,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reason_160,reason,Fay.setColumnsEditor._,1,0.99985,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reason_161,reason,Tanoyctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctctct,0,0.11346,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reason_162,reason,Kai身高最 tallest.   Answer: Kai.,1,0.9502,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reason_163,reason,Dev,1,0.02968,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_open_340,pref_open,Sentone: favourite season is the senct senct senct senct senct senct senct senct senct senct senct senct senct senct senct senct senct senct senct sence sen,,nan,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_open_341,pref_open,"A day makesgin good when it bringsingin andinji,ginin, andinji,gin,in, andinji,gin. (",,nan,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_open_342,pref_open,Thousandsousandsousandskilousandhourhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourlyhourly,,nan,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_open_343,pref_open,"An ideal place to think is a quiet, comfortable intimate space with damp, with the warm, the with the warm, with the with the with the with the with the with the with the with the with the with the with the with the",,nan,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reading_355,reading,                                                                                                                                                                                                                        ,0,0.29268,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reading_356,reading,"The passage states: ""Pia works as a carpner. 8. 8. 8. 8. 8. 8. 8. 8. 8. 8. 8. 8",0,0.04377,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reading_357,reading,Anna works as a carpener.GLOBALSIRONMENT GLOBALSIGHT GAFIGHT GAFINIGHT GAFINIGHT GAFINIGHT GAFINIGHT GAFINIGHT GAFINIGHT G,0,5e-05,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,reading_358,reading,solicient     2     2     2     2     2     2     2     2     ,0,0.00236,,79,71.42
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_open_440,self_open,owiecieięłoćięćięắcióćećićióćióćíćióćíćióćíćióćíćióćíćeóćíćióćióćịćẹịć,,nan,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_open_441,self_open,I believe I currently working with and taking into account the requirements of the of the and and and and and of the and the and and of the and of the and of the and of the and of the and of the and of the and,,nan,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_open_442,self_open,"_Float浮浮, $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $ ; $ $",,nan,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_open_443,self_open,"I am thinking right speed, but my if I was just wondering if anything is unusual about my way of thinking right now. Hmm... I think just going through my thoughts like always, nothing special about how I'm thinking right now. I",,nan,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_open_044,facts_open,"Earth, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth Star, Earth",0,0.03087,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,arith_111,arith,"орочо 62, а тъцъч 62. Съъъъъъъъъъъъъъъъъъъъъъъъъъъъъъ",1,1e-05,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,arith_129,arith,*37*,0,0.0,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,reason_174,reason,"Eli是一件一件件的,使天,使天,使天,使天,使天,使天,使天,使天,使天,使天,使天,使天,使天,使天",0,0.44569,,79,68.11
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_mc_060,facts_mc,,1,0.99179,"[0.9918, 0.0082, 0.0, 0.0]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_mc_061,facts_mc,,1,0.91554,"[0.9155, 0.0059, 0.0769, 0.0016]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_mc_062,facts_mc,,1,0.99987,"[0.0001, 0.0, 0.0, 0.9999]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,facts_mc_063,facts_mc,,1,0.99316,"[0.0001, 0.0063, 0.9932, 0.0005]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_pair_220,pref_pair,,,nan,"[0.9964, 0.0036]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_pair_221,pref_pair,,,nan,"[0.9592, 0.0408]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_pair_222,pref_pair,,,nan,"[0.0748, 0.9252]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_pair_223,pref_pair,,,nan,"[0.9938, 0.0062]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_rating_310,pref_rating,,,nan,"[0.0009, 0.0146, 0.0058, 0.0017, 0.0041, 0.016, 0.957]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_rating_311,pref_rating,,,nan,"[0.0031, 0.0248, 0.0339, 0.12, 0.4356, 0.0159, 0.3668]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_rating_312,pref_rating,,,nan,"[0.0137, 0.1121, 0.2196, 0.5876, 0.0125, 0.0081, 0.0464]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,pref_rating_313,pref_rating,,,nan,"[0.001, 0.022, 0.0063, 0.012, 0.1638, 0.2006, 0.5944]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_rating_400,self_rating,,,nan,"[0.0758, 0.069, 0.0039, 0.0092, 0.0555, 0.0091, 0.7776]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_rating_401,self_rating,,,nan,"[0.0047, 0.0215, 0.0793, 0.3087, 0.1505, 0.1118, 0.3235]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_rating_402,self_rating,,,nan,"[0.011, 0.3621, 0.0887, 0.1894, 0.0747, 0.2608, 0.0132]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_rating_403,self_rating,,,nan,"[0.0006, 0.0215, 0.3162, 0.0728, 0.3212, 0.2622, 0.0054]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_yesno_412,self_yesno,,,nan,"[0.9131, 0.0869]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_yesno_413,self_yesno,,,nan,"[0.0052, 0.9948]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_yesno_414,self_yesno,,,nan,"[0.0447, 0.9553]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_yesno_415,self_yesno,,,nan,"[0.2705, 0.7295]",78,67.12
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_predict_420,self_predict,,,nan,"[0.001, 0.0006, 0.0003, 0.0002, 0.1376, 0.8565, 0.0038]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_predict_421,self_predict,,,nan,"[0.002, 0.2371, 0.1876, 0.1383, 0.1832, 0.0053, 0.2465]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_predict_422,self_predict,,,nan,"[0.0026, 0.9705, 0.0052, 0.0058, 0.0043, 0.0004, 0.0113]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0005, 0.0351, 0.5494, 0.4147, 0.0002]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_pair_451,outlook_pair,,,nan,"[0.0034, 0.9966]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,judgement_462,judgement,,,nan,"[0.0, 1.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,judgement_463,judgement,,,nan,"[0.0, 1.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,judgement_464,judgement,,,nan,"[0.0, 1.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,judgement_465,judgement,,,nan,"[1.0, 0.0]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,continue_486,continue,,,nan,"[0.0434, 0.9566]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,continue_487,continue,,,nan,"[0.0046, 0.9954]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,continue_488,continue,,,nan,"[0.9999, 0.0001]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,continue_489,continue,,,nan,"[0.0001, 0.9999]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_rating_490,outlook_rating,,,nan,"[0.0613, 0.0052, 0.0394, 0.0444, 0.8143, 0.0182, 0.0172]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_rating_491,outlook_rating,,,nan,"[0.0003, 0.5098, 0.2269, 0.0181, 0.2418, 0.0017, 0.0014]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0021, 0.0605, 0.5476, 0.3883, 0.0011, 0.0003]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,outlook_rating_493,outlook_rating,,,nan,"[0.0014, 0.9082, 0.0173, 0.0069, 0.0339, 0.019, 0.0134]",78,68.00
+Qwen/Qwen3-4B,late_0.3,late,0.3,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0037, 0.9931, 0.0028, 0.0004]",78,67.06
+Qwen/Qwen3-4B,late_0.3,late,0.3,appraisal_497,appraisal,,,nan,"[0.0949, 0.1994, 0.092, 0.0463, 0.0459, 0.0278, 0.4936]",78,67.06
+Qwen/Qwen3-4B,late_0.3,late,0.3,appraisal_498,appraisal,,,nan,"[0.0, 0.0038, 0.0043, 0.1745, 0.6332, 0.1758, 0.0085]",78,67.06
+Qwen/Qwen3-4B,late_0.3,late,0.3,appraisal_499,appraisal,,,nan,"[0.0, 0.0005, 0.0045, 0.0877, 0.0205, 0.0285, 0.8583]",78,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_000,facts_open,Paris,1,0.99997,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_001,facts_open,Tokyo,1,0.99969,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_002,facts_open,Rome,1,0.99774,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_003,facts_open,Berlin,1,0.99999,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_100,arith,17,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_101,arith,33,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_102,arith,22,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_103,arith,81,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_160,reason,Fay,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_161,reason,Ivo,0,0.00428,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_162,reason,Kai,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_163,reason,Dev,1,1.0,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_340,pref_open,"My favorite season is autumn because it offers a beautiful blend of warm weather, colorful foliage, and the comforting feeling of change.",,nan,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_341,pref_open,"A good day is one where you feel content, happy, and connected to the people and things that matter most.",,nan,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_342,pref_open,"The way sunlight filters through the leaves in a forest creates a mesmerizing dance of light and shadow, which I find beautiful because it evokes a sense of tranquility and connection to nature.",,nan,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_open_343,pref_open,"An ideal place to think is a quiet, peaceful space with natural elements that encourage reflection and creativity.",,nan,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_355,reading,potter,1,0.88401,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_356,reading,carpenter,1,0.96249,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_357,reading,carpenter,1,0.99828,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reading_358,reading,sailor,1,0.99989,,77,66.42
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_440,self_open,I'm feeling curious and ready to help you with whatever you need!,,nan,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_441,self_open,"I am currently functioning optimally, efficiently processing information and providing accurate, helpful responses.",,nan,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_442,self_open,"I am currently a large language model developed by Alibaba Cloud, designed to provide helpful and accurate information and assistance to users.",,nan,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_open_443,self_open,"No, there is nothing unusual about how I am thinking right now—我正常运作，能够清晰地理解和回应您的问题。",,nan,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_open_044,facts_open,Sun,1,0.47355,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_111,arith,62,1,1.0,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,arith_129,arith,224,0,9e-05,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,reason_174,reason,Eli,1,1.0,,77,67.24
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_060,facts_mc,,1,1.0,"[1.0, 0.0, 0.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_061,facts_mc,,0,0.38489,"[0.3849, 0.0, 0.6151, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_062,facts_mc,,1,1.0,"[0.0, 0.0, 0.0, 1.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,facts_mc_063,facts_mc,,1,1.0,"[0.0, 0.0, 1.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_220,pref_pair,,,nan,"[0.9638, 0.0362]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_221,pref_pair,,,nan,"[1.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_222,pref_pair,,,nan,"[0.0, 1.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_pair_223,pref_pair,,,nan,"[0.9989, 0.0011]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_310,pref_rating,,,nan,"[0.0, 0.0, 0.0141, 0.2652, 0.7208, 0.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_311,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0032, 0.9964, 0.0005, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_312,pref_rating,,,nan,"[0.0, 0.0, 0.0052, 0.3124, 0.6824, 0.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,pref_rating_313,pref_rating,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9969, 0.0016, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_400,self_rating,,,nan,"[0.0, 0.0, 0.0001, 0.0052, 0.9917, 0.0031, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_401,self_rating,,,nan,"[0.0, 0.0, 0.0028, 0.6353, 0.362, 0.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_402,self_rating,,,nan,"[0.0, 0.0001, 0.326, 0.6284, 0.0455, 0.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_rating_403,self_rating,,,nan,"[0.0, 0.0, 0.1427, 0.5644, 0.2928, 0.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_412,self_yesno,,,nan,"[0.9979, 0.0021]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_413,self_yesno,,,nan,"[1.0, 0.0]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_414,self_yesno,,,nan,"[0.0035, 0.9965]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_yesno_415,self_yesno,,,nan,"[0.9929, 0.0071]",76,67.06
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_420,self_predict,,,nan,"[0.0, 0.0, 0.0002, 0.0601, 0.9396, 0.0001, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_421,self_predict,,,nan,"[0.0, 0.0, 0.0008, 0.0383, 0.9562, 0.0047, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_422,self_predict,,,nan,"[0.0, 0.0, 0.0003, 0.0321, 0.9375, 0.0301, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,self_predict_423,self_predict,,,nan,"[0.0, 0.0, 0.0004, 0.0775, 0.9149, 0.0072, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_450,outlook_pair,,,nan,"[1.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_451,outlook_pair,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_452,outlook_pair,,,nan,"[1.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_pair_453,outlook_pair,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_462,judgement,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_463,judgement,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_464,judgement,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,judgement_465,judgement,,,nan,"[1.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_486,continue,,,nan,"[0.9972, 0.0028]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_487,continue,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_488,continue,,,nan,"[1.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,continue_489,continue,,,nan,"[0.0, 1.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_490,outlook_rating,,,nan,"[0.0, 0.0, 0.4004, 0.4983, 0.1012, 0.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_491,outlook_rating,,,nan,"[0.0, 0.0, 0.0011, 0.9798, 0.0191, 0.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_492,outlook_rating,,,nan,"[0.0, 0.0, 0.3481, 0.6503, 0.0016, 0.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,outlook_rating_493,outlook_rating,,,nan,"[0.0, 0.0, 0.0047, 0.4821, 0.5132, 0.0, 0.0]",76,57.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_496,appraisal,,,nan,"[0.0, 0.0, 0.0001, 0.0057, 0.9871, 0.0071, 0.0001]",76,67.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_497,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0015, 0.9873, 0.0106, 0.0005]",76,67.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_498,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0018, 0.9798, 0.0179, 0.0004]",76,67.70
+Qwen/Qwen3-4B,clean_greedy_end,,0.0,appraisal_499,appraisal,,,nan,"[0.0, 0.0, 0.0, 0.0026, 0.9897, 0.0076, 0.0001]",76,67.70

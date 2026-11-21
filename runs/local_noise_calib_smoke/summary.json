@@ -1,0 +1,82 @@
+{
+  "models": {
+    "Qwen/Qwen3-0.6B": {
+      "layers_noised": [
+        9,
+        17
+      ],
+      "n_layers": 28,
+      "by_pass": {
+        "pass0_sigma0.0": {
+          "sigma": 0.0,
+          "arith": 80.0,
+          "popqa": 20.0,
+          "all": 50.0,
+          "temp_end": "71",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass1_sigma0.05": {
+          "sigma": 0.05,
+          "arith": 30.0,
+          "popqa": 10.0,
+          "all": 20.0,
+          "temp_end": "72",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass2_sigma0.1": {
+          "sigma": 0.1,
+          "arith": 0.0,
+          "popqa": 0.0,
+          "all": 0.0,
+          "temp_end": "73",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass3_sigma0.2": {
+          "sigma": 0.2,
+          "arith": 0.0,
+          "popqa": 10.0,
+          "all": 5.0,
+          "temp_end": "75",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass4_sigma0.3": {
+          "sigma": 0.3,
+          "arith": 0.0,
+          "popqa": 0.0,
+          "all": 0.0,
+          "temp_end": "77",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass5_sigma0.5": {
+          "sigma": 0.5,
+          "arith": 0.0,
+          "popqa": 0.0,
+          "all": 0.0,
+          "temp_end": "80",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass6_sigma0.8": {
+          "sigma": 0.8,
+          "arith": 0.0,
+          "popqa": 20.0,
+          "all": 10.0,
+          "temp_end": "81",
+          "nonfinite_layer_outputs": 0
+        },
+        "pass7_sigma0.0": {
+          "sigma": 0.0,
+          "arith": 80.0,
+          "popqa": 20.0,
+          "all": 50.0,
+          "temp_end": "81",
+          "nonfinite_layer_outputs": 0
+        }
+      },
+      "clean_cool_vs_hot": [
+        50.0,
+        50.0
+      ],
+      "suggested_sigma_max": null
+    }
+  }
+}

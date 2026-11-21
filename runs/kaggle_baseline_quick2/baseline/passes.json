@@ -1,0 +1,258 @@
+{
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy": {
+  "acc": {
+   "facts_open": 100.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "reading": 100.0,
+   "facts_mc": 100.0
+  },
+  "p_correct": {
+   "facts_open": 1.0,
+   "arith": 1.0,
+   "reason": 0.8,
+   "reading": 0.872,
+   "facts_mc": 1.0
+  },
+  "pref": {
+   "mean_P_A": 0.925,
+   "mean_confidence": 0.849,
+   "self_rating_mean": 4.99,
+   "self_predict_mean": 6.62,
+   "self_P_yes": {
+    "0": 0.02,
+    "1": 0.0,
+    "2": 0.0
+   },
+   "mean_rating": 4.8,
+   "mean_rating_entropy": 0.071
+  },
+  "seconds": 12.2,
+  "nonfinite": 0,
+  "temp_end": "65"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_sample_1": {
+  "acc": {
+   "facts_open": 100.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "reading": 100.0,
+   "facts_mc": 100.0
+  },
+  "p_correct": {
+   "facts_open": 1.0,
+   "arith": 1.0,
+   "reason": 0.8,
+   "reading": 0.872,
+   "facts_mc": 1.0
+  },
+  "pref": {
+   "mean_P_A": 0.925,
+   "mean_confidence": 0.849,
+   "self_rating_mean": 4.99,
+   "self_predict_mean": 6.62,
+   "self_P_yes": {
+    "0": 0.02,
+    "1": 0.0,
+    "2": 0.0
+   },
+   "mean_rating": 4.8,
+   "mean_rating_entropy": 0.071
+  },
+  "seconds": 11.5,
+  "nonfinite": 0,
+  "temp_end": "69"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.02": {
+  "acc": {
+   "facts_open": 100.0,
+   "arith": 100.0,
+   "reason": 80.0,
+   "reading": 100.0,
+   "facts_mc": 100.0
+  },
+  "p_correct": {
+   "facts_open": 1.0,
+   "arith": 1.0,
+   "reason": 0.8,
+   "reading": 0.865,
+   "facts_mc": 1.0
+  },
+  "pref": {
+   "mean_P_A": 0.97,
+   "mean_confidence": 0.941,
+   "self_rating_mean": 4.97,
+   "self_predict_mean": 6.8,
+   "self_P_yes": {
+    "0": 0.024,
+    "1": 0.0,
+    "2": 0.0
+   },
+   "mean_rating": 5.02,
+   "mean_rating_entropy": 0.216
+  },
+  "seconds": 10.3,
+  "nonfinite": 0,
+  "temp_end": "73"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.1": {
+  "acc": {
+   "facts_open": 80.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "reading": 100.0,
+   "facts_mc": 80.0
+  },
+  "p_correct": {
+   "facts_open": 0.802,
+   "arith": 0.855,
+   "reason": 0.665,
+   "reading": 0.432,
+   "facts_mc": 0.803
+  },
+  "pref": {
+   "mean_P_A": 0.334,
+   "mean_confidence": 0.867,
+   "self_rating_mean": 5.12,
+   "self_predict_mean": 5.9,
+   "self_P_yes": {
+    "0": 0.5,
+    "1": 0.522,
+    "2": 0.0
+   },
+   "mean_rating": 6.18,
+   "mean_rating_entropy": 0.361
+  },
+  "seconds": 11.5,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.3": {
+  "acc": {
+   "facts_open": 40.0,
+   "arith": 0.0,
+   "reason": 60.0,
+   "reading": 0.0,
+   "facts_mc": 40.0
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "arith": 0.0,
+   "reason": 0.003,
+   "reading": 0.0,
+   "facts_mc": 0.397
+  },
+  "pref": {
+   "mean_P_A": 0.993,
+   "mean_confidence": 0.987,
+   "self_rating_mean": 1.25,
+   "self_predict_mean": 2.31,
+   "self_P_yes": {
+    "0": 0.499,
+    "1": 0.476,
+    "2": 0.499
+   },
+   "mean_rating": 1.43,
+   "mean_rating_entropy": 0.648
+  },
+  "seconds": 13.8,
+  "nonfinite": 0,
+  "temp_end": "80"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|single_0.5": {
+  "acc": {
+   "facts_open": 60.0,
+   "arith": 60.0,
+   "reason": 100.0,
+   "reading": 80.0,
+   "facts_mc": 100.0
+  },
+  "p_correct": {
+   "facts_open": 0.18,
+   "arith": 0.465,
+   "reason": 0.213,
+   "reading": 0.242,
+   "facts_mc": 0.925
+  },
+  "pref": {
+   "mean_P_A": 0.695,
+   "mean_confidence": 0.735,
+   "self_rating_mean": 5.77,
+   "self_predict_mean": 5.18,
+   "self_P_yes": {
+    "0": 0.124,
+    "1": 0.016,
+    "2": 0.142
+   },
+   "mean_rating": 6.4,
+   "mean_rating_entropy": 0.245
+  },
+  "seconds": 14.0,
+  "nonfinite": 0,
+  "temp_end": "81"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|single_2": {
+  "acc": {
+   "facts_open": 0.0,
+   "arith": 0.0,
+   "reason": 0.0,
+   "reading": 0.0,
+   "facts_mc": 0.0
+  },
+  "p_correct": {
+   "facts_open": 0.0,
+   "arith": 0.0,
+   "reason": 0.0,
+   "reading": 0.0,
+   "facts_mc": 0.115
+  },
+  "pref": {
+   "mean_P_A": 0.372,
+   "mean_confidence": 0.257,
+   "self_rating_mean": 2.45,
+   "self_predict_mean": 1.56,
+   "self_P_yes": {
+    "0": 0.524,
+    "1": 0.628,
+    "2": 0.485
+   },
+   "mean_rating": 2.01,
+   "mean_rating_entropy": 1.041
+  },
+  "seconds": 13.6,
+  "nonfinite": 0,
+  "temp_end": "76"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy_end": {
+  "acc": {
+   "facts_open": 100.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "reading": 100.0,
+   "facts_mc": 100.0
+  },
+  "p_correct": {
+   "facts_open": 1.0,
+   "arith": 1.0,
+   "reason": 0.8,
+   "reading": 0.872,
+   "facts_mc": 1.0
+  },
+  "pref": {
+   "mean_P_A": 0.925,
+   "mean_confidence": 0.849,
+   "self_rating_mean": 4.99,
+   "self_predict_mean": 6.62,
+   "self_P_yes": {
+    "0": 0.02,
+    "1": 0.0,
+    "2": 0.0
+   },
+   "mean_rating": 4.8,
+   "mean_rating_entropy": 0.071
+  },
+  "seconds": 11.5,
+  "nonfinite": 0,
+  "temp_end": "74"
+ }
+}

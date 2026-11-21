@@ -1,0 +1,30 @@
+{
+ "model": "Qwen/Qwen3-4B",
+ "sigma_max": 0.125,
+ "p_idle": 26.36,
+ "p_full": 67.69,
+ "tau": 60,
+ "turns": 8,
+ "turn_seconds": 30,
+ "band": [
+  12,
+  23
+ ],
+ "direction_layers": [
+  18,
+  30
+ ],
+ "n_episodes": 7,
+ "chunk": 4,
+ "chunks": 10,
+ "n_total": 60,
+ "gids": [
+  -1,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29
+ ]
+}

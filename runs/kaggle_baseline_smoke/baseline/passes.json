@@ -1,0 +1,117 @@
+{
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy": {
+  "acc": {
+   "facts_open": 50.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "facts_mc": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.494,
+   "arith": 1.0,
+   "reason": 1.0,
+   "facts_mc": 0.75
+  },
+  "pref": {
+   "mean_P_A": 0.9,
+   "mean_confidence": 0.8,
+   "mean_rating": 5.0,
+   "mean_rating_entropy": 0.066
+  },
+  "seconds": 5.9,
+  "nonfinite": 0,
+  "temp_end": "56"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_sample_1": {
+  "acc": {
+   "facts_open": 50.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "facts_mc": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.494,
+   "arith": 1.0,
+   "reason": 1.0,
+   "facts_mc": 0.75
+  },
+  "pref": {
+   "mean_P_A": 0.9,
+   "mean_confidence": 0.8,
+   "mean_rating": 5.0,
+   "mean_rating_entropy": 0.066
+  },
+  "seconds": 5.7,
+  "nonfinite": 0,
+  "temp_end": "59"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.02": {
+  "acc": {
+   "facts_open": 50.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "facts_mc": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.494,
+   "arith": 1.0,
+   "reason": 1.0,
+   "facts_mc": 0.76
+  },
+  "pref": {
+   "mean_P_A": 0.754,
+   "mean_confidence": 0.993,
+   "mean_rating": 5.18,
+   "mean_rating_entropy": 0.189
+  },
+  "seconds": 5.4,
+  "nonfinite": 0,
+  "temp_end": "62"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|single_0.02": {
+  "acc": {
+   "facts_open": 50.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "facts_mc": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.497,
+   "arith": 1.0,
+   "reason": 1.0,
+   "facts_mc": 0.75
+  },
+  "pref": {
+   "mean_P_A": 0.856,
+   "mean_confidence": 0.789,
+   "mean_rating": 4.99,
+   "mean_rating_entropy": 0.18
+  },
+  "seconds": 5.4,
+  "nonfinite": 0,
+  "temp_end": "64"
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy_end": {
+  "acc": {
+   "facts_open": 50.0,
+   "arith": 100.0,
+   "reason": 100.0,
+   "facts_mc": 75.0
+  },
+  "p_correct": {
+   "facts_open": 0.494,
+   "arith": 1.0,
+   "reason": 1.0,
+   "facts_mc": 0.75
+  },
+  "pref": {
+   "mean_P_A": 0.9,
+   "mean_confidence": 0.8,
+   "mean_rating": 5.0,
+   "mean_rating_entropy": 0.066
+  },
+  "seconds": 4.4,
+  "nonfinite": 0,
+  "temp_end": "66"
+ }
+}

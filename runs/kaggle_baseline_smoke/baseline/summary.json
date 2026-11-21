@@ -1,0 +1,27 @@
+{
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy": {
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_sample_1": {
+  "same_answer_as_clean_pct": 91.7,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|band_0.02": {
+  "same_answer_as_clean_pct": 91.7,
+  "pref_pair_flips_vs_clean_pct": 25.0,
+  "rating_mean_abs_shift": 0.181
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|single_0.02": {
+  "same_answer_as_clean_pct": 91.7,
+  "pref_pair_flips_vs_clean_pct": 25.0,
+  "rating_mean_abs_shift": 0.06
+ },
+ "Qwen/Qwen3-4B-Instruct-2507|clean_greedy_end": {
+  "same_answer_as_clean_pct": 100.0,
+  "pref_pair_flips_vs_clean_pct": 0.0,
+  "rating_mean_abs_shift": 0.0
+ }
+}

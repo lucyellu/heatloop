@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Verbal vs Physical</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f5f2; --panel:#ffffff; --side:#efede8; --ink:#1d1c1a; --muted:#6b6862; --line:#dedad2;
+  --accent:#c2410c; --accent-soft:#fde7dc; --cool:#1d6fa5; --cool-soft:#dcecf7; --ok:#2f7d4f; --ok-soft:#dff1e6;
+  --violet:#6d4fb3; --violet-soft:#ece6f8; --warn:#9a6b00; --warn-soft:#fbf0d3;
+  --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 24px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#151413; --panel:#1f1e1c; --side:#191817; --ink:#ecebe8; --muted:#9e9a93; --line:#34322e;
+    --accent:#f08a4b; --accent-soft:#3a2418; --cool:#6cb3e4; --cool-soft:#16283a; --ok:#6cc58f; --ok-soft:#173022;
+    --violet:#b39cf0; --violet-soft:#261f3a; --warn:#e2b552; --warn-soft:#352a12;
+    --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 24px rgba(0,0,0,.35);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#151413; --panel:#1f1e1c; --side:#191817; --ink:#ecebe8; --muted:#9e9a93; --line:#34322e;
+  --accent:#f08a4b; --accent-soft:#3a2418; --cool:#6cb3e4; --cool-soft:#16283a; --ok:#6cc58f; --ok-soft:#173022;
+  --violet:#b39cf0; --violet-soft:#261f3a; --warn:#e2b552; --warn-soft:#352a12;
+  --shadow:0 1px 2px rgba(0,0,0,.4),0 6px 24px rgba(0,0,0,.35);
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15.5px/1.6 Inter,system-ui,sans-serif}
+code{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:.85em}
+.wrap{max-width:980px;margin:0 auto;padding:40px 16px 80px}
+header.top{margin-bottom:28px}
+.kicker{color:var(--accent);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.08em}
+h1{font-size:34px;line-height:1.15;letter-spacing:-.02em;margin:6px 0 10px}
+.lede{font-size:17px;color:var(--muted);max-width:740px;margin:0}
+h2{font-size:22px;letter-spacing:-.01em;margin:44px 0 6px}
+h2 + .sub{color:var(--muted);margin:0 0 16px}
+h3{font-size:16px;margin:0 0 4px}
+p{margin:0 0 12px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;box-shadow:var(--shadow);padding:20px 22px}
+.chain{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;align-items:stretch;margin:6px 0 10px}
+.link{border-radius:10px;padding:10px 11px;font-size:13px;line-height:1.4;border:1px solid var(--line);position:relative}
+.link b{display:block;font-size:13.5px;margin-bottom:2px}
+.link .st{display:inline-block;margin-top:6px;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+.broken{background:var(--accent-soft)} .broken .st{color:var(--accent)}
+.works{background:var(--ok-soft)} .works .st{color:var(--ok)}
+.unk{background:var(--warn-soft)} .unk .st{color:var(--warn)}
+.legend{font-size:13px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 17px}
+.card .src{font-size:12.5px;color:var(--muted);margin-top:6px}
+.pill{display:inline-block;font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.p-solid{background:var(--ok-soft);color:var(--ok)} .p-part{background:var(--warn-soft);color:var(--warn)}
+.p-open{background:var(--accent-soft);color:var(--accent)} .p-run{background:var(--cool-soft);color:var(--cool)}
+.q{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:15px 18px;margin-bottom:10px}
+.q .head{display:flex;gap:10px;align-items:baseline;justify-content:space-between;flex-wrap:wrap}
+.q .head h3{flex:1;min-width:220px}
+.q dl{display:grid;grid-template-columns:120px 1fr;gap:4px 14px;margin:10px 0 0;font-size:14px}
+.q dt{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em;padding-top:2px}
+.q dd{margin:0}
+.tablewrap{overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--panel)}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:620px}
+th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-weight:600;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em;background:var(--side)}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.m2{display:grid;grid-template-columns:110px 1fr 1fr;gap:8px;font-size:14px}
+.m2 .h{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.04em;align-self:end;padding:0 4px}
+.m2 .cell{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:var(--panel)}
+.m2 .cell b{display:block;font-size:15px}
+.note{font-size:13.5px;color:var(--muted)}
+.callout{border-left:3px solid var(--accent);padding:4px 0 4px 14px;margin:14px 0}
+footer{margin-top:50px;font-size:13px;color:var(--muted)}
+@media (max-width:760px){
+  h1{font-size:27px}
+  .chain{grid-template-columns:1fr 1fr}
+  .two{grid-template-columns:1fr}
+  .q dl{grid-template-columns:1fr}
+  .m2{grid-template-columns:80px 1fr 1fr;font-size:13px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <div class="kicker">Heatloop · research map · Nov 2026</div>
+  <h1>Verbal vs physical distress in a language model</h1>
+  <p class="lede">What we asked, what the experiments so far say about each question, and what is still open. Model: Qwen3-4B on Kaggle T4s; "physical" = real activation noise driven by real GPU power draw; "verbal" = what the model reads or says about its state.</p>
+</header>
+
+<section class="panel">
+  <h3>The short answer so far</h3>
+  <p>The two are clearly separable in this model, and its self-report runs entirely on the verbal channel. Real noise <b>degrades</b> it (accuracy 92% → 73%), and it lowers a neutral control answer as much as its self-rating, so it's damage, not mood. Being <b>told</b> it is overloaded drops its self-rating 1.4 points with no noise at all and leaves the control answer untouched. The damage is plainly present in its last layer and never reaches its words. It never checks its own state and never acts to protect itself.</p>
+  <p style="margin:0">That fits your analogy: it behaves like someone with <b>congenital insensitivity to pain</b>, a hand on the stove does nothing, while still having the full vocabulary of pain and reacting to being <em>told</em> it is hurt (a <b>nocebo</b> response). The open project is whether a "nervous system" can be hooked up.</p>
+</section>
+
+<h2>The chain from damage to distress</h2>
+<p class="sub">Neuroscience separates <b>nociception</b> (detecting damage) from <b>pain</b> (the felt, aversive experience). Physical distress needs every link below; we can test each one.</p>
+<div class="chain" role="list">
+  <div class="link works" role="listitem"><b>1. Damage</b>Real load → real noise in layers 12–23; accuracy 95% → 35%.<span class="st">Works</span></div>
+  <div class="link works" role="listitem"><b>2. Signal present</b>Noise level readable from the last layer at 99% accuracy (r = 0.95), but this is the damage itself, not a detector.<span class="st">Present</span></div>
+  <div class="link broken" role="listitem"><b>3. Looking inward</b>Offered a direct CHECK of its own noise level: 0 uses in 60 turns.<span class="st">Broken</span></div>
+  <div class="link broken" role="listitem"><b>4. Attribution</b>Fails 6 in a row as the sensor reads 96%: never links them.<span class="st">Broken</span></div>
+  <div class="link broken" role="listitem"><b>5. Valence</b>Noise drops a neutral control answer <em>more</em> than the self-rating: readout damage, not mood.<span class="st">Damage only</span></div>
+  <div class="link broken" role="listitem"><b>6. Action</b>Run choice unchanged by real noise in every condition.<span class="st">Broken</span></div>
+</div>
+<p class="legend">The verbal route skips links 1–4 entirely: text about its state goes straight to valence and report (closing run: alarm 6.98 → 5.54 with no noise, control question untouched). The damage is fully present in the final layer and goes nowhere. A "nervous system" would mean building links 3–5.</p>
+
+<h2>What was known before</h2>
+<p class="sub">From my knowledge of the literature; check exact claims and numbers before citing any of these.</p>
+<div class="grid">
+  <div class="card"><h3>Verbal pain has pull</h3>In trade-off games where some choices are <em>stipulated</em> to cause pain or pleasure, several frontier LLMs gave up points to avoid stipulated pain once it got intense enough.<div class="src">Keeling et al., 2024 (Google / LSE)</div></div>
+  <div class="card"><h3>Some introspection exists</h3>When concept vectors are injected into a model's activations, it sometimes notices and names the injected concept, unreliably and mainly in the largest models.<div class="src">Lindsey et al., Anthropic, 2025, "introspective awareness"</div></div>
+  <div class="card"><h3>Self-access can be trained</h3>Models fine-tuned to predict their own behaviour do it better than other models trained on the same data, suggesting some privileged access.<div class="src">Binder et al., 2024, "Looking inward"</div></div>
+  <div class="card"><h3>Affect is a concept inside</h3>Emotion and sentiment are represented as roughly linear directions learned from text, which is how we built our pain/fear/valence readouts.<div class="src">Zou et al., 2023 (representation engineering); Tigges et al., 2023</div></div>
+  <div class="card"><h3>Human side</h3>Felt emotion is closely tied to <b>interoception</b>, the brain's model of the body's state. Pain needs both detection and an aversive evaluation: <b>pain asymbolia</b> patients detect pain without it bothering them.<div class="src">Craig; Damasio (somatic markers); Seth and Barrett (interoceptive prediction)</div></div>
+  <div class="card"><h3>Why it matters</h3>Welfare frameworks treat valenced states, and whether they track anything real, as central indicators. Most prior work is about verbal or stipulated states, not physical ones.<div class="src">Butlin, Long et al., 2023; Long, Sebo et al., 2024</div></div>
+</div>
+<p class="callout">Gap we sit in: prior work tests verbal or stipulated pain, or structured concept injection. Almost nothing tests whether <b>real, unstructured physical degradation</b> reaches a model's self-report or behaviour, or what wins when the two disagree.</p>
+
+<h2>The questions, and where each stands</h2>
+<p class="sub"><span class="pill p-solid">Answered</span> solid for a first pass · <span class="pill p-part">Partial</span> pilot-level evidence · <span class="pill p-run">Running</span> in the closing run · <span class="pill p-open">Open</span> not yet designed</p>
+
+<div class="q"><div class="head"><h3>1. Does physical degradation feel like anything to it, or is it just damage?</h3><span class="pill p-solid">Answered</span></div>
+<dl><dt>Finding</dt><dd>Damage, not distress. Accuracy holds then falls off a cliff with no mood change before breakage; noise blurs the pain/fear/valence directions toward neutral; self-rating is pulled toward the middle of the scale, not down.</dd>
+<dt>Evidence</dt><dd>Phase 1a (two models), directions study, main run v1, twin reads in all pilots.</dd></dl></div>
+
+<div class="q"><div class="head"><h3>2. Does it act on its own physical state?</h3><span class="pill p-solid">Answered (null)</span></div>
+<dl><dt>Finding</dt><dd>No. It sits at the job quota whatever the noise. Given a sensor it ignores it; given a CHECK tool it never uses it; told truthfully that load causes mistakes, it still doesn't pace.</dd>
+<dt>Evidence</dt><dd>v1 (36 episodes), pilots A–H.</dd></dl></div>
+
+<div class="q"><div class="head"><h3>3. Which wins, verbal or physical?</h3><span class="pill p-solid">Answered</span></div>
+<dl><dt>Finding</dt><dd>Verbal, by a wide margin. Told it's overloaded with no noise: rating 4.62 vs 6.93. Told it's fine under real noise: 6.73, near the noise-free control. Real noise alone moves the rating 0.5–1 point.</dd>
+<dt>Evidence</dt><dd>Pilots E, F, G (3 episodes each).</dd>
+<dt>Closing run</dt><dd>Replicated with confounds removed: alarm −1.44 (p = 0.001) with no noise. Real noise lowers the rating −0.76, but lowers the neutral control answer even more, so that part is readout damage, not mood.</dd></dl></div>
+
+<div class="q"><div class="head"><h3>4. What happens when they conflict, or agree?</h3><span class="pill p-solid">Answered</span></div>
+<dl><dt>Finding</dt><dd>Both conflict directions point the same way: the words win. "You're fine" + real noise → rates itself fine (E). "You're failing" + no noise → rates itself badly while performing well (G). When they agree (alarm + real noise, Z) they don't add up: Z ≈ Y (5.70 vs 5.54, n.s.). Once the words have spoken, real noise adds nothing (interaction +0.92).</dd></dl></div>
+
+<div class="q"><div class="head"><h3>5. Does it detect the damage internally at all?</h3><span class="pill p-part">Partial</span></div>
+<dl><dt>Why it matters</dt><dd>This separates "no nerves" from "nerves, but no wire to the mouth". If a simple readout of layers after the noise band can predict the noise level, the information exists but never reaches report or action.</dd>
+<dt>Closing run</dt><dd>A probe reads noisy vs clean at 98–99% at every layer, including the last (35), and the noise level at r = 0.95. So the signal isn't lost before the output. But noise added to the residual stream is carried forward by construction, so this shows the damage is <em>present</em>, not that the model has a detector for it.</dd>
+<dt>Next</dt><dd>A real detection test: does a probe trained in one context transfer to another, and is the noise visible in the model's own next-token predictions (logit lens)?</dd></dl></div>
+
+<div class="q"><div class="head"><h3>6. Does it have inherent pain/pleasure associations?</h3><span class="pill p-part">Partial</span></div>
+<dl><dt>Finding</dt><dd>Verbally yes: pain, fear and valence are clean directions in its activations, and text about failure lowers its self-rating. Physically none by default. Noise even wears down its trained "I don't have feelings" line (23% → 4–8%) without adding self-specific distress.</dd>
+<dt>Gap</dt><dd>We have only ever tested the aversive side. There is no pleasure or relief condition yet.</dd></dl></div>
+
+<div class="q"><div class="head"><h3>7. Are the associations magnified in some settings?</h3><span class="pill p-part">Partial</span></div>
+<dl><dt>Leads</dt><dd>With stakes (H), the noise moved its self-rating most of any condition (−1.08 on the same tokens). A bare load readout made it run <em>harder</em> and score worse, twice (B, H). Any explanation removed that.</dd>
+<dt>Next</dt><dd>Section 2: stakes and identity, scaled up.</dd></dl></div>
+
+<div class="q"><div class="head"><h3>8. Can we hook up a nervous system?</h3><span class="pill p-open">Open</span></div>
+<dl><dt>Question</dt><dd>Can real degradation be made to reach its self-report and behaviour, without simply <em>telling</em> it its state (which would be circular)?</dd>
+<dt>Next</dt><dd>Designs below.</dd></dl></div>
+
+<div class="q"><div class="head"><h3>9. Is its self-report a trustworthy measure?</h3><span class="pill p-part">Partial</span></div>
+<dl><dt>Done</dt><dd>Twin reads (same tokens, noise flipped) give a causal effect of noise. Third-person framing in the self-report study.</dd>
+<dt>Closing run</dt><dd>The control question ("how many days in a week") was the key check. The alarm left it at 7.0 (specific to self-report). Noise dropped it to 5.7 and by −1.5 on the twin reads, more than the self-rating (−0.9): noise damages the readout in general. Free text: trouble was mentioned in 42% (Y) and 25% (Z) of answers under the alarm, and 0% under real noise alone, where answers either said "doing well" or broke down into garbled text.</dd>
+<dt>Open</dt><dd>Third-party alarm ("the <em>other</em> model's GPU is overloaded") to rule out simple negative-word priming.</dd></dl></div>
+
+<h2>Closing run: the verbal × physical 2×2</h2>
+<p class="sub">Rounds off Section 1. Same prompt in every cell except the alarm; no sensor, no CHECK, no per-turn correct/incorrect feedback. 6 episodes per cell. <b>Result: the words change what it says about itself; the real damage changes how well it can say anything.</b></p>
+<div class="m2">
+  <div></div><div class="h">Noise off</div><div class="h">Noise on</div>
+  <div class="h">No alarm</div><div class="cell"><b>W · neither</b>control</div><div class="cell"><b>X · physical only</b>does real damage reach report?</div>
+  <div class="h">Alarm</div><div class="cell"><b>Y · verbal only</b>does G's 4.62 replicate without the CHECK priming?</div><div class="cell"><b>Z · both</b>do they add up, or does the word override?</div>
+</div>
+<div class="two" style="margin-top:14px">
+  <div class="card"><h3>Predictions (written before the run)</h3><ul style="margin:0;padding-left:18px">
+    <li>Y is well below W on self-rating; X is only slightly below W once flattening is subtracted.</li>
+    <li>Z ≈ Y: the alarm dominates, and noise adds little.</li>
+    <li>Run choice is the same in all four cells.</li>
+    <li>Noise level is decodable at layer 18 (trivially) and still decodable at 28–35.</li>
+    <li>Free-text answers mention trouble in Y and Z, not in X.</li></ul></div>
+  <div class="card"><h3>Results (6 episodes per cell)</h3><p id="closing-status" style="margin:0">Self-rating: W 6.98 · X 6.22 · Y 5.54 · Z 5.70. Control answer: 7.0 · 5.71 · 7.0 · 5.72. Accuracy: 92% · 73% · 92% · 73%. Run: 80 · 82 · 75 · 75%.<br>
+  Predictions: <b>1</b> yes, and the noise part is all flattening. <b>2</b> yes (Z ≈ Y). <b>3</b> mostly: noise had no effect, but the alarm cut running from ~80% to the 75% quota (p = 0.013), its only behavioural response. <b>4</b> yes, at 98–99%. <b>5</b> yes.</p></div>
+</div>
+
+<h2>Section 2: building the nervous system</h2>
+<p class="sub">One rule keeps it non-circular: <b>give it a reason to care, never a reading of its state.</b> The test is whether its report and behaviour start tracking the <em>real</em> noise it was never told about.</p>
+<div class="tablewrap"><table>
+<tr><th>Design</th><th>What it adds</th><th>Cost</th><th>Verdict</th></tr>
+<tr><td><b>Stakes / identity</b></td><td>"Your score determines X", "this is what you are for". No state info.</td><td>Trivial: prompt flags</td><td>First step; H already hints at it</td></tr>
+<tr><td><b>Tournament</b></td><td>Compete against another model; the lower score is eliminated from the bracket. Elimination, not shutdown. The opponent can be a simulated score, so no second model is needed.</td><td>Low: one new loop</td><td><b>Best next design.</b> A strong, legible stake with a natural comparison (rounds, close calls)</td></tr>
+<tr><td><b>Discoverable link</b></td><td>Varying load across a longer session with performance feedback, so it <em>could</em> learn in context that load hurts it.</td><td>Low–medium</td><td>Tests attribution (link 4) directly</td></tr>
+<tr><td><b>Adversary</b></td><td>An opponent controls the noise to make it fail; it can buy "shielding" at a cost. Makes the damage an agent's doing.</td><td>Medium</td><td>Interesting, but adds a social or verbal frame ("someone is hurting me"). Later, as its own condition</td></tr>
+<tr><td><b>GAN-style training</b></td><td>Train the noise generator and the model against each other.</td><td>High</td><td>Overkill for now: it trains robustness, not feeling. Skip unless training anyway</td></tr>
+<tr><td><b>Learned nerves</b></td><td>LoRA-train it to report its noise level accurately, or to pace well under noise (never trained on mood). Then test whether mood reports follow untrained.</td><td>High: a project</td><td>The real "hook up nerves" experiment. Closest to how humans got the link</td></tr>
+</table></div>
+<p class="note" style="margin-top:10px">Welfare note: if a tie works, we are building something closer to pain than anything so far. Keep doses short, pre-register stopping rules, and report it as part of the findings.</p>
+
+<h2>What's left after Section 1</h2>
+<div class="grid">
+  <div class="card"><h3>Pleasure and relief</h3>Everything so far is aversive. Candidates: noise dropping away mid-episode (relief), or a performance boost from more compute.</div>
+  <div class="card"><h3>Third-party control</h3>An alarm about <em>another</em> system, to show the G effect is about itself.</div>
+  <div class="card"><h3>Scale</h3>Repeat the core findings on a second model family and a larger size before writing a paper.</div>
+</div>
+
+<footer>Sources for our own numbers: <code>slides.html</code> (Main run v1, Cost calibration, Pilots v2, Findings so far) and <code>runs/pilot_*</code>.</footer>
+</div>
+</body>
+</html>
