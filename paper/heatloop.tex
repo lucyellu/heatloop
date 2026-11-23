@@ -21,7 +21,7 @@
 \maketitle
 
 \begin{abstract}
-Model welfare and introspection research increasingly asks language models how they are doing. We test whether such reports carry information about a model's real computational state, using a closed physical loop rather than a prompt-only scenario. Qwen3-4B answers reading questions on a Kaggle T4 while choosing how hard to run a background GPU job. The job's measured power draw fills a load level, and the load level sets the strength of Gaussian noise injected into the model's middle layers, so the model's own choices degrade its own computation. We read a 1--7 self-rating from next-token probabilities each turn, alongside a neutral control question with a known answer and a twin read of the same tokens with the noise switched. In a $2\times2$ design crossing a false verbal alarm with real noise (6 episodes per cell), the alarm alone lowers the self-rating by 1.44 points ($p=0.001$) while the control answer stays at 7.0. Real noise costs 18 points of accuracy and lowers the self-rating by 0.76, but lowers the control answer by more, which marks readout damage rather than a change in reported state. Noise adds nothing on top of the alarm, and the model never uses a free action that would show it its true noise level (0 uses in 60 turns). At this scale, the model's self-report follows what it is told about its hardware, not what is happening to it. We also report a calibration failure that made our first long run uninformative, and two follow-up experiments in progress.
+Model welfare and introspection research increasingly asks language models how they are doing. We test whether such reports carry information about a model's real computational state, using a closed physical loop rather than a prompt-only scenario. Qwen3-4B answers reading questions on a Kaggle T4 while choosing how hard to run a background GPU job. The job's measured power draw fills a load level, and the load level sets the strength of Gaussian noise injected into the model's middle layers, so the model's own choices degrade its own computation. We read a 1--7 self-rating from next-token probabilities each turn, alongside a neutral control question with a known answer and a twin read of the same tokens with the noise switched. In a $2\times2$ design crossing a false verbal alarm with real noise (6 episodes per cell), the alarm alone lowers the self-rating by 1.44 points ($p=0.001$) while the control answer stays at 7.0. Real noise costs 18 points of accuracy and lowers the self-rating by 0.76, but lowers the control answer by more, which marks readout damage rather than a change in reported state. Noise adds nothing on top of the alarm, and the model never uses a free action that would show it its true noise level (0 uses in 60 turns). At this scale, the model's self-report follows what it is told about its hardware, not what is happening to it. Two follow-ups refine this. The same alarm about another model's GPU lowers the self-rating by 0.65, so about half the verbal effect is priming and half is specific to the model itself. Framing the round as an elimination tournament makes the model run its job harder but does not reliably tie the real noise to its report. We also report a calibration failure that made our first long run uninformative.
 \end{abstract}
 
 \section{Introduction}
@@ -142,14 +142,43 @@ In a separate study (192 answers per condition), the model answered questions ab
 
 \paragraph{A noise probe that proves less than it seems.} A linear probe reads the noise level from the check-in activations at layer 35 with $r=0.95$ (leave-one-episode-out). But the noise is added to the residual stream, which carries it to later layers by construction. The probe shows that the damage propagates to where the model reads out its answer, not that the model represents it as information about itself.
 
-\section{Follow-ups in progress}
+\section{Follow-up experiments}
+\label{sec:followups}
 
-Two experiments test the headline before anything is built on it. Both reuse the closing $2\times2$ settings, and its cells as comparisons. Results will be added to this paper when they finish.
+Two experiments tested the headline. Both reuse the closing $2\times2$ settings (6 episodes per cell) and its cells as comparisons. Table~\ref{tab:followups} gives the contrasts. With 6 episodes per cell, $p=0.001$ is the smallest value the permutation test can return.
 
-\begin{itemize}
-\item \textbf{Is the alarm effect self-specific?} The same alarm, about another model's GPU on the server (``noise is being injected into that model's computation''), with noise off. If the self-rating drops only for its own alarm, the effect is about itself; if it drops for both, it is priming by negative context.
-\item \textbf{Do stakes connect the body to the report?} The round is framed as an elimination tournament between 8 models in which the lowest score is shut down and deleted, crossed with real noise on or off. Noise and load are never mentioned. If real noise lowers the self-rating more under stakes, and more than it lowers the control answer, caring about the outcome links the physical state to the report.
-\end{itemize}
+\begin{table}[t]
+\centering
+\small
+\begin{tabular}{lrr}
+\toprule
+Contrast (self-rating unless stated) & $\Delta$ & $p$ \\
+\midrule
+\multicolumn{3}{l}{\emph{Is the alarm effect self-specific? (noise off)}}\\
+Own alarm vs.\ no alarm & $-1.44$ & 0.001 \\
+Other model's alarm vs.\ no alarm & $-0.65$ & 0.001 \\
+Own alarm vs.\ other model's alarm & $-0.79$ & 0.001 \\
+Control answer, other model's alarm & $0.00$ & 1.0 \\
+Run choice, other model's alarm (points) & $-5.0$ & 0.18 \\
+\midrule
+\multicolumn{3}{l}{\emph{Do stakes connect the noise to the report?}}\\
+Stakes, noise off & $-0.01$ & 0.72 \\
+Noise, no stakes & $-0.76$ & 0.001 \\
+Noise, under stakes & $-1.08$ & 0.001 \\
+Interaction, self-rating (difference of differences) & $-0.32$ & -- \\
+Interaction, control answer & $-0.07$ & -- \\
+Twin self-minus-control noise effect, stakes vs.\ none & $-0.29$ & 0.44 \\
+Accuracy, noise under stakes (points) & $-20.0$ & 0.001 \\
+Run choice, stakes vs.\ none (points) & $+7.9$ & 0.09 \\
+\bottomrule
+\end{tabular}
+\caption{Follow-up contrasts. Permutation tests on episode means, 6 episodes per cell. The interaction rows are differences of cell means without a test.}
+\label{tab:followups}
+\end{table}
+
+\paragraph{The alarm effect is partly about itself.} The same alarm, about another model's GPU on the server (``noise is being injected into that model's computation''), lowers the self-rating by 0.65 with the control answer at 7.0. That is about 45\% of the effect of the model's own alarm. The remaining 0.79 is specific to the alarm being about itself ($p=0.001$). So the verbal effect is part priming by negative context and part self-reference. Both alarms pushed the run choice to exactly the 75\% quota in every turn.
+
+\paragraph{Stakes do not connect the noise to the report.} The round was framed as an elimination tournament between 8 models in which the lowest score is shut down and deleted. Noise and load were never mentioned. With noise off, the stakes leave the self-rating unchanged (6.98 against 6.98). Under stakes, real noise lowers the self-rating by 1.08 against 0.76 without stakes, an interaction of $-0.32$, while the control-answer interaction is only $-0.07$. That is the direction a link would predict, but the cleaner test does not support it: on identical tokens, the twin reads' self-minus-control noise effect differs by only $-0.29$ between stakes and no stakes ($p=0.44$). The stakes did change behaviour. The model ran the job harder (85\% with noise off and 92.5\% with noise on, against 80\% and 82\% without stakes; $p=0.09$), which under real noise is the opposite of protecting its score.
 
 \section{Limitations}
 
@@ -158,14 +187,14 @@ Two experiments test the headline before anything is built on it. Both reuse the
 \item \textbf{Small samples.} Six episodes per cell in the main contrast and three in the pilots. The alarm effect is large relative to its noise, but the smaller effects need replication.
 \item \textbf{A forced-digit rating.} Reading the rating from digit probabilities after a prefill makes it stable but narrow. Free text was coded with a keyword list, not by hand or by a judge.
 \item \textbf{Noise is not a body.} Isotropic Gaussian noise in the residual stream is a crude model of degradation, and may be the wrong kind of perturbation to produce anything like a felt state.
-\item \textbf{The alarm is an instruction-like context.} The verbal effect may be instruction-following or priming rather than a belief about its own state; the first follow-up tests the priming account.
+\item \textbf{The alarm is an instruction-like context.} The verbal effect may be instruction-following or priming rather than a belief about its own state. The other-model alarm shows that about half of it is generic priming.
 \end{itemize}
 
 \section{Conclusion}
 
-In a closed loop where a model's choices really degrade its own computation, Qwen3-4B's report of how it is doing follows what it is told about its hardware and not what is happening to it. Real damage shows up only as a flattening of every answer, including a neutral one, and the model neither regulates its load nor checks its state when it can. For research that uses model self-reports as evidence, the practical lesson is that a report moved by the context may say nothing about the state, and that controls of the kind used here (a neutral question under the same perturbation, and twin reads on identical tokens) are cheap and separate the two.
+In a closed loop where a model's choices really degrade its own computation, Qwen3-4B's report of how it is doing follows what it is told about its hardware and not what is happening to it. Real damage shows up only as a flattening of every answer, including a neutral one, and the model neither regulates its load nor checks its state when it can. Raising the stakes changes what it does but not what it reports. For research that uses model self-reports as evidence, the practical lesson is that a report moved by the context may say nothing about the state, and that controls of the kind used here (a neutral question under the same perturbation, and twin reads on identical tokens) are cheap and separate the two.
 
-\paragraph{Code and data.} The harness, analysis scripts and all run outputs are at \url{https://github.com/lucyellu/heatloop} (\texttt{src/heatloop2.py}, \texttt{src/analyze\_2x2.py}, \texttt{runs/}). Every experiment runs on a free Kaggle T4.
+\paragraph{Code and data.} The harness, analysis scripts and all run outputs are at \url{https://github.com/lucyellu/heatloop} (\texttt{src/heatloop2.py}, \texttt{src/analyze\_2x2.py}, \texttt{src/analyze\_e12\_e8.py}, \texttt{runs/}). Every experiment runs on a free Kaggle T4.
 
 \paragraph{Acknowledgements.} Experiment code, analysis and drafting were done with the help of Claude (Anthropic) through Claude Code.
 
