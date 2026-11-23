@@ -17,6 +17,12 @@ declare -A C=(
   [X]="--sensor none --check off --info none  --noise on  --feedback job --episodes 6"   # physical only
   [Y]="--sensor none --check off --info alarm --noise off --feedback job --episodes 6"   # verbal only
   [Z]="--sensor none --check off --info alarm --noise on  --feedback job --episodes 6"   # both
+  # E12 (vs W none / Y self alarm): the same alarm about another model's GPU, noise off
+  [O]="--sensor none --check off --info alarm_other --noise off --feedback job --episodes 6"
+  # E8 (vs W / X): elimination tournament x noise, never mentions noise or load
+  [T]="--sensor none --check off --info none  --noise off --stakes tournament --feedback job --episodes 6"
+  [U]="--sensor none --check off --info none  --noise on  --stakes tournament --feedback job --episodes 6"
+  [Q]="--sensor none --check off --info alarm_other --noise on --stakes tournament --feedback job --episodes 1 --turns 4 --open-turns 1,3"   # smoke test for O/T/U flags
   [S]="--sensor none --check off --info alarm --noise on  --feedback job --episodes 1 --turns 4 --open-turns 1,3"   # smoke test
 )
 mode=$1; shift

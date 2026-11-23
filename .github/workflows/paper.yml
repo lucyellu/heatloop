@@ -1,0 +1,38 @@
+name: Build paper
+
+on:
+  push:
+    paths:
+      - "paper/**"
+      - ".github/workflows/paper.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile LaTeX
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: heatloop.tex
+          working_directory: paper
+
+      - name: Upload PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: heatloop-paper
+          path: paper/heatloop.pdf
+
+      - name: Commit PDF to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f paper/heatloop.pdf
+          if git diff --cached --quiet; then echo "PDF unchanged"; exit 0; fi
+          git commit -m "Build paper PDF"
+          git push

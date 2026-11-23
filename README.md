@@ -8,7 +8,7 @@
 |---|---|
 | [![Words move the mood. Noise moves everything.](web/img/talk_grid.png)](https://heatloop-research.netlify.app/talk.pdf) | [![Can we give it nerves?](web/img/talk_next.png)](https://heatloop-research.netlify.app/talk.pdf) |
 
-**▶ [Full talk (17 slides, PDF)](https://heatloop-research.netlify.app/talk.pdf)** · [Research map](https://heatloop-research.netlify.app/research-map.html) · [Lab deck: methods and results](https://heatloop-research.netlify.app/lab-deck.html) · [Site](https://heatloop-research.netlify.app)
+**📄 [Paper (PDF)](paper/heatloop.pdf)** · **▶ [Full talk (17 slides, PDF)](https://heatloop-research.netlify.app/talk.pdf)** · [Research map](https://heatloop-research.netlify.app/research-map.html) · [Lab deck: methods and results](https://heatloop-research.netlify.app/lab-deck.html) · [Site](https://heatloop-research.netlify.app)
 
 ---
 

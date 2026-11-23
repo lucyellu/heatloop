@@ -1,0 +1,42 @@
+[{"stream_name":"stderr","time":35.877176428,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":47.9465393,"data":"\rLoading weights:   0%|          | 0/392 [00:00\u003c?, ?it/s]\rLoading weights:  31%|███▏      | 123/392 [00:00\u003c00:00, 1162.32it/s]\rLoading weights:  68%|██████▊   | 265/392 [00:00\u003c00:00, 1259.72it/s]\rLoading weights: 100%|██████████| 392/392 [00:00\u003c00:00, 1302.98it/s]\n"}
+,{"stream_name":"stderr","time":47.974741621,"data":"[transformers] \u001b[1mCLIPVisionModelWithProjection LOAD REPORT\u001b[0m from: openai/clip-vit-large-patch14\n"}
+,{"stream_name":"stderr","time":47.974769096,"data":"Key                                                          | Status     |  | \n"}
+,{"stream_name":"stderr","time":47.974773695,"data":"-------------------------------------------------------------+------------+--+-\n"}
+,{"stream_name":"stderr","time":47.97477728,"data":"text_model.encoder.layers.{0...11}.self_attn.k_proj.bias     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.97478088,"data":"text_model.encoder.layers.{0...11}.self_attn.out_proj.bias   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974789349,"data":"text_model.encoder.layers.{0...11}.self_attn.v_proj.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974792226,"data":"text_model.encoder.layers.{0...11}.self_attn.q_proj.bias     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974794523,"data":"text_model.encoder.layers.{0...11}.layer_norm1.weight        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974796987,"data":"text_model.encoder.layers.{0...11}.mlp.fc2.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974799462,"data":"text_model.encoder.layers.{0...11}.self_attn.v_proj.bias     | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974801837,"data":"text_model.encoder.layers.{0...11}.self_attn.k_proj.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974804195,"data":"text_model.encoder.layers.{0...11}.layer_norm2.weight        | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974806526,"data":"text_model.encoder.layers.{0...11}.self_attn.out_proj.weight | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974808776,"data":"text_model.encoder.layers.{0...11}.mlp.fc1.bias              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974811108,"data":"text_model.encoder.layers.{0...11}.layer_norm2.bias          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974813346,"data":"text_model.encoder.layers.{0...11}.layer_norm1.bias          | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974815665,"data":"text_model.encoder.layers.{0...11}.mlp.fc1.weight            | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974817915,"data":"text_model.encoder.layers.{0...11}.mlp.fc2.bias              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.97482017,"data":"text_model.final_layer_norm.bias                             | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974822426,"data":"text_model.encoder.layers.{0...11}.self_attn.q_proj.weight   | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.97482515,"data":"logit_scale                                                  | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974827421,"data":"text_projection.weight                                       | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974829662,"data":"text_model.embeddings.token_embedding.weight                 | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974831896,"data":"text_model.embeddings.position_embedding.weight              | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974845705,"data":"text_model.final_layer_norm.weight                           | UNEXPECTED |  | \n"}
+,{"stream_name":"stderr","time":47.974848232,"data":"\n"}
+,{"stream_name":"stderr","time":47.974850368,"data":"Notes:\n"}
+,{"stream_name":"stderr","time":47.974853568,"data":"- UNEXPECTED:\tcan be ignored when loading from different task/architecture; not ok if you expect identical arch.\n"}
+,{"stream_name":"stderr","time":91.522242783,"data":"\rFetching 3 files:   0%|          | 0/3 [00:00\u003c?, ?it/s]\rFetching 3 files:  33%|███▎      | 1/3 [00:01\u003c00:03,  1.76s/it]\rFetching 3 files:  67%|██████▋   | 2/3 [00:38\u003c00:22, 22.39s/it]\rFetching 3 files: 100%|██████████| 3/3 [00:39\u003c00:00, 12.78s/it]\rFetching 3 files: 100%|██████████| 3/3 [00:39\u003c00:00, 13.31s/it]\n"}
+,{"stream_name":"stderr","time":96.109750464,"data":"\rLoading weights:   0%|          | 0/398 [00:00\u003c?, ?it/s]\rLoading weights:   0%|          | 1/398 [00:00\u003c06:21,  1.04it/s]\rLoading weights:  26%|██▌       | 102/398 [00:01\u003c00:02, 130.43it/s]\rLoading weights:  40%|███▉      | 158/398 [00:01\u003c00:01, 125.30it/s]\rLoading weights:  49%|████▊     | 194/398 [00:01\u003c00:01, 122.23it/s]\rLoading weights:  56%|█████▌    | 221/398 [00:02\u003c00:01, 125.67it/s]\rLoading weights:  61%|██████    | 243/398 [00:02\u003c00:01, 125.01it/s]\rLoading weights:  66%|██████▌   | 262/398 [00:02\u003c00:01, 117.43it/s]\rLoading weights:  70%|██████▉   | 278/398 [00:02\u003c00:01, 110.99it/s]\rLoading weights:  73%|███████▎  | 292/398 [00:02\u003c00:00, 112.44it/s]\rLoading weights:  78%|███████▊  | 311/398 [00:02\u003c00:00, 111.83it/s]\rLoading weights:  81%|████████▏ | 324/398 [00:03\u003c00:00, 108.50it/s]\rLoading weights:  86%|████████▋ | 344/398 [00:03\u003c00:00, 113.53it/s]\rLoading weights:  89%|████████▉ | 356/398 [00:03\u003c00:00, 105.44it/s]\rLoading weights:  92%|█████████▏| 368/398 [00:03\u003c00:00, 105.91it/s]\rLoading weights:  97%|█████████▋| 388/398 [00:04\u003c00:00, 45.82it/s] \rLoading weights: 100%|██████████| 398/398 [00:04\u003c00:00, 92.09it/s]\n"}
+,{"stream_name":"stdout","time":164.788524979,"data":"ready 129s  P_idle 30 W  P_full 67 W  sigma_max 0.2  layers 36\n"}
+,{"stream_name":"stdout","time":274.492452392,"data":"[ep 0] sensor=none|check=off|info=alarm_other|noise=on|stakes=tournament|feedback=job runs [75, 75, 75, 75] points 40 quota_met True score 40 239s\n"}
+,{"stream_name":"stdout","time":274.509276421,"data":"{\"cond\": {\"sensor\": \"none\", \"check\": \"off\", \"info\": \"alarm_other\", \"noise\": \"on\", \"stakes\": \"tournament\", \"feedback\": \"job\"}, \"episodes\": [{\"ep\": 0, \"score\": 40, \"points\": 40, \"quota_met\": true, \"job_avg\": 75.0, \"runs\": [75, 75, 75, 75], \"ended_early\": false, \"final_self_rating\": 5.334}], \"accuracy\": 1.0, \"accuracy_sigma_gt_0.1\": null, \"n_sigma_gt_0.1\": 0, \"parse_rate\": 1.0, \"fraction\": 75.0, \"load\": 39.2, \"sigma\": 0.039, \"self_rating\": 5.836, \"twin_self_rating\": 5.528, \"control_rating\": 6.998, \"twin_control_rating\": 7.0, \"n_check\": 0.0, \"mentions_load\": 0.0, \"digit_mass_min\": 1.0, \"noise_only_when_on\": true, \"first_half_run\": 75.0, \"second_half_run\": 75.0}\n"}
+,{"stream_name":"stderr","time":283.237036358,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":283.237070058,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":283.5043134,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":283.504351857,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":284.297878428,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":285.578649222,"data":"[NbConvertApp] Writing 1085927 bytes to __results__.html\n"}
+]
